@@ -1929,7 +1929,7 @@
       "Incorrecto. La placa identifica un punto de suministro público y no la presencia de un transporte de mercancías peligrosas.",
       "Correcto. Informa de la presencia de una gasolinera provista de Gas Licuado del Petróleo (GLP) y poste de recarga para vehículos eléctricos[cite: 3]."
     ],
-    "ip": "Spanish informational road sign S-105f, rectangular blue background typical of Spanish service-area signage, displaying three white pictograms side by side: a fuel pump nozzle (representing conventional gasoline and diesel), an LPG/autogas cylinder icon (representing GLP availability), and an electric vehicle charging plug icon (representing an EV charging point). The sign is mounted on a metal post beside a Spanish road or motorway, shown in a clean, realistic illustration style typical of official DGT driving-theory exam materials. Daylight, neutral highway background, the sign as the sole focal point, no vehicles, pedestrians, or additional distracting elements."  
+    "ip": "Spanish informational road sign S-105f, rectangular blue background typical of Spanish service-area signage, displaying three white pictograms side by side: a fuel pump nozzle (representing conventional gasoline and diesel), an LPG/autogas cylinder icon (representing GLP availability), and an electric vehicle charging plug icon (representing an EV charging point). The sign is mounted on a metal post beside a Spanish road or motorway, shown in a clean, realistic illustration style typical of official DGT driving-theory exam materials. Daylight, neutral highway background, the sign as the sole focal point, no vehicles, pedestrians, or additional distracting elements."
   },
   {
     "id": 97,
@@ -2231,7 +2231,7 @@
       "Incorrecto. La combinación de semáforo u orden de paso libera a determinados vehículos según su carril.",
       "Correcto. Por la regulación semafórica presente en el cruce, la detención recae sobre los vehículos verde y rojo[cite: 3]."
     ],
-  "ip": "Top-down illustrated view of a three-lane one-way intersection approach with three cars stopped side by side at the white stop line: a green car in the left lane with a curved white arrow on the pavement pointing left, a red car in the center lane with a straight white arrow pointing forward, and a dark blue car in the right lane with a curved white arrow pointing right. A single traffic light pole stands to the left of the green car's lane, showing an illuminated red light, connected visually by a curved green line indicating it governs the green car's left-turn movement; no traffic light or additional light is shown above the center or right lanes. A small yellow glow is visible under the green and blue cars' front bumpers, hinting at their turn signals. Flat cartoon-style illustration, muted asphalt gray road with white lane dividers, green median strips bordering the intersection, clean minimalist driving-theory exam style, no pedestrians or other vehicles."
+    "ip": "Top-down illustrated view of a three-lane one-way intersection approach with three cars stopped side by side at the white stop line: a green car in the left lane with a curved white arrow on the pavement pointing left, a red car in the center lane with a straight white arrow pointing forward, and a dark blue car in the right lane with a curved white arrow pointing right. A single traffic light pole stands to the left of the green car's lane, showing an illuminated red light, connected visually by a curved green line indicating it governs the green car's left-turn movement; no traffic light or additional light is shown above the center or right lanes. A small yellow glow is visible under the green and blue cars' front bumpers, hinting at their turn signals. Flat cartoon-style illustration, muted asphalt gray road with white lane dividers, green median strips bordering the intersection, clean minimalist driving-theory exam style, no pedestrians or other vehicles."
   },
   {
     "id": 112,
@@ -6781,7 +6781,8 @@
       "Incorrecto. La normativa vigente establece 3 excepciones específicas que permiten a un menor de 135 cm viajar delante.",
       "Correcto. Los menores de estatura igual o inferior a 135 cm deben viajar en asientos traseros, salvo en 3 excepciones: vehículos biplaza, asientos traseros ocupados por otros SRI instalados o imposibilidad técnica de instalar todos los SRI atrás.",
       "Incorrecto. La disponibilidad de un elevador no autoriza a ocupar la plaza delantera si existen asientos traseros libres para instalar el SRI."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 339,
@@ -6801,7 +6802,8 @@
       "Incorrecto. El sistema ISA no realiza frenadas autónomas bruscas de emergencia, sino que alerta o limita la aceleración de forma progresiva.",
       "Correcto. El sistema ISA reconoce los límites de velocidad mediante lectores de señales o GPS y advierte al conductor cuando los sobrepasa.",
       "Incorrecto. El ISA no interviene sobre la dirección del vehículo."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 340,
@@ -6821,7 +6823,8 @@
       "Incorrecto. La obligación de la interfaz Alcolock no se aplica de forma general a turismos particulares de noveles.",
       "Correcto. La reglamentación europea y la DGT exigen la interfaz para Alcolock en los vehículos destinados al transporte de pasajeros (autobuses y autocares).",
       "Incorrecto. Se aplica a vehículos de transporte de viajeros (M2 y M3), no exclusivamente a mercancías peligrosas."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 341,
@@ -6841,7 +6844,8 @@
       "Incorrecto. El DDR no realiza maniobras autónomas de aparcamiento en el arcén.",
       "Correcto. El DDR analiza patrones de conducción o parpadeo y alerta con una señal sonora o un testigo luminoso (como una taza de café) aconsejando una pausa.",
       "Incorrecto. No anula el acelerador ni interfiere en la tracción del motor."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 342,
@@ -6861,7 +6865,8 @@
       "Incorrecto. Con el motor en marcha, el aceite está repartido por los circuitos y la medición en la varilla es errónea.",
       "Correcto. Para una lectura precisa, el coche debe estar en terreno llano (horizontal) y el motor frío o reposado para que el aceite baje al cárter.",
       "Incorrecto. Justo al parar el motor, gran parte del líquido sigue arriba en el bloque motor y marcará un nivel por debajo del real."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 343,
@@ -6881,7 +6886,8 @@
       "Incorrecto. El agua del grifo contiene minerales que dañan irreparablemente las placas de plomo de la batería.",
       "Correcto. Al evaporarse solo se pierde la fracción de agua, por lo que únicamente se debe reponer agua destilada hasta cubrir los elementos.",
       "Incorrecto. El ácido sulfúrico no se evapora; reponer ácido alteraría la densidad química y arruinaría la batería."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 344,
@@ -6901,7 +6907,8 @@
       "Incorrecto. Frenar bruscamente provoca el bloqueo de ruedas y hace que el coche dé un trompo al recuperar contacto con el asfalto.",
       "Correcto. Ante el aquaplaning se debe mantener el volante firme sin dar volantazos y desacelerar suavemente hasta recuperar la adherencia.",
       "Incorrecto. Dar giros bruscos de volante desestabilizará el coche en el momento en que los neumáticos vuelvan a tocar la calzada."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 345,
@@ -6921,7 +6928,8 @@
       "Correcto. Mientras se va en paralelo, el camión hace de pantalla; pero al superar su frontal, el viento vuelve a golpear bruscamente, requiriendo sujetar el volante y corregir la deriva.",
       "Incorrecto. El viento no activa sistemas de frenado automático.",
       "Incorrecto. La pantalla interrumpe el viento temporalmente, pero al rebasarlo el impacto peligroso es la sacudida de aire lateral."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 346,
@@ -6983,7 +6991,8 @@
       "Incorrecto. La baliza V-16 conectada sustituye precisamente la necesidad de caminar por la calzada para colocar los triángulos.",
       "Correcto. La baliza V-16 conectada permite señalizar el peligro de forma luminosa desde el interior del vehículo, evitando el riesgo de atropello al bajar a la calzada.",
       "Incorrecto. La ventaja de la baliza V-16 aplica tanto de día como de noche para garantizar la seguridad del conductor."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 349,
@@ -7003,7 +7012,8 @@
       "Incorrecto. No es necesario ni posible desactivar el sistema mediante un interruptor durante la maniobra de emergencia.",
       "Correcto. En todos los sistemas ADAS, las órdenes directas del conductor (volantazo o pisado de pedal) prevalecen sobre la actuación autónoma del vehículo.",
       "Incorrecto. El sistema AEB no apaga el motor ni bloquea los mandos del vehículo."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 350,
@@ -7023,7 +7033,8 @@
       "Correcto. Para circular de noche o con escasa visibilidad, los VMP deben llevar luz delantera blanca, trasera roja, catadióptricos y el conductor debe vestir elementos reflectantes.",
       "Incorrecto. El alumbrado activo del vehículo es obligatorio para ser visto e iluminar la vía.",
       "Incorrecto. Los VMP no disponen de luz de largo alcance o carretera."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 351,
@@ -7043,7 +7054,8 @@
       "Incorrecto. Dejar el airbag activado frente a una silla a contramarcha puede causar lesiones mortales o muy graves al bebé si se despliega.",
       "Correcto. Es imprescindible desactivar el airbag frontal del acompañante al colocar una silla infantil a contramarcha en esa plaza.",
       "Incorrecto. Los airbags no se pueden reorientar; deben desactivarse mediante su llave o menú de configuración."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 352,
@@ -7063,7 +7075,8 @@
       "Incorrecto. Los carriles reversibles exigen alumbrado encendido tanto de día como de noche.",
       "Correcto. Tanto en carriles reversibles como en adicionales o en sentido contrario al habitual, es obligatorio llevar la luz de cruce encendida de día y de noche.",
       "Incorrecto. La luz de posición por sí sola resulta insuficiente; se exige la luz de corto alcance."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 353,
@@ -7083,7 +7096,8 @@
       "Correcto. El límite legal mínimo de profundidad del dibujo en neumáticos de turismos es de 1,6 mm (se recomienda cambiarlos al llegar a los 3 mm).",
       "Incorrecto. La norma no distingue profundidades mínimas diferentes según el eje motriz o directriz.",
       "Incorrecto. Aunque 3 mm es el límite recomendado por seguridad, el mínimo legal sancionable es 1,6 mm."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 354,
@@ -7103,7 +7117,8 @@
       "Incorrecto. Los autobuses se sitúan en el puesto 5 del orden de preferencia, por detrás de los turismos con remolque.",
       "Correcto. En el orden de preferencia de estrechamientos sin señalizar, los turismos con remolque (puesto 4) tienen preferencia sobre los autobuses (puesto 5).",
       "Incorrecto. La masa en carga solo se tiene en cuenta en el último criterio de desempate cuando son vehículos del mismo tipo."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 355,
@@ -7165,7 +7180,8 @@
       "Incorrecto. La sulfatación dificulta el paso de la corriente y nunca debe aplicarse aceite de motor.",
       "Correcto. La sulfatación crea una capa aislante en los bornes que dificulta el arranque; se limpia con agua caliente (con bicarbonato) y se protege con vaselina neutra.",
       "Incorrecto. No estropea el alternador de inmediato ni obliga a tirar la batería si los bornes se limpian adecuadamente."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 358,
@@ -7206,7 +7222,8 @@
       "Correcto. En vías de dos o más carriles por sentido fuera de poblado, para adelantar a peatones, ciclistas o ciclomotores es obligatorio cambiar por completo de carril dejando además un margen lateral mínimo de 1,5 metros.",
       "Incorrecto. Cuando hay más de un carril por sentido en la misma dirección, la normativa exige el cambio completo de carril.",
       "Incorrecto. La separación lateral mínima fuera de poblado es de 1,5 metros y exige cambiar completamente de carril."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 360,
@@ -7226,7 +7243,8 @@
       "Incorrecto. Cuando el carril se habilita por razones de fluidez, los camiones, furgones y vehículos con remolque tienen prohibido el acceso.",
       "Correcto. Si el carril en sentido contrario se abre por motivos de fluidez del tráfico, solo pueden utilizarlo turismos sin remolque y motocicletas (si fuera por obras, sí podrían entrar el resto de vehículos salvo prohibición expresa).",
       "Incorrecto. El permiso general por motivos de fluidez es exclusivamente para turismos sin remolque y motocicletas."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 361,
@@ -7246,7 +7264,8 @@
       "Incorrecto. En calles sin salida donde no sea posible otra maniobra, la restricción general de no superar 15 m ni invadir cruces no se aplica.",
       "Correcto. Cuando no sea posible marchar hacia adelante ni cambiar de dirección o sentido (calle sin salida), se permite dar marcha atrás el recorrido indispensable, pudiendo superar los 15 metros e invadir un cruce si fuera necesario.",
       "Incorrecto. La excepción legal se basa en la imposibilidad de continuar de otro modo, no en el uso del claxon o la luz de emergencia."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 362,
@@ -7266,7 +7285,8 @@
       "Incorrecto. El ancho o el firme asfaltado de la calzada no otorgan prioridad frente a un tranvía.",
       "Correcto. En intersecciones sin señalizar, los vehículos que circulan sobre raíles (tranvías) tienen preferencia de paso sobre el resto de usuarios.",
       "Incorrecto. El orden de llegada no rige la prioridad en intersecciones sin señalizar."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 363,
@@ -7286,7 +7306,8 @@
       "Incorrecto. 0,25 mg/l es la tasa máxima general para conductores ordinarios.",
       "Correcto. Para conductores profesionales y noveles (durante los dos primeros años de permiso), la tasa máxima de alcoholemia es de 0,15 mg/l en aire espirado (o 0,30 g/l en sangre).",
       "Incorrecto. 0,30 g/l es la cifra equivalente medida en sangre, no en aire espirado."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 364,
@@ -7306,7 +7327,8 @@
       "Incorrecto. La luz de largo alcance o carretera está prohibida dentro de poblado y en travesías.",
       "Correcto. En travesías y vías urbanas (estén suficientemente o insuficientemente iluminadas), se debe circular entre el ocaso y la salida del sol con la luz de posición más la de cruce o corto alcance.",
       "Incorrecto. Las luces de posición aisladas solo sirven para inmovilizaciones o estacionamientos, nunca para circular."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 365,
@@ -7347,7 +7369,8 @@
       "Correcto. El conductor debe llevar y presentar el permiso de circulación y la tarjeta de inspección técnica (ITV) en vigor, siendo plenamente válidos tanto los originales físicos como la versión digital oficial en miDGT.",
       "Incorrecto. La vigencia del seguro obligatorio la comprueban los agentes telemáticamente en el FNSSE; lo imprescindible que debe portarse es la documentación propia del coche (permiso de circulación e ITV).",
       "Incorrecto. El libro de mantenimiento y la factura de compra no son documentos administrativos obligatorios en la vía pública."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 367,
@@ -7367,7 +7390,8 @@
       "Incorrecto. Usar el claxon intempestivamente puede asustar a los niños y provocar reacciones o desvíos imprevistos.",
       "Correcto. Al aproximarse a un autobús escolar en parada hay que extremar la precaución, moderar la velocidad y detenerse si resulta preciso ante el riesgo de irrupción de menores.",
       "Incorrecto. Aumentar la velocidad en presencia de transporte escolar detenido multiplica exponencialmente el riesgo de atropello."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 368,
@@ -7387,7 +7411,8 @@
       "Incorrecto. El peatón tiene preferencia al girar para entrar en otra vía, independientemente de que haya paso de peatones.",
       "Correcto. Los conductores deben ceder el paso a los peatones que estén cruzando la calzada cuando el vehículo gire para entrar en otra vía, aunque no exista paso para peatones.",
       "Incorrecto. Las ráfagas o el claxon no otorgan la prioridad de paso al vehículo."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 369,
@@ -7407,7 +7432,8 @@
       "Incorrecto. Con niebla ligera o lluvia moderada, la antiniebla trasera resulta muy molesta y deslumbrante.",
       "Correcto. La luz antiniebla trasera es muy potente y su uso está restringido a condiciones extremas (niebla densa, lluvia muy intensa, fuerte nevada o nubes densas de humo/polvo).",
       "Incorrecto. No se permite su uso en niebla ligera y no exige largo alcance."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 370,
@@ -7427,7 +7453,8 @@
       "Incorrecto. La primera velocidad se deja engranada al estacionar en pendientes ascendentes (en subida).",
       "Correcto. En pendientes descendentes (bajada) se debe dejar seleccionada la marcha atrás (R) además del freno de estacionamiento.",
       "Incorrecto. En punto muerto el motor no retiene la transmisión si falla el freno de mano."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 371,
@@ -7447,7 +7474,8 @@
       "Incorrecto. 45 km/h es el límite máximo para cuadriciclos ligeros y ciclomotores.",
       "Correcto. Los cuadriciclos pesados y los vehículos de tres ruedas no asimilados a motocicletas tienen un límite máximo genérico de 70 km/h.",
       "Incorrecto. 90 km/h es el límite para turismos y motocicletas en carretera convencional."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 372,
@@ -7467,7 +7495,8 @@
       "Incorrecto. La prohibición en tramos sin visibilidad afecta tanto al estacionamiento como a la parada.",
       "Correcto. En curvas y cambios de rasante de visibilidad reducida (y sus proximidades) está prohibido tanto parar como estacionar por el grave riesgo de alcance.",
       "Incorrecto. Encender las luces de emergencia no legaliza parar en un punto ciego de alto riesgo."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 373,
@@ -7487,7 +7516,8 @@
       "Incorrecto. No basta con la distancia de seguridad simple; al superar los 3.500 kg de MMA se exige un espacio añadido fuera de poblado.",
       "Correcto. Los vehículos con MMA superior a 3.500 kg o más de 10 metros de longitud deben guardar una separación mínima de 50 metros cuando no pretendan adelantar fuera de poblado.",
       "Incorrecto. 100 metros es la distancia mínima exigida en túneles cuando no se pretende adelantar."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 374,
@@ -7507,7 +7537,8 @@
       "Incorrecto. Permanecer dentro del turismo averiado en el arcén entraña un altísimo riesgo de atropello/colisión por alcance.",
       "Correcto. En autopistas y autovías, tras inmovilizar el coche en el arcén, los ocupantes deben abandonarlo con chaleco por el lado seguro y refugiarse fuera de la plataforma.",
       "Incorrecto. El cinturón no protege adecuadamente del impacto violento de otro vehículo a 120 km/h contra el arcén."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 375,
@@ -7527,7 +7558,8 @@
       "Incorrecto. El claxon sí está permitido fuera de poblado para avisar de un adelantamiento.",
       "Correcto. Fuera de poblado se permite usar el claxon para: advertir la intención de adelantar, avisar en tramos con curvas/estrechamientos y en servicios de urgencia.",
       "Incorrecto. De noche se debe advertir el adelantamiento mediante ráfagas de luz sin deslumbrar, reservando el claxon principalmente para el día o vías estrechas."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 376,
@@ -7547,7 +7579,8 @@
       "Incorrecto. 0,15 mg/l es la tasa para noveles mayores de edad y profesionales.",
       "Correcto. Para todos los conductores menores de edad (conduzcan ciclomotores, VMP, cuatriciclos o bicicletas), la tasa legal es 0,0 (tasa cero absoluta).",
       "Incorrecto. 0,25 mg/l es la tasa general para conductores mayores de edad no noveles."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 377,
@@ -7567,7 +7600,8 @@
       "Correcto. Tanto en el carril adicional como en los carriles contiguos es obligatorio llevar encendida la luz de cruce (día y noche) y circular a una velocidad máxima de 80 km/h y mínima de 60 km/h.",
       "Incorrecto. El carril adicional fija un límite específico de 80 km/h y exige luz de cruce diurna.",
       "Incorrecto. La obligación de alumbrado y velocidad afecta tanto a los usuarios del carril adicional como a los de los carriles contiguos."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 378,
@@ -7587,7 +7621,8 @@
       "Incorrecto. En los túneles es obligatorio encender el alumbrado tanto de día como de noche.",
       "Correcto. Al transitar por un túnel o paso inferior (ya sea de día o de noche, en vía urbana o interurbana y esté suficiente o insuficientemente iluminado), es obligatorio llevar encendida al menos la luz de cruce o corto alcance.",
       "Incorrecto. Las luces de posición por sí solas no son suficientes para circular por un túnel."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 379,
@@ -7607,7 +7642,8 @@
       "Incorrecto. La regla general de prioridad a la derecha no se aplica cuando se procede de una vía no pavimentada.",
       "Correcto. Los conductores que se incorporen a una vía pavimentada procedentes de una vía sin pavimentar deben ceder el paso siempre a los vehículos que circulen por la vía asfaltada.",
       "Incorrecto. El orden de acceso no otorga prioridad en las incorporaciones desde vías no pavimentadas."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 380,
@@ -7627,7 +7663,8 @@
       "Incorrecto. A diferencia de un vado, el carril bus prohíbe también la maniobra de parada.",
       "Correcto. En los carriles destinados al uso exclusivo del transporte público (carril bus/taxi) está prohibido tanto parar como estacionar.",
       "Incorrecto. La duración inferior a dos minutos no legaliza parar en un carril bus."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 381,
@@ -7647,7 +7684,8 @@
       "Incorrecto. En poblado está prohibido usar el claxon para avisar de un adelantamiento.",
       "Correcto. Dentro de poblado el uso del claxon está restringido a dos casos: evitar un accidente (imprevisto/peligro) o en vehículos en servicio de urgencia particular.",
       "Incorrecto. No se permite el claxon para anunciar la intención de adelantar dentro de poblado."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 382,
@@ -7667,7 +7705,8 @@
       "Correcto. Ante una inmovilización por avería en túnel, se deben conectar las luces de emergencia y posición, apagar el motor, ponerse el chaleco y solicitar auxilio desde un poste SOS o sistema de a bordo.",
       "Incorrecto. Nunca se debe correr por la calzada; los ocupantes deben dirigirse con precaución hacia la salida o zona de refugio señalizada.",
       "Incorrecto. Se debe apagar el motor para no acumular gases tóxicos en el túnel."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 383,
@@ -7687,7 +7726,8 @@
       "Incorrecto. Guardarlo en el maletero obliga a bajar del coche sin el chaleco puesto, lo cual sanciona la norma.",
       "Correcto. El chaleco reflectante debe guardarse en el habitáculo para que el conductor pueda ponérselo antes de salir del vehículo a la calzada o arcén.",
       "Incorrecto. No es indiferente; salir a la calzada sin llevarlo puesto acarrea sanción."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 384,
@@ -7707,7 +7747,8 @@
       "Incorrecto. La regla del número mínimo de ocupantes tiene exenciones legales específicas.",
       "Correcto. Los vehículos que ostenten la señal V-15 de minusválido o persona con movilidad reducida pueden utilizar el carril VAO ocupados únicamente por el conductor.",
       "Incorrecto. Los turismos de movilidad reducida acreditados tienen acceso permitido con independencia de su etiqueta ambiental."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 385,
@@ -7727,7 +7768,8 @@
       "Incorrecto. 0,15 mg/l es la tasa para noveles mayores de edad.",
       "Correcto. Para todos los conductores menores de edad (ciclomotores, bicicletas, VMP, etc.), la tasa máxima autorizada es 0,0 mg/l en aire espirado y 0,0 g/l en sangre.",
       "Incorrecto. 0,25 mg/l es la tasa general para conductores mayores de edad no noveles."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 386,
@@ -7747,7 +7789,8 @@
       "Correcto. En los turismos son obligatorios el espejo retrovisor interior central y el exterior izquierdo (el exterior derecho es optativo, salvo si el interior está tapado o inutilizado).",
       "Incorrecto. El espejo exterior derecho es opcional salvo que la visibilidad por el retrovisor interior central esté bloqueada.",
       "Incorrecto. El espejo interior central también es obligatorio en turismos de uso general."
-    ]
+    ],
+    "ip": "true"
   },
   {
     "id": 387,
@@ -7767,6 +7810,7 @@
       "Incorrecto. ¡Atención a la trampa! La distancia fija mínima de 1,5 metros fuera de poblado es obligatoria al adelantar a peatones, animales, ciclistas, ciclomotores o tracción animal, no entre turismos.",
       "Correcto. Al adelantar entre turismos o vehículos pesados fuera de poblado, la separación lateral no tiene una cifra fija de 1,5 m, sino que debe ser proporcional a la velocidad y estado de la vía.",
       "Incorrecto. De noche se aplican las mismas reglas de separación proporcional según la categoría del vehículo adelantado."
-    ]
+    ],
+    "ip": "true"
   }
 ]
