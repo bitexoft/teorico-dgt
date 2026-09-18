@@ -316,10 +316,10 @@
     ],
     "e": [
       "Incorrecto. La prohibición no se basa en el peso o cifra de la masa, sino estrictamente en el número de ejes del remolque.",
-      "Correcto. La señal R-113 prohíbe la entrada a vehículos con remolque de más de un eje; por tanto, los remolques de un solo eje pueden continuar libremente.",
-      "Incorrecto. La señal restricta únicamente el paso a los enganches que dispongan de dos o más ejes."
+      "Correcto. La señal R-112 prohíbe la entrada a vehículos con remolque de más de un eje; por tanto, los remolques de un solo eje pueden continuar libremente.",
+      "Incorrecto. La señal restringe únicamente el paso a los enganches que dispongan de dos o más ejes."
     ],
-    "ip": "Spanish vertical traffic sign R-113: circular red-bordered prohibition sign showing a car with a trailer of more than one axle, indicating no entry for vehicles with multi-axle trailers. A car towing a single-axle trailer is allowed."
+    "ip": "Spanish vertical traffic sign R-112: circular red-bordered prohibition sign showing a car with a trailer of more than one axle, indicating no entry for vehicles with multi-axle trailers. A car towing a single-axle trailer is allowed."
   },
   {
     "id": 17,
@@ -2929,7 +2929,7 @@
       0
     ],
     "e": [
-      "Correcto. La señal que representa una elevación hacia arriba indica un resalto[cite: 6].",
+      "Correcto. La señal que representa una elevación hacia arriba indica un resalto.",
       "Incorrecto. El badén se representa con una deformación hacia abajo.",
       "Incorrecto. El perfil irregular muestra ondulaciones combinadas hacia arriba y abajo."
     ],
@@ -3107,15 +3107,15 @@
     "o": [
       "Al pasar la primera intersección, si no está colocada junto a una señal de peligro.",
       "Al encontrar una señal de fin de prohibición de velocidad, fin de prohibiciones o un límite distinto.",
-      "Ambas respuestas son correctas."
+      "Cuando finaliza el peligro señalado, si la señal está en el mismo poste o panel que una señal de advertencia de peligro."
     ],
     "a": [
-      2
+      1
     ],
     "e": [
-      "Incorrecto. Aunque es una de las formas de finalización, no es la única.",
-      "Incorrecto. También finaliza al rebasar la primera intersección en determinados casos.",
-      "Correcto. La prohibición termina tanto al encontrar una señal de fin o un límite distinto como, en su caso, al pasar la primera intersección si no va acompañada de señal de peligro."
+      "Incorrecto. La finalización en la primera intersección no aplica a las señales de velocidad máxima, sino a las de prohibición de parada o estacionamiento.",
+      "Correcto. La prohibición de velocidad se mantiene hasta encontrar una señal de fin de limitación, fin de prohibiciones u otra de velocidad máxima distinta.",
+      "Esta también es una forma válida de finalización, pero solo cuando la señal R-301 está asociada a una señal de peligro; no es aplicable de forma general."
     ]
   },
   {
@@ -3145,17 +3145,17 @@
     "ai": false,
     "type": "single_choice",
     "o": [
-      "Los turismos y camiones con masa máxima autorizada inferior a 3.500 kg.",
-      "Los camiones con masa máxima autorizada superior a 3.500 kg.",
-      "Los turismos únicamente."
+      "Todos los vehículos a motor, excepto las motocicletas de dos ruedas sin sidecar.",
+      "Únicamente los camiones con masa máxima autorizada superior a 3.500 kg.",
+      "Únicamente los turismos."
     ],
     "a": [
-      1
+      0
     ],
     "e": [
-      "Incorrecto. La señal específica de prohibición de adelantamiento para camiones no afecta a los turismos ni a los vehículos ligeros.",
-      "Correcto. La señal prohíbe el adelantamiento a los camiones cuya masa máxima autorizada sea superior a 3.500 kg.",
-      "Incorrecto. No se limita exclusivamente a los turismos."
+      "Correcto. La señal R-305 prohíbe adelantar a todos los vehículos de motor que circulen por la vía, salvo a las motocicletas de dos ruedas siempre que no se invada el sentido contrario.",
+      "Incorrecto. Esa restricción específica para camiones corresponde a la señal R-306, que muestra un camión, no dos turismos como en esta imagen.",
+      "Incorrecto. La prohibición no se limita a los turismos, afecta a todos los vehículos a motor."
     ]
   },
   {
@@ -3838,7 +3838,7 @@
       "Incorrecto. El escalón lateral dispone de una señalización diferente.",
       "Correcto. Esta señal advierte del peligro de obstrucción de la calzada."
     ],
-    "ip": "Spanish warning sign P-31 or similar: triangular danger sign indicating obstruction or blockage of the roadway ahead."
+    "ip": "Spanish warning sign P-32 or similar: triangular danger sign indicating obstruction or blockage of the roadway ahead."
   },
   {
     "id": 192,
