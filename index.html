@@ -58,7 +58,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 #btn-prev:disabled { opacity: 0.35; }
 #btn-validate { flex: 2; padding: 13px; background: #2563eb; color: #fff; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; display: none; }
 #btn-validate:disabled { opacity: 0.4; }
-#btn-next { flex: 2; padding: 13px; background: #22263a; border: 1px solid #2e3350; color: #e8eaf0; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; display: none; }
+#btn-next { flex: 2; padding: 13px; background: #2563eb; border: none; color: #fff; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; display: none; }
 .opt.selected { border-color: #2563eb; background: #0c1a3a; }
 .opt.selected .opt-l { background: #2563eb; border-color: #2563eb; color: #fff; }
 
@@ -271,8 +271,10 @@ function renderQ(){
   el('q-num').textContent='Pregunta '+(idx+1)+' de '+eq.length;
   el('q-text').textContent=q.q;
   var qimg=el('q-img');
-  if(q.ip){ qimg.src='images/'+q.id+'.png'; qimg.style.display='block'; qimg.onerror=function(){ this.style.display='none'; }; }
-  else{ qimg.style.display='none'; qimg.src=''; }
+  qimg.style.display='block';
+  qimg.src='images/'+q.id+'.png';
+  qimg.onerror=function(){ this.style.display='none'; };
+  qimg.onload=function(){ this.style.display='block'; };
 
   var opts=el('opts'); opts.innerHTML='';
   for(var i=0;i<q.o.length;i++){
