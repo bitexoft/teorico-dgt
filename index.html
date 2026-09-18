@@ -362,7 +362,7 @@ function go(d){
     lsSave(); renderFails();
 
   }
-  idx=n; pending=-1; renderQ();
+  idx=n; pending=-1; renderQ(); window.scrollTo(0,0);
 }
 function renderPbar(){ var done=0; for(var k in ans) if(ans.hasOwnProperty(k)) done++; var p=eq.length?done/eq.length*100:0; el('pfill').style.width=p+'%'; el('ptext').textContent=done+' / '+eq.length; }
 
