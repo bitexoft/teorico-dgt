@@ -56,7 +56,11 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 #nav-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1d27; border-top: 1px solid #2e3350; padding: 10px 14px; padding-bottom: max(10px, env(safe-area-inset-bottom)); display: none; gap: 8px; z-index: 5; }
 #btn-prev { flex: 1; padding: 13px; background: #22263a; border: 1px solid #2e3350; color: #e8eaf0; border-radius: 8px; font-size: 14px; font-weight: 500; touch-action: manipulation; }
 #btn-prev:disabled { opacity: 0.35; }
-#btn-next { flex: 2; padding: 13px; background: #2563eb; color: #fff; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; }
+#btn-validate { flex: 2; padding: 13px; background: #2563eb; color: #fff; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; display: none; }
+#btn-validate:disabled { opacity: 0.4; }
+#btn-next { flex: 2; padding: 13px; background: #22263a; border: 1px solid #2e3350; color: #e8eaf0; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; display: none; }
+.opt.selected { border-color: #2563eb; background: #0c1a3a; }
+.opt.selected .opt-l { background: #2563eb; border-color: #2563eb; color: #fff; }
 
 /* RESULTS oculto por defecto */
 #results { display: none; padding: 36px 18px; max-width: 480px; margin: 0 auto; text-align: center; }
@@ -148,6 +152,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 
 <div id="nav-bar">
   <button id="btn-prev">← Ant.</button>
+  <button id="btn-validate" disabled>Validar ✓</button>
   <button id="btn-next">Siguiente →</button>
 </div>
 
@@ -244,7 +249,7 @@ for(var mi=0;mi<mbs.length;mi++){
 
 // INICIO
 function startExam(e){ if(e) e.preventDefault();
-  rev=false; ans={}; idx=0; wrongs=0;
+  rev=false; ans={}; idx=0; wrongs=0; pending=-1;
   if(mode==='exam30'){ eq=shuffle(Q).slice(0,30); secs=1800; totalSecs=1800; timerStart(); }
   else if(mode==='exam50'){ eq=shuffle(Q).slice(0,50); secs=3000; totalSecs=3000; timerStart(); }
   else if(mode==='all'){ eq=Q.slice(); timerHide(); }
@@ -268,31 +273,66 @@ function renderQ(){
   var qimg=el('q-img');
   if(q.ip){ qimg.src='images/'+q.id+'.png'; qimg.style.display='block'; qimg.onerror=function(){ this.style.display='none'; }; }
   else{ qimg.style.display='none'; qimg.src=''; }
+
   var opts=el('opts'); opts.innerHTML='';
   for(var i=0;i<q.o.length;i++){
     var btn=document.createElement('button');
     var cls='opt';
-    if(done&&i===ci) cls+=' correct'; else if(done&&i===chosen) cls+=' wrong'; else if(rev&&i===ci) cls+=' correct';
+    if(done&&i===ci) cls+=' correct';
+    else if(done&&i===chosen) cls+=' wrong';
+    else if(rev&&i===ci) cls+=' correct';
+    else if(!done&&!rev&&i===pending) cls+=' selected';
     if(done||rev) cls+=' disabled';
     btn.className=cls;
     btn.innerHTML='<div class="opt-l">'+L[i]+'</div><div style="flex:1;text-align:left">'+q.o[i]+'</div>';
-    if(!done&&!rev){ (function(oi){ function dp(e){ e.preventDefault(); pick(oi); } btn.addEventListener('touchend',dp); btn.addEventListener('click',dp); })(i); }
+    if(!done&&!rev){
+      (function(oi){ function dp(e){ e.preventDefault(); selectOpt(oi); } btn.addEventListener('touchend',dp); btn.addEventListener('click',dp); })(i);
+    }
     opts.appendChild(btn);
   }
+
   var exp=el('exp');
   if(done||rev){ var ei=done?chosen:ci; exp.textContent=(q.e&&q.e[ei])?q.e[ei]:''; exp.style.display='block'; exp.className=(done?chosen===ci:true)?'correct':'wrong'; }
   else{ exp.style.display='none'; exp.className=''; }
+
   el('btn-prev').disabled=idx===0;
-  el('btn-next').textContent=idx===eq.length-1?'Finalizar ✓':'Siguiente →';
+
+  // Mostrar botón correcto según estado
+  if(rev){
+    el('btn-validate').style.display='none';
+    el('btn-next').style.display='block';
+    el('btn-next').textContent=idx===eq.length-1?'Finalizar ✓':'Siguiente →';
+  } else if(done){
+    el('btn-validate').style.display='none';
+    el('btn-next').style.display='block';
+    el('btn-next').textContent=idx===eq.length-1?'Finalizar ✓':'Siguiente →';
+  } else {
+    el('btn-validate').style.display='block';
+    el('btn-validate').disabled=(pending===-1);
+    el('btn-next').style.display='none';
+  }
+
   renderPbar(); updateDots(); window.scrollTo(0,0);
 }
 
-function pick(i){ if(ans[idx]!==undefined) return; ans[idx]=i; var q=eq[idx],ci=q.a[0];
-  if(i!==ci){ wrongs++; if(failed.indexOf(q.id)===-1) failed.push(q.id); } else { var nf=[]; for(var j=0;j<failed.length;j++) if(failed[j]!==q.id) nf.push(failed[j]); failed=nf; }
+var pending=-1; // opción seleccionada pero aún no validada
+
+function selectOpt(i){
+  if(ans[idx]!==undefined) return;
+  pending=i;
+  renderQ();
+}
+
+function validate(){
+  if(pending===-1||ans[idx]!==undefined) return;
+  ans[idx]=pending;
+  var q=eq[idx],ci=q.a[0];
+  if(pending!==ci){ wrongs++; if(failed.indexOf(q.id)===-1) failed.push(q.id); }
+  else{ var nf=[]; for(var j=0;j<failed.length;j++) if(failed[j]!==q.id) nf.push(failed[j]); failed=nf; }
   lsSave(); renderFails(); renderQ();
   if(mode==='exam30'&&wrongs>=3) setTimeout(function(){ finish(); },1800);
 }
-function go(d){ var n=idx+d; if(n<0) return; if(n>=eq.length){ finish(); return; } idx=n; renderQ(); }
+function go(d){ var n=idx+d; if(n<0) return; if(n>=eq.length){ finish(); return; } idx=n; pending=-1; renderQ(); }
 function renderPbar(){ var done=0; for(var k in ans) if(ans.hasOwnProperty(k)) done++; var p=eq.length?done/eq.length*100:0; el('pfill').style.width=p+'%'; el('ptext').textContent=done+' / '+eq.length; }
 
 // DRAWER
@@ -305,9 +345,12 @@ el('btn-drawer-close').addEventListener('touchend',closeDrawer); el('btn-drawer-
 el('drawer-overlay').addEventListener('touchend',closeDrawer); el('drawer-overlay').addEventListener('click',closeDrawer);
 
 // NAV
-function doPrev(e){ e.preventDefault(); go(-1); } function doNext(e){ e.preventDefault(); go(1); }
+function doPrev(e){ e.preventDefault(); go(-1); }
+function doNext(e){ e.preventDefault(); go(1); }
+function doValidate(e){ e.preventDefault(); validate(); }
 el('btn-prev').addEventListener('touchend',doPrev); el('btn-prev').addEventListener('click',doPrev);
 el('btn-next').addEventListener('touchend',doNext); el('btn-next').addEventListener('click',doNext);
+el('btn-validate').addEventListener('touchend',doValidate); el('btn-validate').addEventListener('click',doValidate);
 function doEnd(e){ e.preventDefault(); finish(); }
 el('btn-end').addEventListener('touchend',doEnd); el('btn-end').addEventListener('click',doEnd);
 
