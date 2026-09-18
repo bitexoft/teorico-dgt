@@ -16,6 +16,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 #timer-box { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 5px 10px; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; display: none; }
 #fails-box { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 5px 9px; font-size: 13px; font-weight: 600; color: #7b80a0; display: none; }
 #btn-end { background: #dc2626; color: #fff; border-radius: 8px; padding: 7px 11px; font-size: 13px; font-weight: 600; display: none; }
+#btn-exit { background: none; border: 1px solid #2e3350; color: #7b80a0; border-radius: 8px; padding: 7px 11px; font-size: 13px; font-weight: 500; display: none; }
 #btn-map-open { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 7px 10px; font-size: 15px; display: none; }
 #btn-info-btn { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 7px 10px; font-size: 15px; color: #7b80a0; }
 
@@ -117,6 +118,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
   <div id="hright">
     <div id="fails-box">❌ <span id="fails-n">0</span>/3</div>
     <div id="timer-box"><span id="timer-n">30:00</span></div>
+    <button id="btn-exit" style="display:none">✕ Salir</button>
     <button id="btn-end">Finalizar</button>
     <button id="btn-map-open">🗺</button>
     <button id="btn-info-btn">ℹ️</button>
@@ -231,9 +233,9 @@ try { failed=JSON.parse(localStorage.getItem('dgt_f')||'[]'); } catch(e){}
 function lsSave(){ try{ localStorage.setItem('dgt_f',JSON.stringify(failed)); }catch(e){} }
 function el(id){ return document.getElementById(id); }
 
-function goHome(){ el('home').style.display='block'; el('exam').style.display='none'; el('results').style.display='none'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; window.scrollTo(0,0); }
-function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; window.scrollTo(0,0); }
-function goResults(){ el('home').style.display='none'; el('exam').style.display='none'; el('results').style.display='block'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; window.scrollTo(0,0); }
+function goHome(){ el('home').style.display='block'; el('exam').style.display='none'; el('results').style.display='none'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
+function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; el('btn-exit').style.display=isExamMode()?'none':'block'; window.scrollTo(0,0); }
+function goResults(){ el('home').style.display='none'; el('exam').style.display='none'; el('results').style.display='block'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
 
 function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t; } return a; }
 
@@ -330,7 +332,7 @@ function renderQ(){
     el('btn-next').style.display='none';
   }
 
-  renderPbar(); updateDots(); window.scrollTo(0,0);
+  renderPbar(); updateDots();
 }
 
 function selectOpt(i){
@@ -382,6 +384,8 @@ el('btn-next').addEventListener('touchend',doNext); el('btn-next').addEventListe
 el('btn-validate').addEventListener('touchend',doValidate); el('btn-validate').addEventListener('click',doValidate);
 function doEnd(e){ e.preventDefault(); finish(); }
 el('btn-end').addEventListener('touchend',doEnd); el('btn-end').addEventListener('click',doEnd);
+function doExit(e){ e.preventDefault(); timerHide(); rev=false; goHome(); }
+el('btn-exit').addEventListener('touchend',doExit); el('btn-exit').addEventListener('click',doExit);
 
 // RESULTADOS
 function finish(){ timerHide(); var c=0,w=0,s=0; for(var i=0;i<eq.length;i++){ var a=ans[i]; if(a===undefined) s++; else if(a===eq[i].a[0]) c++; else w++; }
