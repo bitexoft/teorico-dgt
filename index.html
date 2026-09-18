@@ -266,8 +266,14 @@ function renderTimer(){ var m=Math.floor(secs/60),s=secs%60; el('timer-n').textC
 function renderFails(){ if(mode!=='exam30') return; el('fails-n').textContent=wrongs; var h=wrongs>=2; el('fails-box').style.background=h?'#2a0a0a':'#22263a'; el('fails-box').style.borderColor=h?'#ef4444':'#2e3350'; el('fails-box').style.color=h?'#ef4444':'#7b80a0'; }
 
 // PREGUNTA
+function isExamMode(){ return mode==='exam30'||mode==='exam50'; }
+
+var pending=-1;
+
 function renderQ(){
   var q=eq[idx],L=['A','B','C','D'],chosen=ans[idx],done=chosen!==undefined,ci=q.a[0];
+  var examHide=isExamMode()&&!rev;
+
   el('q-num').textContent='Pregunta '+(idx+1)+' de '+eq.length;
   el('q-text').textContent=q.q;
   var qimg=el('q-img');
@@ -280,11 +286,17 @@ function renderQ(){
   for(var i=0;i<q.o.length;i++){
     var btn=document.createElement('button');
     var cls='opt';
-    if(done&&i===ci) cls+=' correct';
-    else if(done&&i===chosen) cls+=' wrong';
-    else if(rev&&i===ci) cls+=' correct';
-    else if(!done&&!rev&&i===pending) cls+=' selected';
-    if(done||rev) cls+=' disabled';
+    if(examHide){
+      if(!done&&i===pending) cls+=' selected';
+      else if(done&&i===chosen) cls+=' selected';
+      if(done) cls+=' disabled';
+    } else {
+      if(done&&i===ci) cls+=' correct';
+      else if(done&&i===chosen) cls+=' wrong';
+      else if(rev&&i===ci) cls+=' correct';
+      else if(!done&&i===pending) cls+=' selected';
+      if(done||rev) cls+=' disabled';
+    }
     btn.className=cls;
     btn.innerHTML='<div class="opt-l">'+L[i]+'</div><div style="flex:1;text-align:left">'+q.o[i]+'</div>';
     if(!done&&!rev){
@@ -294,19 +306,25 @@ function renderQ(){
   }
 
   var exp=el('exp');
-  if(done||rev){ var ei=done?chosen:ci; exp.textContent=(q.e&&q.e[ei])?q.e[ei]:''; exp.style.display='block'; exp.className=(done?chosen===ci:true)?'correct':'wrong'; }
-  else{ exp.style.display='none'; exp.className=''; }
+  if(!examHide&&(done||rev)){
+    var ei=done?chosen:ci;
+    exp.textContent=(q.e&&q.e[ei])?q.e[ei]:'';
+    exp.style.display='block';
+    exp.className=(done?chosen===ci:true)?'correct':'wrong';
+  } else {
+    exp.style.display='none'; exp.className='';
+  }
 
   el('btn-prev').disabled=idx===0;
+  el('btn-validate').style.display='none';
 
-  // Mostrar botón correcto según estado
-  if(rev){
-    el('btn-validate').style.display='none';
+  if(rev||(!examHide&&done)){
     el('btn-next').style.display='block';
+    el('btn-next').disabled=false;
     el('btn-next').textContent=idx===eq.length-1?'Finalizar ✓':'Siguiente →';
-  } else if(done){
-    el('btn-validate').style.display='none';
+  } else if(examHide){
     el('btn-next').style.display='block';
+    el('btn-next').disabled=(pending===-1&&!done);
     el('btn-next').textContent=idx===eq.length-1?'Finalizar ✓':'Siguiente →';
   } else {
     el('btn-validate').style.display='block';
@@ -316,8 +334,6 @@ function renderQ(){
 
   renderPbar(); updateDots(); window.scrollTo(0,0);
 }
-
-var pending=-1; // opción seleccionada pero aún no validada
 
 function selectOpt(i){
   if(ans[idx]!==undefined) return;
@@ -332,9 +348,22 @@ function validate(){
   if(pending!==ci){ wrongs++; if(failed.indexOf(q.id)===-1) failed.push(q.id); }
   else{ var nf=[]; for(var j=0;j<failed.length;j++) if(failed[j]!==q.id) nf.push(failed[j]); failed=nf; }
   lsSave(); renderFails(); renderQ();
-  if(mode==='exam30'&&wrongs>=3) setTimeout(function(){ finish(); },1800);
 }
-function go(d){ var n=idx+d; if(n<0) return; if(n>=eq.length){ finish(); return; } idx=n; pending=-1; renderQ(); }
+
+function go(d){
+  var n=idx+d;
+  if(n<0) return;
+  if(n>=eq.length){ finish(); return; }
+  if(isExamMode()&&!rev&&ans[idx]===undefined&&pending!==-1){
+    ans[idx]=pending;
+    var q=eq[idx],ci=q.a[0];
+    if(pending!==ci){ wrongs++; if(failed.indexOf(q.id)===-1) failed.push(q.id); }
+    else{ var nf=[]; for(var j=0;j<failed.length;j++) if(failed[j]!==q.id) nf.push(failed[j]); failed=nf; }
+    lsSave(); renderFails();
+    if(mode==='exam30'&&wrongs>=3){ finish(); return; }
+  }
+  idx=n; pending=-1; renderQ();
+}
 function renderPbar(){ var done=0; for(var k in ans) if(ans.hasOwnProperty(k)) done++; var p=eq.length?done/eq.length*100:0; el('pfill').style.width=p+'%'; el('ptext').textContent=done+' / '+eq.length; }
 
 // DRAWER
