@@ -28,7 +28,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 #home { padding: 36px 18px; max-width: 480px; margin: 0 auto; text-align: center; }
 #home h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
 #home p { color: #7b80a0; font-size: 14px; margin-bottom: 28px; line-height: 1.6; }
-.modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.modes { display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 18px; }
 .mode { background: #1a1d27; border: 2px solid #2e3350; border-radius: 12px; padding: 15px 12px; text-align: left; color: #e8eaf0; width: 100%; display: block; touch-action: manipulation; }
 .mode.active { border-color: #2563eb; background: #0c1a3a; }
 .mode-icon { font-size: 20px; margin-bottom: 5px; }
@@ -134,10 +134,9 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
   <h1>Test Teórico DGT</h1>
   <p>Practica con las <strong><span id="home-count">…</span> preguntas</strong> del examen de conducir tipo B.</p>
   <div class="modes">
-    <button class="mode active" data-m="exam30"><div class="mode-icon">📋</div><div class="mode-name">Examen oficial</div><div class="mode-info">30 preguntas · 30 min · Máx. 3 fallos</div></button>
-    <button class="mode" data-m="exam50"><div class="mode-icon">📝</div><div class="mode-name">Simulacro</div><div class="mode-info">50 preguntas · 50 min</div></button>
-    <button class="mode" data-m="all"><div class="mode-icon">📚</div><div class="mode-name">Todas</div><div class="mode-info">337 preguntas · Sin límite</div></button>
-    <button class="mode" data-m="failed"><div class="mode-icon">🔁</div><div class="mode-name">Mis errores</div><div class="mode-info">Solo falladas</div></button>
+    <button class="mode active" data-m="exam30"><div class="mode-icon">📋</div><div class="mode-name">Examen oficial</div><div class="mode-info">30 preguntas · 30 min · Sin corrección hasta el final</div></button>
+    <button class="mode" data-m="all"><div class="mode-icon">📚</div><div class="mode-name">Todas las preguntas</div><div class="mode-info"><span id="home-count">387</span> preguntas · Corrección inmediata · Sin límite de tiempo</div></button>
+    <button class="mode" data-m="failed"><div class="mode-icon">🔁</div><div class="mode-name">Mis errores</div><div class="mode-info">Solo preguntas falladas · Corrección inmediata</div></button>
   </div>
   <button id="btn-go">Comenzar →</button>
 </div>
@@ -251,7 +250,6 @@ for(var mi=0;mi<mbs.length;mi++){
 function startExam(e){ if(e) e.preventDefault();
   rev=false; ans={}; idx=0; wrongs=0; pending=-1;
   if(mode==='exam30'){ eq=shuffle(Q).slice(0,30); secs=1800; totalSecs=1800; timerStart(); }
-  else if(mode==='exam50'){ eq=shuffle(Q).slice(0,50); secs=3000; totalSecs=3000; timerStart(); }
   else if(mode==='all'){ eq=Q.slice(); timerHide(); }
   else{ var f=[]; for(var i=0;i<Q.length;i++) if(failed.indexOf(Q[i].id)!==-1) f.push(Q[i]); if(!f.length){ alert('No tienes preguntas falladas todavía.'); return; } eq=shuffle(f); timerHide(); }
   buildDrawer(); goExam(); renderQ(); renderPbar(); renderFails();
@@ -266,7 +264,7 @@ function renderTimer(){ var m=Math.floor(secs/60),s=secs%60; el('timer-n').textC
 function renderFails(){ if(mode!=='exam30') return; el('fails-n').textContent=wrongs; var h=wrongs>=2; el('fails-box').style.background=h?'#2a0a0a':'#22263a'; el('fails-box').style.borderColor=h?'#ef4444':'#2e3350'; el('fails-box').style.color=h?'#ef4444':'#7b80a0'; }
 
 // PREGUNTA
-function isExamMode(){ return mode==='exam30'||mode==='exam50'; }
+function isExamMode(){ return mode==='exam30'; }
 
 var pending=-1;
 
