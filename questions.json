@@ -1,1204 +1,608 @@
-
 [
-
   {
-
     "id": 1,
-
     "q": "En un túnel, ¿qué distancia de seguridad se debe dejar con el vehículo que circula delante?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "200 m.",
-
       "100 m al menos cuando no se pretende adelantar.",
-
       "Únicamente la distancia suficiente para no colisionar en caso de frenado brusco."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. La distancia mínima establecida como norma general en túneles para vehículos ligeros cuando no se pretende adelantar es de 100 metros (o 4 segundos).",
-
       "Correcto. En los túneles o pasos inferiores, si no se pretende adelantar, se debe mantener una distancia de seguridad mínima de 100 metros o un intervalo de al menos 4 segundos.",
-
       "Incorrecto. Esa es la definición de distancia de seguridad general fuera de túneles, pero dentro de un túnel la normativa exige un mínimo específico de 100 m o 4 segundos."
-
     ]
-
   },
-
   {
-
     "id": 2,
-
     "q": "La distancia de detención es el espacio que recorre el vehículo...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Durante el tiempo que pasa desde que el conductor reacciona hasta que pisa el pedal de freno.",
-
       "Desde que el conductor frena hasta que se detiene el vehículo.",
-
       "Desde que el conductor percibe un peligro hasta que el vehículo se detiene."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. Este lapso corresponde únicamente a la distancia de reacción.",
-
       "Incorrecto. Este tramo corresponde a la distancia de frenado.",
-
       "Correcto. La distancia de detención (o detención total) engloba la suma de la distancia de reacción más la distancia de frenado; es decir, todo el trayecto desde la percepción del peligro hasta el parado completo."
-
     ]
-
   },
-
   {
-
     "id": 3,
-
     "q": "Es de día. Un vehículo estaciona en una travesía. ¿Debe dejar alguna luz encendida?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, las luces de posición o las de estacionamiento.",
-
       "Sí, las luces de emergencia.",
-
       "No, porque no es obligatorio."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. Las luces de posición o estacionamiento son obligatorias para el alumbrado en travesías insuficientemente iluminadas durante la noche, no de día.",
-
       "Incorrecto. La luz de emergencia se utiliza en situaciones de inmovilización por emergencia o peligro, no en un estacionamiento regular.",
-
       "Correcto. Al tratarse de un estacionamiento realizado durante el día, la iluminación no es necesaria ni obligatoria."
-
     ]
-
   },
-
   {
-
     "id": 4,
-
     "q": "¿Está permitido circular sobre una marca longitudinal discontinua si circula por una calzada con carriles estrechos?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, siempre que sea necesario y la seguridad de la circulación lo permita.",
-
       "No, nunca.",
-
       "Sí, siempre."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. Se permite invadir o circular sobre las marcas discontinuas cuando la anchura del carril o del vehículo lo exija obligatoriamente, garantizando en todo momento la seguridad.",
-
       "Incorrecto. La norma permite pisarla o sobrepasarla cuando sea estrictamente necesario por razones de anchura de carril o del vehículo.",
-
       "Incorrecto. Decir 'sí, siempre' omitiría la condición imprescindible de la seguridad de la circulación y la necesidad de la maniobra."
-
     ]
-
   },
-
   {
-
     "id": 5,
-
     "q": "Si observas que en el vehículo que circula delante las luces de frenado comienzan a parpadear a alta velocidad para alertar a los vehículos que le siguen que está reduciendo mucho la velocidad, debes saber que ese vehículo está utilizando el sistema...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "De avisos de frenada de emergencia (ESS).",
-
       "De alerta de tráfico cruzado (RCTA).",
-
       "De frenada autónoma de emergencia (AEB)."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. El sistema ESS (Emergency Stop Signal) hace parpadear rápidamente las luces de freno para advertir a los vehículos posteriores de un frenado de emergencia intenso.",
-
       "Incorrecto. El sistema de alerta de tráfico cruzado (RCTA) detecta vehículos que se aproximan en sentido transversal al salir marcha atrás.",
-
       "Incorrecto. El sistema de frenada autónoma de emergencia (AEB) actúa directamente sobre los frenos de forma automática al detectar un riesgo inminente de colisión frontal."
-
     ]
-
   },
-
   {
-
     "id": 6,
-
     "q": "Circulando por una vía urbana para evitar un posible accidente, ¿cómo indicará su presencia a otro vehículo que pretende incorporarse a la circulación?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Únicamente utilizando el claxon para que no salga.",
-
       "Utilizando de forma intermitente los alumbrados de corto o largo alcance sin deslumbrar.",
-
       "Encendiendo la luz de largo alcance y utilizando el claxon de forma simultánea."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Aunque el claxon se puede usar en vía urbana para evitar un accidente, no es el único medio ni la opción más adecuada si la ráfaga luminosa es suficiente.",
-
       "Correcto. El uso intermitente de las luces (ráfagas) está expresamente indicado para advertir la presencia a otros usuarios sin deslumbrar, especialmente dentro de poblado.",
-
       "Incorrecto. Combinar de forma simultánea ráfagas fijas de largo alcance y claxon resulta desproporcionado y deslumbrante."
-
     ]
-
   },
-
   {
-
     "id": 7,
-
     "q": "¿Está permitido conducir normalmente con una rueda de repuesto de uso temporal?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, llevando el neumático con una presión superior a las demás ruedas.",
-
       "No, debe atender a las limitaciones que indica el fabricante.",
-
       "Sí, pero solo por vías urbanas."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. La presión debe ser la específica recomendada por el fabricante, pero eso no autoriza un uso ilimitado o normal.",
-
       "Correcto. Las ruedas de uso temporal (de galleta) imponen restricciones estrictas de velocidad (habitualmente máx. 80 km/h) y de recorrido (alrededor de 200 km) hasta acudir a un taller.",
-
       "Incorrecto. Su uso está condicionado a la sustitución en el menor tiempo posible, independientemente de si la vía es urbana o interurbana."
-
     ]
-
   },
-
   {
-
     "id": 8,
-
     "q": "Las motos con más de 5 años de antigüedad deben pasar la Inspección Técnica de Vehículos (ITV)...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Cada año.",
-
       "Cada 5 años.",
-
       "Cada 2 años."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. La periodicidad anual no se aplica a motocicletas particulares de esta antigüedad.",
-
       "Incorrecto. Las inspecciones nunca se distancian 5 años una vez superada la primera revisión.",
-
       "Correcto. Las motocicletas pasan su primera ITV a los 4 años de su primera matriculación y, a partir de ese momento, la inspección es bienal (cada 2 años)."
-
     ]
-
   },
-
   {
-
     "id": 9,
-
     "q": "Fumar mientras se conduce...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Está prohibido.",
-
       "No es recomendable porque puede afectar a la atención en la conducción.",
-
       "Es recomendable porque ayuda a mantener la atención."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Actualmente fumar conduciendo no está expresamente prohibido por la normativa general de tráfico salvo que suponga una pérdida de control del vehículo.",
-
       "Correcto. Encender, sostener o apagar un cigarrillo genera distracciones físicas y visuales significativas que aumentan exponencialmente el riesgo de accidente.",
-
       "Incorrecto. Fumar reduce las facultades de reacción y exige soltar el volante de forma repetida, perjudicando la atención."
-
     ]
-
   },
-
   {
-
     "id": 10,
-
     "q": "Si se encuentra detenido ante una señal de stop, ¿puede utilizar su teléfono móvil?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No.",
-
       "Sí, lo puede utilizar porque el vehículo está parado.",
-
       "Sí, siempre que emplee un dispositivo de manos libres y no use cascos o auriculares."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. La prohibición absoluta atañe al uso manual o sostenido con la mano durante la detención, pero no impide el uso mediante sistemas de manos libres homologados.",
-
       "Incorrecto. La detención por un stop o un semáforo sigue considerándose parte de la conducción; manipular manualmente el móvil en ese estado está sancionado.",
-
       "Correcto. El uso de telefonía durante la conducción o detención temporal está autorizado siempre que la comunicación se realice mediante sistemas de manos libres que no requieran cascos ni audífonos."
-
     ]
-
   },
-
   {
-
     "id": 11,
-
     "q": "Si el pedal de freno tiene un tacto esponjoso, puede ser porque...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Hay aire en el sistema hidráulico.",
-
       "Las pastillas están muy desgastadas.",
-
       "Hay fugas en el circuito."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. La entrada de burbujas de aire en las canalizaciones del líquido de frenos provoca que el pedal ceda de forma elástica o 'esponjosa' al pisarlo.",
-
       "Incorrecto. Un desgaste de pastillas causa normalmente un tacto más duro, ruidos metálicos o mayor recorrido del pedal, no la sensación esponjosa.",
-
       "Incorrecto. Las fugas directas suelen ocasionar que el pedal se vaya al fondo rápidamente por pérdida de presión de fluido."
-
     ]
-
   },
-
   {
-
     "id": 12,
-
     "q": "¿Qué vehículo tendrá preferencia de paso en un estrechamiento cuando la prioridad no esté expresamente señalizada?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "El vehículo que tenga que dar marcha atrás mayor distancia.",
-
       "El vehículo que haya llegado primero.",
-
       "El vehículo que haya entrado primero."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. La regla de la marcha atrás solo se aplica subsidiariamente cuando hay duda sobre quién ha entrado primero y los vehículos son del mismo tipo.",
-
       "Incorrecto. Llegar al entorno del estrechamiento no otorga preferencia si aún no se ha accedido efectivamente a él.",
-
       "Correcto. En ausencia de señalización que ordene la prioridad, el primer vehículo en introducirse efectivamente en el estrechamiento tiene el derecho de paso."
-
     ]
-
   },
-
   {
-
     "id": 13,
-
     "q": "¿Está permitido realizar una parada delante de un vado señalizado?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, únicamente para subir o bajar pasajeros.",
-
       "Sí.",
-
       "No."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Aunque la subida/bajada de viajeros es un motivo habitual de parada, la ley permite la parada por cualquier motivo siempre que dure menos de 2 minutos y no se abandone el vehículo.",
-
       "Correcto. El vado prohíbe explícitamente el estacionamiento, pero sí autoriza la maniobra de parada (inferior a dos minutos sin despegarse del vehículo).",
-
       "Incorrecto. Confunde la prohibición de estacionamiento con la maniobra autorizada de parada."
-
     ]
-
   },
-
   {
-
     "id": 14,
-
     "q": "Cuando un vehículo lleva airbag, ¿las gafas suelen ser peligrosas para el conductor si este salta debido a un impacto?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No.",
-
       "Sí, por lo que en caso contrario es aconsejable desconectar el airbag.",
-
       "Sí."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. Los estudios de seguridad vial confirman que la bolsa del airbag no proyecta las gafas ni causa lesiones oculares adicionales en la inmensa mayoría de los impactos, saliendo estas despedidas.",
-
       "Incorrecto. Nunca se debe desconectar el airbag frontal del conductor por el hecho de portar gafas graduadas o de sol.",
-
       "Incorrecto. No se consideran un elemento peligroso que invalide la activación protectora del sistema de airbag."
-
     ]
-
   },
-
   {
-
     "id": 15,
-
     "q": "Los conos de la imagen...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Tienen prioridad sobre el resto de señales, salvo las de los agentes de la autoridad.",
-
       "Sirven solo para señalizar un nuevo carril.",
-
       "Tienen prioridad sobre el resto de señales."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. La señalización circunstancial y de balizamiento (como los conos) prevalece sobre las señales verticales y marcas viales, situándose solo por debajo de las órdenes directas de los agentes.",
-
       "Incorrecto. Tienen múltiples aplicaciones como delimitar obras, desvíos o zonas reservadas, no solo la creación de un nuevo carril.",
-
       "Incorrecto. Omite la jerarquía máxima que ostentan las indicaciones impartidas por los agentes de circulación."
-
-    ]
-
+    ],
+    "ip": "Traffic cones (orange and white) placed on a road as temporary signaling for works or lane diversion, with priority over other vertical signs except police agents. Realistic Spanish road scene."
   },
-
   {
-
     "id": 16,
-
     "q": "Conduce un turismo con un remolque de un solo eje. ¿Le afecta esta señal vertical?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No, salvo que la masa máxima autorizada del remolque supere la cifra indicada en la señal.",
-
       "No.",
-
       "Sí, porque lleva un remolque de un eje."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. La prohibición no se basa en el peso o cifra de la masa, sino estrictamente en el número de ejes del remolque.",
-
       "Correcto. La señal R-113 prohíbe la entrada a vehículos con remolque de más de un eje; por tanto, los remolques de un solo eje pueden continuar libremente.",
-
       "Incorrecto. La señal restricta únicamente el paso a los enganches que dispongan de dos o más ejes."
-
-    ]
-
+    ],
+    "ip": "Spanish vertical traffic sign R-113: circular red-bordered prohibition sign showing a car with a trailer of more than one axle, indicating no entry for vehicles with multi-axle trailers. A car towing a single-axle trailer is allowed."
   },
-
   {
-
     "id": 17,
-
     "q": "Los motores eléctricos que propulsan los vehículos de movilidad personal (VMP) pueden proporcionarles por diseño una velocidad máxima comprendida entre...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "25 y 50 km/h.",
-
       "6 y 25 km/h.",
-
       "25 y 45 km/h."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Superar los 25 km/h dejaría al vehículo fuera de la categoría de VMP.",
-
       "Correcto. Según la normativa legal de tráfico, un VMP es un vehículo de una o más ruedas provisto de motor eléctrico con velocidad por diseño entre 6 y 25 km/h.",
-
       "Incorrecto. El rango de 25 a 45 km/h encaja dentro de las especificaciones técno-legales del ciclomotor."
-
     ]
-
   },
-
   {
-
     "id": 18,
-
     "q": "El sueño afecta a la conducción, ¿por qué?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Porque aumenta la capacidad de reacción.",
-
       "Porque reduce las distracciones.",
-
       "Porque aumenta el tiempo de reacción."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. El cansancio deteriora las funciones motoras, disminuyendo la capacidad de respuesta.",
-
       "Incorrecto. El adormecimiento eleva considerablemente la probabilidad de sufrir despistes e inatenciones.",
-
       "Correcto. La somnolencia ralentiza los procesos cerebrales, lo que significa que el conductor necesita más segundos para reaccionar (aumenta el tiempo de reacción)."
-
     ]
-
   },
-
   {
-
     "id": 19,
-
     "q": "¿Dónde sufren los peatones más accidentes?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Tanto en poblado como fuera de poblado la cantidad de accidentes es la misma.",
-
       "En las ciudades.",
-
       "En las vías interurbanas."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Existe una clara diferencia numérica entre el ámbito urbano y las carreteras interurbanas.",
-
       "Correcto. En zona urbana (ciudades) se produce la mayor concentración o frecuencia de atropellos debido al elevado volumen de peatones.",
-
       "Incorrecto. En vías interurbanas los accidentes con peatones son notablemente más graves y mortales, pero menos frecuentes en cantidad total."
-
     ]
-
   },
-
   {
-
     "id": 20,
-
     "q": "¿Está permitido conducir bajo los efectos de los medicamentos?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, siempre que no se mezclen con alcohol.",
-
       "Solo si no alteran el estado físico o mental.",
-
       "No, en ningún caso."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Muchos medicamentos perjudican la conducción gravemente sin necesidad de ser combinados con bebidas alcohólicas.",
-
       "Correcto. Es posible conducir bajo tratamiento médico siempre que el fármaco administrado no produzca somnolencia, mareos o afectación psicofísica.",
-
       "Incorrecto. Determinados medicamentos (analgésicos leves, etc.) no alteran la aptitud para manejar un vehículo de motor."
-
     ]
-
   },
-
   {
-
     "id": 21,
-
     "q": "En una autovía hay un carril abierto para circular en sentido contrario al habitual para mejorar la fluidez. ¿A qué velocidad máxima se puede circular por ese carril?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "A 100 km/h.",
-
       "A 90 km/h.",
-
       "A 80 km/h."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. Excede el límite máximo fijado reglamentariamente para este tipo de carriles.",
-
       "Incorrecto. Supera la velocidad límite regulada en el reglamento de circulación.",
-
       "Correcto. Los vehículos que transiten por un carril habilitado en sentido contrario al habitual deben circular a una velocidad máxima de 80 km/h y mínima de 60 km/h, con la luz de cruce encendida."
-
     ]
-
   },
-
   {
-
     "id": 22,
-
     "q": "Si estás implicado en un accidente con heridos, después de proteger el lugar del accidente y avisar a la autoridad, deberás, en la medida de lo posible...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Trasladar inmediatamente a los heridos al hospital más cercano.",
-
       "No mover a los heridos y no modificar el estado de las cosas.",
-
       "Realizar un masaje cardíaco de dos ventilaciones y 30 compresiones torácicas."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Los traslados por particulares pueden empeorar lesiones graves en la columna; debe esperarse al transporte sanitario especializado.",
-
       "Correcto. Como pauta general de primeros auxilios, se debe evitar mover a las víctimas lesionadas y mantener intacta la escena para la investigación técnica.",
-
       "Incorrecto. La reanimación cardiopulmonar (que además invierte el orden habitual de 30 compresiones y 2 ventilaciones) solo debe aplicarse en personas en parada cardiorrespiratoria comprobada."
-
     ]
-
   },
-
   {
-
     "id": 23,
-
     "q": "¿Está permitido circular con un turismo por una vía en cuyo acceso está situada esta señal?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No, porque es una vía reservada y obligatoria para ciclos.",
-
       "Sí, porque es una vía permitida para todos los vehículos, excepto ciclos.",
-
       "No, porque es una vía reservada para todos los vehículos de dos ruedas."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. La señal azul circular con una bicicleta (R-407a) reserva la vía de forma exclusiva y obligatoria para ciclos, prohibiendo el acceso a turismos u otros vehículos.",
-
       "Incorrecto. La señalización establece prohibición total para automóviles y no la exención propuesta.",
-
       "Incorrecto. No engloba a la totalidad de vehículos de dos ruedas, ya que las motocicletas y ciclomotores tampoco tienen permitido su uso."
-
-    ]
-
+    ],
+    "ip": "Spanish traffic sign R-407a: blue circular obligatory sign with a white bicycle silhouette, indicating a mandatory path reserved exclusively for cycles (bicycles)."
   },
-
   {
-
     "id": 24,
-
     "q": "A la vista de la señal, ¿tienen preferencia de paso los animales domésticos cuando crucen la calzada?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Sí, cuando vayan en grupo o rebaño.",
-
       "No.",
-
       "Sí, pero solo si van acompañados por un conductor de ganado mayor de 18 años."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Salvo en cañadas debidamente señalizadas, la presencia de un grupo de animales no les concede prioridad sobre los automóviles.",
-
       "Correcto. La señal de peligro P-27 advierte de la proximidad de un paso de animales domésticos, pero no les concede preferencia de paso (a diferencia de la placa suplementaria 'Cañada').",
-
       "Incorrecto. La edad del pastor o cuidador no modifica los derechos normativos de preferencia de paso en la vía."
-
-    ]
-
+    ],
+    "ip": "Spanish warning sign P-23: triangular danger sign with black silhouette of domestic animals (cows or sheep) crossing, warning of animal crossing but not granting priority of way."
   },
-
   {
-
     "id": 25,
-
     "q": "En un conductor, el consumo de anfetaminas...",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Genera comportamientos impacientes o impulsivos.",
-
       "Favorece la fatiga y el sueño.",
-
       "Proporciona un estado de relajación."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. Las anfetaminas son psicostimulantes que inducen agresividad, sobrevaloración de las propias capacidades e impaciencia al volante.",
-
       "Incorrecto. Las anfetaminas retrasan artificialmente la sensación de cansancio y sueño en lugar de favorecerlos.",
-
       "Incorrecto. Tienen un efecto excitante en el sistema nervioso central, produciendo agitación y no relajación."
-
     ]
-
   },
-
   {
-
     "id": 26,
-
     "q": "Si la carga de un turismo es indivisible, ¿cuánto puede sobresalir por detrás?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "El 20% de la longitud del vehículo.",
-
       "Un tercio de la longitud del vehículo.",
-
       "El 15% de la longitud del vehículo."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. La norma no contempla el límite del 20% para la proyección posterior de cargas en turismos.",
-
       "Incorrecto. El límite de un tercio se aplica a vehículos destinados exclusivamente al transporte de mercancías en determinadas condiciones.",
-
       "Correcto. En los turismos, las cargas indivisibles pueden sobresalir por la parte posterior hasta un 15% de la longitud total del coche (si fuera divisible, hasta un 10%)."
-
     ]
-
   },
-
   {
-
     "id": 27,
-
     "q": "¿A qué velocidad máxima tiene permitido circular una autocaravana de 3.500 kg de masa máxima por una autovía?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "A 90 km/h.",
-
       "A 120 km/h.",
-
       "A 100 km/h."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Límite aplicable a camiones, furgones o autocaravanas de más de 3.500 kg de MMA en este tipo de vías.",
-
       "Correcto. Las autocaravanas de MMA igual o inferior a 3.500 kg tienen fijado el mismo límite de velocidad que los turismos en autopistas y autovías: 120 km/h.",
-
       "Incorrecto. Es la velocidad permitida para este vehículo en carreteras convencionales, no en autopista/autovía."
-
     ]
-
   },
-
   {
-
     "id": 28,
-
     "q": "¿Una moto puede circular sin tubo de escape?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No, porque está prohibido.",
-
       "Sí, cuando la moto es deportiva.",
-
       "No, porque se rompe el motor."
-
     ],
-
     "a": [
-
       0
-
     ],
-
     "e": [
-
       "Correcto. Los vehículos a motor deben circular obligatoriamente con un silenciador de explosiones (tubo de escape) en eficaz funcionamiento para mitigar los ruidos y gases perjudiciales.",
-
       "Incorrecto. Las motocicletas deportivas deben someterse a la misma reglamentación acústica y medioambiental en las vías públicas.",
-
       "Incorrecto. La razón primordial es legal y medioambiental (contaminación acústica y de gases), no una avería inmediata garantizada del motor."
-
     ]
-
   },
-
   {
-
     "id": 29,
-
     "q": "¿En qué maniobras está permitido dar marcha atrás?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "Para complementar el estacionamiento y el cambio de sentido.",
-
       "Solo en el cambio de sentido.",
-
       "En la parada, estacionamiento y la incorporación a la circulación."
-
     ],
-
     "a": [
-
       2
-
     ],
-
     "e": [
-
       "Incorrecto. Dar marcha atrás para realizar un cambio de sentido está estrictamente prohibido por la ley de tráfico.",
-
       "Incorrecto. Precisamente en el cambio de sentido no está autorizada la marcha atrás.",
-
       "Correcto. La marcha atrás está permitida únicamente como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, con un recorrido máximo de 15 metros sin invadir un cruce."
-
     ]
-
   },
-
   {
-
     "id": 30,
-
     "q": "Este vehículo va a girar a la izquierda, ¿está permitido adelantarlo por la derecha?",
-
     "sd": "D1.1",
-
     "ai": false,
-
     "type": "single_choice",
-
     "o": [
-
       "No, porque el adelantamiento siempre debe efectuarse por la izquierda.",
-
       "Sí, porque está indicando claramente su propósito de girar a la izquierda.",
-
       "Solo cuando suponga un riesgo para la seguridad vial el no adelantar."
-
     ],
-
     "a": [
-
       1
-
     ],
-
     "e": [
-
       "Incorrecto. Aunque la regla general dicta adelantar por la izquierda, existen excepciones normativas contempladas.",
-
       "Correcto. Se permite excepcionalmente el adelantamiento por la derecha cuando el conductor del vehículo precedente señale claramente su intención de cambiar de dirección hacia la izquierda o parar en ese lado.",
-
       "Incorrecto. La maniobra está expresamente legalizada en función de la señalización del vehículo que precede, no por apreciación subjetiva del riesgo."
-
-    ]
-
+    ],
+    "ip": "A car on a road clearly signaling with left turn indicator lights on, about to turn left, allowing overtaking on the right side as an exception."
   },
   {
     "id": 31,
@@ -1495,10 +899,11 @@
       0
     ],
     "e": [
-      "Correcto. La señal P-20 advierte del riesgo por atasco o retención continuada de vehículos en la vía[cite: 3].",
+      "Correcto. La señal P-31 advierte del riesgo por atasco o retención continuada de vehículos en la vía[cite: 3].",
       "Incorrecto. No constituye una reserva ni obligatoriedad para ningún tipo de automóvil.",
       "Incorrecto. Tampoco regula ni prohíbe el posicionamiento en paralelo."
-    ]
+    ],
+    "ip": "Spanish warning sign P-20: triangular danger sign showing a queue of stopped vehicles or traffic jam silhouette, indicating proximity of congestion or traffic queue."
   },
   {
     "id": 46,
@@ -1758,7 +1163,8 @@
       "Incorrecto. Supone rebasar ampliamente los límites legales de la vía.",
       "Correcto. Tras la eliminación del margen suplementario de 20 km/h, la velocidad máxima de adelantamiento coincide con la genérica de la vía (90 km/h)[cite: 3].",
       "Incorrecto. 120 km/h es el límite máximo asignado únicamente a autopistas y autovías."
-    ]
+    ],
+    "ip": "Spanish conventional road (not motorway) with a truck being overtaken by a car, speed limit signs showing 90 km/h maximum for the road."
   },
   {
     "id": 59,
@@ -1836,9 +1242,10 @@
     ],
     "e": [
       "Incorrecto. No guarda relación con la modalidad de carriles ni circulación en paralelo.",
-      "Correcto. La señal R-506 señala el término del tramo en el que los camiones de más de 3.500 kg de MMA tenían vetado el adelantamiento[cite: 3].",
+      "Correcto. La señal R-503 señala el término del tramo en el que los camiones de más de 3.500 kg de MMA tenían vetado el adelantamiento[cite: 3].",
       "Incorrecto. Dicha función de anulación general corresponde a la señal de fin de prohibiciones (R-500)."
-    ]
+    ],
+    "ip": "Spanish end of prohibition sign R-503: circular white with black border showing a truck and end of no-overtaking for trucks over 3.5t."
   },
   {
     "id": 63,
@@ -2198,7 +1605,8 @@
       "Incorrecto. No anticipa una detención obligatoria por señal de STOP.",
       "Correcto. El panel complementario con flechas verticales determina el tramo o distancia total a lo largo del cual se extiende la advertencia[cite: 3].",
       "Incorrecto. Un panel de distancia sin flechas laterales marcaría el trayecto que falta hasta el punto de inicio."
-    ]
+    ],
+    "ip": "Spanish complementary panel under a danger sign: white rectangular panel with two vertical black arrows pointing up and down, indicating the length of the danger zone."
   },
   {
     "id": 81,
@@ -2378,7 +1786,8 @@
       "Correcto. Habiendo línea de detención, el parado debe ejecutarse inmediatamente antes de la misma[cite: 3].",
       "Incorrecto. Salvo que no exista línea pintada en la calzada, la detención no se hace a la altura de la señal vertical.",
       "Incorrecto. Rebasar la marca transversal anula el propósito de detención segura previa."
-    ]
+    ],
+    "ip": "Spanish intersection with a STOP sign (R-2) and a solid white transverse stop line on the pavement, vehicles must stop before the line."
   },
   {
     "id": 90,
@@ -2478,7 +1887,8 @@
       "Incorrecto. Que la óptica esté tras la intersección no inhabilita su obediencia ante el cruce entero.",
       "Incorrecto. La presencia de señal semafórica prevalece sobre las normas genéricas de prioridad.",
       "Correcto. Si un semáforo rojo afecta al cruce completo, la detención debe realizarse antes de penetrar en él[cite: 3]."
-    ]
+    ],
+    "ip": "Realistic view of a Spanish road intersection where a traffic light pole with a red light is positioned on the far side of the intersection (after the crossing point, not at its entrance), while a car approaches the intersection from the near side intending to turn right. A white stop line is visible on the pavement before the intersection entrance. The car is shown stopped before entering the intersection, respecting the red light despite its position beyond the crossing. Daylight, clear road markings, realistic Spanish driving-theory exam illustration style, clean composition showing only the traffic light, the stop line, the intersection, and the car, no pedestrians, other vehicles, or additional distracting signage."
   },
   {
     "id": 95,
@@ -2518,7 +1928,8 @@
       "Incorrecto. La señalización abarca tanto la energía eléctrica como el carburante alternativo.",
       "Incorrecto. La placa identifica un punto de suministro público y no la presencia de un transporte de mercancías peligrosas.",
       "Correcto. Informa de la presencia de una gasolinera provista de Gas Licuado del Petróleo (GLP) y poste de recarga para vehículos eléctricos[cite: 3]."
-    ]
+    ],
+    "ip": "Spanish informational road sign S-105f, rectangular blue background typical of Spanish service-area signage, displaying three white pictograms side by side: a fuel pump nozzle (representing conventional gasoline and diesel), an LPG/autogas cylinder icon (representing GLP availability), and an electric vehicle charging plug icon (representing an EV charging point). The sign is mounted on a metal post beside a Spanish road or motorway, shown in a clean, realistic illustration style typical of official DGT driving-theory exam materials. Daylight, neutral highway background, the sign as the sole focal point, no vehicles, pedestrians, or additional distracting elements."  
   },
   {
     "id": 97,
@@ -2558,7 +1969,8 @@
       "Correcto. Indica la obligación de pasar por el lado del refugio u obstáculo que señala la punta de la flecha[cite: 3].",
       "Incorrecto. No determina que la calzada completa pase a ser de único sentido de circulación.",
       "Incorrecto. Se trata de una señal azul de obligación (R-401), no de un consejo u orientación opcional."
-    ]
+    ],
+    "ip": "Spanish obligatory sign R-401: blue circular sign with white arrow pointing to one side of a refuge or island, indicating the mandatory side to pass the obstacle."
   },
   {
     "id": 99,
@@ -2818,7 +2230,8 @@
       "Incorrecto. No todos los vehículos enfrentan señales o semáforos de parada.",
       "Incorrecto. La combinación de semáforo u orden de paso libera a determinados vehículos según su carril.",
       "Correcto. Por la regulación semafórica presente en el cruce, la detención recae sobre los vehículos verde y rojo[cite: 3]."
-    ]
+    ],
+  "ip": "Top-down illustrated view of a three-lane one-way intersection approach with three cars stopped side by side at the white stop line: a green car in the left lane with a curved white arrow on the pavement pointing left, a red car in the center lane with a straight white arrow pointing forward, and a dark blue car in the right lane with a curved white arrow pointing right. A single traffic light pole stands to the left of the green car's lane, showing an illuminated red light, connected visually by a curved green line indicating it governs the green car's left-turn movement; no traffic light or additional light is shown above the center or right lanes. A small yellow glow is visible under the green and blue cars' front bumpers, hinting at their turn signals. Flat cartoon-style illustration, muted asphalt gray road with white lane dividers, green median strips bordering the intersection, clean minimalist driving-theory exam style, no pedestrians or other vehicles."
   },
   {
     "id": 112,
@@ -3438,7 +2851,8 @@
       "Incorrecto. El semáforo amarillo intermitente no sustituye a la señal de STOP.",
       "Correcto. El semáforo amarillo intermitente exige extremar la precaución y cumplir la señal vertical asociada (STOP)[cite: 6].",
       "Incorrecto. Aunque hay que extremar la precaución, la obligación prioritaria es detenerse ante el STOP."
-    ]
+    ],
+    "ip": "Intersection with a yellow intermittent traffic light and a STOP sign (R-2) visible, requiring drivers to obey the STOP and come to a full stop."
   },
   {
     "id": 143,
@@ -3518,7 +2932,8 @@
       "Correcto. La señal que representa una elevación hacia arriba indica un resalto[cite: 6].",
       "Incorrecto. El badén se representa con una deformación hacia abajo.",
       "Incorrecto. El perfil irregular muestra ondulaciones combinadas hacia arriba y abajo."
-    ]
+    ],
+    "ip": "Spanish danger warning sign P-15A, triangular shape with white background and red border, showing a black pictogram of a single upward hump or bump silhouette on the road profile line, representing a raised road hump (resalto). The sign is mounted on a metal post beside a Spanish road, shown in a clean, realistic illustration style typical of official DGT driving-theory exam materials. Daylight, neutral rural or urban road background, the sign as the sole focal point, no vehicles, pedestrians, or distracting elements. The single upward bump shape should be clearly distinguishable from the double-wave 'perfil irregular' (P-15) sign and the single downward dip 'badén' (P-16) sign."
   },
   {
     "id": 147,
@@ -3598,7 +3013,8 @@
       "Incorrecto. Aunque supere las 2 toneladas, los remolques de un solo eje están exceptuados de la prohibición.",
       "Correcto. La señal no afecta a los remolques de un solo eje, independientemente de su masa máxima autorizada.",
       "Incorrecto. No se exige que la masa en carga sea inferior a 2.000 kg para los remolques de un solo eje."
-    ]
+    ],
+    "ip": "Spanish prohibition sign R-113 showing vehicle with multi-axle trailer forbidden; a car with single-axle trailer of 3000kg is allowed to pass."
   },
   {
     "id": 151,
@@ -3618,7 +3034,8 @@
       "Incorrecto. El cambio de sentido implica necesariamente un giro a la izquierda, por lo que queda prohibido.",
       "Correcto. La prohibición de girar a la izquierda incluye de forma implícita la prohibición de realizar un cambio de sentido.",
       "Incorrecto. El número de maniobras no autoriza la realización del cambio de sentido cuando está prohibido el giro a la izquierda."
-    ]
+    ],
+    "ip": "Spanish prohibition sign R-302: no left turn sign (red circle with black arrow left crossed out), which also implicitly prohibits U-turns."
   },
   {
     "id": 152,
@@ -3638,7 +3055,8 @@
       "Incorrecto. La prohibición de cambio de sentido no implica automáticamente la de girar a la izquierda.",
       "Correcto. Está permitido girar a la izquierda siempre que no exista otra señal que lo prohíba expresamente.",
       "Incorrecto. La posibilidad de girar a la izquierda no depende de si se circula dentro o fuera de poblado."
-    ]
+    ],
+    "ip": "Spanish prohibition sign R-303: no U-turn sign, but left turns may still be allowed unless otherwise prohibited."
   },
   {
     "id": 153,
@@ -4338,7 +3756,8 @@
       "Incorrecto. La señal de prohibición de estacionamiento con panel de población no se limita a la próxima intersección.",
       "Incorrecto. No se restringe únicamente a la travesía.",
       "Correcto. Esta señalización prohíbe el estacionamiento en toda la población."
-    ]
+    ],
+    "ip": "Spanish parking prohibition zone sign (R-308 or similar) indicating no parking throughout the entire built-up area or population."
   },
   {
     "id": 188,
@@ -4418,7 +3837,8 @@
       "Incorrecto. El pavimento deslizante se indica con otra señal específica.",
       "Incorrecto. El escalón lateral dispone de una señalización diferente.",
       "Correcto. Esta señal advierte del peligro de obstrucción de la calzada."
-    ]
+    ],
+    "ip": "Spanish warning sign P-31 or similar: triangular danger sign indicating obstruction or blockage of the roadway ahead."
   },
   {
     "id": 192,
@@ -4855,10 +4275,11 @@
       0
     ],
     "e": [
-      "Correcto. Esta señal (S-14 o similar) indica que se puede cambiar de dirección pero no de sentido de la marcha.",
+      "Correcto. Esta señal (S-1 o similar. Calzada de sentido único) indica que se puede cambiar de dirección pero no de sentido de la marcha.",
       "Incorrecto. No impone un sentido obligatorio exclusivo.",
       "Incorrecto. No prohíbe el cambio de dirección."
-    ]
+    ],
+    "ip": "Spanish square blue informational or direction sign with white upward arrow, indicating one-way or permitted direction change but not full sense reversal."
   },
   {
     "id": 214,
@@ -6158,7 +5579,8 @@
       "Correcto. La señal de prohibición de girar a la izquierda prohíbe esa maniobra.",
       "Incorrecto. No se trata de una señal de obligación de giro.",
       "Incorrecto. Al prohibir el giro a la izquierda también se prohíbe implícitamente el cambio de sentido."
-    ]
+    ],
+    "ip": "Spanish prohibition sign R-302: circular red-bordered sign with black left-turn arrow crossed by red bar, indicating left turns forbidden."
   },
   {
     "id": 279,
@@ -6818,7 +6240,8 @@
       "Incorrecto. Al existir una señal vertical de Stop en la intersección, no basta con extremar la precaución; obliga a la detención.",
       "Correcto. La luz amarilla intermitente exige extremar la precaución pero obliga a cumplir las demás señales verticales (como una señal de Stop) deteniedo el vehículo.",
       "Incorrecto. La luz amarilla intermitente no anula la obligación de obedecer la señal vertical de detención obligatoria o Stop."
-    ]
+    ],
+    "ip": "Intersection with a yellow flashing (intermittent) traffic light combined with a STOP vertical sign, requiring full stop before proceeding."
   },
   {
     "id": 312,
@@ -7499,7 +6922,8 @@
       "Incorrecto. El viento no activa sistemas de frenado automático.",
       "Incorrecto. La pantalla interrumpe el viento temporalmente, pero al rebasarlo el impacto peligroso es la sacudida de aire lateral."
     ]
-  }, {
+  },
+  {
     "id": 346,
     "q": "¿Qué peligro advierte la señal P-35 (tramo de trenzado)?",
     "sd": "D1.1",
@@ -7517,27 +6941,29 @@
       "Correcto. La señal P-35 advierte del riesgo por la cercanía de un tramo de trenzado, donde concurren cruces de trayectorias por cambios de carril entre entradas y salidas próximas.",
       "Incorrecto. La sucesión de curvas peligrosas se señaliza mediante la P-13a o P-13b.",
       "Incorrecto. La señal advierte del riesgo del cruce de trayectorias, no establece una prohibición de cambio de carril."
-    ]
+    ],
+    "ip": "Spanish warning sign P-35: triangular danger sign depicting a weaving section or lane change crossing trajectories between entry and exit ramps."
   },
   {
     "id": 347,
-    "q": "¿Qué diferencia a la señal de peligro P-24a de la señal P-27?",
+    "q": "¿Qué diferencia a la señal de peligro P-24a de la señal P-23?",
     "sd": "D1.1",
     "ai": true,
     "type": "single_choice",
     "o": [
-      "La P-24a advierte de peligro por paso de animales silvestres, mientras que la P-27 advierte de animales domésticos.",
-      "La P-24a concede prioridad de paso a los animales y la P-27 se la quita.",
-      "La P-24a solo se utiliza en vías urbanas y la P-27 en autovías."
+      "La P-24a advierte de peligro por paso de animales silvestres, mientras que la P-23 advierte de animales domésticos.",
+      "La P-24a concede prioridad de paso a los animales y la P-23 se la quita.",
+      "La P-24a solo se utiliza en vías urbanas y la P-23 en autovías."
     ],
     "a": [
       0
     ],
     "e": [
-      "Correcto. La señal P-24a advierte del peligro por cruce de animales silvestres (como jabalíes o corzos), a diferencia de la P-27 dedicada a animales domésticos.",
+      "Correcto. La señal P-24a advierte del peligro por cruce de animales silvestres (como jabalíes o corzos), a diferencia de la P-23 dedicada a animales domésticos.",
       "Incorrecto. Ninguna de las dos señales concede prioridad de paso a los animales por sí sola (salvo si existe la placa suplementaria de Cañada).",
       "Incorrecto. La aplicación de ambas señales responde al tipo de fauna (silvestre vs. doméstica) y no al tipo de vía."
-    ]
+    ],
+    "ip": "Comparison of two Spanish warning signs: P-24a showing wild animals (deer or boar) silhouette vs P-23 showing domestic animals (cow or sheep) silhouette."
   },
   {
     "id": 348,
@@ -7641,7 +7067,8 @@
   },
   {
     "id": 353,
-    "q": "¿Cuál es la profundidad mínima legal permitida en el dibujo de la banda de rodadura de los neumáticos de un turismo?", "sd": "D1.1",
+    "q": "¿Cuál es la profundidad mínima legal permitida en el dibujo de la banda de rodadura de los neumáticos de un turismo?",
+    "sd": "D1.1",
     "ai": true,
     "type": "single_choice",
     "o": [
@@ -7696,7 +7123,8 @@
       "Correcto. La señal P-33 advierte del peligro por la cercanía de un tramo donde la visibilidad queda sensiblemente reducida por agentes atmosféricos o humo.",
       "Incorrecto. La sucesión de curvas peligrosas se señaliza mediante la P-13a o P-13b.",
       "Incorrecto. Las zonas de obras se señalizan mediante la serie de peligro de obras (P-18 con fondo amarillo)."
-    ]
+    ],
+    "ip": "Spanish warning sign P-33: triangular danger sign indicating reduced visibility due to fog, rain, snow, smoke or other atmospheric phenomena."
   },
   {
     "id": 356,
@@ -7716,7 +7144,8 @@
       "Incorrecto. La V-27 no proyecta luces ni hologramas sobre la calzada.",
       "Correcto. La señal V-27 es una advertencia virtual que aparece en el cuadro de mandos de los vehículos conectados telemáticamente a la plataforma DGT 3.0.",
       "Incorrecto. No emite señales sonoras ni interviene de forma automática en los frenos."
-    ]
+    ],
+    "ip": "Modern car dashboard display showing a virtual triangle warning (V-27) from DGT 3.0 connected system about a hazard or broken-down vehicle ahead."
   },
   {
     "id": 357,
@@ -7756,7 +7185,8 @@
       "Incorrecto. La señal con el brazo levantado verticalmente no se dirige solo a los usuarios del frente, sino a todos los que se aproximen desde cualquier dirección.",
       "Correcto. El brazo levantado verticalmente por un agente obliga a detenerse a todos los usuarios que se aproximen a él desde cualquier sentido, salvo que no puedan hacerlo de forma segura antes de la intersección.",
       "Incorrecto. Afecta a todos los usuarios de la vía que se aproximen al agente, independientemente del lado por el que lleguen."
-    ]
+    ],
+    "ip": "Traffic police agent standing in the middle of the road with one arm raised vertically, signaling all approaching users from any direction to stop."
   },
   {
     "id": 359,
@@ -7896,7 +7326,8 @@
       "Incorrecto. No señala un área de estacionamiento reservada para emergencias.",
       "Correcto. La cuadrícula amarilla recuerda la prohibición general de entrar en un cruce o paso de peatones si se prevé quedar atascado dentro impidiendo el paso del tráfico transversal.",
       "Incorrecto. Si el semáforo está verde y la vía de salida está despejada, se puede cruzar de forma fluida sin necesidad de detenerse."
-    ]
+    ],
+    "ip": "Road marking of a yellow hatched grid or box junction (cuadrícula de líneas amarillas) at an intersection, prohibiting entry if traffic may cause blockage."
   },
   {
     "id": 366,
@@ -8339,5 +7770,3 @@
     ]
   }
 ]
-
-
