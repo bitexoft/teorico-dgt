@@ -39,7 +39,8 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 
 /* EXAM oculto por defecto */
 #exam { display: none; padding: 18px 16px 120px; max-width: 640px; margin: 0 auto; }
-#q-num { font-size: 11px; font-weight: 700; color: #7b80a0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+#q-num { font-size: 11px; font-weight: 700; color: #7b80a0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+#ai-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; padding: 2px 7px; border-radius: 20px; background: linear-gradient(135deg,#1e1b4b,#312e81); border: 1px solid #4f46e5; color: #a5b4fc; letter-spacing: .3px; text-transform: none; }
 #q-text { font-size: 17px; font-weight: 500; line-height: 1.5; margin-bottom: 20px; }
 .opt { display: flex; align-items: flex-start; gap: 12px; width: 100%; background: #1a1d27; border: 2px solid #2e3350; border-radius: 12px; padding: 13px 14px; margin-bottom: 10px; text-align: left; color: #e8eaf0; font-size: 14px; line-height: 1.5; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
 .opt-l { width: 27px; height: 27px; min-width: 27px; border-radius: 7px; background: #22263a; border: 1px solid #2e3350; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: #7b80a0; }
@@ -145,7 +146,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 
 <div id="exam">
   <img id="q-img" src="" alt="" style="display:none">
-  <div id="q-num"></div>
+  <div id="q-num"><span id="q-num-text"></span><span id="ai-badge" style="display:none">✦ IA</span></div>
   <div id="q-text"></div>
   <div id="opts"></div>
   <div id="exp"></div>
@@ -274,7 +275,8 @@ function renderQ(){
   var q=eq[idx],L=['A','B','C','D'],chosen=ans[idx],done=chosen!==undefined,ci=q.a[0];
   var examHide=isExamMode()&&!rev;
 
-  el('q-num').textContent='Pregunta '+(idx+1)+' de '+eq.length;
+  el('q-num-text').textContent='Pregunta '+(idx+1)+' de '+eq.length;
+  el('ai-badge').style.display=q.ai?'inline-flex':'none';
   el('q-text').textContent=q.q;
   var qimg=el('q-img');
   qimg.style.display='block';
