@@ -260,7 +260,7 @@ el('btn-go').addEventListener('touchend',startExam);
 el('btn-go').addEventListener('click',startExam);
 
 // TIMER
-function timerStart(){ el('timer-box').style.display='block'; el('btn-end').style.display='block'; if(mode==='exam30') el('fails-box').style.display='block'; clearInterval(tInt); renderTimer(); tInt=setInterval(function(){ secs--; renderTimer(); if(secs<=0){ clearInterval(tInt); finish(); } },1000); }
+function timerStart(){ el('timer-box').style.display='block'; el('btn-end').style.display='block'; clearInterval(tInt); renderTimer(); tInt=setInterval(function(){ secs--; renderTimer(); if(secs<=0){ clearInterval(tInt); finish(); } },1000); }
 function timerHide(){ clearInterval(tInt); el('timer-box').style.display='none'; el('btn-end').style.display='none'; el('fails-box').style.display='none'; }
 function renderTimer(){ var m=Math.floor(secs/60),s=secs%60; el('timer-n').textContent=(m<10?'0'+m:m)+':'+(s<10?'0'+s:s); el('timer-box').style.color=secs<=60?'#ef4444':secs<=300?'#f97316':'#e8eaf0'; }
 function renderFails(){ if(mode!=='exam30') return; el('fails-n').textContent=wrongs; var h=wrongs>=2; el('fails-box').style.background=h?'#2a0a0a':'#22263a'; el('fails-box').style.borderColor=h?'#ef4444':'#2e3350'; el('fails-box').style.color=h?'#ef4444':'#7b80a0'; }
@@ -360,7 +360,7 @@ function go(d){
     if(pending!==ci){ wrongs++; if(failed.indexOf(q.id)===-1) failed.push(q.id); }
     else{ var nf=[]; for(var j=0;j<failed.length;j++) if(failed[j]!==q.id) nf.push(failed[j]); failed=nf; }
     lsSave(); renderFails();
-    if(mode==='exam30'&&wrongs>=3){ finish(); return; }
+
   }
   idx=n; pending=-1; renderQ();
 }
