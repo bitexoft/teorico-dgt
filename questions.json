@@ -7812,5 +7812,3701 @@
       "Incorrecto. De noche se aplican las mismas reglas de separación proporcional según la categoría del vehículo adelantado."
     ],
     "ip": "true"
+  },
+  {
+    "id": 388,
+    "q": "En una intersección que no tiene señal de preferencia, ¿cuándo debe ceder el paso a un vehículo de tracción animal?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando entra por mi derecha.",
+      "Siempre, porque tienen preferencia.",
+      "Nunca, porque no es un vehículo de motor."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En aquellas intersecciones en las que la preferencia de paso no esté señalizada, el Reglamento de Circulación establece que, en defecto de señal que regule la preferencia de paso, el conductor está obligado siempre a cederlo a todos los vehículos que se aproximen por su derecha. Como en este caso el vehículo de tracción animal está entrando por nuestra derecha, aunque no sea un vehículo a motor, tendrá preferencia por acercarse desde ese lado.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 389,
+    "q": "¿Debe un vehículo ceder el paso en una intersección sin señal de preferencia de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, a todos los vehículos",
+      "Sí, únicamente a los vehículos que se aproximen por su derecha",
+      "Sí, únicamente a los vehículos que se aproximen por su izquierda"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En una intersección sin señalizar rige la norma general de prioridad: hay que ceder el paso únicamente a los vehículos que se aproximan por la derecha (salvo excepciones como tranvías o vehículos que circulan por una glorieta). No es necesario ceder a los que vienen por la izquierda.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 390,
+    "q": "¿Qué tres fases se pueden distinguir en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aproximación, posición de entrada y franqueo",
+      "Aproximación, posición de salida y travesía",
+      "Aproximación posición intermedia y salida"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Las tres fases de una intersección son: aproximación (observar y prepararse), posición de entrada (colocarse en el carril adecuado y adaptar la velocidad) y franqueo (cruzar o girar y salir de ella).",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 391,
+    "q": "En una intersección en la que es previsible quedarse detenido ¿qué debe hacer si tiene prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pasar y apartarse a un lado si obstaculiza la circulación",
+      "Pasar porque tiene prioridad de paso",
+      "No entrar en la intersección"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Aunque se tenga prioridad de paso, no se debe entrar en una intersección si es previsible quedar detenido dentro de ella y obstaculizar la circulación transversal. Hay que esperar hasta poder cruzarla sin bloquearla."
+    ]
+  },
+  {
+    "id": 392,
+    "q": "Entre otras precauciones, ¿de qué debe asegurarse el conductor de un vehículo que tenga que ceder el paso antes de continuar su marcha?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Basta con que el conductor que tiene la prioridad haya visto su vehículo.",
+      "Que el conductor que tiene la prioridad ha visto su vehículo completamente detenido.",
+      "Que no obliga al conductor que tiene la prioridad a variar bruscamente su velocidad."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando un conductor debe ceder el paso a otro vehículo, es crucial que lo haga de manera segura y sin poner en riesgo a los demás usuarios de la vía."
+    ]
+  },
+  {
+    "id": 393,
+    "q": "En un estrechamiento sin señales de prioridad se encuentran un turismo que arrastra un remolque y un autobús, sin que se sepa cuál entró primero, ¿qué vehículo tendrá preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El turismo que arrastra el remolque.",
+      "El que tenga que dar marcha atrás más distancia.",
+      "El autobús."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En los estrechamientos de la vía en que no existan señales de prioridad y no se sepa quién entró primero, tendrá preferencia el vehículo que tenga más dificultades para maniobrar siguiendo este orden:\n\n1.º Vehículos especiales y en régimen de transporte especial que excedan de las masas o dimensiones reglamentarias.\n2.º Conjuntos de vehículos (vehículo con remolque), salvo los del punto 4.º.\n3.º Vehículos de tracción animal.\n4.º Turismos que arrastran remolques de hasta 750 kg de MMA y autocaravanas.\n5.º Vehículos destinados al transporte colectivo de viajeros (autobuses).\n6.º Camiones, tractocamiones y furgones.\n7.º Turismos y vehículos derivados de turismos.\n8.º Vehículos especiales que no excedan de masas o dimensiones y cuadriciclos.\n9.º Vehículos de tres ruedas, motocicletas con sidecar y ciclomotores de tres ruedas.\n10.º Motocicletas, ciclomotores de dos ruedas y bicicletas.\n\nComo el turismo que arrastra un remolque es un conjunto de vehículos y figura antes que el autobús, tiene preferencia el turismo con remolque.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 394,
+    "q": "¿Pueden las intersecciones NO estar señalizadas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí",
+      "No",
+      "Solo estarán señalizadas las intersecciones en poblado"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí. Hay intersecciones en las que ninguna señal, semáforo o agente regula la prioridad; en ellas se aplica la norma general de ceder el paso a los vehículos que se aproximan por la derecha.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 395,
+    "q": "En una intersección donde no esté señalizada la prioridad, ¿debe ceder el paso a un tranvía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, el tranvía tiene prioridad tanto si se aproxima por la derecha como por la izquierda.",
+      "No, ya que los tranvías no tienen prioridad de paso.",
+      "Sólo debe ceder el paso al tranvía si se aproxima por la derecha."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una intersección donde no existan señales que establezcan la proridad, debemos ceder el paso a un tranvía, independientemente de si se aproxima por la derecha o por la izquierda.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 396,
+    "q": "¿Cuál es la regla general en las intersecciones señalizadas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No cumplir lo que indica la señalización.",
+      "Obedecer a las indicaciones de las señales.",
+      "Ceder el paso siempre a la derecha."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La regla general en las intersecciones señalizadas es obedecer a las indicaciones de las señales de tráfico .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 397,
+    "q": "En un paso a nivel, ¿cuándo está permitido pasar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando haya espacio suficiente para pasar.",
+      "Cuando la barrera vaya a finalizar su elevación.",
+      "Cuando la barrera haya terminado de levantarse completamente."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Siempre que nos aproximemos a un paso a nivel con barreras extremaremos la prudencia y reduciremos la velocidad de nuestro vehículo por debajo de la máxima permitida para ese tramo. Únicamente pasaremos cuando la barrera haya terminado de levantarse completamente y nunca cuando ésta se encuentre en movimiento. Si por el contrario la barrera o semibarrera está cerrada o en movimiento esperaremos en el carril que corresponda hasta que tengamos paso libre."
+    ]
+  },
+  {
+    "id": 398,
+    "q": "Cuando se aproxima a un puente móvil, ¿cómo debe actuar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Reduciendo la velocidad por debajo de la máxima permitida y deteniéndonos si fuera necesario.",
+      "Deteniéndose siempre antes de pasar.",
+      "Reduciendo la velocidad pero sólo, si el puente se encuentra en movimiento."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al aproximarnos con nuestro vehículo a un puente móvil, el conductor deberá disminuir la velocidad por debajo de la máxima permitida , conducir prestando mayor atención e incluso detener su vehículo si fuera preciso, si prevé que puede quedarse inmovilizado en medio del puente cuando pase otro tipo de vehículo por él.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 399,
+    "q": "¿Puede entrar en esta intersección en la cual tiene prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, si es previsible que quede detenido dentro o que obstaculice un paso de peatones.",
+      "Sí, porque si tiene prioridad siempre puede pasar.",
+      "Sí, porque no hay ninguna señal que advierta de otra cosa."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Aunque se tenga prioridad, no se puede entrar en la intersección si es previsible que el vehículo quede detenido dentro de ella o que obstaculice un paso de peatones, porque se bloquearía la circulación transversal.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 400,
+    "q": "¿Por qué tipo de semáforos puede estar regulada una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuadrado para vehículos.",
+      "Circular para peatones.",
+      "Circular para vehículos."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Las intersecciones pueden regularse con semáforos de luces circulares para vehículos (roja, amarilla y verde). Los semáforos dirigidos a peatones muestran, en cambio, la silueta de un peatón."
+    ]
+  },
+  {
+    "id": 401,
+    "q": "¿Por qué es importante saber hacía dónde se realizará el franqueo en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para utilizar señales acústicas o luminosas",
+      "Para poder utilizar los indicadores de dirección",
+      "Para colocarnos en uno u otro carril"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El franqueo (cruzar de frente o girar) determina el carril que hay que ocupar en la posición de entrada: por ejemplo, el carril derecho para girar a la derecha y el izquierdo para girar a la izquierda. Por eso hay que saber con antelación hacia dónde se va a franquear."
+    ]
+  },
+  {
+    "id": 402,
+    "q": "En este cruce, ¿puede pasar cuando se enciende la luz verde?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre, porque tengo preferencia.",
+      "Sí, pero debo ceder el paso a los vehículos de la derecha.",
+      "Sí, pero debo esperar hasta poder pasar sin bloquearlo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Aunque el semáforo esté en verde, no debemos entrar en la intersección si existe la posibilidad de quedar detenidos y obstruir la circulación transversal ."
+    ]
+  },
+  {
+    "id": 403,
+    "q": "En los tramos de vía en los que, por su estrechez, no se puedan cruzar dos vehículos, tiene preferencia de paso el vehículo que...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "circule por una vía descendente.",
+      "entre primero en el paso estrecho.",
+      "tenga menores dificultades de maniobra."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En tramos tan estrechos que no permiten el cruce de dos vehículos, y donde no hay señalización, tiene preferencia el vehículo que entró primero en el paso estrecho (art. 60 del Reglamento General de Circulación). Solo si hay duda sobre quién entró antes se recurre al criterio de mayor dificultad de maniobra.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 404,
+    "q": "¿Qué forma tienen las señales de restricción que encontramos en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Circular",
+      "Triangular",
+      "Cuadrada"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Las señales de reglamentación (prohibición, restricción y obligación) que se encuentran en las intersecciones son de forma circular, a diferencia de las de peligro (triangulares) y las de indicación (cuadradas o rectangulares).",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 405,
+    "q": "¿Quién tiene preferencia de paso en esta intersección sin señalizar y por qué motivo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El turismo, porque circula por la vía pavimentada.",
+      "El tranvía, porque se aproxima por la derecha del turismo.",
+      "El tranvía, porque circula sobre raíles."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En esta intersección sin señalización, el tranvía tiene la preferencia de paso sobre el vehículo verde porque circula sobre raíles."
+    ]
+  },
+  {
+    "id": 406,
+    "q": "En los pasos a nivel ¿está prohibido adelantar a un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo cuando hay señales que prohíben adelantar",
+      "Sí",
+      "No"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Está prohibido adelantar en los pasos a nivel y en sus proximidades (art. 87 del Reglamento General de Circulación), aunque no haya una señal que lo indique, por el riesgo que supone la falta de visibilidad y la posible presencia de un tren.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 407,
+    "q": "En un paso a nivel donde las barreras se están moviendo, un vehículo...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No debe entrar.",
+      "Debe detenerse a menos que las barreras estén elevándose, en cuyo caso puede atravesarlo.",
+      "Atravesarlo antes de que las barreras hayan bajado totalmente."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si nos aproximamos a un paso a nivel como el de la imagen, en el cual las barreras o semibarreras todavía se encuentran en movimiento subiendo o bajando, no deberemos entrar en el paso hasta que las barreras se levanten completamente para cruzar con seguridad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 408,
+    "q": "¿Qué debe hacer un conductor que queda detenido en una intersección regulada por semáforos y está obstaculizando la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Salir lo antes posible sin entorpecer la marcha de los demás usuarios.",
+      "Debido a su situación tendrá prioridad de paso.",
+      "Tocará el claxon para advertir a los demás conductores que deben cederle el paso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un conductor que queda detenido dentro de una intersección regulada por semáforos no adquiere ninguna prioridad por ello. Debe salir de la intersección lo antes posible, sin entorpecer la marcha de los demás usuarios, y no sirve de nada tocar el claxon.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+ {
+    "id": 409,
+    "q": "Si en un estrechamiento sin señalizar entrar al mismo tiempo un turismo y un vehículo de tracción animal, ¿cuál de los dos vehículos tendrá preferencia de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que tenga que dar marcha atrás una mayor distancia.",
+      "El turismo.",
+      "El vehículo de tracción animal."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Si entran a la vez en un estrechamiento sin señalizar, no se puede saber quién entró primero. En ese caso (arts. 60 y 62 del Reglamento General de Circulación) tiene preferencia el vehículo con mayores dificultades de maniobra. En el orden reglamentario, los vehículos de tracción animal ocupan el 3.º lugar y los turismos el 7.º, así que el vehículo de tracción animal tiene preferencia y el turismo es quien debe dar marcha atrás."
+    ]
+  },
+  {
+    "id": 410,
+    "q": "¿Con qué forma geométrica se marca sobre la calzada un ceda al paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Triangulo con la parte más ancha dirigida hacía el vehículo",
+      "Circulo con las letras de ceda el paso",
+      "Triangulo con vértice opuesto dirigido hacía el vehículo"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La marca vial de ceda el paso es un triángulo pintado en la calzada con el vértice dirigido hacia el vehículo que debe ceder. Tiene el mismo significado que la señal vertical de ceda el paso."
+    ]
+  },
+  {
+    "id": 411,
+    "q": "¿Dónde debe efectuarse la posición de entrada en una intersección regulada por agente?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Rebasando la línea de detención.",
+      "Antes de entrar en la misma, como norma general.",
+      "Al menos 200 metros antes de llegar a la intersección."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La fase de posición de entrada comienza cuando se llega a la línea de intersección que separa la vía por la que circulamos de su transversal, y se debe efectuar con antelación antes de entrar en la intersección como norma general.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 412,
+    "q": "Cuando se aproxima a un puente móvil, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Extremar la precaución y detenerse siempre antes de pasar.",
+      "Reducir la velocidad por debajo de la máxima permitida.",
+      "Reducir la velocidad, pero sólo si el puente se encuentra en movimiento."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al aproximarse a un puente móvil hay que extremar la precaución y reducir la velocidad por debajo de la máxima permitida. Solo hay que detenerse si fuera necesario, no en todos los casos.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 413,
+    "q": "¿Tiene el mismo significado la señal vertical de ceda el paso que la pintada sobre la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, ya que no se pueden dar ambas en la misma intersección",
+      "Sí",
+      "No porque dos ceda el paso son iguales a un stop"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La señal vertical de ceda el paso y la marca vial de ceda el paso pintada en la calzada tienen el mismo significado y obligan por igual. Pueden coincidir en una misma intersección para reforzarse.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 414,
+    "q": "El vehículo azul sale marcha atrás de un garaje. ¿Quién tiene preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ninguno de los dos.",
+      "El vehículo azul.",
+      "La bicicleta."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Un vehículo que sale marcha atrás de un garaje se está incorporando a la circulación: debe cerciorarse de que puede hacerlo sin peligro y ceder el paso a los demás usuarios de la vía. Por eso tiene preferencia la bicicleta."
+    ]
+  },
+  {
+    "id": 415,
+    "q": "Si al llegar al stop de una intersección ya hay un coche parado, ¿es necesario que nos volvamos a parar en nuestro turno?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, debemos parar de nuevo en el stop.",
+      "Depende del caso deberemos parar o no.",
+      "No, debemos seguir al coche cuando reanude su marcha sin parar."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si al llegar a una intersección regulada con un Stop, ya sea como marca vial o como señal vertical, encontramos a otro vehículo detenido, una vez llegue nuestro turno, deberemos volver a detenernos para realizar el Stop correctamente, observando a ambos lados de la intersección y decidiendo cual es el mejor momento para cruzarla .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 416,
+    "q": "¿Tiene el mismo significado el STOP pintado en la calzada que el de la señal vertical en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, la señal vertical siempre tiene prioridad sobre la pintada en la calzada",
+      "No, el pintado siempre tiene prioridad sobre la señal vertical",
+      "Sí"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El STOP pintado en la calzada (marca vial) tiene el mismo significado que la señal vertical de STOP: obliga a detenerse ante la línea de detención y a ceder el paso a los vehículos que circulan por la vía transversal. Ninguna de las dos prevalece sobre la otra cuando coinciden."
+    ]
+  },
+  {
+    "id": 417,
+    "q": "¿Está permitido realizar un cambio de sentido en esta intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con las debidas precauciones.",
+      "Sí, si no se recorren más de 15 metros.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En una intersección, si no tenemos prioridad, está prohibido realizar un cambio de sentido. Al estar el semáforo rojo no tenemos prioridad de paso."
+    ]
+  },
+  {
+    "id": 418,
+    "q": "¿Por qué es necesario iniciar la fase de aproximación en una intersección visualizándola desde lejos?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para ceder el paso al resto de vehículos que quieran entrar en la intersección.",
+      "Por ninguno de los motivos anteriores.",
+      "Para poder actuar con suficiente antelación."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La fase de aproximación debe comenzar visualizando la intersección desde lejos para disponer del tiempo necesario para observar el tráfico y la señalización y poder actuar con suficiente antelación."
+    ]
+  },
+  {
+    "id": 419,
+    "q": "Los animales tienen prioridad de paso sobre los vehículos...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "en los tramos regulados por la señal de peligro por la proximidad de un lugar de paso de animales.",
+      "cuando circulen en rebaño y estén dirigidos por un pastor.",
+      "en las cañadas debidamente señalizadas."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Las cañadas debidamente señalizadas son áreas donde los animales tienen prioridad de paso sobre los vehículos."
+    ]
+  },
+  {
+    "id": 420,
+    "q": "Circula con su turismo por una vía que se cruza con un carril bici, ¿debe ceder el paso a los ciclistas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, los ciclistas no tienen prioridad de paso frente a los vehículos de motor.",
+      "Sólo cuando se aproximen por la derecha.",
+      "Sí, siempre."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La normativa vial establece una serie de reglas para garantizar la seguridad de todos los usuarios de la vía, incluidos los ciclistas."
+    ]
+  },
+  {
+    "id": 421,
+    "q": "En un cruce, se enciende la luz roja y el vehículo azul bloquea el paso. ¿Qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Salir del cruce, pero sin molestar a otros usuarios.",
+      "Esperar a que se encienda la luz intermitente amarilla.",
+      "Esperar a que se encienda la luz verde."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Cuando tengamos la intención de penetrar en un cruce como el de la imagen, tendremos que prever si nos podemos quedar bloqueados dentro del mismo y si así fuera evitaremos entrar. Si una vez ya hemos penetrado en el cruce, como en el caso de la imagen, y nos encontramos bloqueando el paso, deberemos salir de la intersección tomando la dirección que esté permitida, pero siempre sin molestar al resto de usuarios de la vía.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 422,
+    "q": "¿Puede girar en una intersección a la izquierda si no tiene visibilidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con precaución",
+      "Sí, siempre",
+      "No, aunque esté permitido por la señalización"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "No se debe girar a la izquierda en una intersección si no se tiene visibilidad suficiente, aunque la señalización lo permita: antes de iniciar el giro hay que asegurarse de que se ve el tráfico que se aproxima en sentido contrario."
+    ]
+  },
+  {
+    "id": 423,
+    "q": "Si en un paso a nivel las barreras están en movimiento...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "no se debe entrar.",
+      "no se debe entrar, salvo que estén levantándose y haya espacio suficiente.",
+      "se puede entrar antes de que las barreras corten el paso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si las barreras de un paso a nivel están en movimiento (subiendo o bajando) no se debe entrar. Hay que detener el vehículo detrás de los demás y esperar a que la barrera esté completamente levantada.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 424,
+    "q": "Se encuentra en un paso estrecho sin señalizar en el que no pueden pasar dos vehículos a la vez. ¿Cuál tendrá prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que tenga más dificultad para realizar la maniobra.",
+      "El que haya entrado primero en el estrechamiento.",
+      "El que tenga que recorrer más metros hacia atrás para salir del paso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En un paso estrecho sin señalizar en el que no pueden pasar dos vehículos a la vez, tiene preferencia el que entró primero (art. 60 del Reglamento General de Circulación). Solo cuando no se sabe quién entró antes se aplica el orden de mayor dificultad de maniobra.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 425,
+    "q": "En una vía urbana, ¿está permitido parar en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, en todo caso.",
+      "No, en ningún caso.",
+      "Sí, siempre que no dificulte el giro a otros vehículos."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En vías urbanas, la parada en una intersección y en sus proximidades solo está prohibida cuando dificulta el giro a otros vehículos. Si no lo dificulta, se puede parar."
+    ]
+  },
+  {
+    "id": 426,
+    "q": "¿Qué son las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Lugares dónde el riesgo de accidente es mínimo",
+      "Lugares peligrosos dentro y fuera de poblado",
+      "Lugares peligrosos especialmente fuera de poblado"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las intersecciones son puntos donde confluyen distintas trayectorias de vehículos y peatones, por lo que son lugares peligrosos tanto dentro como fuera de poblado.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 427,
+    "q": "El conductor del vehículo verde va a seguir de frente, ¿debe ceder el paso al vehículo blanco de la izquierda?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque la señal le da prioridad sobre el vehículo blanco.",
+      "Sólo debe ceder el paso si el vehículo blanco va a seguir también de frente.",
+      "Sí, porque el vehículo blanco circula por una vía de la misma categoría."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El conductor del vehículo verde no debe ceder el paso al vehículo blanco porque tiene de frente la señal vertical de advertencia de peligro P-2 de \"Intersección con prioridad a la derecha\".",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 428,
+    "q": "¿Está permitido adelantar en un paso para peatones señalizado?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que se circule a mayor velocidad que el vehículo adelantado.",
+      "No, en ningún caso.",
+      "Sí, a velocidad tan reducida que permita detenerse a tiempo en caso de peligro de atropello."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El Reglamento General de Circulación (art. 87) prohíbe adelantar en los pasos para peatones señalizados, pero esa prohibición no se aplica cuando el adelantamiento a cualquier vehículo se realiza a una velocidad tan reducida que permita detenerse a tiempo si surgiera peligro de atropello. Nota: el Real Decreto 518/2026 suprime esta excepción a partir del 1 de octubre de 2026; desde esa fecha adelantar en un paso para peatones señalizado estará prohibido en todo caso."
+    ]
+  },
+  {
+    "id": 429,
+    "q": "¿Qué debemos tener en cuenta en la fase de aproximación a una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Saber si vamos a cruzar la intersección de frente o vamos a decidir girar",
+      "Entrar en la intersección a más de 80 kilómetros por hora",
+      "Cruzar la intersección sin ningún tipo de iluminación encendida"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En la fase de aproximación hay que saber ya si se va a cruzar de frente o girar, porque de ello dependen el carril que hay que ocupar y la señalización que hay que hacer. Además, hay que moderar la velocidad, no aumentarla.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 430,
+    "q": "¿A qué vehículos obliga a detenerse un agente con los brazos extendidos horizontalmente?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A los vehículos de dos ruedas únicamente",
+      "A los que se acercan desde la dirección que corta el brazo",
+      "A todos los vehículos que pasen por esa vía"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Un agente con los brazos extendidos horizontalmente obliga a detenerse a los vehículos que se aproximan desde la dirección que cortan sus brazos, no a todos los que pasan por la vía.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 431,
+    "q": "En llegar a este paso a nivel las barreras se están moviendo, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detener el vehículo.",
+      "Atravesarlo antes de que las barreras bajen.",
+      "Si las barreras están subiendo, atravesarlo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si nos aproximamos a un paso a nivel como el de la imagen, en el cual la barrera o semibarrera todavía está en movimiento subiendo o bajando, detendremos nuestro vehículo en el carril correspondiente, tras el resto de vehículos que han llegado antes de nosotros, y esperaremos a que la barrera se levante completamente para atravesar el paso con seguridad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 432,
+    "q": "Se acerca a una glorieta, no hay señales de preferencia. ¿A qué vehículos debe ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A ninguno, porque yo circulo por la vía principal.",
+      "A los que quieran acceder a la glorieta por la vía de la derecha.",
+      "A los que circulan dentro de la glorieta."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando nos acerquemos a una glorieta y no existan señales de preferencia, deberemos ceder el paso a los vehículos que circulan dentro de la glorieta ."
+    ]
+  },
+  {
+    "id": 433,
+    "q": "Al llegar a la intersección de la imagen, ¿Podremos cambiar de dirección hacia la izquierda?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sólo los turismos.",
+      "Sí."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En la imagen aparece la señal R-401a: paso obligatorio por la derecha , que obliga a pasar por el lado indicado de la isleta u obstáculo."
+    ]
+  },
+  {
+    "id": 434,
+    "q": "¿Qué suele existir ante de llegar a una señal de detención obligatoria en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Una señal vertical de prohibida la entrada",
+      "Una señal vertical de cañada",
+      "Otra señal de preaviso de detención obligatoria"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Antes de llegar a una señal de detención obligatoria (STOP) suele haber otra señal de preaviso que anuncia la detención más adelante, para que el conductor pueda prepararse con antelación."
+    ]
+  },
+  {
+    "id": 435,
+    "q": "¿Para qué es fundamental ceñirse al eje de la calzada al hacer un cambio de dirección en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para disminuir la seguridad del tráfico",
+      "Para la fluidez de la circulación",
+      "Para la comodidad de los peatones"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al cambiar de dirección en una intersección hay que ceñirse al eje de la calzada y respetar el centro de la intersección, porque así se mantiene el orden de las trayectorias y se favorece la fluidez de la circulación.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 436,
+    "q": "En esta intersección, ¿se puede adelantar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, si las circunstancias del tráfico lo permiten.",
+      "No, está prohibido.",
+      "Sí, pero sólo a un vehículo de dos ruedas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Estará permitido adelantar en una intersección si las circunstancias del tráfico lo permiten, cuando tengamos prioridad de paso y exista una señal que así lo indique. En este caso el semáforo en verde nos da preferencia de paso y podremos adelantar al vehículo siempre con precaución y si las circunstancias nos lo permiten.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 437,
+    "q": "En una intersección ¿dónde debe detenerse un vehículo que encuentra la señal de stop si no existe línea de detención?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "3 metros antes de llegar a la intersección",
+      "Rebasando en como máximo un metro el punto medio de la intersección",
+      "Inmediatamente antes de la intersección"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Si no existe línea de detención, el vehículo debe detenerse inmediatamente antes de la intersección, sin invadirla, para poder ver y ceder el paso a los vehículos de la vía transversal."
+    ]
+  },
+  {
+    "id": 438,
+    "q": "Si no pretende adelantar, ¿cuándo deberá mantener una distancia de seguridad de, al menos, 100 metros, con el vehículo que circule delante?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando circule por un paso elevado.",
+      "Al llegar a un paso a nivel.",
+      "Cuando circule por un túnel."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando circulando por un túnel con nuestro vehículo, no tengamos la intención de adelantar al vehículo que circula delante nuestro, deberemos mantener una distancia de seguridad de al menos 100 metros con dicho vehículo."
+    ]
+  },
+  {
+    "id": 439,
+    "q": "En esta intersección los vehículos están obligados a detenerse...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "ante la línea de detención, sin rebasarla.",
+      "sobre la línea de detención, justo antes de la intersección.",
+      "justo antes de la señal de stop."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El Stop nos obliga a detenernos ante la línea de detención y ceder el paso a todos los vehículos que se aproximen. Si una vez detenidos ante la línea de detención no tenemos buena visibilidad , avanzaremos un poco y volveremos a hacer una segunda detención donde  si tengamos buena visibilidad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 440,
+    "q": "¿Para qué sirve la fase de aproximación en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para prepararse a abordar la intersección",
+      "Para aumentar la velocidad de nuestro vehículo",
+      "Para recoger peatones de la vía si fuera necesario"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La fase de aproximación sirve para prepararse a abordar la intersección: observar el tráfico y las señales, reducir la velocidad y decidir con antelación la maniobra que se va a realizar.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 441,
+    "q": "¿De qué color suele ser la luz central de los semáforos reguladores de intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Blanco.",
+      "Amarillo.",
+      "Rojo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En los semáforos que regulan las intersecciones, la luz central es la amarilla; la roja se sitúa en la parte superior y la verde en la inferior.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 442,
+    "q": "En esta intersección, los conductores están obligados a detenerse...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "ante la línea transversal, sin rebasarla.",
+      "junto a la señal de stop.",
+      "inmediatamente después de la línea transversal."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En esta intersección, todos los conductores están obligados a detener su vehículo ante la línea transversal sin rebasarla.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 443,
+    "q": "¿Cuál es la velocidad máxima a la que deberemos aproximarnos a una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "40 km por hora",
+      "50 km por hora",
+      "60 km por hora"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al aproximarse a una intersección con visibilidad prácticamente nula, la velocidad no debe exceder de 50 km/h (art. 46 del Reglamento General de Circulación), y en cualquier caso hay que moderarla.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 444,
+    "q": "En una zona de obras dónde hay un estrechamiento de la calzada ¿qué vehículo tiene preferencia si no hay ninguna señal que lo regule?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que ha entrado primero.",
+      "El que no ha de cambiar de carril para entrar al estrechamiento.",
+      "El que tiene el estrechamiento a su derecha."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un estrechamiento por obras donde ninguna señal regula el paso se aplica la regla general de los estrechamientos (art. 60 del Reglamento General de Circulación): tiene preferencia el vehículo que ha entrado primero.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 445,
+    "q": "En una intersección sin señalizar, tienen prioridad de paso los vehículos que circulan por...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Una glorieta sobre los que pretenden entrar en ella.",
+      "La vía sin pavimentar.",
+      "Un carril de uso exclusivo para determinado vehículos."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una intersección sin señalizar, los vehículos que circulan por una glorieta tienen prioridad sobre los que pretenden entrar en ella. La vía sin pavimentar no da prioridad: quien sale de ella debe ceder el paso a los que circulan por la pavimentada.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 446,
+    "q": "En este cruce, ¿qué vehículo tiene preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La motocicleta.",
+      "El camión.",
+      "El turismo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En este cruce, el turismo tiene preferencia de paso sobre el camión y la motocicleta ."
+    ]
+  },
+  {
+    "id": 447,
+    "q": "¿Cuándo se alcanza la fase de posición de entrada en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando faltan al menos 100 metros para llegar a la línea de intersección",
+      "Cuando se ha traspasado ampliamente la línea de intersección",
+      "Cuando se llega a la línea de intersección con la transversal"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La fase de posición de entrada se alcanza cuando se llega a la línea de intersección con la vía transversal. Hasta ese punto se desarrolla la fase de aproximación."
+    ]
+  },
+  {
+    "id": 448,
+    "q": "¿Qué debe hacer un conductor al acercarse a un paso de peatones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Reducir la velocidad y detenerse en caso de ser necesario.",
+      "Tocar el claxon para advertir a los peatones.",
+      "Detenerse siempre."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al aproximarnos a un paso de peatones siempre reduciremos la velocidad y si es necesario nos detendremos con nuestro vehículo para evitar situaciones de riesgo con los peatones.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 449,
+    "q": "¿Se pueden realizar cambios de dirección en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí",
+      "No",
+      "Únicamente las motocicletas podrán realizarlo"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, en las intersecciones se pueden realizar cambios de dirección (giros a la derecha o a la izquierda), respetando la señalización, la prioridad de paso y las trayectorias. No están limitados a ningún tipo de vehículo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 450,
+    "q": "En un paso a nivel está permitido pasar cuando...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "el semáforo que regula el paso está en rojo y la barrera levantada.",
+      "la barrera está completamente levantada.",
+      "la barrera está en movimiento."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En un paso a nivel como el de la imagen, está permitido pasar únicamente cuando la barrera está completamente levantada y no hay indicaciones de semáforos que impidan el paso.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 451,
+    "q": "¿En este cruce puede pasar con su vehículo cuando se encienda la luz verde?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero debe esperar hasta que pueda pasar sin bloquear el cruce.",
+      "Solamente si va a girar a la izquierda.",
+      "Sí, aunque se quede en medio del cruce."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Incluso si un conductor tiene la prioridad de paso, no debe entrar en una intersección, paso de peatones o paso para ciclistas si existe la probabilidad de que su vehículo quede detenido, obstruyendo el tráfico transversal .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 452,
+    "q": "En esta intersección, ¿debe ceder el paso a los ciclistas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque los ciclistas no tienen prioridad.",
+      "Sí, a todo el grupo.",
+      "Sí, pero sólo al primer ciclista."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El artículo 64 del Reglamento de Circulación establece que los conductores de bicicleta tendrán prioridad de paso sobre los vehículos a motor cuando circulando en grupo, el primero haya iniciado ya un cruce o haya entrado en una glorieta. En este caso el primer conductor de bicicleta ya ha entrado en el cruce de la imagen por lo que el conductor del vehículo azul deberá ceder el paso a todo el grupo de ciclistas y pasará tras ellos.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 453,
+    "q": "El vehículo negro quiere girar a la derecha, ¿A qué le obliga el STOP?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A detenerse, cediendo el paso a los vehículos que circulan por la vía transversal.",
+      "No le obliga a nada.",
+      "A detenerse siempre."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La señal R-2: detención obligatoria o STOP obliga al conductor a detenerse siempre , aunque vaya a girar a la derecha y aunque parezca que no vienen vehículos."
+    ]
+  },
+  {
+    "id": 454,
+    "q": "En un túnel, ¿qué distancia de seguridad se debe dejar con el vehículo que circula delante?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente la distancia suficiente para no colisionar en caso de frenado brusco",
+      "200 metros",
+      "100 metros, al menos, cuando no se pretenda adelantar"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un túnel hay que dejar con el vehículo que circula delante una distancia de seguridad de al menos 100 metros, salvo que se pretenda adelantar."
+    ]
+  },
+  {
+    "id": 455,
+    "q": "Para incorporarse a la vía principal, un turismo tiene que atravesar un carril bici debidamente señalizado, ¿deberá ceder el paso a los ciclistas que circulan por el mismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, los ciclistas tienen prioridad de paso.",
+      "No, el turismo tiene prioridad de paso.",
+      "Solo cuando los ciclistas circulen en grupo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Cuando un vehículo intenta incorporarse a la vía principal y debe atravesar un carril bici debidamente señalizado, debe ceder el paso a los ciclistas que circulan por el mismo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 456,
+    "q": "¿Qué significan dos luces amarillas intermitentes en el semáforo de una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Obligación de extremar la precaución.",
+      "Se permite el paso con prioridad.",
+      "Obligación de ceder el paso a todos los vehículos que se encuentren en ella."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Dos luces amarillas intermitentes (o una) obligan a extremar la precaución. No prohíben el paso, pero tampoco dan prioridad ni eximen de cumplir otras señales que obliguen a detenerse o ceder el paso.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 457,
+    "q": "¿Qué se debe hacer tras observar el tráfico en la fase de aproximación de la intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Superar la velocidad mínima para adaptarla a las necesidades del franqueo",
+      "Señalizar el desplazamiento lateral y/o el cambio de dirección",
+      "Entorpecer el tráfico si es necesario para colocarnos correctamente en la vía"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Tras observar el tráfico en la fase de aproximación hay que señalizar con antelación el desplazamiento lateral o el cambio de dirección con los indicadores, para avisar a los demás conductores y colocarse en el carril adecuado.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 458,
+    "q": "¿A qué vehículos se debe ceder el paso ante un stop en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A los que se aproximen por el lado derecho",
+      "A los que se aproximen por cualquier lado de la vía",
+      "A los que se aproximen por el lado izquierdo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La señal de STOP obliga a detenerse siempre y a ceder el paso a todos los vehículos que se aproximen por cualquiera de los lados de la vía, no solo por la derecha o por la izquierda.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 459,
+    "q": "¿Está permitido circular con la luz de largo alcance en las travesías?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que no se deslumbre a ningún usuario",
+      "No, en ningún caso",
+      "Sí, cuando la vía esté insuficientemente iluminada"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las travesías (y en las vías urbanas) no se puede circular con la luz de largo alcance, aunque la vía esté insuficientemente iluminada y aunque no se deslumbre a nadie: hay que usar la luz de corto alcance (cruce).",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 460,
+    "q": "El cruce de un paso a nivel debe realizarse de la siguiente manera:",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Muy despacio y con las luces de cruce encendidas para que el conductor del tren nos vea.",
+      "Sin demora y tras comprobar que no hay riesgo de quedarse detenidos en la vía del tren.",
+      "Muy rápido para no colisionar con el tren."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El cruce de un paso a nivel por parte de un vehículo deberá realizarse de forma rápida y sin entretenerse dentro de él, cruzando correctamente por el lugar habilitado para ello y siempre después de comprobar que no existe peligro de quedarse atrapado o detenido en las vías del tren .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 461,
+    "q": "¿De cuántas luces suele constar un semáforo que regula una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Tres luces",
+      "Dos luces",
+      "Cuatro luces"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los semáforos que regulan las intersecciones suelen constar de tres luces: roja, amarilla y verde.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 462,
+    "q": "¿Se deberá mantener en la fase de posición de entrada la señalización de la fase de aproximación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí",
+      "No, debe modificarse por otra",
+      "Únicamente la deberán mantener los vehículos de dos ruedas"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La señalización iniciada en la fase de aproximación (por ejemplo, el intermitente) debe mantenerse durante la posición de entrada y mientras se ejecuta la maniobra. Solo se retira cuando el vehículo ha adoptado su nueva trayectoria.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 463,
+    "q": "¿Qué acostumbran a regular las señales en las intersecciones señalizadas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Velocidad máxima en la zona.",
+      "Necesidad de encender los dispositivos luminosos.",
+      "Preferencia de paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En las intersecciones la preferencia de paso de las vías que la cruzan está regulada por señales verticales , marcas viales, semáforos y agentes de la circulación."
+    ]
+  },
+  {
+    "id": 464,
+    "q": "¿Cómo se indicará el cambio de dirección a la izquierda que tenemos intención de realizar en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con el indicador de dirección izquierdo",
+      "Con el brazo izquierdo extendido y la palma de la mano hacia arriba",
+      "Con las señales acústicas del vehículo"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El cambio de dirección a la izquierda se advierte con el indicador de dirección izquierdo. El brazo solo se usa como alternativa, extendido horizontalmente con la palma de la mano hacia abajo, y las señales acústicas no sirven para señalizar maniobras.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 465,
+    "q": "En una intersección sin señalizar, la regla general de preferencia de paso es...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "ceder el paso a los vehículos que se acerquen por la derecha.",
+      "ceder el paso a los vehículos más rápidos, ciclistas y peatones.",
+      "ceder el paso a los vehículos que se acerquen por la izquierda."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una intersección sin señalización, la regla general de preferencia de paso es ceder el paso a los vehículos que se acercan por la derecha.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 466,
+    "q": "En un cruce no hay señales de preferencia. ¿Debe ceder el paso a un tranvía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí.",
+      "No."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un cruce sin señales de preferencia como el que vemos en la imagen, deberemos ceder el paso al tranvía si no existen señales que regulen la prioridad de paso.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 467,
+    "q": "En esta intersección, el vehículo está girando a la derecha. ¿Quién tiene preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo, porque no hay paso para peatones.",
+      "El peatón.",
+      "El vehículo siempre."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En esta intersección, el peatón tiene la preferencia de paso sobre el vehículo que está girando a la derecha .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 468,
+    "q": "¿Debe el vehículo verde ceder el paso al vehículo gris de la izquierda?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque circula por una vía de la misma categoría.",
+      "Sí, ya que está circulando por una vía asfaltada.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En esta intersección, el vehículo verde no debe ceder el paso al vehículo blanco que se aproxima por la izquierda."
+    ]
+  },
+  {
+    "id": 469,
+    "q": "En esta situación, ¿debe ceder el paso al grupo de ciclistas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, a todo el grupo.",
+      "Sí, pero solo a los que se encuentren dentro de la intersección.",
+      "No, los vehículos de motor tienen prioridad sobre las bicicletas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Según la normativa, los conductores de vehículos a motor tienen la obligación de ceder el paso a los ciclistas en diversas circunstancias, incluyendo cuando circulan en grupo .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 470,
+    "q": "¿Qué vehículos tienen preferencia sobre otros usuarios de la vía en una intersección sin señalizar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los que viajan sobre rieles.",
+      "Los que tienen el lado izquierdo libre.",
+      "Los trenes, pero no los tranvías."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una intersección sin señalizar, los vehículos que tienen preferencia sobre otros usuarios de la vía son aquellos que viajan sobre rieles, como tranvías .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 471,
+    "q": "En esta intersección y según la señalización, ¿a qué vehículos debe ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A todos los que se acercan por la derecha.",
+      "A ninguno.",
+      "A los que se incorporan a la vía."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Esta señal nos advierte de que en el siguiente cruce nosotros tenemos prioridad sobre los vehículos que se aproximen por la derecha y por la izquierda.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 472,
+    "q": "Como norma general, ¿está prohibido adelantar en los pasos a nivel o en sus proximidades?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí.",
+      "En los pasos a nivel sí, pero no en sus proximidades."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La regla general establece que está prohibido adelantar en los pasos a nivel y en sus cercanías, incluso si no hay señales específicas que lo indiquen .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 473,
+    "q": "El vehículo que sale de una vía no pavimentada, ¿a qué vehículos debe ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A todos los que circulen por la vía pavimentada.",
+      "Únicamente a los que se aproximen por la izquierda.",
+      "Únicamente a los vehículos de motor que se aproximen por la derecha."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Como norma general el Reglamento de Circulación, establece que en las intersecciones se deberá ceder el paso a todos los vehículos que se acerquen por la derecha, exceptuando, entre otros casos, a los que se acerquen por una vía sin pavimentar, ya que los vehículos que circulen por vías sin pavimentar siempre deberán ceder el paso a los que circulen por la vía pavimentada.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 474,
+    "q": "¿Por qué motivo debe un conductor observar la existencia de semáforos con luces adicionales en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para no verse obligado a seguir una dirección que no conviene a su destino",
+      "Para no ser amonestado por las autoridades",
+      "Para no tener que ceder el paso a los vehículos cuando no sea necesario"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los semáforos con luces adicionales (por ejemplo, flechas) indican las direcciones permitidas en cada carril. Observarlos evita verse obligado a seguir una dirección que no conviene al destino por haber elegido mal el carril.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 475,
+    "q": "¿Tiene que ceder el paso a este autobús que quiere incorporarse a la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque los turismos tienen preferencia.",
+      "No, porque se trata de una vía urbana.",
+      "Sí, en la medida de lo posible, llegando incluso a detener el vehículo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En las vías dentro de poblado los conductores de vehículos siempre deberán ceder el paso a los autobuses que quieren incorporarse a la circulación , incluso llegando a detener su vehículo si fuera necesario."
+    ]
+  },
+  {
+    "id": 476,
+    "q": "¿Qué señal indicadora prevalecerá al realizar un cambio de dirección en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La realizada con el cláxon",
+      "La realizada con la mano por parte del conductor",
+      "La realizada con el indicador de dirección"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando la señal hecha con el brazo contradice al indicador de dirección, prevalece la señal realizada con el brazo, siempre que sea perceptible para los demás usuarios (art. 108 del Reglamento General de Circulación).",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 477,
+    "q": "Si debido a circunstancias del tráfico prevé que va a quedar detenido en una intersección obstaculizando la vía transversal, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detener el vehículo antes de entrar en la intersección.",
+      "Siempre que tenga prioridad de paso, entrar en la intersección.",
+      "Entrar en la intersección y quitarse de en medio cuando el tráfico lo permita."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si nos encontramos en una situación donde el tráfico nos obliga a prever que quedaremos detenidos en una intersección, obstruyendo la vía transversal, debemos tomar medidas preventivas para evitarlo .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 478,
+    "q": "En el cruce, ¿qué debe hacer el vehículo articulado situado en el carril derecho?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Puede seguir recto o girar a la derecha.",
+      "Girar a la derecha.",
+      "Puede ir hacia cualquier dirección indicada por las flechas de la calzada."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las flechas de selección de carriles nos indican la dirección que debemos tomar si permanecemos en ese carril. El vehículo articulado debe girar a la derecha.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 479,
+    "q": "¿Qué tiene que hacer si se encuentra detenido en el interior de un túnel y se inicia un incendio?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Conducir marcha atrás hasta la entrada del túnel.",
+      "Esperar en el interior del vehículo a la llegada del equipo de salvamento.",
+      "Apartarse al lado derecho, apagar el motor e ir a la salida más próxima."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En el caso de que se origine un incendio mientras circulamos por el interior de un túnel con nuestro vehículo, deberemos apartarnos lo máximo posible hacia el lado derecho, apagar el motor del mismo y abandonar tanto el conductor como los ocupantes el vehículo, para dirigirse al refugio o salida más cercana, siempre en sentido contrario al lugar dónde están las llamas."
+    ]
+  },
+  {
+    "id": 480,
+    "q": "En una intersección como la de la imagen, con el semáforo en verde y una señal vertical de stop, ¿a cuál deberemos obedecer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Al semáforo porque tendrá prioridad sobre la señal vertical.",
+      "A ninguna de ellas, ya que se contradicen.",
+      "A la señal vertical, ya que es la señal más restrictiva."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El orden de prevalencia de señales es el siguiente en este orden: agentes, señales circunstanciales y de balizamiento, semáforos, señales verticales y señales horizontales.  No haremos caso del stop porque prevalece el semáforo .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 481,
+    "q": "Los vehículos tienen prioridad de paso sobre los peatones excepto cuando...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Se encuentren en las proximidades de un paso para peatones.",
+      "Vayan a girar en una intersección para entrar en otra vía y hayan peatones cruzándola.",
+      "Los peatones se aproximen por la derecha."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El Reglamento de Circulación establece en el artículo 65 que los conductores tienen prioridad de paso para sus vehículos, respecto de los peatones , excepto cuando vayan a girar con su vehículo para entrar en otra vía y hayan peatones cruzándola, aunque no exista paso de peatones señalizado para estos.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 482,
+    "q": "En esta situación, ¿tienen prioridad de paso los animales sobre el vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, los animales en la calzada nunca tienen prioridad de paso.",
+      "Sí, porque el vehículo está cambiando de dirección.",
+      "Sí, porque la señalización les da prioridad."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En esta situación los animales tienen prioridad de paso sobre el vehículo porque estamos girando para entrar en otra vía y hay animales cruzándola .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 483,
+    "q": "¿En qué tipo de intersecciones la complejidad de la fase de posición de entrada se reduce?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En aquellas en que no está señalizada la preferencia de paso",
+      "En aquellas reguladas por Agentes de Circulación o Semáforos",
+      "En aquellas dónde hay mucha afluencia de vehículos"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las intersecciones reguladas por agentes de la circulación o por semáforos, la posición de entrada es menos compleja porque la prioridad la determinan ellos y no hay que deducirla de las normas generales.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 484,
+    "q": "¿Está prohibido adelantar a un turismo en un paso a nivel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente cuando hayan señales que prohíban adelantar",
+      "No, en ningún caso",
+      "Sí, siempre"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Está prohibido adelantar a un turismo en un paso a nivel y en sus proximidades (art. 87 del Reglamento General de Circulación), aunque no haya ninguna señal que lo prohíba, por la falta de visibilidad y el riesgo de quedar sobre las vías."
+    ]
+  },
+  {
+    "id": 485,
+    "q": "Si dos vehículos iguales se encuentran en un estrechamiento y no se sabe cual tiene preferencia, ¿cuál de ellos tendrá preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aquel que tenga una fecha de matriculación más antigua",
+      "El que tenga que recorrer una distancia hacia atrás mayor",
+      "El que tenga que recorrer una distancia hacia atrás menor"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si dos vehículos del mismo tipo se encuentran en un estrechamiento y no se sabe cuál entró primero, tiene preferencia el que tenga que recorrer una mayor distancia marcha atrás (art. 62 del Reglamento General de Circulación). Solo en caso de igualdad se atiende a la mayor anchura, longitud o masa.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 486,
+    "q": "Se debe circular a velocidad moderada y, si fuera preciso detener el vehículo al aproximarse a un…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Semáforo.",
+      "Paso a nivel.",
+      "Vehículo inmovilizado en la calzada, dentro o fuera de poblado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando nos aproximemos con nuestro vehículo a un paso a nivel, el conductor del mismo deberá circular a velocidad moderada e incluso detener su vehículo si fuera preciso, si prevee que puede quedarse inmovilizado en medio del paso cuando pase otro tipo de vehículo por él. Esta regla se aplica a vías dentro y fuera de poblado.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 487,
+    "q": "En un tramo de la vía muy estrecho sin señalizar en el que sea imposible el paso simultáneo de dos vehículos, tendrá preferencia...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "el que tenga más dificultades de maniobra.",
+      "el que tenga que retroceder mayor distancia.",
+      "el que haya entrado primero en el estrechamiento."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un tramo de carretera estrecho donde no hay señalización específica y no es posible que dos vehículos pasen al mismo tiempo, la regla general para determinar la preferencia de paso es sencilla: el vehículo que haya entrado primero en el estrechamiento tiene la preferencia ."
+    ]
+  },
+  {
+    "id": 488,
+    "q": "Ante un paso a nivel está obligado a...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "asegurarse antes de atravesarlo de que no existe ningún peligro.",
+      "atravesarlo rápidamente.",
+      "pasar aunque las barreras estén en movimiento."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Cuando nos acerquemos a un paso a nivel con barrera o semibarrera nos aseguraremos, antes de atravesarlo, de que no existe ningún peligro u obstáculo que nos impida cruzarlo con seguridad. Además reduciremos la velocidad del vehículo por debajo de la máxima permitida para ese tipo de vía y extremaremos la precaución sin distraernos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 489,
+    "q": "Los conductores de los vehículos que lleguen a un paso a nivel cerrado…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Tienen que avisar al resto de conductores con las luces de emergencia.",
+      "Tienen que cambiar el sentido de la marcha y buscar un itinerario alternativo.",
+      "Se tienen que detener uno detrás de otro en el carril que corresponda."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Todos los conductores de vehículos que al llegar a un paso a nivel lo encuentren cerrado o con la barrera o semibarrera en movimiento deberán detenerse uno detrás de otro en el carril que corresponda para que, una vez abierta la barrera, sigan la trayectoria habitual que llevaban. No será necesario que avisemos al resto de usuarios de la vía de que la barrera está cerrada con las luces de emergencia de nuestro vehículo."
+    ]
+  },
+  {
+    "id": 490,
+    "q": "En esta intersección sin señalizar, los tres vehículos van a seguir circulando de frente, ¿cuál de ellos tiene preferencia entre los demás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo rojo.",
+      "El vehículo azul.",
+      "El vehículo amarillo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En esta intersección sin señalizar, la prioridad de paso se determina por la norma general de que se debe ceder el paso a todos los vehículos que se nos aproximen por la derecha ."
+    ]
+  },
+  {
+    "id": 491,
+    "q": "¿Al aproximarnos a qué elemento deberemos circular a velocidad moderada y si fuera preciso detener el vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Vehículo inmovilizado en la calzada, fuera o dentro de poblado",
+      "Paso a nivel",
+      "Semáforo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al aproximarse a un paso a nivel hay que circular a velocidad moderada y, si fuera preciso, detener el vehículo, para no quedar inmovilizado sobre las vías.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 492,
+    "q": "En los pasos para peatones no regulados por semáforo o agente, ¿tienen preferencia los peatones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, solamente en vías urbanas.",
+      "Sí, en cualquier caso.",
+      "No, aunque por cortesía se les puede ceder el paso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Los pasos para peatones sin regulación por semáforo o agente son puntos de cruce diseñados específicamente para que los peatones atraviesen la vía de manera segura.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 493,
+    "q": "En un estrechamiento sin señales de prioridad se encuentran un turismo que arrastra un remolque y un autobús, sin que se sepa cual entró primero, ¿qué vehículo tiene preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El autobús.",
+      "El turismo que arrastra el remolque.",
+      "El que tenga que dar marcha atrás más distancia."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En los estrechamientos de la vía en que la prioridad de paso no esté señalizada, y no se sepa quién entró primero, tendrá preferencia el vehículo que tenga más dificultades para maniobrar siguiendo este orden:\n\n1.º Vehículos especiales y en régimen de transporte especial que excedan de las masas o dimensiones reglamentarias.\n2.º Conjuntos de vehículos (vehículo con remolque), salvo los del punto 4.º.\n3.º Vehículos de tracción animal.\n4.º Turismos que arrastran remolques de hasta 750 kg de MMA y autocaravanas.\n5.º Vehículos destinados al transporte colectivo de viajeros (autobuses).\n6.º Camiones, tractocamiones y furgones.\n7.º Turismos y vehículos derivados de turismos.\n8.º Vehículos especiales que no excedan de masas o dimensiones y cuadriciclos.\n9.º Vehículos de tres ruedas, motocicletas con sidecar y ciclomotores de tres ruedas.\n10.º Motocicletas, ciclomotores de dos ruedas y bicicletas.\n\nComo el turismo que arrastra un remolque es un conjunto de vehículos y figura antes que el autobús, tiene preferencia el turismo con remolque.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 494,
+    "q": "¿Está permitido entrar en una intersección si, previsiblemente, va a quedar detenido obstruyendo la circulación transversal?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que disponga de prioridad de paso.",
+      "Sí, cuando el semáforo esté en verde.",
+      "No, aunque tenga prioridad de paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "No está permitido entrar en una intersección si, previsiblemente, vamos a quedar detenidos obstruyendo la circulación transversal, incluso si tenemos prioridad de paso."
+    ]
+  },
+  {
+    "id": 495,
+    "q": "Como norma general, en una intersección en la que no funciona el semáforo, deberá extremar la precaución y...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "ceder el paso a los vehículos que se aproximen por la derecha.",
+      "cruzar con prioridad, como si el semáforo estuviese en verde.",
+      "detenerse a la altura del semáforo, como si este fuera una señal de STOP."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si el semáforo de una intersección no funciona no se puede considerar ni en verde ni como un STOP: hay que extremar la precaución y aplicar la norma general de prioridad, cediendo el paso a los vehículos que se aproximan por la derecha.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 496,
+    "q": "¿Está permitido realizar la maniobra de giro a la izquierda desde el centro de la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Está permitido y debe hacerse así siempre por parte de todos los conductores",
+      "Es obligatorio que los conductores noveles realicen así la maniobra",
+      "No, excepto cuando no hayan marcas viales que separen los sentidos de circulación"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "No se debe girar a la izquierda desde el centro de la calzada, salvo cuando no existan marcas viales que separen los sentidos de circulación. Si hay marcas viales, hay que respetar los carriles y las flechas de la calzada."
+    ]
+  },
+  {
+    "id": 497,
+    "q": "En una intersección en la que debe ceder el paso, ¿cuándo podrá reanudar la marcha?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando esté seguro de que no obliga al que tiene la prioridad a cambiar su trayectoria o su velocidad.",
+      "Cuando exista espacio suficiente para incorporarse.",
+      "Inmediatamente después de que pase el vehículo al que cedo el paso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Tras ceder el paso solo se puede reanudar la marcha cuando se tiene la seguridad de que no se obliga al vehículo con prioridad a cambiar bruscamente su trayectoria o su velocidad. No basta con que haya un hueco ni con que el otro vehículo haya pasado.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 498,
+    "q": "¿Cómo debe realizarse el cruce de un paso a nivel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Muy rápidamente para no coincidir con el tren.",
+      "Sin demora, tras comprobar que no hay riesgo de quedarse detenido en la vía del tren.",
+      "Despacio y con el alumbrado de posición encendido para que nos vean."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El cruce de un paso a nivel debe hacerse sin demora, después de comprobar que no hay riesgo de quedar detenido sobre las vías. Ir muy rápido no es necesario ni ir muy despacio es correcto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 499,
+    "q": "Cuando se aproxime a un cruce con visibilidad nula, ¿debe moderar su velocidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, y no tengo que prestar atención al límite de velocidad.",
+      "Sí, y si hay señal que no establezca la prioridad, no debo superar los 50 km/h.",
+      "No, siempre y cuando haya una señal de ceda el paso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al aproximarnos a un cruce con visibilidad nula, debemos moderar la velocidad para garantizar la seguridad .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 500,
+    "q": "Conduce atravesando un túnel con un vehículo de menos de 3500 kg de Masa Máxima Autorizada. ¿Qué distancia de seguridad deberá dejar con el vehículo que le precede?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Mantener por lo menos 150 metros de distancia con respecto al vehículo que circula delante.",
+      "Mantener por lo menos 100 metros de distancia con respecto al vehículo que circula delante.",
+      "Mantener por lo menos 50 metros de distancia con respecto al vehículo que circula delante."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En un túnel, salvo que se pretenda adelantar, hay que mantener una distancia de seguridad de al menos 100 metros con el vehículo que circula delante.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 501,
+    "q": "En un puente que disponga de un ancho de calzada inferior a 6 metros, ¿qué vehículos tienen prohibido cruzarse?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los vehículos que necesitan una autorización especial para circular.",
+      "Los vehículos prioritarios en servicio urgente.",
+      "Los vehículos articulados."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En puentes con un ancho de calzada inferior a 6 metros, los vehículos que requieren una autorización especial para circular tienen prohibido cruzarse .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 502,
+    "q": "En un cruce donde puede quedar detenido, ¿qué debe hacer si tiene prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Entrar en el cruce y alejarme si obstaculizo el paso.",
+      "Entrar en el cruce, ya que tengo prioridad.",
+      "No entrar en el cruce."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Aun cuando tengamos prioridad de paso, no debemos entrar en un cruce si previsiblemente podemos quedarnos dentro, obstaculizando la circulación transversal . Lo correcto es esperar a que se alejen los vehículos que tenemos delante y el cruce quede despejado."
+    ]
+  },
+  {
+    "id": 503,
+    "q": "Respetar la prioridad de paso por parte de los conductores de motocicletas, ¿puede evitar accidentes?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque estos conductores no dificultan la visibilidad.",
+      "Sí.",
+      "No, porque ocupan poco lugar en la calzada."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si respetamos la prioridad de paso de motocicletas al ser más vulnerables y de cualquier otro tipo de vehículo en general, especialmente en lasintersecciones, podremos evitar que el número de accidentes de tráfico aumente, ya que dicha precaución evita la colisión y el alcance de vehículos en las intersecciones.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 504,
+    "q": "En una intersección en la que no funciona el semáforo, ¿Qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pasar porque se entiende que el semáforo está en verde.",
+      "Ceder el paso a los vehículos que venga por la derecha, y extremar la precaución.",
+      "Detenerse porqué está prohibido el paso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si circulando por una intersección comprobamos que el semáforo que regula su prioridad de paso no funciona, deberemos siempre extremar la precaución y siguiendo la norma general de prioridad de ceder el paso a todos los vehículos que se acerquen por nuestra derecha. Si el semáforo fuera acompañado de una señal de STOP o Ceda el paso deberíamos obedecerlas. Si en la intersección existiera un paso de peatones, dejaremos pasar a todos los peatones que tengan intención de cruzar.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 505,
+    "q": "Si un camión y un turismo coinciden en un tramo de vía muy estrecho en que no está señalizada la prioridad ¿qué vehículo debe pasar primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El turismo, porque tiene menos dificultades para pasar.",
+      "El turismo, porque sus dimensiones son más pequeñas.",
+      "El camión, si hay duda de qué vehículo ha entrado primero."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La norma general dice que cuando se encuentren un turismo y un camión en un estrechamiento en que la la prioridad de paso no esté expresamente determinada, tendrá preferencia de paso el vehículo que haya entrado primero en él. Cuando se tenga dudas sobre esto, tendrá preferencia de paso el vehículo que tenga mayores dificultades de maniobra marcha atrás, en este caso el camión al ser más pesado y de mayores dimensiones."
+    ]
+  },
+  {
+    "id": 506,
+    "q": "¿A qué semáforo deberá hacer caso un conductor que quiere seguir de frente si existen dos semáforos con indicaciones distintas a izquierda y derecha?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A ninguno de los dos",
+      "Al derecho",
+      "Al izquierdo"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Si hay semáforos con indicaciones distintas a la derecha y a la izquierda, quien va a seguir de frente o girar a la izquierda solo debe obedecer el situado a su izquierda (art. 132.3 del Reglamento General de Circulación)."
+    ]
+  },
+  {
+    "id": 507,
+    "q": "¿Cuál es el momento más crucial y complejo del conductor en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La posición de entrada",
+      "La fase de aproximación",
+      "La salida de la intersección"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La posición de entrada es el momento más crucial y complejo de la intersección, porque en poco espacio hay que colocarse correctamente, ajustar la velocidad y ceder el paso si corresponde.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 508,
+    "q": "¿Qué se debe hacer en esta intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detener mi vehículo solo si hay vehículos acercándose por la derecha.",
+      "Siempre detener mi vehículo y ceder el paso.",
+      "Detener mi vehículo solo si hay vehículos acercándose por la izquierda."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El Stop nos obliga a detener nuestro vehículo ante la línea de detención en todos los casos para ceder después el paso a todos los vehículos que se aproximen por la vía principal.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 509,
+    "q": "¿Debe el conductor del turismo de color blanco respetar la señal de stop cuando llegue al cruce?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, debe respetar las marcas viales existentes.",
+      "Sí, pero solo si sigue de frente.",
+      "No, porque la señal horizontal solo es para los que giren a la izquierda."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Las señales que están dentro de un carril delimitado solamente s e aplican para los vehículos que utilicen dichos carriles."
+    ]
+  },
+  {
+    "id": 510,
+    "q": "En una intersección con señal de ceda el paso pintada en el suelo y visibilidad reducida, ¿dónde debe detenerse para ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Primero antes de la línea y después donde vea bien la intersección.",
+      "Donde vea bien la otra vía, pero sin poner en peligro a otros conductores.",
+      "Siempre antes de la línea discontinua."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando en una intersección de visibilidad reducida nos encontremos con la marca vial de ceda el paso pintada en el asfalto, deberemos detenernos a ceder el paso al resto de vehículos en el lugar dónde veamos bien la vía transversal  para no poner el peligro al resto de usuarios de la vía.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 511,
+    "q": "En esta intersección sin señales de preferencia, circulan ciclistas, ¿cuándo debe cederles el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando se aproximen por la izquierda.",
+      "Nunca, los vehículos a motor siempre tienen preferencia sobre las bicicletas.",
+      "Cuando se aproximen por la derecha."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En una intersección sin señales de prioridad se aplica la norma general de la derecha, que también alcanza a los ciclistas: hay que cederles el paso cuando se aproximan por la derecha. Los vehículos de motor no tienen preferencia automática sobre las bicicletas."
+    ]
+  },
+  {
+    "id": 512,
+    "q": "Se encuentra en una intersección sin señales de prioridad. ¿A qué vehículos deberá ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No se deberá ceder el paso a ningún vehículo.",
+      "A los vehículos que se acerquen por su derecha.",
+      "A todos los vehículos que se acerquen de frente."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si no existe señal de circulación que regule la prioridad de paso en una intersección se establece que los conductores estarán obligados a ceder la prioridad de paso a los vehículos que se aproximen por su derecha. Existen excepciones como en el caso de las glorietas, en que los vehículos que se encuentren dentro de la vía circular tendrán siempre prioridad frente a los que pretenden acceder a ella.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 513,
+    "q": "¿Se podrá cambiar de carril cuando se está situado en un carril delimitado por líneas continuas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No",
+      "Únicamente los camiones",
+      "Sí"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "No se puede cambiar de carril cuando este está delimitado por líneas continuas, ya que una marca longitudinal continua no se puede rebasar.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 514,
+    "q": "¿Con cuál de éstas señales verticales puede estar señalizada una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Carril prioritario de ciclos y bicicletas",
+      "Desprendimiento de rocas",
+      "Detención obligatoria"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La prioridad en una intersección puede estar señalizada con la señal de detención obligatoria (STOP) o con la de ceda el paso. Las señales de carril prioritario de ciclos y de desprendimiento de rocas no regulan la prioridad de una intersección."
+    ]
+  },
+  {
+    "id": 515,
+    "q": "¿Cómo se indicará la intención de realizar un cambio de carril a la derecha en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con el indicador de dirección derecho.",
+      "Con el brazo izquierdo doblado hacia abajo",
+      "Ambas respuestas son correctas"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los indicadores de dirección se utilizarán para señalizar toda maniobra que implique un desplazamiento lateral tanto de día como de noche, siendo vueltos a su posición tras la maniobra.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 516,
+    "q": "En esta intersección, en la que los dos vehículos tienen de frente una señal de ceda el paso, ¿quién pasará primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El conductor del autobús amarillo porque se aplica la regla general de prioridad de paso.",
+      "El conductor del autobús amarillo porque tiene mayor dificultad de maniobra.",
+      "El conductor del vehículo rojo porque tiene preferencia de paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando los dos vehículos tienen señal de ceda el paso, la señalización no resuelve la prioridad entre ellos y se aplica la norma general: pasa primero el que se aproxima por la derecha del otro, en este caso el rojo. La mayor dificultad de maniobra del autobús solo cuenta en los estrechamientos."
+    ]
+  },
+  {
+    "id": 517,
+    "q": "En esta intersección con señal de STOP y buena visibilidad, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detenerse siempre ante la línea transversal.",
+      "Seguir circulando sin detenerse, porque no viene ningún vehículo de frente.",
+      "Detenerse siempre una vez superada la línea transversal."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En la imagen, vemos una intersección con una señal de STOP en forma de marca vial y de señal vertical y que cuenta con una buena visibilidad de la vía principal.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 518,
+    "q": "Como norma general, ¿A qué vehículos debe ceder el paso en una intersección con una señal e ceda el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo a los vehículos que se aproximan por la izquierda.",
+      "A todos los vehículos que se aproximan por la derecha o por la izquierda.",
+      "Solo a los vehículos que se aproximen por la derecha."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Como norma general el Reglamento de Circulación, establece que cuando en una intersección encontremos una señal vertical o marca vial de Ceda el paso, se deberá ceder el paso a todos los vehículos que se acerquen tanto por la derecha como por la izquierda, debiendo cruzar una vez no haya nadie circulando por la transversal.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 519,
+    "q": "En esta intersección sin señalizar, ¿qué vehículo pasará primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El turismo rojo.",
+      "El ciclomotor.",
+      "La furgoneta amarilla."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En esta intersección sin señalizar, el vehículo que debe pasar primero es el turismo rojo .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 520,
+    "q": "En esta intersección con “circulación giratoria” que no es una glorieta, ¿a quién debe ceder el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A los que entren por mi izquierda.",
+      "A los que entren por mi derecha.",
+      "A los que estén girando alrededor de la plaza."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Una intersección de circulación giratoria no es una glorieta , por lo que si no hay señales que regulen la preferencia de paso, se aplica la norma general de prioridad de la derecha.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 521,
+    "q": "A la vista de la fotografía, el conductor del vehículo, ¿está obligado a detenerse siempre?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo si sigue de frente.",
+      "Sí, en todo caso.",
+      "Sólo si se aproxima algún vehículo al que deba ceder el paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Al ver la señal vertical de ceda el paso en la fotografía, el conductor del vehículo no está obligado a detenerse siempre ."
+    ]
+  },
+  {
+    "id": 522,
+    "q": "El autobús y el camión han llegado a un estrechamiento en el que no hay señales. ¿Qué vehículo debe circular hacia atrás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El camión.",
+      "El que tenga una mayor Masa Máxima Autorizada.",
+      "El autobús."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un estrechamiento no señalizado como el de la imagen, la prioridad de paso entre vehículos es la siguiente:\n\n1.º Vehículos especiales y en régimen de transporte especial que excedan de las masas o dimensiones reglamentarias.\n2.º Conjuntos de vehículos (vehículo con remolque), salvo los del punto 4.º.\n3.º Vehículos de tracción animal.\n4.º Turismos que arrastran remolques de hasta 750 kg de MMA y autocaravanas.\n5.º Vehículos destinados al transporte colectivo de viajeros (autobuses).\n6.º Camiones, tractocamiones y furgones.\n7.º Turismos y vehículos derivados de turismos.\n8.º Vehículos especiales que no excedan de masas o dimensiones y cuadriciclos.\n9.º Vehículos de tres ruedas, motocicletas con sidecar y ciclomotores de tres ruedas.\n10.º Motocicletas, ciclomotores de dos ruedas y bicicletas.\n\nEl autobús (5.º) figura antes que el camión (6.º), por lo que tiene preferencia de paso. Por tanto, quien debe circular hacia atrás es el camión.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 523,
+    "q": "¿Cómo acostumbra a ser el campo de visión en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ampliado",
+      "Reducido",
+      "Con perspectiva"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las intersecciones el campo de visión suele ser reducido por edificios, vegetación, vehículos estacionados u otros obstáculos, por lo que hay que aproximarse con precaución.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 524,
+    "q": "Cuando se acerca a un puente móvil. ¿Qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Disminuir la velocidad y conducir con más atención.",
+      "Aumentar la velocidad y pasar rápidamente.",
+      "Detener mi vehículo antes de pasar."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al acercarse a un puente móvil hay que disminuir la velocidad y conducir con más atención, deteniéndose solo si fuera necesario. No se debe acelerar para pasar antes de que se abra.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 525,
+    "q": "Al aproximarse a un paso a nivel o a un puente móvil debe...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "extremar la precaución y circular a una velocidad moderada.",
+      "detenerse en todo caso.",
+      "circular a la velocidad máxima para pasar lo antes posible."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al acercarnos a un paso a nivel o a un puente móvil, debemos extremar la precaución y reducir nuestra velocidad a un ritmo moderado .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 526,
+    "q": "¿Qué forma tiene la señal vertical que indica fin de prioridad de paso de los vehículos de esa calzada sobre los demás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Circular",
+      "Octogonal",
+      "Romboide"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La señal que indica el fin de la prioridad de paso de la calzada es de forma romboidal, igual que la señal de calzada con prioridad."
+    ]
+  },
+  {
+    "id": 527,
+    "q": "¿Cuándo debe un conductor circular a una velocidad moderada, y detener el vehículo, si fuera necesario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Al acercarnos a un cambio de rasante.",
+      "En las vías de doble sentido.",
+      "En las proximidades de un paso de peatones que no esté regulado por semáforo o por agentes de tráfico."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En los pasos para peatones que no estén regulados , se debe moderar la velocidad y llegar a detenerse si fuera necesario para poder ver a los peatones a tiempo y reaccionar ante cualquier situación de riesgo."
+    ]
+  },
+  {
+    "id": 528,
+    "q": "¿Cuándo deberá un conductor iniciar la fase de aproximación a la intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando desde lejos la visualice",
+      "Cuando haya salido de la intersección",
+      "Cuando llegue al inicio de la intersección"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La fase de aproximación debe iniciarse cuando se visualiza la intersección desde lejos, para tener tiempo de observar, decidir y actuar con antelación.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 529,
+    "q": "¿Qué indica el panel situado debajo de la señal de ceda el paso en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La prioridad de paso de los vehículos que circulan por la vía",
+      "La distancia en metros de dónde comienza a regir la prescripción",
+      "El nombre de la población dónde se va a entrar"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El panel complementario situado bajo la señal de ceda el paso indica la distancia en metros a partir de la cual empieza a regir la prescripción de la señal.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 530,
+    "q": "Un vehículo prioritario, ¿tiene prioridad de paso sobre los demás usuarios de la vía en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre.",
+      "Sólo cuando circule en servicio de urgencia.",
+      "No, en ningún caso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Un vehículo prioritario, como una ambulancia, un coche de policía o un vehículo de bomberos, tiene prioridad de paso sobre otros usuarios de la vía en una intersección solo cuando está circulando en servicio de urgencia y lo señaliza adecuadamente.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 531,
+    "q": "¿Cuál de éstas es una señal de preseñalización en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señal de prohibición de entrada",
+      "Señal de preseñalización de glorieta",
+      "Señal de indicación de carreteras y poblaciones"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las señales de preseñalización anuncian con antelación una intersección o una salida; por ejemplo, la de glorieta indica las salidas de la próxima glorieta. Las de prohibición de entrada no son de preseñalización, ni las de indicación de carreteras y poblaciones.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 532,
+    "q": "¿En una vía de tres carriles delimitados con marca longitudinales continuas a quien afecta un stop pintado en el carril central?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Al carril central únicamente",
+      "Al carril derecho y al carril central",
+      "A todos los carriles"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un STOP pintado dentro de un carril delimitado por marcas longitudinales continuas solo obliga a los vehículos que circulan por ese carril, en este caso el central.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 533,
+    "q": "En un paso a nivel, ¿Qué debe hacer si la barrera está a punto de subir?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pasar cuando, por la altura, la barrera lo permita.",
+      "Pasar cuando lo hagan el resto de vehículos, se mueva o no la barrera.",
+      "Detenerse detrás de los demás vehículos, hasta que la barrera suba totalmente y permita el paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Si al aproximarnos a un paso a nivel comprobamos que la barrera o semibarrera del mismo se encuentra a punto de subir o en movimiento, deberemos detener nuestro vehículo detrás del resto, y esperaremos para atravesar el paso una vez la barrera suba totalmente y se permita el paso de vehículos. Por mucho que veamos que otros vehículos atraviesan el paso a nivel con la barrera todavía en movimiento, en ningún caso seguiremos sus pasos."
+    ]
+  },
+  {
+    "id": 534,
+    "q": "¿Dónde se debe detener?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En el carril derecho, detrás del vehículo rojo.",
+      "En el carril izquierdo o en el derecho.",
+      "En el carril izquierdo, al lado del vehículo rojo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los usuarios de la vía que al llegar a un paso a nivel o a un puente levadizo lo encuentren cerrado o con la barrera o semibarrera en movimiento, deberán detenerse uno detrás de otro en el carril correspondiente hasta que tengan paso libre. Así pues en este caso nos detendremos en el carril derecho, detrás del vehículo rojo de la imagen.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 535,
+    "q": "¿Cómo deben cruzar la calzada los peatones si no existe paso para peatones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cruzando en diagonal para tener mayor visibilidad y sin mirar a ambos lados",
+      "En grupo y sin verificar si circulan vehículos próximos a nosotros",
+      "Perpendicularmente al eje de la calzada"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando no existe paso para peatones, estos deben cruzar la calzada perpendicularmente al eje, por el camino más corto, tras comprobar que no se aproxima ningún vehículo."
+    ]
+  },
+  {
+    "id": 536,
+    "q": "¿Qué se deberá observar primero en la fase de aproximación de una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El tráfico",
+      "Las señales verticales",
+      "La intersección"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Lo primero que hay que observar en la fase de aproximación es el tráfico (los vehículos de delante, de atrás y de los lados), porque condiciona el desplazamiento lateral, la señalización de la maniobra y la velocidad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 537,
+    "q": "¿Qué debe evitar el conductor en la fase de posición de entrada en intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Las distracciones.",
+      "Conducir a más de 40 km por hora.",
+      "Mantener fija la vista al frente."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En la fase de posición de entrada la exigencia es máxima, por lo que hay que evitar cualquier distracción.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 538,
+    "q": "¿Qué se debe hacer una vez seleccionada la posición correcta a ocupar en la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Adecuar la velocidad al cambio de dirección o franqueo",
+      "Aumentar la velocidad a 20 km/hora más de la mínima",
+      "Observar el tráfico y ceder el paso si fuera necesario"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una vez seleccionada la posición correcta en la calzada hay que adecuar la velocidad al cambio de dirección o franqueo que se va a realizar, reduciéndola lo necesario, no aumentarla.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 539,
+    "q": "Al llegar a una intersección, la única señal que observa es una marca transversal discontinua en su carril, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No franquear esa marca si hay que ceder el paso por aplicación de las normas de prioridad.",
+      "Detenerse obligatoriamente ante esa marca.",
+      "No franquear esa marca en ningún caso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al llegar a una intersección donde la única señal que observamos es una marca transversal discontinua en nuestro carril como en este caso, debemos interpretar esta marca como una línea de detención .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 540,
+    "q": "Al cruzar un arcén por el que circulan peatones en una zona en la que no existe zona peatonal, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Avisar a los peatones de su presencia con señales acústicas.",
+      "Continuar circulando, ya que tiene preferencia de paso.",
+      "Ceder el paso a los peatones, pues tienen preferencia."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando un conductor se encuentra cruzando un arcén por el que circulan peatones en una zona donde no existe una zona peatonal específica, debe ceder el paso a los peatones, ya que tienen preferencia en este caso ."
+    ]
+  },
+  {
+    "id": 541,
+    "q": "¿De qué tipo es la señal que indica el nombre de las poblaciones en las intersecciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señal de dirección",
+      "Señal de localización",
+      "Señal de preseñalización"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las señales de localización indican el nombre de un poblado, un río, un puerto u otro lugar, así como los límites entre divisiones administrativas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 542,
+    "q": "Para cambiar de dirección a la izquierda, ¿dónde debe dejar el centro de la intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A la derecha.",
+      "A la izquierda."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando hacemos un cambio de dirección , normalmente el centro de la intersección debe quedarse a nuestra izquierda , salvo que sea una intersección en la que haya una señalización diferente o esté diseñada para circular de una manera determinada."
+    ]
+  },
+  {
+    "id": 543,
+    "q": "En una glorieta regulada exclusivamente por esta señal, ¿quién tiene prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo que se encuentra dentro de la calzada circular.",
+      "Siempre el vehículo que tenga libre su derecha.",
+      "El vehículo que pretende acceder a la glorieta."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una glorieta regulada exclusivamente por la señal de la imagen, es fundamental comprender quién tiene prioridad de paso para garantizar una circulación segura y fluida .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 544,
+    "q": "En los pasos para peatones debidamente señalizados, el adelantamiento...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "está prohibido, como norma general.",
+      "está permitido, como norma general.",
+      "sólo podrá realizarse a vehículos de dos ruedas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En los pasos para peatones debidamente señalizados, el adelantamiento está prohibido como norma general .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 545,
+    "q": "¿Por dónde debe viajar un peatón cuando empuja un carro?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por áreas peatonales o por el arcén o por la carretera si el camino está bloqueado.",
+      "Únicamente por áreas peatonales.",
+      "Únicamente por la carretera."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los peatones que empujan un carro u otro aparato voluminoso deben circular por la zona peatonal y si pueden ser un obstáculo para los demás peatones, lo harán por el arcén o por la calzada .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 546,
+    "q": "¿Está permitido parar y estacionar en el arcén transitable de una travesía si no hay señal que lo prohíba?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, parar y estacionar.",
+      "No, porque en la parte transitable del arcén de una travesía dentro de poblado no se puede parar ni estacionar.",
+      "Únicamente podrán parar y estacionar los turismos."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Como normal general no se podrá parar ni estacionar en el arcén transitable de una vía fuera de poblado. Sí lo podremos hacer como excepción en el arcén de las travesías dentro de poblado, siempre que el arcén sea practicable y pavimentado y no haya señal vertical que lo prohíba.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 547,
+    "q": "Si en esta intersección pretende girar a la derecha, debe...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "efectuar el giro siguiendo la norma general de prioridad de paso.",
+      "detenerse antes de entrar en la intersección.",
+      "continuar la marcha, ya que el semáforo está después de la intersección."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si en esta intersección pretendemos girar a la derecha, debemos detenernos antes de entrar en la intersección, ya que el semáforo al otro lado está en rojo .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 548,
+    "q": "¿Obliga siempre la señal de ceda el paso a detener el vehículo en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No",
+      "Sólo obliga a las motocicletas y bicicletas",
+      "Si"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La señal de ceda el paso no obliga siempre a detenerse: solo hay que parar si es necesario para ceder el paso a los vehículos que circulan por la vía. Lo que sí obliga siempre a detenerse es la señal de STOP.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 549,
+    "q": "En esta vía, ¿dónde se colocará para cambiar de dirección a la derecha?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Donde no moleste a otros vehículos que sigan de frente.",
+      "En cualquier carril.",
+      "En el carril derecho."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Debemos obedecer las marcas viales, como las flechas de selección de carril que nos indican el carril que hay que utilizar para tomar una u otra dirección."
+    ]
+  },
+  {
+    "id": 550,
+    "q": "Quedo detenido en una intersección regulada por semáforos y obstaculiza la circulación, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Salir del cruce lo antes posible, en condiciones de seguridad, sin esperar a que el semáforo se ponga en verde.",
+      "Dar marcha atrás para dejar libre la intersección.",
+      "Esperar a que el semáforo se ponga en verde."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Aun cuando tengamos prioridad de paso respecto del resto de vehículos, ningún conductor deberá penetrar con su vehículo en una intersección regulada por semáforo si la situación de la circulación es tal que, previsiblemente, pueda quedar detenido de forma que impida u obstruya la circulación transversal. Si nos quedamos detenidos una vez ya estamos dentro, intentaremos abandonar el cruce lo antes posible siempre en condiciones de seguridad, sin necesidad de esperar a que el semáforo que regula la intersección se ponga en verde.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 551,
+    "q": "Al aproximarse a un puente móvil, ¿qué están obligados a hacer los conductores?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Extremar la prudencia y reducir la velocidad por debajo de la máxima permitida.",
+      "Detenerse siempre antes de cruzarlo.",
+      "Aumentar la velocidad para cruzar el paso lo antes posible."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los conductores deben extremar la prudencia y reducir la velocidad al aproximarse a un puente móvil debido a varios factores de riesgo que se asocian con este tipo de estructura.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 552,
+    "q": "En esta intersección con un semáforo en amarillo intermitente, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Continuar con precaución, ya que el semáforo amarillo intermitente exime de cumplir la señal vertical.",
+      "Detener el vehículo.",
+      "Extremar la precaución y ceder el paso a ambos lados en su caso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Una luz amarilla intermitente, o dos luces amarillas alternativamente intermitentes , no prohíben el paso, pero exigen a los conductores extremar su precaución y no eximen del cumplimiento de otras señales verticales que obliguen a detenerse o ceder el paso.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 553,
+    "q": "¿Se debe ceder el paso cuando encontramos la señal de stop en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente a peatones y bicicletas",
+      "No",
+      "Sí"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Sí. La señal de STOP obliga a detenerse y a ceder el paso a los vehículos que circulan por la vía transversal, así como a los peatones y ciclistas que tengan prioridad."
+    ]
+  },
+  {
+    "id": 554,
+    "q": "¿De qué tipo es la señal que prohíbe el acceso a motocicletas en una vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señales de dirección",
+      "Señales de prohibición de entrada",
+      "Señales de indicación"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las señales que prohíben el acceso de determinados vehículos a una vía, como las motocicletas, son señales de prohibición de entrada. Las de dirección y las de indicación son informativas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 555,
+    "q": "¿Dónde debe detenerse el vehículo azul para ceder el paso a los vehículos de la vía transversal?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sin rebasar el paso para peatones.",
+      "Sin rebasar la señal horizontal de \"Ceda el paso\".",
+      "Sin franquear la línea transversal discontinua."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El vehículo azul debe detenerse, si es necesario para ceder el paso, sin franquear la línea transversal discontinua situada antes de la intersección."
+    ]
+  },
+  {
+    "id": 556,
+    "q": "Un turismo y un camión entran al mismo tiempo en un paso estrecho sin señales de prioridad. ¿Qué debe hacer el conductor del turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pasar, porque tiene prioridad.",
+      "Detenerse hasta que el camión ceda el paso.",
+      "Dar marcha atrás para dejar pasar al camión, que tiene preferencia."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En la situación descrita, donde un turismo y un camión entran al mismo tiempo en un paso estrecho sin señales de prioridad, el conductor del turismo debe dar marcha atrás para dejar pasar al camión ."
+    ]
+  },
+  {
+    "id": 557,
+    "q": "En un túnel, el conductor de una motocicleta, ¿qué distancia debe dejar con el vehículo de delante en caso de que no quiera adelantarlo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Como mínimo 50 metros.",
+      "Como mínimo 150 metros.",
+      "Como mínimo 100 metros."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un túnel, si no se pretende adelantar, hay que dejar con el vehículo que circula delante una distancia de al menos 100 metros, también en motocicleta."
+    ]
+  },
+  {
+    "id": 558,
+    "q": "¿Qué debe hacer si corre el riesgo de quedar detenido dentro de una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Esperar hasta que pueda cruzar sin obstáculos.",
+      "Cruzar igualmente ya que el semáforo está en verde.",
+      "Cruzar de todas formas ya que tengo prioridad de paso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si existe el riesgo de quedar detenido dentro de una intersección, lo correcto es esperar hasta que se pueda cruzar completamente y sin obstáculos .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 559,
+    "q": "En un paso a nivel, ¿qué debe hacer si la barrera está en movimiento para levantarse?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pasar cuando el vehículo entre por debajo de la barrera aunque esta siga en movimiento.",
+      "Pasar cuando lo hagan otros vehículos, aunque esté la barrera en movimiento.",
+      "Detenerse hasta que la barrera esté completamente subida y permita el paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un paso a nivel, si la barrera está en movimiento para levantarse, debe detenerse hasta que la barrera esté completamente subida y permita el paso ."
+    ]
+  },
+  {
+    "id": 560,
+    "q": "En esta intersección sin señalizar se encuentra con un ciclista, ¿debe cederle el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque los vehículos de dos ruedas siempre tienen preferencia.",
+      "Sí, porque se aproxima por la derecha.",
+      "No, porque los vehículos de motor tienen preferencia sobre los ciclos de dos ruedas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando nos encontremos ante una intersección sin preferencia señalizada por semáforos, STOP, o agentes de circulación entre otros como en el caso de la imagen, estaremos obligados a ceder el paso a todos los vehículos que se aproximen por nuestra derecha como en este caso el conductor de bicicleta. Una vez haya cruzado el ciclista podremos proceder a introducirnos en la intersección.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 561,
+    "q": "¿Debe un conductor entrar en un paso de peatones si prevé que puede quedarse detenido dentro de él debido al tráfico denso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí.",
+      "Sí, si el semáforo está en verde.",
+      "No, ya que bloquearía el paso de los peatones."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Aunque tengamos prioridad, no se debe penetrar en ningún sitio donde se entorpezca la circulación transversal , ya sean peatones, ciclistas u otros vehículos, por ejemplo en una intersección."
+    ]
+  },
+  {
+    "id": 562,
+    "q": "No debe entrar en una intersección, aunque el semáforo esté en verde, si...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "se aproximan vehículos por la derecha.",
+      "hay una señal de stop o de ceda el paso.",
+      "un agente le ordena detenerse."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "No se debe ingresar a una intersección, incluso si el semáforo está en verde , si un agente de tráfico nos indica que nos detengamos."
+    ]
+  },
+  {
+    "id": 563,
+    "q": "¿Está permitido estacionar o detenerse en un paso de peatones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Está prohibido parar y estacionar en él.",
+      "El estacionamiento está prohibido pero la parada sí se permite.",
+      "Está permitido hacer una parada de una duración inferior a 2 minutos."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Está estrictamente prohibido estacionar o detenerse en un paso de peatones .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 564,
+    "q": "¿Cuál de estos tipos de señales NO se pueden encontrar en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señales de restricción",
+      "Marcas viales",
+      "Señales de preadvertencia"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En las intersecciones, la preferencia de paso de las vías que la cruzan estará regulada por señales verticales, marcas viales, semáforos o agentes de la circulación."
+    ]
+  },
+  {
+    "id": 565,
+    "q": "Dos vehículos del mismo tipo se encuentran en un estrechamiento y no se sabe cuál tiene preferencia, ¿cuál de ellos tiene prioridad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo que tenga que dar marcha atrás mayor distancia.",
+      "El vehículo que tenga mayor anchura o longitud.",
+      "El vehículo que tenga que dar marcha atrás una menor distancia."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En situaciones donde dos vehículos del mismo tipo se encuentran en un estrechamiento y no está claro cuál tiene la preferencia, la norma establece que el vehículo que tenga que dar marcha atrás la mayor distancia es el que deberá tener la preferencia de paso .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 566,
+    "q": "Ve que si entra en la intersección va a obstaculizar la circulación. ¿Qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Esperar hasta que pueda cruzarla sin obstaculizar.",
+      "Entrar, porque el semáforo está verde.",
+      "Entrar, porque tengo prioridad."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si vemos que al entrar en la intersección vamos a obstaculizar la circulación, debemos esperar hasta que podamos cruzarla sin obstruir el paso .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 567,
+    "q": "¿Pueden las intersecciones estar reguladas por un agente de la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, únicamente serán reguladas por semáforo",
+      "Únicamente en caso de condiciones meteorológicas adversas",
+      "Sí"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Sí, las intersecciones pueden estar reguladas por un agente de la circulación, cuyas indicaciones prevalecen sobre las de cualquier otra señal (semáforos, señales verticales y marcas viales)."
+    ]
+  },
+  {
+    "id": 568,
+    "q": "¿Dónde se encuentra la posición de entrada en una intersección regulada por stop sin línea transversal?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Inmediatamente antes de la intersección.",
+      "100 metros antes de la intersección.",
+      "Traspasada la intersección."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En las intersecciones sin señalizar la complejidad aumenta ya que es el conductor el que decide cual es la posición de entrada ya que no existe línea transversal discontinua que la delimite.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 569,
+    "q": "¿Qué indica una luz roja no intermitente en el semáforo de una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Obligación de extremar la precaución.",
+      "Prohibido el paso.",
+      "Permitido el paso con prioridad."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La luz roja no intermitente de un semáforo prohíbe el paso: hay que detenerse antes de la línea de detención (o antes del semáforo si no la hay).",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 570,
+    "q": "Un ciclomotor y un turismo llegan al mismo tiempo a un estrechamiento en el que no está señalizada la prioridad de paso. ¿Qué vehículo pasará primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que tenga una menor masa máxima autorizada.",
+      "El ciclomotor.",
+      "El turismo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando un ciclomotor y un turismo llegan a la vez a un estrechamiento sin señalizar y no se sabe quién entró primero, tiene preferencia el vehículo con mayor dificultad de maniobra según el orden del art. 62 del Reglamento General de Circulación: el turismo precede a los ciclomotores de dos ruedas."
+    ]
+  },
+  {
+    "id": 571,
+    "q": "¿Con qué característica debe realizarse el desplazamiento lateral en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con suficiente antelación",
+      "Sin prestar atención al tráfico",
+      "Con extrema rapidez"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El desplazamiento lateral en una intersección debe realizarse con suficiente antelación y atendiendo al tráfico, para no sorprender a los demás conductores. No se hace con rapidez ni sin atender al tráfico.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 572,
+    "q": "¿Cuándo está prohibido adelantar en los túneles?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando existe más de un carril para cada sentido.",
+      "Cuando solo existe un carril para cada sentido.",
+      "Cuando el túnel no está iluminado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si circulando por un túnel, vemos que este solamente tiene un carril para el mismo sentido, no estará permitido adelantar a otros vehículo .",
+      "Incorrecto."
+    ]
   }
 ]

@@ -1,0 +1,8 @@
+imgs/
+preguntas.json
+preguntas_wip.json
+scraper.py
+urls-total.txt
+urls.txt
+venv/
+errores.log
