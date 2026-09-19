@@ -138,7 +138,7 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
   <p>Practica con las <strong><span id="home-count">…</span> preguntas</strong> del examen de conducir tipo B.</p>
   <div class="modes">
     <button class="mode active" data-m="exam30"><div class="mode-icon">📋</div><div class="mode-name">Examen oficial</div><div class="mode-info">30 preguntas · 30 min · Sin corrección hasta el final</div></button>
-    <button class="mode" data-m="all"><div class="mode-icon">📚</div><div class="mode-name">Todas las preguntas</div><div class="mode-info"><span id="home-count">387</span> preguntas · Corrección inmediata · Sin límite de tiempo</div></button>
+    <button class="mode" data-m="all"><div class="mode-icon">📚</div><div class="mode-name">Todas las preguntas</div><div class="mode-info"><span id="home-count-all">…</span> preguntas · Corrección inmediata · Sin límite de tiempo</div></button>
     <button class="mode" data-m="failed"><div class="mode-icon">🔁</div><div class="mode-name">Mis errores</div><div class="mode-info">Solo preguntas falladas · Corrección inmediata</div></button>
   </div>
   <button id="btn-go">Comenzar →</button>
@@ -215,10 +215,13 @@ fetch('questions.json')
   })
   .then(function(data){
     Q = data;
-    // Actualizar contador en home
+    // Actualizar contadores en home
     var subtitle = document.getElementById('home-count');
-    if(subtitle) subtitle.textContent = Q.length;
-    // Registrar eventos ahora que Q está listo
+    if(subtitle) subtitle.textContent = Q.length.toLocaleString('es-ES');
+
+    var sub2 = document.getElementById('home-count-all');
+    if(sub2) sub2.textContent = Q.length.toLocaleString('es-ES');    
+    
     initApp();
   })
   .catch(function(err){
@@ -228,7 +231,7 @@ fetch('questions.json')
 
 function initApp(){
 
-var mode='exam30', eq=[], idx=0, ans={}, wrongs=0;
+var mode='exam30', eq=[], idx=0, ans={}, wrongs=0, startT=0;
 var tInt=null, secs=0, totalSecs=0, rev=false, failed=[];
 try { failed=JSON.parse(localStorage.getItem('dgt_f')||'[]'); } catch(e){}
 function lsSave(){ try{ localStorage.setItem('dgt_f',JSON.stringify(failed)); }catch(e){} }
@@ -251,7 +254,7 @@ for(var mi=0;mi<mbs.length;mi++){
 
 // INICIO
 function startExam(e){ if(e) e.preventDefault();
-  rev=false; ans={}; idx=0; wrongs=0; pending=-1;
+  rev=false; ans={}; idx=0; wrongs=0; pending=-1; startT=Date.now();
   if(mode==='exam30'){ eq=shuffle(Q).slice(0,30); secs=1800; totalSecs=1800; timerStart(); }
   else if(mode==='all'){ eq=Q.slice(); timerHide(); }
   else{ var f=[]; for(var i=0;i<Q.length;i++) if(failed.indexOf(Q[i].id)!==-1) f.push(Q[i]); if(!f.length){ alert('No tienes preguntas falladas todavía.'); return; } eq=shuffle(f); timerHide(); }
@@ -386,17 +389,40 @@ el('btn-next').addEventListener('touchend',doNext); el('btn-next').addEventListe
 el('btn-validate').addEventListener('touchend',doValidate); el('btn-validate').addEventListener('click',doValidate);
 function doEnd(e){ e.preventDefault(); finish(); }
 el('btn-end').addEventListener('touchend',doEnd); el('btn-end').addEventListener('click',doEnd);
-function doExit(e){ e.preventDefault(); timerHide(); rev=false; goHome(); }
+
+// SALIR: en modo test muestra el resumen; en modo revisión vuelve al inicio
+function doExit(e){
+  e.preventDefault();
+  if(rev){ rev=false; goHome(); }
+  else finish();
+}
 el('btn-exit').addEventListener('touchend',doExit); el('btn-exit').addEventListener('click',doExit);
 
 // RESULTADOS
-function finish(){ timerHide(); var c=0,w=0,s=0; for(var i=0;i<eq.length;i++){ var a=ans[i]; if(a===undefined) s++; else if(a===eq[i].a[0]) c++; else w++; }
-  var pct=Math.round(c/eq.length*100),passed=mode==='exam30'?c>=27:pct>=70,used=totalSecs-secs;
-  el('res-emoji').textContent=passed?'🎉':'😞'; el('res-title').textContent=passed?'¡Enhorabuena!':'Sigue practicando';
-  el('res-sub').textContent=passed?'Has superado el test. ¡Buen trabajo!':'No has alcanzado el mínimo. ¡Inténtalo de nuevo!';
-  el('res-badge').textContent=passed?'✅ APROBADO':'❌ NO APTO'; el('res-badge').className=passed?'pass':'fail';
+function finish(){
+  timerHide();
+  var c=0,w=0,s=0;
+  for(var i=0;i<eq.length;i++){
+    var a=ans[i];
+    if(a===undefined) s++; else if(a===eq[i].a[0]) c++; else w++;
+  }
+  var exam=isExamMode();
+  var answered=c+w;
+  var pct=answered?Math.round(c/answered*100):0;
+  var passed=exam?c>=27:(answered>0&&pct>=70);
+  var used=exam?totalSecs-secs:Math.round((Date.now()-startT)/1000);
+
+  el('res-emoji').textContent=passed?'🎉':'😞';
+  el('res-title').textContent=passed?'¡Enhorabuena!':'Sigue practicando';
+  el('res-sub').textContent=exam
+    ?(passed?'Has superado el test. ¡Buen trabajo!':'No has alcanzado el mínimo. ¡Inténtalo de nuevo!')
+    :'Has respondido '+answered+' de '+eq.length+' preguntas · '+pct+'% de acierto';
+  el('res-badge').textContent=passed?'✅ APROBADO':'❌ NO APTO';
+  el('res-badge').className=passed?'pass':'fail';
   el('res-c').textContent=c; el('res-w').textContent=w; el('res-s').textContent=s;
-  if(totalSecs>0){ var um=Math.floor(used/60),us=used%60; el('res-time').textContent='⏱ Tiempo: '+um+'m '+(us<10?'0'+us:us)+'s'; } else el('res-time').textContent='';
+
+  var um=Math.floor(used/60),us=used%60;
+  el('res-time').textContent='⏱ Tiempo: '+um+'m '+(us<10?'0'+us:us)+'s';
   goResults();
 }
 function doRetry(e){ e.preventDefault(); timerHide(); rev=false; goHome(); }

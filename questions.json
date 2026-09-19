@@ -8233,7 +8233,7 @@
       "Incorrecto."
     ]
   },
- {
+  {
     "id": 409,
     "q": "Si en un estrechamiento sin señalizar entrar al mismo tiempo un turismo y un vehículo de tracción animal, ¿cuál de los dos vehículos tendrá preferencia de paso?",
     "sd": "1",
@@ -11507,6 +11507,3346 @@
       "Incorrecto.",
       "Si circulando por un túnel, vemos que este solamente tiene un carril para el mismo sentido, no estará permitido adelantar a otros vehículo .",
       "Incorrecto."
+    ]
+  },
+  {
+    "id": 573,
+    "q": "¿Cuándo está prohibido adelantar en los túneles?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando existe más de un carril para cada sentido.",
+      "Cuando solo existe un carril para cada sentido.",
+      "Cuando el túnel no está iluminado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Si hay más de un carril por sentido, el adelantamiento puede estar permitido.",
+      "Correcto. El Reglamento General de Circulación prohíbe adelantar en túneles cuando solo existe un carril para cada sentido de circulación, ya que no hay espacio seguro para realizar la maniobra.",
+      "Incorrecto. La iluminación del túnel no es el criterio que determina la prohibición de adelantar."
+    ]
+  },
+  {
+    "id": 574,
+    "q": "¿Dónde debe situar el vehículo un conductor que tiene la intención de cambiar de dirección a la derecha en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Lo más cerca del borde derecho de la calzada.",
+      "En el borde izquierdo de la calzada.",
+      "En el carril central de la calzada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Correcto. Según el artículo 68 del Reglamento General de Circulación, para girar a la derecha el conductor debe aproximarse lo más cerca posible al borde derecho de la calzada, para facilitar la maniobra con seguridad.",
+      "Incorrecto. El borde izquierdo se utiliza para preparar un giro a la izquierda, no a la derecha.",
+      "Incorrecto. El carril central no es la posición adecuada para preparar un giro a la derecha."
+    ]
+  },
+  {
+    "id": 575,
+    "q": "En esta intersección, ¿qué turismo debe pasar primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El amarillo.",
+      "El azul.",
+      "El rojo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Correcto. En intersecciones sin preferencia señalizada, el artículo 57 del Reglamento General de Circulación obliga a ceder el paso a los vehículos que se aproximen por la derecha. El azul cede al rojo, el rojo cede al amarillo, y el amarillo no tiene ningún vehículo a su derecha, por lo que pasa primero.",
+      "Incorrecto. El azul debe ceder el paso al vehículo que tiene a su derecha.",
+      "Incorrecto. El rojo debe ceder el paso al amarillo, que circula por su derecha."
+    ]
+  },
+  {
+    "id": 576,
+    "q": "¿Qué indica un agente con el brazo levantado verticalmente en una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Obligación de ceder el paso a los vehículos que se nos acercan por la izquierda.",
+      "Obligación de detenerse.",
+      "Permitido el paso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La señal de brazo levantado no indica preferencia por la izquierda.",
+      "Correcto. Según el artículo 52 del Reglamento General de Circulación, el agente con el brazo levantado verticalmente advierte a todos los conductores que se aproximan desde cualquier dirección que deben detenerse antes de llegar a su altura.",
+      "Incorrecto. El brazo levantado verticalmente es una señal de detención, no de paso permitido."
+    ]
+  },
+  {
+    "id": 577,
+    "q": "¿Cuál es el primer paso a realizar en la fase de aproximación de una intersección?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Elegir el lugar y posición adecuados en la calzada.",
+      "Observar la intersección.",
+      "Observar el tráfico."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Elegir la posición en la calzada es un paso posterior, una vez valorado el tráfico.",
+      "Incorrecto. Observar la intersección como tal es un paso intermedio, no el primero.",
+      "Correcto. El primer paso en la fase de aproximación a una intersección es observar el tráfico general para valorar la situación, identificar otros vehículos, peatones y posibles peligros antes de tomar ninguna otra decisión."
+    ]
+  },
+  {
+    "id": 578,
+    "q": "Como norma general, ¿quién tiene la preferencia en un estrechamiento sin señalizar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que entre primero.",
+      "El vehículo más pesado.",
+      "Los vehículos de tracción animal."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Correcto. Según el artículo 60 del Reglamento General de Circulación, en un estrechamiento sin señalizar tiene preferencia el vehículo que entre primero en él. El otro conductor debe esperar a que el primero lo haya atravesado.",
+      "Incorrecto. El peso del vehículo no determina la preferencia en un estrechamiento sin señalizar.",
+      "Incorrecto. Los vehículos de tracción animal no tienen preferencia especial en este caso."
+    ]
+  },
+  {
+    "id": 579,
+    "q": "La habilitación de uno o varios carriles para la circulación VAO, ¿será siempre temporal y con horario fijo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre estará habilitado a primera hora de la mañana hasta primera hora de la tarde.",
+      "No, podrá ser permanente y con un horario en función de las necesidades de la circulación.",
+      "Sí, por razones de seguridad vial o fluidez de la circulación."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los carriles VAO pueden tener horarios variables o ser permanentes según las necesidades.",
+      "La habilitación de carriles VAO no está limitada a ser temporal ni con horario fijo. Puede ser permanente o con horario variable según las necesidades de la circulación, determinadas por la autoridad competente.",
+      "Incorrecto. La habilitación puede deberse a múltiples causas y no implica necesariamente horario fijo."
+    ]
+  },
+  {
+    "id": 580,
+    "q": "Los resaltos en los pasos para peatones, ¿se consideran obstáculos en la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, siempre que se garantice la seguridad vial de los usuarios y especialmente de los ciclistas.",
+      "Sí, puesto que dificultan el cruce de los pasos de peatones.",
+      "Sí, cuando son metálicos."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El Reglamento General de Circulación no considera obstáculos los resaltos en pasos para peatones ni las bandas transversales, siempre que cumplan la regulación básica del Ministerio de Fomento y se garantice la seguridad vial de todos los usuarios, especialmente de los ciclistas.",
+      "Incorrecto. Los resaltos son elementos de seguridad, no obstáculos en el sentido legal del término.",
+      "Incorrecto. El material no determina su consideración como obstáculo."
+    ]
+  },
+  {
+    "id": 581,
+    "q": "¿Cuál será la primera acción que deberemos realizar antes de llegar a una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Disminuir la velocidad al menos en 40 km/hora",
+      "Observar las características de la curva",
+      "Aumentar la velocidad respecto a la máxima del tramo de vía"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. No existe una reducción fija de 40 km/h; la velocidad se adapta a las características de la curva.",
+      "Antes de llegar a una curva, la primera acción es observar sus características: trazado, ángulo, visibilidad y estado del pavimento, para poder adaptar la velocidad de forma adecuada antes de entrar en ella.",
+      "Incorrecto. Aumentar la velocidad antes de una curva es una conducta peligrosa y contraria a la normativa."
+    ]
+  },
+  {
+    "id": 582,
+    "q": "¿Qué debe hacer un conductor si observa que por detrás de su vehículo se acerca un vehículo que circula en servicio de urgencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Seguir circulando con normalidad, sin adoptar ninguna medida.",
+      "Acelerar para ir abriendo paso al vehículo en servicio de urgencia.",
+      "Apartarse o, si fuera preciso, detenerse para facilitar el paso."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Ignorar un vehículo prioritario en servicio urgente es una infracción.",
+      "Incorrecto. Acelerar no facilita el paso; puede dificultar la maniobra del vehículo de emergencia.",
+      "Si un conductor observa que se acerca un vehículo en servicio de urgencia, debe apartarse o, si fuera preciso, detenerse para facilitarle el paso. Es una obligación legal recogida en el Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 583,
+    "q": "Este vehículo está averiado y circula a velocidad anormalmente reducida con la luz de emergencia encendida, ¿es correcto su comportamiento?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, las luces de emergencia se usan sólo con el vehículo detenido.",
+      "Sí, porque el vehículo está averiado.",
+      "No, está prohibido el uso de este alumbrado en vías urbanas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las luces de emergencia también pueden usarse con el vehículo en movimiento si circula a velocidad anormalmente reducida.",
+      "El comportamiento es correcto. El Reglamento General de Circulación permite el uso de las luces de emergencia cuando el vehículo averiado circula a velocidad anormalmente reducida, para advertir al resto de usuarios del peligro.",
+      "Incorrecto. Las luces de emergencia pueden usarse tanto en vías urbanas como interurbanas cuando sea necesario."
+    ]
+  },
+  {
+    "id": 584,
+    "q": "¿Mediante qué advertencia se avisará de la presencia de un vehículo no prioritario en servicio de urgencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Mediante el claxon o la luz de emergencia",
+      "Utilizando las luces de frenado intermitentemente",
+      "Únicamente agitando un pañuelo por la ventana del copiloto"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los vehículos no prioritarios que realicen un servicio de urgencia deben advertir su presencia mediante el claxon o la luz de emergencia, para que el resto de conductores les faciliten el paso llegando a detenerse si fuera preciso.",
+      "Incorrecto. Las luces de frenado no son el medio de advertencia establecido para esta situación.",
+      "Incorrecto. Agitar un pañuelo no es una señal reconocida reglamentariamente para este fin."
+    ]
+  },
+  {
+    "id": 585,
+    "q": "En ésta curva, ¿cómo debe circular?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aumentando la velocidad antes de entrar a la curva.",
+      "Entrando en la curva y después reduciendo la velocidad.",
+      "Adaptando la velocidad antes de entrar a la curva."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Aumentar la velocidad antes de una curva es peligroso y contrario a la normativa.",
+      "Incorrecto. Frenar dentro de la curva puede provocar derrape y pérdida de control.",
+      "La velocidad debe adaptarse a las características de la curva antes de entrar en ella. Frenar dentro de una curva reduce la adherencia y puede provocar derrape. La técnica correcta es: observar, reducir velocidad antes, entrar dominado y acelerar suave a la salida."
+    ]
+  },
+  {
+    "id": 586,
+    "q": "¿Qué tipo de adelantamientos están prohibidos en las curvas de visibilidad reducida?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los que realicen los conductores noveles.",
+      "Los que impliquen invadir la parte izquierda de la calzada.",
+      "Los que se realicen a camiones o vehículos pesados."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La prohibición no se basa en la experiencia del conductor.",
+      "El Reglamento General de Circulación prohíbe en curvas de visibilidad reducida los adelantamientos que impliquen invadir la parte izquierda de la calzada, por el riesgo de colisión frontal con vehículos que circulan en sentido contrario y que no podemos ver.",
+      "Incorrecto. La prohibición no depende del tipo de vehículo adelantado."
+    ]
+  },
+  {
+    "id": 587,
+    "q": "Si la separación entre los trazos de una línea longitudinal discontinua es sensiblemente más corta que en el caso general, anuncia...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "la proximidad de una travesía.",
+      "la proximidad de un tramo de vía que presenta un riesgo especial.",
+      "la proximidad de un tramo con una pendiente mayor al cinco por ciento."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La proximidad de una travesía se indica con señalización específica, no con este tipo de marca vial.",
+      "Cuando la separación entre los trazos de una línea discontinua es sensiblemente más corta que la habitual, anuncia la proximidad de un tramo de vía con riesgo especial, como una curva de visibilidad reducida, advirtiendo al conductor de que debe extremar la precaución.",
+      "Incorrecto. Las pendientes superiores al 5% se señalizan con señales verticales específicas."
+    ]
+  },
+  {
+    "id": 588,
+    "q": "¿Cuál es el principal peligro de circular por una zona cercana a un aeropuerto?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El estrechamiento de la calzada en las vías que lo cruzan",
+      "El ensordecedor ruido de las aeronaves que no nos permite recibir señales acústicas",
+      "Las numerosas pendientes que encontramos en las vías colindantes"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El estrechamiento de calzada no es el peligro principal en zonas aeroportuarias.",
+      "El principal peligro al circular cerca de un aeropuerto es el ruido ensordecedor de las aeronaves, que puede impedir al conductor recibir señales acústicas de emergencia emitidas por otros vehículos o por vehículos prioritarios.",
+      "Incorrecto. Las pendientes no son el riesgo característico de las zonas aeroportuarias."
+    ]
+  },
+  {
+    "id": 589,
+    "q": "¿Cuándo tiene preferencia de paso el vehículo de la fotografía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Siempre, es un vehículo de bomberos.",
+      "Solo cuando circule utilizando la señal acústica y luminosa juntas.",
+      "Solo cuando circule en servicio urgente y lo señalice correctamente."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Un vehículo de bomberos no tiene prioridad cuando no está en servicio de urgencia.",
+      "Incorrecto. No es imprescindible el uso simultáneo de ambas señales en todo caso; la clave es circular en servicio urgente y señalizarlo.",
+      "El Reglamento de Circulación establece que los vehículos de extinción de incendios tienen prioridad de paso sobre los demás usuarios únicamente cuando circulen en servicio de urgencia y señalicen correctamente su situación mediante señales luminosas y/o acústicas especiales."
+    ]
+  },
+  {
+    "id": 590,
+    "q": "¿Qué es lo primero que debemos realizar en caso de incendio en un túnel o paso inferior?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Tomar la documentación del vehículo.",
+      "Acercar el vehículo todo lo posible a la derecha.",
+      "Intentar respirar a través de un paño seco."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Perder tiempo buscando documentación puede ser fatal en un incendio.",
+      "En caso de incendio en un túnel o paso inferior, lo primero es acercar el vehículo lo más posible a la derecha para liberar el carril central, apagar el motor, activar las luces de emergencia y facilitar el paso de los vehículos de socorro.",
+      "Incorrecto. Respirar a través de un paño húmedo, no seco, puede ayudar; pero no es la primera acción a realizar."
+    ]
+  },
+  {
+    "id": 591,
+    "q": "¿Quién tendrá preferencia de paso en un tramo de vía estrecho en que sea imposible el paso de dos vehículos en sentido contrario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo de mayor tonelaje",
+      "El que haya entrado último",
+      "El que haya entrado primero"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. El tonelaje no determina la preferencia en este caso.",
+      "Incorrecto. El que entró último debe retroceder o esperar.",
+      "En un tramo estrecho donde no pueden pasar dos vehículos simultáneamente, tiene preferencia de paso el que haya entrado primero en dicho tramo. El otro conductor deberá retroceder hasta un lugar donde sea posible el cruce."
+    ]
+  },
+  {
+    "id": 592,
+    "q": "¿Podrán los conductores de los vehículos prioritarios circular por encima de los límites de velocidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, está prohibido para todos los usuarios superar ese límite.",
+      "Únicamente podrán hacerlo cuando transporten heridos.",
+      "Sí, cuando sea necesario."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los vehículos prioritarios en servicio urgente tienen exenciones específicas a las normas generales.",
+      "Incorrecto. La exención no se limita al transporte de heridos; aplica a cualquier servicio urgente debidamente señalizado.",
+      "Los conductores de vehículos prioritarios en servicio urgente pueden superar los límites de velocidad cuando sea necesario para cumplir su misión, siempre adoptando las precauciones necesarias para no poner en peligro a otros usuarios."
+    ]
+  },
+  {
+    "id": 593,
+    "q": "En caso de producirse un incendio en el interior de un túnel, ¿qué medida de seguridad, entre otras, adoptará el conductor?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Apartará su vehículo a la derecha para dejar paso a los servicios de emergencia.",
+      "Dejará arrancado el motor de su vehículo y abandonará el túnel.",
+      "Apagará el motor del vehículo y permanecerá en su interior."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En caso de incendio en el interior de un túnel, el conductor debe apartar el vehículo lo más posible hacia la derecha para no obstruir el paso a los servicios de emergencia, apagar el motor, activar las luces de emergencia y evacuar a todos los ocupantes.",
+      "Incorrecto. Dejar el motor encendido puede agravar el incendio.",
+      "Incorrecto. Permanecer en el interior del vehículo en un incendio es extremadamente peligroso."
+    ]
+  },
+  {
+    "id": 594,
+    "q": "¿Está permitido poner obstáculos que entorpezcan la libre circulación de los vehículos?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, está permitido siempre que se advierta con antelación.",
+      "Sí, pero únicamente podremos poner 5 obstáculos como máximo.",
+      "No, está prohibido"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. No existe ningún supuesto que permita poner obstáculos que entorpezcan la circulación.",
+      "Incorrecto. No existe ningún límite numérico; la prohibición es absoluta.",
+      "Está terminantemente prohibido abandonar o poner obstáculos en la vía pública. Quien cree un obstáculo involuntario deberá señalizarlo inmediatamente con el dispositivo de preseñalización de peligro (baliza V-16) y retirarlo cuanto antes."
+    ]
+  },
+  {
+    "id": 595,
+    "q": "¿Qué actitud debe adoptar el conductor de un vehículo en una zona señalizada por obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Permanecer distraído al volante.",
+      "Extremar las precauciones.",
+      "Ninguna de las respuestas es correcta."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La distracción al volante es siempre peligrosa y en zonas de obras especialmente.",
+      "En zonas señalizadas por obras el conductor debe extremar las precauciones: reducir la velocidad, aumentar la distancia de seguridad, prestar especial atención a la señalización provisional y al personal de obras que pueda estar en la calzada.",
+      "Incorrecto. Extremar las precauciones es la respuesta correcta y obligatoria."
+    ]
+  },
+  {
+    "id": 596,
+    "q": "En esta vía de doble sentido de circulación no existen marcas en la calzada. Para tomar la curva se debe circular...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "por la izquierda de la calzada, porque hay más visibilidad.",
+      "por la derecha de la calzada, dejando completamente libre la mitad correspondiente al sentido contrario.",
+      "por el centro de la calzada porque no existen marcas viales que separen los sentidos."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Circular por la izquierda en una vía de doble sentido supone invadir el carril del sentido contrario.",
+      "En una vía de doble sentido sin marcas en la calzada, debemos circular por la derecha dejando libre la mitad de la calzada correspondiente al sentido contrario, especialmente en curvas donde la visibilidad es reducida.",
+      "Incorrecto. La ausencia de marcas no autoriza a circular por el centro; la norma general obliga a ir por la derecha."
+    ]
+  },
+  {
+    "id": 597,
+    "q": "Circulando por un paso inferior, su vehículo sufre una avería que no le impide continuar la marcha, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detener el vehículo, salir de él y dirigirse a la salida del paso inferior.",
+      "Apagar el motor y conectar las luces de emergencia.",
+      "Continuar circulando hasta salir del paso inferior siempre que sea posible."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Detener el vehículo innecesariamente en el paso inferior crea un peligro adicional.",
+      "Incorrecto. Apagar el motor dentro del paso inferior sin poder continuar solo se justifica si la avería impide circular.",
+      "Si la avería no impide continuar, el conductor debe seguir circulando hasta salir del paso inferior. Es más seguro salir del espacio confinado que detenerse en su interior."
+    ]
+  },
+  {
+    "id": 598,
+    "q": "¿Por dónde debe circular un rebaño de ovejas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por el arcén de la izquierda en el sentido de su marcha.",
+      "Por el arcén derecho o izquierdo indistintamente.",
+      "Lo más cerca posible del borde derecho de la vía en el sentido de su marcha."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los animales deben circular por el lado derecho, no por el izquierdo.",
+      "Incorrecto. No es indistinto; la norma establece que deben circular por el lado derecho.",
+      "Los rebaños y animales en general deben circular lo más cerca posible del borde derecho de la vía en el sentido de su marcha, utilizando el arcén siempre que sea posible, para interferir lo mínimo en la circulación de vehículos."
+    ]
+  },
+  {
+    "id": 599,
+    "q": "¿Dónde debemos frenar si fuera necesario en una curva pronunciada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Antes de llegar a la curva.",
+      "No debemos frenar en ningún momento porqué el vehículo derraparía.",
+      "Dentro de la curva."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si es necesario frenar en una curva pronunciada, debe hacerse antes de entrar en ella. Frenar dentro de la curva puede provocar el bloqueo de las ruedas y el derrape del vehículo, al reducirse la adherencia de los neumáticos con la calzada.",
+      "Incorrecto. En emergencias puede ser necesario frenar, pero siempre de forma suave y progresiva para evitar el derrape.",
+      "Incorrecto. Frenar bruscamente dentro de una curva es especialmente peligroso por el riesgo de derrape."
+    ]
+  },
+  {
+    "id": 600,
+    "q": "Circulando por un túnel, su vehículo sufre una avería que no le permite continuar la marcha, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detener el vehículo inmediatamente en el lado izquierdo de la calzada.",
+      "Continuar hasta la salida del túnel con las luces de carretera encendidas.",
+      "Dirigirse a la zona de emergencia más próxima o, si no es posible, inmovilizarlo lo más cerca posible del borde derecho."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Detenerse en el lado izquierdo obstaculiza el carril y dificulta el acceso de emergencias.",
+      "Incorrecto. Si la avería impide continuar no se puede seguir circulando.",
+      "Si el vehículo no puede continuar, debe dirigirse a la zona de emergencia más próxima o, si no es posible, inmovilizarlo lo más cerca del borde derecho, apagar el motor, activar las luces de emergencia y evacuar a los ocupantes."
+    ]
+  },
+  {
+    "id": 601,
+    "q": "¿De qué informan habitualmente las señales de seguridad dentro de un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "De dónde se encuentra el puesto SOS más cercano",
+      "De la posibilidad de adelantamiento dentro del túnel",
+      "De la velocidad máxima y mínima a la que se puede circular"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Las señales de seguridad dentro de los túneles informan habitualmente de la localización del puesto SOS más cercano, así como de la ubicación de extintores, salidas de emergencia y teléfonos de socorro, para que los usuarios puedan actuar con rapidez ante una emergencia.",
+      "Incorrecto. Las prohibiciones de adelantamiento se indican con señales de circulación, no de seguridad.",
+      "Incorrecto. Los límites de velocidad se señalizan con señales de circulación específicas."
+    ]
+  },
+  {
+    "id": 602,
+    "q": "¿Con qué señal vertical suelen estar señalizadas las curvas de reducida visibilidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ceda el paso",
+      "Prohibido adelantar",
+      "Detención obligatoria"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La señal de ceda el paso regula la prioridad en intersecciones, no se usa para curvas.",
+      "Las curvas de visibilidad reducida suelen estar señalizadas con la señal vertical de prohibido adelantar, para evitar que los conductores invadan el carril contrario sin visibilidad suficiente y reduzcan el riesgo de colisión frontal.",
+      "Incorrecto. La señal de detención obligatoria (STOP) se usa en intersecciones, no en curvas."
+    ]
+  },
+  {
+    "id": 603,
+    "q": "¿Qué vehículo tendrá preferencia en un tramo estrecho de gran pendiente en el que sea difícil el paso simultáneo de ambos?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo más estrecho",
+      "El que circule en sentido ascendente",
+      "El que circule en sentido descendiente"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La anchura del vehículo no determina la preferencia en este caso.",
+      "En tramos estrechos con gran pendiente, tiene preferencia el vehículo que circula en sentido ascendente, ya que le resulta más difícil y peligroso retroceder con pendiente. El que desciende debe buscar un apartadero para ceder el paso.",
+      "Incorrecto. El que desciende tiene más facilidad para retroceder y debe ceder el paso."
+    ]
+  },
+  {
+    "id": 604,
+    "q": "¿Cómo se llama la inercia de la fuerza centrípeta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Fuerza centrífuga",
+      "Fuerza normal",
+      "Fuerza tangencial"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La fuerza centrífuga es la reacción inercial a la fuerza centrípeta. Mientras la centrípeta dirige el vehículo hacia el interior de la curva, la centrífuga tiende a desplazarlo hacia el exterior. Es la fuerza que 'sentimos' empujándonos hacia afuera en una curva.",
+      "Incorrecto. La fuerza normal es perpendicular a la superficie de contacto.",
+      "Incorrecto. La fuerza tangencial es la que produce variaciones de velocidad en la dirección del movimiento."
+    ]
+  },
+  {
+    "id": 605,
+    "q": "¿Qué debe hacer en una curva con poca visibilidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Pisaré el pedal del embrague por toda la curva.",
+      "Circularé lo más cerca posible del borde derecho de la calzada.",
+      "Estaré frenando por toda la curva."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Pisar el embrague durante toda la curva implica circular en punto muerto, perdiendo el control motor del vehículo.",
+      "En curvas con poca visibilidad debemos circular lo más cerca posible del borde derecho de la calzada, para maximizar la distancia con los vehículos del sentido contrario que no podemos ver, reduciendo así el riesgo de colisión frontal.",
+      "Incorrecto. Frenar durante toda la curva puede provocar derrape y pérdida de control."
+    ]
+  },
+  {
+    "id": 606,
+    "q": "¿Está prohibido que el conductor de un vehículo lance objetos por la ventanilla que puedan poner en peligro la seguridad de la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, está prohibido en la vía pero no en sus alrededores.",
+      "Sí, tanto en la vía como en sus alrededores.",
+      "No."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La prohibición se extiende también a los alrededores de la vía.",
+      "El Reglamento General de Circulación prohíbe terminantemente lanzar objetos desde el vehículo tanto en la vía como en sus inmediaciones, ya que pueden poner en peligro la seguridad vial, provocar incendios o dañar otros vehículos. Es una infracción sancionable con multa y pérdida de puntos.",
+      "Incorrecto. Está expresamente prohibido por el Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 607,
+    "q": "Si por una emergencia queda inmovilizado en un túnel, deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "dejar el vehículo cerrado y salir del túnel cuanto antes.",
+      "apagar el motor, conectar la señal de emergencia y mantener encendidas las luces de posición.",
+      "apagar todas las luces si el túnel está iluminado y solicitar auxilio a través del teléfono móvil."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Abandonar el vehículo cerrado sin señalizar es peligroso para otros conductores.",
+      "Si el vehículo queda inmovilizado en un túnel por emergencia, debe apagarse el motor para evitar emisiones, conectar la señal de emergencia para ser visible, mantener las luces de posición encendidas, evacuar a los ocupantes y solicitar ayuda desde el poste SOS más cercano.",
+      "Incorrecto. Apagar las luces hace el vehículo invisible para otros conductores."
+    ]
+  },
+  {
+    "id": 608,
+    "q": "En esta curva pisa el freno muy fuerte. ¿Hay peligro?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque puede reventar alguna rueda.",
+      "Sí, porque el vehículo puede derrapar.",
+      "No, porque el vehículo frena mejor."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El reventón de rueda por frenada brusca es poco habitual; el derrape es el riesgo principal.",
+      "Sí hay peligro. Pisar el freno muy fuerte dentro de una curva puede provocar el bloqueo de las ruedas y el derrape del vehículo, ya que la adherencia disponible debe repartirse entre la frenada y el trazado de la curva.",
+      "Incorrecto. Frenar bruscamente en curva no mejora la frenada; reduce la adherencia y puede provocar derrape."
+    ]
+  },
+  {
+    "id": 609,
+    "q": "Si a causa de una avería, su vehículo queda inmovilizado en un túnel que carece de zona reservada para emergencia, deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "inmovilizar el vehículo lo más cerca posible del borde izquierdo.",
+      "inmovilizar el vehículo lo más cerca posible del borde derecho.",
+      "permanecer en la calzada, sin alejarse mucho del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El borde izquierdo obstruye el carril y dificulta el acceso de emergencias.",
+      "Si no existe zona de emergencia, el vehículo debe inmovilizarse lo más cerca posible del borde derecho, activar las luces de emergencia y de posición, apagar el motor y evacuar a los ocupantes alejándose del vehículo por la derecha.",
+      "Incorrecto. Permanecer en la calzada pone en peligro al conductor."
+    ]
+  },
+  {
+    "id": 610,
+    "q": "¿Cuál de las siguientes es una señal de balizamiento reflectante utilizada para señalizar obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Tubos luminosos.",
+      "Semáforos.",
+      "Paneles direccionales."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los tubos luminosos son elementos de balizamiento luminoso, no reflectante.",
+      "Incorrecto. Los semáforos son señales de regulación del tráfico, no de balizamiento de obras.",
+      "Los paneles direccionales son señales de balizamiento reflectante utilizadas en zonas de obras para indicar el sentido de circulación y prohibir el paso por determinados carriles, siendo claramente visibles tanto de día como de noche."
+    ]
+  },
+  {
+    "id": 611,
+    "q": "¿Se pueden arrojar o dejar sobre la vía objetos que puedan entorpecer la libre circulación, la parada o el estacionamiento?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, está prohibido",
+      "Sí.",
+      "Solo si no se deteriora la vía o sus instalaciones."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Está terminantemente prohibido arrojar, depositar o dejar sobre la vía o en sus inmediaciones cualquier objeto que pueda entorpecer la circulación, la parada o el estacionamiento, o que suponga un peligro para los usuarios de la vía.",
+      "Incorrecto. Está expresamente prohibido por el Reglamento General de Circulación.",
+      "Incorrecto. La prohibición es independiente del deterioro que pueda causar a la vía."
+    ]
+  },
+  {
+    "id": 612,
+    "q": "En esta situación de aglomeración, ¿podrá circular por el arcén?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pues existe gran aglomeración y así descongestiona el tráfico.",
+      "No, está prohibido.",
+      "Sí, si tiene prisa."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La aglomeración de tráfico no justifica el uso del arcén por vehículos no autorizados.",
+      "En situaciones de aglomeración de tráfico está prohibido circular por el arcén para descongestionar la vía. El arcén solo puede ser utilizado por los vehículos autorizados reglamentariamente, y en ningún caso para sortear atascos.",
+      "Incorrecto. La prisa nunca justifica el uso indebido del arcén."
+    ]
+  },
+  {
+    "id": 613,
+    "q": "¿Debemos señalizar de día los obstáculos que dejemos en la vía y dificulten la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No será necesario pero deberemos retirarlos lo antes posible.",
+      "Solo tendremos que señalizarlos en horario nocturno.",
+      "Sí, siempre."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Aunque deben retirarse, también es obligatorio señalizarlos.",
+      "Incorrecto. La señalización es obligatoria tanto de día como de noche.",
+      "Sí, siempre es obligatorio señalizar los obstáculos que se dejen en la vía, tanto de día como de noche, mediante el dispositivo de preseñalización de peligro (baliza V-16), hasta que sean retirados."
+    ]
+  },
+  {
+    "id": 614,
+    "q": "¿Existen señales verticales utilizadas especialmente para señalizar obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, son exactamente iguales a las que se utilizan para ordenar el tráfico",
+      "No, son las mismas que se utilizan para ordenar el tráfico pero con fondo rojo",
+      "Sí, existe señalización especial en caso de obras"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Las señales de obras son distintas a las señales permanentes de tráfico.",
+      "Incorrecto. Las señales de obras tienen fondo amarillo, no rojo.",
+      "Sí, existe señalización especial para obras con fondo amarillo fluorescente, que informa de la existencia de trabajos en la vía, ordena la circulación en la zona afectada y prevalece sobre la señalización permanente."
+    ]
+  },
+  {
+    "id": 615,
+    "q": "¿Qué indica el número situado en la señal vertical de peligro por pendiente?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La velocidad mínima por la que se puede circular en esta pendiente.",
+      "El tanto por ciento de inclinación sobre la horizontal.",
+      "La velocidad máxima por la que se puede circular en esta pendiente."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El número en la señal de pendiente no indica ninguna velocidad.",
+      "En las señales verticales de peligro por pendiente, el número que acompaña a la señal indica el tanto por ciento de inclinación sobre la horizontal. Por ejemplo, un 10% significa que por cada 100 metros horizontales el desnivel es de 10 metros.",
+      "Incorrecto. El número en la señal de pendiente no indica ninguna velocidad."
+    ]
+  },
+  {
+    "id": 616,
+    "q": "Al salir de un garaje, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aumentar la velocidad para salir lo antes posible.",
+      "Moderar la velocidad por si hay peatones cruzando porque tienen prioridad.",
+      "Detenerse siempre a la salida."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Aumentar la velocidad al salir de un garaje es peligroso y contrario a la norma.",
+      "Al salir de un garaje, el conductor debe moderar la velocidad porque los peatones que circulan por la acera tienen prioridad de paso sobre el vehículo que sale. Es obligatorio cederles el paso antes de incorporarse a la calzada.",
+      "Incorrecto. No siempre es obligatorio detenerse, pero sí ceder el paso a los peatones."
+    ]
+  },
+  {
+    "id": 617,
+    "q": "Las advertencias acústicas pueden utilizarse...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "para advertir el propósito de adelantar únicamente dentro de una población.",
+      "en vías estrechas con muchas curvas.",
+      "en vías anchas con pocas curvas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Dentro de poblado el uso del claxon para advertir adelantamientos está restringido.",
+      "Las advertencias acústicas pueden utilizarse excepcionalmente en vías estrechas con muchas curvas, para avisar a los vehículos del sentido contrario de nuestra presencia y evitar posibles colisiones en puntos de escasa visibilidad.",
+      "Incorrecto. En vías anchas con buena visibilidad no es necesario el uso del claxon."
+    ]
+  },
+  {
+    "id": 618,
+    "q": "En cuál de estos lugares los animales tienen preferencia de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En travesías",
+      "En las cañadas",
+      "En el arcén de autopistas y autovías"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. En travesías los vehículos tienen prioridad sobre los animales.",
+      "En las cañadas, que son vías pecuarias legalmente reconocidas, los animales tienen preferencia de paso sobre los vehículos. Las cañadas son caminos tradicionales destinados al tránsito de ganado.",
+      "Incorrecto. En autopistas y autovías los animales no tienen preferencia; de hecho, su circulación por estas vías está restringida."
+    ]
+  },
+  {
+    "id": 619,
+    "q": "¿Por qué motivo debemos ceñir un vehículo a la derecha en caso de incendio dentro de un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para permitir el paso de peatones salidos de los vehículos.",
+      "Para permitir que los vehículos que nos preceden nos adelanten.",
+      "Para no obstruir el paso de los vehículos de emergencia."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Aunque ceñirse a la derecha también facilita el paso de peatones, la razón principal es otra.",
+      "Incorrecto. En un incendio los adelantamientos no son la prioridad.",
+      "En caso de incendio en un túnel debemos ceñirnos a la derecha fundamentalmente para no obstruir el carril central, que es el que utilizarán los vehículos de emergencia para acceder al lugar del incendio y evacuar a los afectados."
+    ]
+  },
+  {
+    "id": 620,
+    "q": "¿Qué deben hacer quienes creen un obstáculo o peligro sobre la vía hasta que lo hagan desaparecer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Atravesar el vehículo en la calzada para evitar la circulación.",
+      "Nada, serán los servicios de emergencia los que tomen medidas.",
+      "Señalizarlo para que sea advertido por los demás usuarios."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Atravesar el vehículo crearía un obstáculo adicional y peligroso.",
+      "Incorrecto. El responsable del obstáculo tiene la obligación de señalizarlo y retirarlo.",
+      "Quien cree un obstáculo o peligro en la vía tiene la obligación de señalizarlo inmediatamente con el dispositivo de preseñalización de peligro (baliza V-16) para advertir a los demás usuarios, y retirarlo cuanto antes."
+    ]
+  },
+  {
+    "id": 621,
+    "q": "¿En qué dirección debemos caminar al salir de un vehículo tras un incendio en un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En dirección contraria al fuego.",
+      "En dirección a la entrada del túnel esté o no esté el fuego.",
+      "En dirección favorable al fuego."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al evacuar un vehículo tras un incendio en un túnel, se debe caminar siempre en dirección contraria al fuego, buscando la salida de emergencia más próxima en esa dirección. El humo y las llamas se desplazan en la dirección del tiro del túnel.",
+      "Incorrecto. La dirección de la entrada puede coincidir con la del fuego, lo que sería peligroso.",
+      "Incorrecto. Caminar hacia el fuego agrava el peligro de quemaduras e intoxicación."
+    ]
+  },
+  {
+    "id": 622,
+    "q": "¿Nos estará permitido detener nuestra motocicleta en la parte transitable del arcén de una vía interurbana?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero solamente por un periodo inferior a dos minutos.",
+      "Sí, cuando nos detenemos para que suban o bajen pasajeros.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. No existe ninguna excepción por tiempo que permita parar en el arcén transitable interurbano.",
+      "Incorrecto. El embarque y desembarque de pasajeros no justifica parar en el arcén transitable interurbano.",
+      "En el arcén transitable de una vía interurbana no está permitido parar ni estacionar ningún tipo de vehículo, incluidas las motocicletas, salvo en caso de emergencia."
+    ]
+  },
+  {
+    "id": 623,
+    "q": "Cuando solo lo ocupa el conductor, un turismo, ¿puede circular por un carril VAO?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, nunca.",
+      "Sí, si el vehículo lleva el distintivo de minusválido.",
+      "Sí, siempre que sea un vehículo no prioritario que realiza un servicio de urgencia."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Existe una excepción para vehículos con distintivo de movilidad reducida.",
+      "Los carriles VAO solo pueden ser utilizados por turismos que circulen con el número mínimo de ocupantes establecido, o por aquellos que lleven el distintivo de persona con movilidad reducida (señal V-15), en cuyo caso puede circular aunque solo vaya el conductor.",
+      "Incorrecto. Los vehículos no prioritarios en servicio de urgencia no tienen esta exención específica para carriles VAO."
+    ]
+  },
+  {
+    "id": 624,
+    "q": "Las advertencias ópticas deben hacerse…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "en el momento de empezar la maniobra.",
+      "con antelación suficiente antes de iniciar la maniobra.",
+      "únicamente con señalización luminosa del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Advertir la maniobra en el momento de iniciarla no da tiempo al resto de usuarios para reaccionar.",
+      "Las advertencias ópticas (intermitentes, señales con el brazo) deben efectuarse con antelación suficiente antes de iniciar la maniobra, para que el resto de usuarios de la vía puedan anticiparse y adaptarse a ella con seguridad.",
+      "Incorrecto. Las advertencias ópticas incluyen también las señales con el brazo, no solo las luminosas del vehículo."
+    ]
+  },
+  {
+    "id": 625,
+    "q": "¿En qué zonas es más frecuente la presencia de animales peligrosos para la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Zonas rurales",
+      "Zonas de autovías y autopistas",
+      "Zonas urbanas"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La presencia de animales en la vía es especialmente frecuente en zonas rurales, donde el ganado doméstico y la fauna silvestre pueden cruzar la carretera o caminar junto a ella. Por ello, estas zonas suelen estar señalizadas con advertencias de animales en la calzada.",
+      "Incorrecto. En autopistas y autovías el acceso de animales está controlado, aunque no es imposible.",
+      "Incorrecto. En zonas urbanas la presencia de animales sueltos en la calzada es poco habitual."
+    ]
+  },
+  {
+    "id": 626,
+    "q": "En el túnel de la imagen, si no pretende adelantar, ¿qué distancia de seguridad debe mantener con el vehículo de delante?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "100 metros, como mínimo.",
+      "200 metros, como mínimo.",
+      "La que permita una visibilidad suficiente."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un túnel, si no se tiene intención de adelantar, el Reglamento General de Circulación establece que debe mantenerse una distancia de seguridad de al menos 100 metros con el vehículo precedente, equivalente a un intervalo mínimo de 4 segundos.",
+      "Incorrecto. La distancia mínima obligatoria en túneles es de 100 metros, no de 200.",
+      "Incorrecto. La normativa establece una distancia concreta de 100 metros mínimos, no una distancia subjetiva de visibilidad."
+    ]
+  },
+  {
+    "id": 627,
+    "q": "Al estacionar este vehículo en pendiente ascendente, su conductor deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "dejar seleccionada la marcha atrás.",
+      "dejar accionado el freno de estacionamiento.",
+      "apoyar una rueda delantera en el bordillo y orientarla hacia fuera de la calzada."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. En pendiente ascendente se deja la primera marcha, no la marcha atrás.",
+      "Al estacionar en pendiente ascendente, es obligatorio dejar accionado el freno de estacionamiento y seleccionar la primera marcha para evitar que el vehículo retroceda en caso de que el freno falle.",
+      "Incorrecto. Apoyar la rueda en el bordillo es una medida adicional de seguridad, pero lo principal es el freno de estacionamiento."
+    ]
+  },
+  {
+    "id": 628,
+    "q": "¿Está permitido circular con una motocicleta por un carril habilitado en sentido contrario al habitual?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí.",
+      "Sí, pero solo si es una motocicleta de dos ruedas sin sidecar."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las motocicletas sí pueden circular por estos carriles.",
+      "Sí, en los carriles habilitados en sentido contrario al habitual pueden circular las motocicletas, con o sin sidecar, junto con los turismos sin remolque, independientemente de que el carril se haya habilitado por obras o por necesidades de fluidez del tráfico.",
+      "Incorrecto. Las motocicletas con sidecar también pueden circular por estos carriles."
+    ]
+  },
+  {
+    "id": 629,
+    "q": "Los vehículos prioritarios, ¿tienen prioridad de paso sobre el resto de los usuarios de la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo cuando circulen en servicio de urgencia.",
+      "Sí, siempre.",
+      "No, nunca."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los vehículos prioritarios (policía, bomberos, protección civil, salvamento y asistencia sanitaria) solo tienen prioridad de paso sobre los demás usuarios cuando circulan en servicio de urgencia y lo señalizan adecuadamente con señales luminosas y acústicas especiales.",
+      "Incorrecto. Fuera del servicio de urgencia, los vehículos prioritarios deben respetar las normas de circulación como el resto.",
+      "Incorrecto. Cuando circulan en servicio urgente y lo señalizan correctamente, sí tienen prioridad."
+    ]
+  },
+  {
+    "id": 630,
+    "q": "¿Debe un conductor ceder el paso a las filas de escolares que circulen por la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, es obligatorio.",
+      "Solo debe ceder el paso si se trata de más de 10 niños en fila.",
+      "No, el conductor tiene prioridad sobre los escolares."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, es obligatorio ceder el paso a las filas de escolares y a cualquier grupo de personas que circulen por la vía. El Reglamento General de Circulación establece la preferencia de los peatones en grupo, especialmente cuando son menores, y obliga a los conductores a cederles el paso.",
+      "Incorrecto. No existe ningún límite numérico; la obligación aplica a cualquier grupo de escolares.",
+      "Incorrecto. Los escolares y peatones en general tienen preferencia sobre los vehículos en muchas situaciones."
+    ]
+  },
+  {
+    "id": 631,
+    "q": "Si conduciendo una motocicleta no puede evitar un bache que se encuentra en la calzada, ¿cuál de los siguientes comportamientos es el más idóneo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Reducir la velocidad y mantener vertical la motocicleta al pasar sobre el bache.",
+      "Ponerme de pie sobre los reposapiés laterales y aumentar la velocidad.",
+      "Aumentar la velocidad y desembragar al pasar sobre el bache."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si no puede evitar un bache, lo correcto es reducir la velocidad antes de llegar a él y mantener la motocicleta lo más vertical posible al pasar sobre él, distribuyendo uniformemente el impacto entre ambas ruedas y conservando la estabilidad y el control del vehículo.",
+      "Incorrecto. Aumentar la velocidad sobre un bache incrementa el riesgo de pérdida de control.",
+      "Incorrecto. Desembragar y acelerar sobre un bache puede provocar inestabilidad y caída."
+    ]
+  },
+  {
+    "id": 632,
+    "q": "¿Por dónde deberán circular los animales en una vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Indistintamente por el lado izquierdo o derecho de la carretera.",
+      "Como regla general, por el lado izquierdo de la vía.",
+      "Lo más cerca posible del borde derecho de la calzada."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La norma establece una dirección concreta, no indistinta.",
+      "Incorrecto. Los animales deben circular por el lado derecho, no por el izquierdo.",
+      "Los animales deben circular, si no existe vía pecuaria, por el arcén o por la parte imprescindible de la calzada, siempre lo más cerca posible del borde derecho y en el sentido de la marcha, para interferir lo menos posible en la circulación de vehículos."
+    ]
+  },
+  {
+    "id": 633,
+    "q": "¿Es absoluta e ilimitada la preferencia de paso de los vehículos prioritarios?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, tienen preferencia en todas las situaciones",
+      "Únicamente tienen preferencia los días laborables",
+      "No, solo si circulan en servicio urgente"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La preferencia no es absoluta; está condicionada al servicio urgente y a la correcta señalización.",
+      "Incorrecto. El día de la semana no determina la preferencia de los vehículos prioritarios.",
+      "La preferencia de paso de los vehículos prioritarios no es absoluta ni ilimitada. Solo tienen prioridad cuando circulan en servicio urgente y lo señalizan correctamente con señales luminosas y acústicas. Incluso entonces, deben asegurarse de que los demás les ceden el paso antes de vulnerar una prioridad."
+    ]
+  },
+  {
+    "id": 634,
+    "q": "¿De cuál de los siguientes elementos depende la fuerza centrípeta de un vehículo en una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "De la masa del vehículo",
+      "De la altura del vehículo",
+      "De la edad del conductor"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La fuerza centrípeta que actúa sobre un vehículo en una curva depende de su masa, de su velocidad y del radio de la curva. A mayor masa y mayor velocidad, mayor fuerza centrípeta necesaria para mantener la trayectoria, lo que aumenta el riesgo de salida de vía.",
+      "Incorrecto. La altura del vehículo influye en el centro de gravedad pero no determina la fuerza centrípeta.",
+      "Incorrecto. La edad del conductor no es un factor físico de la fuerza centrípeta."
+    ]
+  },
+  {
+    "id": 635,
+    "q": "Cuando se acerca un vehículo prioritario que realiza un servicio urgente, el resto de conductores…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Deben detener su vehículo.",
+      "Se deben apartar siempre hacia su derecha.",
+      "Deben facilitarle el paso e incluso deben detenerse si fuera necesario."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. No siempre es necesario detenerse; lo importante es facilitarle el paso.",
+      "Incorrecto. Apartarse a la derecha es lo habitual, pero no siempre posible; lo esencial es facilitar el paso.",
+      "Cuando se acerca un vehículo prioritario en servicio urgente, todos los conductores deben facilitarle el paso, retirándose normalmente a la derecha y deteniéndose si fuera necesario. Es una obligación legal recogida en el Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 636,
+    "q": "¿Qué acción se debe realizar una vez hayamos entrado en una curva y durante el desarrollo de la misma?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Acelerar suave y progresivamente",
+      "Disminuir la velocidad de manera suave y progresiva",
+      "Acelerar de manera brusca y rápida"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una vez dentro de la curva, habiendo entrado con la velocidad adecuada, se debe acelerar suave y progresivamente para que las ruedas mantengan la adherencia a la calzada, el vehículo salga con control y se recupere la velocidad de forma segura.",
+      "Incorrecto. Reducir la velocidad dentro de la curva puede provocar inestabilidad; la reducción debe hacerse antes.",
+      "Incorrecto. Acelerar bruscamente en una curva puede provocar derrape y pérdida de control."
+    ]
+  },
+  {
+    "id": 637,
+    "q": "¿Deberemos apagar el motor en caso de encontrarnos en un atasco de más de 2 minutos dentro de un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, es aconsejable apagarlo y mantener únicamente las luces de cruce y de frenado encendidas",
+      "No, debemos dejar el motor encendido y apagar todas las luces del vehículo",
+      "Sí, es aconsejable apagarlo y mantener las luces de posición"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Las luces de cruce no son las más adecuadas; las de posición son suficientes y consumen menos.",
+      "Incorrecto. Apagar todas las luces haría el vehículo invisible para otros conductores.",
+      "En un atasco de más de 2 minutos dentro de un túnel, es aconsejable apagar el motor para reducir las emisiones de gases contaminantes en el espacio confinado, y mantener únicamente las luces de posición encendidas para ser visible."
+    ]
+  },
+  {
+    "id": 638,
+    "q": "¿Pueden los vehículos prioritarios dar marcha atrás en autovía o autopista?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con carácter excepcional",
+      "No, está prohibido",
+      "Podrán dar marcha atrás pero no media vuelta"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los vehículos prioritarios en servicio urgente pueden, con carácter excepcional, dar marcha atrás o incluso realizar un cambio de sentido en autopista o autovía cuando sea imprescindible para cumplir su misión, siempre adoptando las precauciones necesarias.",
+      "Incorrecto. Para vehículos prioritarios en servicio urgente existe esta excepción específica.",
+      "Incorrecto. Los vehículos prioritarios en servicio urgente pueden también realizar cambios de sentido de forma excepcional."
+    ]
+  },
+  {
+    "id": 639,
+    "q": "¿Son aplicables las mismas reglas para los túneles y pasos inferiores?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, se deberán tratar de forma diferente",
+      "Sí, serán las mismas para ambos",
+      "Únicamente serán iguales en el ámbito de la señalización"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El Reglamento General de Circulación establece que las mismas normas aplican a ambos.",
+      "Sí, las mismas reglas que se aplican a los túneles son aplicables a los pasos inferiores, incluyendo las normas sobre distancia de seguridad, prohibición de adelantamiento, velocidad y comportamiento en emergencias.",
+      "Incorrecto. Las normas son idénticas en todos los aspectos, no solo en señalización."
+    ]
+  },
+  {
+    "id": 640,
+    "q": "Si un vehículo no prioritario efectúa un servicio de los normalmente reservados a los prioritarios y así lo advierte su conductor con señales acústicas y luminosas, los demás conductores...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "le facilitarán el paso, llegando a detenerse si fuera preciso.",
+      "no están obligados a facilitarle el paso, al no tratarse de un vehículo prioritario.",
+      "se apartaran a la derecha, pero en ningún caso detendrán sus vehículos."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Cuando un vehículo no prioritario realiza un servicio de urgencia y lo advierte correctamente con señales acústicas y luminosas, los demás conductores tienen la obligación de facilitarle el paso, llegando a detenerse si fuera preciso, igual que con un vehículo prioritario.",
+      "Incorrecto. La obligación existe cuando el vehículo señaliza correctamente el servicio de urgencia.",
+      "Incorrecto. Si es necesario, también deben detenerse para facilitar el paso."
+    ]
+  },
+  {
+    "id": 641,
+    "q": "¿Cómo debe frenar un vehículo en caso de emergencia dentro de una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "De manera brusca y prolongada para que las ruedas no resbalen.",
+      "De manera rápida para que el vehículo frene en el menor tiempo posible.",
+      "De manera suave para evitar el bloqueo de ruedas."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Frenar de forma brusca en curva provoca el bloqueo de ruedas y el derrape.",
+      "Incorrecto. Frenar rápidamente dentro de una curva puede causar pérdida de control.",
+      "En emergencia dentro de una curva, debe frenarse suave y progresivamente, levantando el pie del acelerador, para evitar el bloqueo de ruedas y el derrape. La reducción de velocidad debe realizarse siempre antes de entrar en la curva cuando sea posible."
+    ]
+  },
+  {
+    "id": 642,
+    "q": "¿Se debe facilitar el paso a los vehículos prioritarios en servicios de urgencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente debemos ceder el paso a los coches de policía, al resto nunca.",
+      "No.",
+      "Sí, como norma general."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La obligación aplica a todos los vehículos prioritarios: policía, bomberos, protección civil, salvamento y asistencia sanitaria.",
+      "Incorrecto. Es una obligación legal recogida en el Reglamento General de Circulación.",
+      "Sí, como norma general, todos los conductores deben facilitar el paso a los vehículos prioritarios en servicio de urgencia, apartándose normalmente a la derecha y deteniéndose si fuera necesario."
+    ]
+  },
+  {
+    "id": 643,
+    "q": "¿Cuál de éstas acciones deberemos realizar al salir de una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aumentar la presión sobre el pedal de freno.",
+      "Aumentar progresivamente la aceleración.",
+      "Cambiar a relaciones de marchas más cortas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Al salir de una curva no debe frenarse; es el momento de recuperar velocidad.",
+      "Al salir de una curva, habiendo entrado con la velocidad adecuada y acelerado suavemente durante su desarrollo, debemos aumentar progresivamente la aceleración para recuperar la velocidad de circulación de forma segura y controlada.",
+      "Incorrecto. Cambiar a marchas más cortas en la salida de una curva no es la acción correcta."
+    ]
+  },
+  {
+    "id": 644,
+    "q": "En un túnel, si circula sin intención de adelantar, debe mantener con el vehículo que circula delante una distancia...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "de, al menos, 100 metros.",
+      "de 50 metros cuando circule por debajo de la velocidad máxima permitida.",
+      "de, al menos, 150 metros."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En los túneles, la normativa vial establece que si un conductor circula sin intención de adelantar debe mantener una distancia de seguridad de al menos 100 metros con el vehículo precedente, equivalente a un intervalo mínimo de 4 segundos.",
+      "Incorrecto. La velocidad a la que se circule no reduce la distancia mínima obligatoria de 100 metros.",
+      "Incorrecto. La distancia mínima obligatoria es de 100 metros, no de 150."
+    ]
+  },
+  {
+    "id": 645,
+    "q": "Si circula delante de una ambulancia en servicio urgente, ¿debe facilitarle el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, apartándome a la derecha, normalmente, y me detendré si fuera necesario.",
+      "Sí, solamente en vía urbana."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Es una obligación legal facilitar el paso a vehículos prioritarios en servicio urgente.",
+      "El Reglamento General de Circulación establece que los vehículos de asistencia sanitaria en servicio urgente tienen prioridad de paso. El conductor que circula delante debe apartarse normalmente a la derecha y detenerse si fuera necesario para facilitarles el paso.",
+      "Incorrecto. La obligación aplica tanto en vías urbanas como interurbanas."
+    ]
+  },
+  {
+    "id": 646,
+    "q": "¿Cómo deben circular los conductores en las curvas de visibilidad reducida?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Lo más cerca posible del borde derecho.",
+      "Justo en el centro de la calzada.",
+      "Lo más cerca posible del borde izquierdo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En las curvas de visibilidad reducida, los conductores deben circular lo más cerca posible del borde derecho de la calzada, para maximizar la separación con los vehículos del sentido contrario y reducir el riesgo de colisión frontal ante la imposibilidad de ver con anticipación.",
+      "Incorrecto. Circular por el centro invade el carril del sentido contrario y aumenta el riesgo.",
+      "Incorrecto. El borde izquierdo es el carril del sentido contrario."
+    ]
+  },
+  {
+    "id": 647,
+    "q": "En un carril VAO, ¿puede circular un turismo que arrastra un remolque de menos de 750 kg de MMA?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero solamente de día.",
+      "No.",
+      "Sí, siempre."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los turismos con remolque no pueden circular por carriles VAO en ningún horario.",
+      "Los turismos con remolque, independientemente de la masa del remolque, no pueden utilizar los carriles VAO. Estos carriles están reservados a turismos sin remolque, motocicletas y vehículos mixtos adaptables.",
+      "Incorrecto. Los turismos con remolque nunca pueden usar el carril VAO."
+    ]
+  },
+  {
+    "id": 648,
+    "q": "¿Qué luces deberemos mantener encendidas en caso de atasco de larga duración dentro de un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Las luces antiniebla.",
+      "Las luces de frenado.",
+      "La señal de emergencia."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Las luces antiniebla no son las adecuadas para esta situación.",
+      "Incorrecto. Las luces de frenado solo se activan al pisar el freno y no son útiles en un atasco prolongado.",
+      "En caso de atasco de larga duración dentro de un túnel, debemos apagar el motor para reducir emisiones y mantener encendida la señal de emergencia (luces de aviso) para ser visibles y advertir a otros conductores de la situación."
+    ]
+  },
+  {
+    "id": 649,
+    "q": "¿Está permitido que un turismo utilice un tramo de carril reservado para autobuses delimitado por una línea discontinua?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, siempre está prohibido.",
+      "Sí, pero sólo para cambiar de dirección a la derecha.",
+      "Sí, para realizar cualquier maniobra que no sea parar, estacionar, cambiar de sentido o adelantar."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Cuando el carril bus está delimitado por línea discontinua existe una excepción.",
+      "Incorrecto. La excepción no se limita al giro a la derecha.",
+      "Cuando el carril bus está delimitado por una línea discontinua, los turismos pueden utilizarlo para realizar maniobras que no sean parar, estacionar, adelantar o cambiar de sentido, teniendo siempre preferencia los autobuses y taxis sobre estos vehículos."
+    ]
+  },
+  {
+    "id": 650,
+    "q": "Un rebaño, en una carretera convencional en la que no existe vía pecuaria, ¿por dónde debe circular?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por el arcén derecho.",
+      "Por la parte transitable del arcén izquierdo.",
+      "Por el arcén derecho o izquierdo, indistintamente."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Cuando no existe vía pecuaria, los animales deben circular por el arcén derecho o por la parte imprescindible de la calzada, siempre lo más cerca posible del borde derecho y en el sentido de la marcha, para minimizar la interferencia con la circulación de vehículos.",
+      "Incorrecto. Los animales deben circular por el lado derecho, no por el izquierdo.",
+      "Incorrecto. No es indistinto; la norma establece que deben ir por el lado derecho."
+    ]
+  },
+  {
+    "id": 651,
+    "q": "¿De qué características físicas depende que una curva sea más o menos peligrosa?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Del radio y del trazado de la curva",
+      "Únicamente del radio de la curva",
+      "Únicamente del trazado de la curva"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La peligrosidad de una curva depende de su radio (a menor radio mayor peligro) y de su trazado (curvas en S, con peralte adverso, combinadas o con cambio de rasante son más peligrosas). Ambos factores deben considerarse conjuntamente para adaptar la velocidad.",
+      "Incorrecto. El trazado también es un factor determinante.",
+      "Incorrecto. El radio también es un factor determinante."
+    ]
+  },
+  {
+    "id": 652,
+    "q": "¿Es obligatorio obedecer la indicación de este operario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque regula la circulación de un tramo en obras.",
+      "No, porque no es un agente de circulación.",
+      "No, porque sus indicaciones no hacen referencia a la circulación."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, es obligatorio. En zonas de obras, además de los agentes de circulación, el tráfico puede estar regulado por el personal autorizado de la obra. Los conductores están obligados a obedecer sus indicaciones mientras duren los trabajos en la vía.",
+      "Incorrecto. El personal autorizado de obras tiene potestad para regular el tráfico.",
+      "Incorrecto. Sus indicaciones sí hacen referencia a la circulación en la zona de obras."
+    ]
+  },
+  {
+    "id": 653,
+    "q": "¿Está permitido adelantar en los túneles con un carril para cada sentido de circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que se respeten las medidas de seguridad.",
+      "Únicamente podrán adelantar los turismos pero no los vehículos pesados.",
+      "No, está prohibido."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. En túneles con un carril por sentido está prohibido adelantar sin excepción.",
+      "Incorrecto. La prohibición aplica a todos los tipos de vehículos.",
+      "En los túneles con un único carril para cada sentido de circulación, está totalmente prohibido adelantar a cualquier tipo de vehículo, ya que no existe espacio seguro para realizar la maniobra sin invadir el carril contrario."
+    ]
+  },
+  {
+    "id": 654,
+    "q": "Durante la conducción, ¿está permitido arrojar la colilla de un cigarro a la vía o en sus inmediaciones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo si se circula por una vía urbana.",
+      "Sí.",
+      "No, porque puede provocar un incendio o poner en peligro a otros usuarios."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La prohibición aplica en todo tipo de vías, urbanas e interurbanas.",
+      "Incorrecto. Está expresamente prohibido por el Reglamento General de Circulación.",
+      "Arrojar colillas u objetos en llamas desde el vehículo está terminantemente prohibido, ya que puede provocar incendios forestales, dañar a otros vehículos o poner en peligro a otros usuarios de la vía."
+    ]
+  },
+  {
+    "id": 655,
+    "q": "¿Cómo debemos actuar si notamos que las ruedas se bloquean después de frenar en una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aumentando la presión sobre el freno para frenar más rápidamente.",
+      "Disminuyendo la presión sobre el freno.",
+      "No tocando el freno y dejando que el vehículo actúe solo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Aumentar la presión agrava el bloqueo y el derrape.",
+      "Si las ruedas se bloquean al frenar en una curva, debemos disminuir la presión sobre el pedal del freno, levantando suavemente el pie, para recuperar la adherencia y evitar el derrape y la pérdida de control del vehículo.",
+      "Incorrecto. No actuar deja al vehículo sin control dirigido."
+    ]
+  },
+  {
+    "id": 656,
+    "q": "¿Está permitido que las motocicletas circulen por un carril VAO?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque por estos carriles solo pueden circular autobuses y turismos.",
+      "No, porque las motocicletas no se consideran vehículos de alta ocupación.",
+      "Sí, las motocicletas y turismos pueden utilizar este carril."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los autobuses no utilizan el carril VAO; lo hacen turismos, motocicletas y vehículos mixtos adaptables.",
+      "Incorrecto. Las motocicletas sí pueden usar el carril VAO independientemente del número de ocupantes.",
+      "Sí, los carriles VAO pueden ser utilizados por motocicletas, turismos (con el número mínimo de ocupantes o con distintivo de movilidad reducida) y vehículos mixtos adaptables."
+    ]
+  },
+  {
+    "id": 657,
+    "q": "Circulando por autopista se prevé que un vehículo puede quedar inmovilizado por circunstancias del tráfico. ¿Cómo deberá actuar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Utilizando las luces antiniebla traseras.",
+      "Advertirlo mediante el empleo reiterado de las luces de frenado.",
+      "Poniendo las luces de posición, aunque sea de día."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las luces antiniebla traseras están reservadas para condiciones de niebla o lluvia intensa.",
+      "La intención de inmovilizar el vehículo o frenar considerablemente por circunstancias del tráfico debe advertirse, siempre que sea posible, mediante el empleo reiterado de las luces de frenado o moviendo el brazo alternativamente de arriba abajo con movimientos cortos y rápidos.",
+      "Incorrecto. Las luces de posición no son suficientemente llamativas para advertir de una frenada inminente."
+    ]
+  },
+  {
+    "id": 658,
+    "q": "Si un vehículo queda detenido por avería en un paso a nivel, el conductor debe adoptar en primer lugar las medidas necesarias para...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "colocar el triangulo de preseñalización de peligro en la vía.",
+      "desconectar los bornes de la batería del vehículo.",
+      "que todos los ocupantes abandonen el vehículo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Señalizar es importante, pero primero hay que garantizar la seguridad de las personas.",
+      "Incorrecto. Desconectar la batería no es la prioridad en un paso a nivel.",
+      "Si un vehículo queda detenido en un paso a nivel, la primera medida es asegurar que todos los ocupantes abandonen el vehículo inmediatamente y se alejen de la vía, dado el extremo peligro que supone la presencia de trenes."
+    ]
+  },
+  {
+    "id": 659,
+    "q": "¿Cuál de las siguientes acciones NO puede realizar un turismo sobre los raíles de un tranvía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Circular libremente siempre que crucen una vía por la que circulen vehículos",
+      "Parar y estacionar",
+      "Todas las respuestas son correctas"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los vehículos pueden circular por los raíles del tranvía cuando sea necesario.",
+      "Sobre los raíles de un tranvía está prohibido parar y estacionar, ya que interfiere con la circulación del tranvía y puede provocar accidentes. Los vehículos pueden cruzar los raíles o circular sobre ellos temporalmente si la vía lo permite.",
+      "Incorrecto. No todas las acciones están prohibidas; solo parar y estacionar."
+    ]
+  },
+  {
+    "id": 660,
+    "q": "A un vehículo prioritario que circula en servicio de urgencia se le facilitará el paso...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "apartándose siempre a la derecha de la calzada.",
+      "deteniendo siempre el vehículo en el lado izquierdo de la calzada.",
+      "adoptando las medidas adecuadas según las circunstancias del momento."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Aunque lo habitual es apartarse a la derecha, las circunstancias pueden exigir otra maniobra.",
+      "Incorrecto. Detenerse en el lado izquierdo puede obstaculizar al vehículo prioritario.",
+      "Al vehículo prioritario en servicio urgente se le facilita el paso adoptando las medidas más adecuadas según las circunstancias: normalmente apartándose a la derecha y deteniéndose si fuera necesario, pero siempre en función de las condiciones concretas del tráfico y la vía."
+    ]
+  },
+  {
+    "id": 661,
+    "q": "¿Cuál de estos tipos de vehículos está considerado como vehículo prioritario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Camión de bomberos.",
+      "Vehículo privado con un niño menor de 12 años dentro.",
+      "Vehículo de advertencia de obras."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El camión de bomberos es un vehículo prioritario. El Reglamento General de Circulación considera vehículos prioritarios a los de policía, extinción de incendios, protección civil, salvamento y asistencia sanitaria, tanto públicos como privados.",
+      "Incorrecto. Llevar un menor no convierte al vehículo en prioritario.",
+      "Incorrecto. Los vehículos de señalización de obras no son vehículos prioritarios."
+    ]
+  },
+  {
+    "id": 662,
+    "q": "Para aumentar la fluidez del tráfico, se ha abierto un carril para circular en sentido contrario al habitual, ¿qué vehículos pueden circular por este carril?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Todos los autorizados a circular por la vía.",
+      "Los turismos sin remolque y las motocicletas.",
+      "Todos los que pueden circular a más de 60 km/hora."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. No todos los vehículos pueden usar este carril; existen restricciones específicas.",
+      "Por los carriles habilitados en sentido contrario al habitual por razones de fluidez, solo pueden circular los turismos sin remolque y las motocicletas. El resto de vehículos queda excluido salvo que el carril se habilite por obras.",
+      "Incorrecto. La velocidad no determina quién puede usar estos carriles."
+    ]
+  },
+  {
+    "id": 663,
+    "q": "Conduce un camión de MMA inferior a 3.500 kg por el interior de un túnel en el que está prohibido adelantar, ¿qué distancia de seguridad debe mantener con el vehículo que circula delante?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Al menos 50 metros.",
+      "Al menos 100 metros.",
+      "Al menos 150 metros."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La distancia mínima es de 100 metros, no de 50.",
+      "En los túneles donde está prohibido adelantar, todos los vehículos, independientemente de su tipo o masa, deben mantener una distancia de seguridad de al menos 100 metros con el vehículo que circula delante, equivalente a un intervalo mínimo de 4 segundos.",
+      "Incorrecto. La distancia mínima es de 100 metros, no de 150."
+    ]
+  },
+  {
+    "id": 664,
+    "q": "Un vehículo prioritario circula realizando un servicio de urgencia. Los demás conductores, ¿están obligados a facilitarle el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, deteniéndose si fuera necesario.",
+      "Solamente apartándose hacia la derecha.",
+      "No."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, todos los conductores están obligados a facilitar el paso a los vehículos prioritarios en servicio urgente, apartándose normalmente a la derecha y deteniéndose si fuera necesario. Es una obligación legal recogida en el Reglamento General de Circulación.",
+      "Incorrecto. Si apartarse no es suficiente, también deben detenerse.",
+      "Incorrecto. Es una obligación legal para todos los conductores."
+    ]
+  },
+  {
+    "id": 665,
+    "q": "¿Quién tiene preferencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El turismo número 1.",
+      "El turismo que circule a mayor velocidad.",
+      "El turismo número 2."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los vehículos que circulan por una vía con carril de aceleración o incorporación tienen prioridad sobre los que pretenden incorporarse desde ese carril. Por tanto, el turismo número 1, que circula por la vía principal, tiene preferencia sobre el número 2, que se incorpora.",
+      "Incorrecto. La velocidad no determina la preferencia en una incorporación.",
+      "Incorrecto. El turismo número 2 es el que se incorpora y debe ceder el paso."
+    ]
+  },
+  {
+    "id": 666,
+    "q": "Un vehículo prioritario circula haciendo uso únicamente de las señales luminosas especiales, ¿es obligatorio facilitarle el paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, si no utiliza también las señales acústicas especiales.",
+      "Sí, porque circula en servicio urgente.",
+      "No, en ningún caso."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Con carácter excepcional puede usarse solo la señal luminosa sin que ello libere a los demás de ceder el paso.",
+      "Sí, es obligatorio facilitar el paso. Los vehículos prioritarios deben usar simultáneamente señales luminosas y acústicas, pero excepcionalmente pueden usar solo la luminosa cuando la omisión de la acústica no suponga peligro. En todo caso, si circula en servicio urgente, debe facilitársele el paso.",
+      "Incorrecto. La obligación de ceder el paso existe siempre que el vehículo esté en servicio urgente."
+    ]
+  },
+  {
+    "id": 667,
+    "q": "Está prohibido arrojar a la vía objetos...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "solamente si pueden deteriorar la vía.",
+      "que puedan deteriorar la vía o sus instalaciones.",
+      "únicamente si pueden entorpecer la libre circulación."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La prohibición va más allá del deterioro de la vía.",
+      "Está terminantemente prohibido arrojar, depositar o abandonar en la vía o sus inmediaciones cualquier objeto que pueda deteriorar la vía o sus instalaciones, entorpecer la libre circulación, o suponer un peligro para los usuarios.",
+      "Incorrecto. La prohibición también incluye objetos que dañen la vía o sus instalaciones."
+    ]
+  },
+  {
+    "id": 668,
+    "q": "Se encuentra de frente con otro vehículo en un estrechamiento de la vía de una pendiente ascendente. Si no hay señalización que regule la prioridad de paso, ¿Quién deberá pasar primero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo que circula en sentido ascendente, salvo si puede llegar a un apartadero antes.",
+      "El vehículo que circula en sentido descendiente, salvo si puede llegar a un apartadero antes.",
+      "El vehículo que circula en sentido ascendente, siempre."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un estrechamiento con gran pendiente sin señalización, tiene preferencia el vehículo que circula en sentido ascendente, salvo que este pueda llegar antes a un apartadero, en cuyo caso cederá el paso al que desciende. El que desciende tiene más facilidad para retroceder y buscar un lugar de cruce.",
+      "Incorrecto. El que desciende no tiene preferencia; debe ceder el paso salvo que pueda llegar a un apartadero.",
+      "Incorrecto. La preferencia del ascendente tiene la excepción del apartadero."
+    ]
+  },
+  {
+    "id": 669,
+    "q": "¿De qué color es el fondo de las señales que advierten de la reducción de carriles debida a obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Blanco",
+      "Rojo",
+      "Amarillo"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Las señales de obras no tienen fondo blanco.",
+      "Incorrecto. Las señales de obras no tienen fondo rojo.",
+      "Las señales que advierten de la reducción de carriles por obras tienen fondo amarillo fluorescente, diferenciándose claramente de la señalización permanente de fondo blanco para facilitar su identificación por los conductores."
+    ]
+  },
+  {
+    "id": 670,
+    "q": "¿Qué deberá hacer un conductor cuando se acerque a un puente móvil?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Acelerar el vehículo para superar la máxima permitida",
+      "Mantener la velocidad del vehículo",
+      "Reducir la velocidad por debajo de la máxima permitida"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Acelerar al aproximarse a un puente móvil es peligroso y contrario a la norma.",
+      "Incorrecto. Mantener la velocidad puede ser insuficiente dado el riesgo especial que presenta.",
+      "Al acercarse a un puente móvil, el conductor debe reducir la velocidad por debajo de la máxima permitida, ya que el puente puede estar en movimiento, presentar irregularidades en la calzada o tener condiciones especiales que requieren mayor precaución."
+    ]
+  },
+  {
+    "id": 671,
+    "q": "La densidad del tráfico en una zona urbana produce a menudo momentos de incertidumbre, y por eso el conductor de una motocicleta…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Deberá advertir de su presencia al resto de usuarios accionando la luz de largo alcance.",
+      "Deberá aumentar la velocidad para evitar cuanto antes esta situación.",
+      "Deberá prevenir y anticiparse a los posibles comportamientos de los demás usuarios."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La luz de largo alcance no está indicada en zonas urbanas y puede deslumbrar a otros usuarios.",
+      "Incorrecto. Aumentar la velocidad en situaciones de tráfico denso incrementa el riesgo.",
+      "En zonas urbanas con tráfico denso, el conductor de motocicleta debe practicar una conducción preventiva, anticipándose a los posibles comportamientos del resto de usuarios, aumentando la distancia de seguridad y haciéndose visible, dada su mayor vulnerabilidad."
+    ]
+  },
+  {
+    "id": 672,
+    "q": "¿Cuál de las siguientes NO es un tipo de señal de balizamiento utilizada para señalizar obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Unidireccionales",
+      "Luminosas",
+      "Reflectantes"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Las señales de balizamiento para obras son de tipo luminoso y reflectante. El tipo 'unidireccional' no existe como categoría de balizamiento en la normativa española de señalización de obras.",
+      "Incorrecto. Las balizas luminosas sí existen y se usan especialmente en horario nocturno.",
+      "Incorrecto. Las balizas reflectantes sí existen y se usan tanto de día como de noche."
+    ]
+  },
+  {
+    "id": 673,
+    "q": "Para anticiparse al peligro es muy importante que el conductor...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "lleve siempre el pie puesto encima del pedal del freno.",
+      "piense que únicamente los demás conductores cometen errores.",
+      "esté siempre preparado para actuar en una situación de peligro."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Llevar el pie sobre el freno puede provocar frenadas involuntarias y accidentes.",
+      "Incorrecto. Pensar que solo los demás cometen errores es una actitud peligrosa que impide la conducción preventiva.",
+      "Para anticiparse a situaciones peligrosas, el conductor debe estar siempre alerta y preparado para actuar ante cualquier imprevisto, practicando una conducción preventiva que le permita reaccionar con tiempo suficiente."
+    ]
+  },
+  {
+    "id": 674,
+    "q": "Un ciclomotor ocupado por dos personas, ¿puede utilizar normalmente un carril VAO?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, porque van dos personas.",
+      "Sí, si circula por el arcén."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los ciclomotores no están entre los vehículos autorizados para circular por los carriles VAO, independientemente del número de ocupantes. Los carriles VAO están reservados a turismos (con el número mínimo de ocupantes), motocicletas y vehículos mixtos adaptables.",
+      "Incorrecto. El número de ocupantes no determina la autorización para usar el carril VAO para ciclomotores.",
+      "Incorrecto. El arcén no forma parte del carril VAO."
+    ]
+  },
+  {
+    "id": 675,
+    "q": "¿Qué tramos de la vía se consideran de gran pendiente?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Aquellos con una inclinación mínima del 7%",
+      "Aquellos con una inclinación mínima del 90%",
+      "Aquellos con una inclinación mínima del 80%"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Se consideran tramos de gran pendiente aquellos con una inclinación mínima del 7% respecto a la horizontal. En estos tramos se aplican normas especiales de preferencia de paso, siendo el vehículo ascendente el que tiene prioridad.",
+      "Incorrecto. Una pendiente del 90% es prácticamente vertical e inexistente en carreteras.",
+      "Incorrecto. Una pendiente del 80% es prácticamente inaccesible para vehículos convencionales."
+    ]
+  },
+  {
+    "id": 676,
+    "q": "¿Cuál es la acción que debemos realizar tras observar las características de una curva antes de llegar a la misma?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ignorar la señalización existente en la curva y mantener la velocidad.",
+      "Disminuir la velocidad hasta fijarla en 30 km/hora.",
+      "Adecuar la velocidad a las características de la curva."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Ignorar la señalización es una infracción que pone en peligro la seguridad vial.",
+      "Incorrecto. No existe una velocidad fija de 30 km/h para todas las curvas; depende de sus características.",
+      "Tras observar las características de la curva (radio, trazado, visibilidad, estado del pavimento), debemos adecuar la velocidad a dichas características antes de entrar, para poder tomar la curva con seguridad y control."
+    ]
+  },
+  {
+    "id": 677,
+    "q": "¿Cómo se puede reducir el riesgo de encontrarnos con peligros durante la conducción?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Adaptando la velocidad y aumentando la distancia de seguridad.",
+      "Conduciendo por la noche porque entonces hay menos tráfico.",
+      "Conduciendo a 50 kilómetros por hora en todas las carreteras."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Para reducir el riesgo durante la conducción, debemos adaptar la velocidad a las condiciones de la vía, el tráfico y la visibilidad, y aumentar la distancia de seguridad cuando sea necesario, practicando una conducción preventiva que nos permita reaccionar ante cualquier imprevisto.",
+      "Incorrecto. Conducir de noche conlleva riesgos adicionales por la reducción de visibilidad.",
+      "Incorrecto. 50 km/h es el límite genérico en vías urbanas, no en todas las carreteras."
+    ]
+  },
+  {
+    "id": 678,
+    "q": "¿Por qué deberemos acelerar suave y progresivamente durante el desarrollo de una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para que las ruedas se adhieran mejor a la calzada.",
+      "Para que los vehículos precedentes no nos adelanten.",
+      "Para ahorrar en el gasto de combustible."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Acelerar suave y progresivamente dentro de la curva favorece que las ruedas mantengan la adherencia a la calzada, estabilizando el vehículo y permitiendo una trayectoria segura. Una aceleración brusca puede provocar derrape, especialmente en el eje motor.",
+      "Incorrecto. Impedir adelantamientos no es la razón técnica de esta norma de conducción.",
+      "Incorrecto. El ahorro de combustible no es la razón de esta técnica de conducción en curva."
+    ]
+  },
+  {
+    "id": 679,
+    "q": "En esta vía interurbana, podrá parar su vehículo en la parte transitable del arcén...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "para descargar objetos, siempre que la parada dure menos de 2 minutos.",
+      "por razones de emergencia.",
+      "para subir o bajar personas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La descarga de objetos no justifica parar en el arcén transitable interurbano.",
+      "En los arcenes de vías interurbanas solo está permitido detener el vehículo por razones de emergencia, como averías, accidentes u otras situaciones de urgencia que hagan imposible continuar la circulación.",
+      "Incorrecto. El embarque o desembarque de personas no justifica parar en el arcén transitable interurbano."
+    ]
+  },
+  {
+    "id": 680,
+    "q": "En una curva de visibilidad reducida, ¿se puede realizar un cambio del sentido de la marcha?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí.",
+      "No, está prohibido.",
+      "Sí, salvo que el adelantamiento esté expresamente prohibido."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. El cambio de sentido en curvas de visibilidad reducida está expresamente prohibido.",
+      "El Reglamento General de Circulación prohíbe terminantemente realizar cambios de sentido en curvas y cambios de rasante de visibilidad reducida, debido al alto riesgo de colisión contra vehículos del sentido contrario que no pueden verse con anticipación.",
+      "Incorrecto. La prohibición del cambio de sentido es independiente de la señalización de adelantamiento."
+    ]
+  },
+  {
+    "id": 681,
+    "q": "Los vehículos prioritarios que circulen en servicio urgente advertirán su presencia...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "con la utilización simultánea de la señal de emergencia y la señal acústica.",
+      "solamente con la señal acústica.",
+      "mediante la utilización simultánea de la señal luminosa y la señal acústica."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La señal de emergencia (intermitentes) no es la señal luminosa especial de los vehículos prioritarios.",
+      "Incorrecto. Solo la señal acústica no es suficiente; debe combinarse con la luminosa.",
+      "Los vehículos prioritarios en servicio urgente deben advertir su presencia mediante la utilización simultánea de la señal luminosa especial (luz giratoria azul o azul y roja) y el aparato emisor de señales acústicas especiales (sirena)."
+    ]
+  },
+  {
+    "id": 682,
+    "q": "En esta vía de doble sentido, un vehículo está detenido por avería. ¿Puede atravesar la línea continua para sobrepasarlo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque está prohibido adelantar.",
+      "Solo si un agente de tráfico u otra persona autorizada dirige el tráfico.",
+      "Sí, pero solamente cuando no exista peligro."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. En caso de obstáculo, está permitido atravesar la línea continua con las precauciones necesarias.",
+      "Incorrecto. No es necesaria la presencia de un agente para sobrepasar un vehículo averiado.",
+      "En una vía de doble sentido, se puede atravesar la línea continua para sobrepasar un vehículo detenido por avería, pero solo cuando se haya comprobado que no existe peligro y adoptando las precauciones necesarias."
+    ]
+  },
+  {
+    "id": 683,
+    "q": "En una curva con visibilidad reducida, ¿el vehículo blanco puede adelantar al amarillo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, ya que ningún vehículo se aproxima en la dirección opuesta.",
+      "No.",
+      "Sí, ya que no hay ningún cartel que lo prohíba."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Aunque no haya vehículos visibles en sentido contrario, la visibilidad reducida impide asegurar que no vengan.",
+      "En curvas de visibilidad reducida está prohibido adelantar cuando se deba invadir el carril contrario. La imposibilidad de ver con anticipación hace que el riesgo de colisión frontal sea inaceptable, independientemente de que en ese momento no se vea ningún vehículo.",
+      "Incorrecto. La ausencia de señal explícita no autoriza el adelantamiento cuando la visibilidad es reducida y hay que invadir el carril contrario."
+    ]
+  },
+  {
+    "id": 684,
+    "q": "Al aproximarse a un paso para peatones, ¿qué se debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detenerse siempre.",
+      "Moderar la velocidad, deteniéndose si es necesario.",
+      "Emplear el claxon para avisar a los peatones."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. No siempre es necesario detenerse; depende de si hay peatones cruzando o esperando.",
+      "Al aproximarse a un paso para peatones, el conductor debe moderar la velocidad y estar preparado para detenerse si hay peatones cruzando o que vayan a cruzar. Los peatones tienen prioridad en los pasos señalizados.",
+      "Incorrecto. El uso del claxon para avisar a peatones en pasos de cebra no está justificado y puede resultar contraproducente."
+    ]
+  },
+  {
+    "id": 685,
+    "q": "¿Qué es lo primero que se debe hacer si su vehículo sufre una avería en un túnel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Utilizar los dispositivos de preseñalización de peligro",
+      "Desalojar a los pasajeros del vehículo",
+      "Encender la señal de emergencia"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La preseñalización es importante pero no es la primera acción en un túnel.",
+      "Incorrecto. Desalojar a los pasajeros es un paso posterior, una vez el vehículo esté correctamente situado.",
+      "Lo primero al sufrir una avería en un túnel es encender la señal de emergencia para avisar inmediatamente a los demás conductores, luego intentar llevar el vehículo a la zona de emergencia más próxima y, a continuación, desalojar a los ocupantes."
+    ]
+  },
+  {
+    "id": 686,
+    "q": "Si queda detenido en un atasco, ¿qué distancia es aconsejable mantener con el vehículo de delante?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Dos o tres metros para no golpear al vehículo de delante en caso de alcance trasero.",
+      "Un espacio mínimo para ocupar menos espacio.",
+      "Un metro como máximo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si queda detenido en un atasco, es aconsejable mantener una distancia de dos o tres metros con el vehículo de delante. Esta distancia permite maniobrar en caso necesario y evita golpear al vehículo precedente si el conductor de atrás no detiene su vehículo a tiempo.",
+      "Incorrecto. Un espacio mínimo no permite reaccionar ante un alcance trasero.",
+      "Incorrecto. Un metro es insuficiente para garantizar la seguridad en caso de alcance."
+    ]
+  },
+  {
+    "id": 687,
+    "q": "Está prohibido dejar en la vía objetos que puedan entorpecer...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "la libre circulación, únicamente.",
+      "el estacionamiento o la parada, solamente.",
+      "la libre circulación, parada o estacionamiento."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La prohibición es más amplia e incluye también el estacionamiento y la parada.",
+      "Incorrecto. La prohibición también incluye la libre circulación.",
+      "Está terminantemente prohibido dejar en la vía objetos que puedan entorpecer la libre circulación, la parada o el estacionamiento de otros vehículos, o que supongan un peligro para los usuarios de la vía."
+    ]
+  },
+  {
+    "id": 688,
+    "q": "¿Qué indica la paleta que algunas patrullas escolares llevan incorporadas para gestionar el tráfico?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detención obligatoria.",
+      "Cruce de tranvía.",
+      "Ceda el paso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La paleta que llevan las patrullas escolares indica detención obligatoria para los conductores que se aproximan. Al mostrarla, los conductores deben detenerse completamente para permitir el cruce seguro de los escolares.",
+      "Incorrecto. El cruce de tranvía se señaliza con señales específicas de tráfico, no con paletas.",
+      "Incorrecto. La paleta de patrulla escolar no indica ceda el paso; exige detención completa."
+    ]
+  },
+  {
+    "id": 689,
+    "q": "Si debido a una avería, un vehículo queda inmovilizado en el interior de un túnel, su conductor, siempre que sea posible deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "inmovilizar el vehículo lo más cerca posible del borde de la calzada.",
+      "dirigir el vehículo a la zona de emergencia más próxima al sentido de su marcha.",
+      "solicitar ayuda a otro conductor para remolcar el vehículo fuera del túnel."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Aunque inmovilizar cerca del borde es correcto si no se puede llegar a la zona de emergencia, la prioridad es alcanzar esta zona.",
+      "Si el vehículo queda inmovilizado en el interior de un túnel, el conductor debe dirigirlo, siempre que sea posible, a la zona de emergencia más próxima en el sentido de su marcha, donde podrá detenerlo con mayor seguridad y acceder a los medios de socorro.",
+      "Incorrecto. El remolque por otro conductor en el interior de un túnel no está permitido y puede ser peligroso."
+    ]
+  },
+  {
+    "id": 690,
+    "q": "¿Está permitido advertir con el brazo de la intención de realizar una maniobra?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, debe advertirlo también con los intermitentes.",
+      "Sí, cuando la señal sea perceptible para los demás usuarios.",
+      "No, porque los brazos no se deben sacar fuera del turismo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las señales con el brazo son una forma reconocida reglamentariamente de advertir maniobras.",
+      "Sí, está permitido advertir con el brazo la intención de realizar una maniobra, siempre que la señal sea perceptible para los demás usuarios. Las señales con el brazo prevalecen sobre las acústicas y luminosas y anulan cualquier señal óptica contraria.",
+      "Incorrecto. Sacar el brazo para señalizar una maniobra está expresamente permitido por el Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 691,
+    "q": "En una calzada con dos sentidos hay un refugio en el centro, ¿por qué lado está permitido circular?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por el lado derecho del refugio, en el sentido de la marcha.",
+      "Por el lado izquierdo del refugio, en el sentido de la marcha.",
+      "Por cualquiera de ellos, indistintamente."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una calzada de doble sentido con refugio o isleta en el centro, los vehículos deben circular por el lado derecho del refugio en el sentido de su marcha, para mantener la separación entre los sentidos opuestos de circulación.",
+      "Incorrecto. El lado izquierdo corresponde al sentido contrario en una vía de doble dirección.",
+      "Incorrecto. En vía de doble sentido no es indistinto; debe circularse por la derecha."
+    ]
+  },
+  {
+    "id": 692,
+    "q": "¿Qué es necesario en un vehículo prioritario para que tenga prioridad de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Que circule en servicio urgente únicamente",
+      "Que circule en servicio urgente y advierta su presencia",
+      "Que los vehículos prioritarios siempre tienen prioridad"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Circular en servicio urgente es condición necesaria pero no suficiente; también debe advertir su presencia.",
+      "Para que un vehículo prioritario tenga prioridad de paso, es necesario que circule en servicio urgente Y que advierta su presencia mediante señales luminosas y acústicas especiales. Ambas condiciones deben cumplirse simultáneamente.",
+      "Incorrecto. Los vehículos prioritarios solo tienen prioridad cuando cumplen las dos condiciones mencionadas."
+    ]
+  },
+  {
+    "id": 693,
+    "q": "¿Qué vehículos ocupados con solo el conductor, pueden circular por el carril de alta ocupación (Bus Vao)?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los vehículos que ostenten la señal V-15.",
+      "Los turismos con remolque.",
+      "Todos, independientemente de su masa máxima autorizada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los únicos vehículos que pueden circular por el carril VAO ocupados solo por el conductor son aquellos que llevan la señal V-15 (distintivo de persona con movilidad reducida). El resto de vehículos deben llevar el número mínimo de ocupantes establecido.",
+      "Incorrecto. Los turismos con remolque no pueden circular por los carriles VAO.",
+      "Incorrecto. No todos los vehículos pueden usar el carril VAO; existen restricciones por tipo de vehículo y ocupación."
+    ]
+  },
+  {
+    "id": 694,
+    "q": "¿Qué se utiliza para señalizar las zonas de obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señales verticales",
+      "Conos fluorescentes en línea",
+      "Balizas luminosas"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Las señales verticales también se usan en obras, pero no son el único elemento de señalización.",
+      "Incorrecto. Los conos son elementos de balizamiento, no de señalización en sentido estricto.",
+      "Las balizas luminosas se utilizan para señalizar las zonas de obras, especialmente durante las horas nocturnas y en condiciones de baja visibilidad, siendo obligatorias para garantizar la visibilidad de la zona de trabajo."
+    ]
+  },
+  {
+    "id": 695,
+    "q": "¿Cuál es el principal peligro de un tramo de vía con riesgo de proyección de gravilla?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Peligro de que los frenos no funcionen correctamente.",
+      "Peligro de derrapar.",
+      "Posibilidad de rotura del motor del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La gravilla no afecta directamente al funcionamiento de los frenos.",
+      "En tramos con riesgo de proyección de gravilla, el principal peligro es el derrape, ya que la gravilla suelta reduce la adherencia de los neumáticos a la calzada. Además, pueden producirse impactos en el parabrisas y carrocería de los vehículos.",
+      "Incorrecto. La gravilla no puede provocar la rotura del motor."
+    ]
+  },
+  {
+    "id": 696,
+    "q": "Los conductores de los vehículos prioritarios que circulen en servicio urgente...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "obedecerán a los semáforos.",
+      "procurarán no vulnerar la prioridad de paso en las intersecciones.",
+      "están exentos de cumplir cualquier norma de circulación."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los vehículos prioritarios en servicio urgente pueden ignorar los semáforos, con las precauciones necesarias.",
+      "Los conductores de vehículos prioritarios en servicio urgente deben obedecer a los agentes de circulación y, aunque tienen prioridad en intersecciones, antes de vulnerar cualquier prioridad deben asegurarse de que los demás les ceden el paso y no existe peligro.",
+      "Incorrecto. Los vehículos prioritarios tienen exenciones específicas, no una exención total de todas las normas."
+    ]
+  },
+  {
+    "id": 697,
+    "q": "Durante el día, ¿debe señalizar la situación en la vía de su vehículo si se queda inmovilizado por una avería en el arcén de una carretera convencional?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con el dispositivo de preseñalización de peligro y la señal de emergencia.",
+      "Sí, únicamente con los triángulos de preseñalización de peligro.",
+      "No, en el arcén no es necesario señalizarlo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, es obligatorio señalizar. Durante el día, si el vehículo queda inmovilizado por avería en el arcén de una carretera convencional, debe señalizarse con el dispositivo de preseñalización de peligro (baliza V-16) y activar la señal de emergencia del vehículo.",
+      "Incorrecto. También debe activarse la señal de emergencia del vehículo.",
+      "Incorrecto. Aunque el vehículo esté en el arcén, la señalización es obligatoria."
+    ]
+  },
+  {
+    "id": 698,
+    "q": "¿Cómo suele estar señalizado el centro de la calzada en las curvas de visibilidad reducida?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con línea longitudinal continua",
+      "El centro de la calzada no estará marcado en el pavimento",
+      "Con línea longitudinal discontinua"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En las curvas de visibilidad reducida, el centro de la calzada suele estar marcado con una línea longitudinal continua, que prohíbe a los conductores invadir el carril contrario para adelantar, dado el riesgo especial que supone no poder ver con anticipación los vehículos que se aproximan.",
+      "Incorrecto. Las curvas de visibilidad reducida sí tienen marcas viales en el centro de la calzada.",
+      "Incorrecto. La línea discontinua permite el adelantamiento; en estas zonas se usa la continua precisamente para prohibirlo."
+    ]
+  },
+  {
+    "id": 699,
+    "q": "Si la vía está acondicionada con una raqueta u otro elemento similar, ¿debe utilizar dicho elemento para realizar un giro?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, es indiferente.",
+      "Sí, pero sólo si lo indica una señal.",
+      "Sí, aunque no haya señal que lo indique."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Cuando existe una raqueta u elemento similar, su uso no es indiferente; es obligatorio.",
+      "Incorrecto. La obligación de usar la raqueta existe aunque no haya señal explícita que lo indique.",
+      "Si la vía está acondicionada con una raqueta u otro elemento similar para realizar cambios de sentido, el conductor debe utilizarlo obligatoriamente, aunque no exista señal que lo indique expresamente, ya que es el medio habilitado para esa maniobra."
+    ]
+  },
+  {
+    "id": 700,
+    "q": "¿Cómo será la línea discontinua a medida que nos acercamos a una curva de reducida visibilidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con la separación entre trazos más corta",
+      "Será una línea continua y no una discontinua",
+      "Con la separación entre trazos más larga"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "A medida que nos acercamos a una curva de visibilidad reducida, la separación entre los trazos de la línea discontinua se va acortando progresivamente, advirtiendo al conductor de la proximidad de una zona de riesgo especial y de que debe extremar la precaución y adaptar la velocidad.",
+      "Incorrecto. La línea no pasa directamente a continua; primero se acorta la separación entre trazos.",
+      "Incorrecto. La separación entre trazos se acorta, no se alarga, al acercarse a una zona de riesgo."
+    ]
+  },
+  {
+    "id": 701,
+    "q": "El conductor de un vehículo detenido en un paso inferior por un tiempo superior a dos minutos está obligado a...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "conservar encendido tanto el motor como la luz de posición.",
+      "apagar la luz de posición y conservar encendido el motor.",
+      "apagar el motor y conservar encendido el alumbrado de posición."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. El motor debe apagarse para reducir las emisiones de gases en el espacio confinado.",
+      "Incorrecto. La luz de posición debe mantenerse encendida para que el vehículo sea visible.",
+      "El conductor detenido en un paso inferior por más de dos minutos está obligado a apagar el motor para evitar la acumulación de gases contaminantes en el espacio confinado, y mantener encendido el alumbrado de posición para que el vehículo sea visible a otros conductores."
+    ]
+  },
+  {
+    "id": 702,
+    "q": "¿Tiene prioridad de paso una ambulancia que circule con las señales luminosas apagadas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, tiene preferencia en todo tipo de vías.",
+      "Solo tiene preferencia en las vías urbanas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una ambulancia que circula con las señales luminosas apagadas no está indicando que se encuentra en servicio urgente. Sin señalización luminosa (y acústica) especial, no tiene prioridad de paso sobre los demás usuarios y debe respetar las normas de circulación como cualquier vehículo.",
+      "Incorrecto. La preferencia está condicionada al servicio urgente y a la correcta señalización.",
+      "Incorrecto. Sin señalización de urgencia no tiene preferencia en ningún tipo de vía."
+    ]
+  },
+  {
+    "id": 703,
+    "q": "Un vehículo mixto en el que sólo viaja el conductor, ¿puede, en algún caso, circular por un carril para VAO?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque debe estar ocupado por el número mínimo de personas que se fije.",
+      "Sí, si el vehículo ostenta la señal de minusválidos.",
+      "Sí, si el conductor es novel."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Existe una excepción para vehículos con distintivo de movilidad reducida.",
+      "Un vehículo mixto adaptable que lleve la señal de movilidad reducida (V-15) puede circular por el carril VAO aunque solo lleve al conductor, del mismo modo que los turismos con ese distintivo.",
+      "Incorrecto. La condición de conductor novel no otorga ningún derecho especial de acceso al carril VAO."
+    ]
+  },
+  {
+    "id": 704,
+    "q": "¿De qué manera deben advertir su presencia los vehículos prioritarios?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Mediante la utilización simultánea de señales luminosas y acústicas",
+      "Mediante la utilización de banderas rojas en su parte superior",
+      "Mediante la utilización de señales luminosas únicamente"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los vehículos prioritarios en servicio urgente deben advertir su presencia mediante la utilización simultánea de señales luminosas especiales (luz giratoria azul o azul y roja) y señales acústicas especiales (sirena). Solo excepcionalmente pueden prescindir de las acústicas cuando su omisión no suponga peligro.",
+      "Incorrecto. Las banderas rojas no son el medio de advertencia establecido para los vehículos prioritarios.",
+      "Incorrecto. Salvo excepción justificada, deben usarse simultáneamente señales luminosas y acústicas."
+    ]
+  },
+  {
+    "id": 705,
+    "q": "¿Cuál de éstas acciones se debe realizar antes de llegar a una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Adecuar la velocidad a las características de la curva.",
+      "Aumentar progresivamente la aceleración.",
+      "Entrar lo más ceñido posible al borde izquierdo de la calzada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Antes de llegar a una curva, la acción principal es adecuar la velocidad a sus características: radio, trazado, visibilidad y estado del pavimento. Entrar en la curva a la velocidad correcta es fundamental para poder tomarla con seguridad y sin necesidad de frenar dentro.",
+      "Incorrecto. Aumentar la aceleración antes de una curva es contrario a la conducción segura.",
+      "Incorrecto. El borde izquierdo es el carril del sentido contrario; entrar ceñido a él sería invadir ese carril."
+    ]
+  },
+  {
+    "id": 706,
+    "q": "¿En qué momento deberán utilizarse balizas luminosas para señalizar zonas de obras?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Durante las horas diurnas",
+      "Durante las horas nocturnas",
+      "Tanto de día como de noche"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las balizas luminosas no son obligatorias durante las horas diurnas con buena visibilidad.",
+      "Las balizas luminosas deben utilizarse para señalizar zonas de obras durante las horas nocturnas y en condiciones meteorológicas desfavorables, cuando la visibilidad es reducida y las señales reflectantes no son suficientes para garantizar la seguridad de los usuarios y los trabajadores.",
+      "Incorrecto. De día con buena visibilidad se usan señales reflectantes; las luminosas son obligatorias de noche."
+    ]
+  },
+  {
+    "id": 707,
+    "q": "¿Se consideran obstáculos en la vía los resaltos en los pasos para peatones?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero solo las autoridades competentes podrán retirarlos",
+      "Sí, y como tal debemos retirarlos lo antes posible",
+      "No, son un elemento de seguridad en la vía"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los resaltos en pasos para peatones no son obstáculos; son elementos de seguridad.",
+      "Incorrecto. Los resaltos no deben retirarse; son elementos de seguridad deliberadamente instalados.",
+      "Los resaltos en los pasos para peatones no se consideran obstáculos en la vía, sino elementos de seguridad destinados a reducir la velocidad de los vehículos en zonas de cruce de peatones, siempre que cumplan la regulación básica establecida."
+    ]
+  },
+  {
+    "id": 708,
+    "q": "Un turismo que lleve esta señal de minusválido, ¿puede circular por un carril VAO?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, salvo que tenga una autorización especial del titular de la vía.",
+      "Solo si está ocupado por dos o más personas.",
+      "Sí, aun cuando solo lo ocupe su conductor."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. No se necesita autorización especial; el distintivo de movilidad reducida es suficiente.",
+      "Incorrecto. El distintivo de movilidad reducida permite usar el carril VAO con cualquier número de ocupantes.",
+      "Un turismo con el distintivo de persona con movilidad reducida (señal V-15) puede circular por el carril VAO aunque solo lo ocupe el conductor, sin necesidad de llevar el número mínimo de ocupantes exigido al resto de vehículos."
+    ]
+  },
+  {
+    "id": 709,
+    "q": "Como norma general, y más especialmente en las curvas y cambios de rasante de visibilidad reducida, los vehículos circularán...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "por el centro de la calzada, ya que es más seguro.",
+      "por la derecha y lo más cerca posible del centro de la calzada.",
+      "por la derecha y lo más cerca posible del borde de la calzada."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Circular por el centro invade el carril del sentido contrario.",
+      "Incorrecto. La norma es circular cerca del borde derecho, no del centro.",
+      "Como norma general, y especialmente en curvas y cambios de rasante de visibilidad reducida, los vehículos deben circular por la derecha y lo más cerca posible del borde de la calzada, para maximizar la separación con los vehículos del sentido contrario que no pueden verse con anticipación."
+    ]
+  },
+  {
+    "id": 710,
+    "q": "¿Qué debe hacer en esta situación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Circular con precaución.",
+      "Utilizar el carril que está libre.",
+      "No entrar en el túnel."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Si el semáforo está en rojo, no puede entrar al túnel bajo ninguna circunstancia.",
+      "Incorrecto. El semáforo en rojo prohíbe la entrada independientemente de qué carril esté libre.",
+      "Si el semáforo a la entrada del túnel está en rojo, está prohibido entrar. Debe detenerse antes del semáforo y esperar a que cambie a verde antes de entrar al túnel."
+    ]
+  },
+  {
+    "id": 711,
+    "q": "Un derivado de turismo y un camión entran a la vez en un tramo muy estrecho de la calzada sin señalizar, ¿qué vehículo está obligado a retroceder?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El vehículo que tenga mayor masa máxima autorizada.",
+      "El derivado de turismo.",
+      "El camión."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La masa máxima autorizada no determina quién debe retroceder en este caso.",
+      "En un tramo muy estrecho sin señalización, cuando entran simultáneamente un derivado de turismo y un camión, el derivado de turismo está obligado a retroceder, ya que el camión es el vehículo que tiene más dificultad para maniobrar en espacio reducido.",
+      "Incorrecto. El camión, por su mayor dificultad de maniobra, tiene preferencia."
+    ]
+  },
+  {
+    "id": 712,
+    "q": "¿Qué dos tipos de animales están presentes en las señales verticales de peligro por presencia de animales?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Animales domésticos y animales salvajes",
+      "Animales domésticos y animales en libertad",
+      "Animales tropicales y animales en libertad"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La denominación correcta no es 'salvajes' sino 'en libertad'.",
+      "Las señales verticales de peligro por presencia de animales distinguen entre animales domésticos (ganado, perros, etc.) y animales en libertad (fauna silvestre), ya que ambos pueden representar un riesgo para la circulación en diferentes tipos de vías.",
+      "Incorrecto. No existen señales específicas para animales tropicales en la normativa española."
+    ]
+  },
+  {
+    "id": 713,
+    "q": "¿Qué fuerza de las que afectan a un vehículo en las curvas causa la variación de velocidad del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Fuerza normal",
+      "Fuerza centrípeta",
+      "Fuerza tangencial"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La fuerza normal es perpendicular a la superficie y no causa variación de velocidad.",
+      "Incorrecto. La fuerza centrípeta mantiene la trayectoria curvilínea pero no causa variación de velocidad.",
+      "La fuerza tangencial es la que actúa en la dirección del movimiento del vehículo y es la responsable de las variaciones de velocidad en la curva: puede accelerar o desacelerar el vehículo según su sentido."
+    ]
+  },
+  {
+    "id": 714,
+    "q": "¿Está permitida la circulación de animales en una carretera convencional?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, excepto cuando lo hacen en manada.",
+      "Sí, solo si no hay carril con paso de animales."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La circulación de animales en carreteras convencionales está permitida bajo ciertas condiciones.",
+      "Incorrecto. La prohibición no depende de si circulan en manada o individualmente.",
+      "La circulación de animales en carreteras convencionales está permitida cuando no existe vía pecuaria o paso específico para animales, debiendo circular por el arcén o la parte imprescindible de la calzada, lo más cerca posible del borde derecho."
+    ]
+  },
+  {
+    "id": 715,
+    "q": "Por un carril para vehículos de alta ocupación (VAO), ¿le está permitido circular a un vehículo mixto adaptable?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sólo si el vehículo lleva la señal de minusválido.",
+      "Sí."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los vehículos mixtos adaptables sí pueden circular por los carriles VAO.",
+      "Incorrecto. Los vehículos mixtos adaptables pueden usar el carril VAO sin necesidad de llevar el distintivo de movilidad reducida, siempre que cumplan con los requisitos de ocupación establecidos.",
+      "Sí, los vehículos mixtos adaptables están entre los tipos de vehículos autorizados para circular por los carriles VAO, junto con los turismos (con el número mínimo de ocupantes) y las motocicletas."
+    ]
+  },
+  {
+    "id": 716,
+    "q": "¿Qué elemento determinará como debe cederse el paso a un vehículo prioritario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los agentes de circulación",
+      "Las circunstancias del tráfico",
+      "Las señales de tráfico"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los agentes pueden intervenir, pero no siempre están presentes.",
+      "Las circunstancias del tráfico en cada momento determinan cómo debe cederse el paso a un vehículo prioritario: apartándose a la derecha, deteniéndose, o combinando ambas acciones según lo que permita la situación concreta de la vía y el tráfico.",
+      "Incorrecto. Las señales de tráfico no indican específicamente cómo ceder el paso a vehículos prioritarios."
+    ]
+  },
+  {
+    "id": 717,
+    "q": "¿Puede este camión circular por un carril habilitado en sentido contrario al habitual por razones de fluidez?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que no derribe los conos que delimitan el carril.",
+      "No, ni siquiera para adelantar.",
+      "Sí, únicamente para adelantar."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Los camiones no pueden circular por estos carriles independientemente de su comportamiento.",
+      "Los camiones no pueden circular por los carriles habilitados en sentido contrario al habitual por razones de fluidez. Estos carriles están reservados, como norma general, a turismos sin remolque y motocicletas. Solo cuando el carril se habilita por obras pueden acceder otros vehículos.",
+      "Incorrecto. La prohibición es absoluta; ni siquiera para adelantar pueden usar este carril."
+    ]
+  },
+  {
+    "id": 718,
+    "q": "Si entra en una curva a la izquierda a velocidad excesiva, la fuerza centrífuga, ¿puede afectar a la trayectoria del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, se desplazará hacia la derecha de calzada.",
+      "Sí, se desplazará hacia la izquierda de la calzada.",
+      "No, la fuerza centrífuga no afecta a la trayectoria del vehículo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Al entrar en una curva a la izquierda a velocidad excesiva, la fuerza centrífuga empuja el vehículo hacia el exterior de la curva, es decir, hacia la derecha de la calzada. Esto puede hacer que el vehículo invada el arcén o la cuneta del lado derecho.",
+      "Incorrecto. En una curva a la izquierda, la fuerza centrífuga empuja hacia la derecha, no hacia la izquierda.",
+      "Incorrecto. La fuerza centrífuga sí afecta a la trayectoria, especialmente a velocidades excesivas."
+    ]
+  },
+  {
+    "id": 719,
+    "q": "Circulando por autovía, un vehículo destinado al transporte de mercancías peligrosas sufre una avería, ¿es correcto que un turismo lo remolque?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero solamente hasta el taller más cercano.",
+      "No, está prohibido.",
+      "Sí, pero no está permitido remolcar a un vehículo más de 100 kilómetros."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. No existe ninguna excepción que permita remolcar un vehículo de mercancías peligrosas con un turismo.",
+      "Un turismo no puede remolcar un vehículo que transporte mercancías peligrosas. Además, en autovías y autopistas está terminantemente prohibido que un turismo remolque a cualquier vehículo averiado. Solo vehículos específicamente autorizados pueden trasladar vehículos con mercancías peligrosas.",
+      "Incorrecto. No existe ningún límite de kilómetros; la prohibición es absoluta en estos casos."
+    ]
+  },
+  {
+    "id": 720,
+    "q": "Un turismo queda inmovilizado por avería completamente fuera de la calzada y del arcén, sin obstaculizar la circulación. ¿Debe utilizar la baliza V-16?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que el vehículo quede inmovilizado por una avería.",
+      "Solo si se encuentra en una vía fuera de poblado.",
+      "No, porque no obstaculiza la circulación ni crea un peligro directo en la vía."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La obligación de señalizar existe cuando el vehículo obstaculiza o crea peligro en la vía.",
+      "Incorrecto. La ubicación de la vía no determina por sí sola la obligación de señalizar.",
+      "Cuando el vehículo queda inmovilizado completamente fuera de la calzada y del arcén, sin crear ningún peligro ni obstaculizar la circulación, no es obligatorio colocar el dispositivo de preseñalización de peligro V-16."
+    ]
+  },
+  {
+    "id": 721,
+    "q": "¿En ausencia de señalización que lo regule tienen los tranvías preferencia de paso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, nunca tendrán preferencia sobre los turismos",
+      "Únicamente tendrán preferencia en las travesías",
+      "Sí, siempre"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los tranvías siempre tienen preferencia de paso cuando no hay señalización que regule el tráfico.",
+      "Incorrecto. La preferencia de los tranvías no se limita a las travesías.",
+      "En ausencia de señalización que regule el tráfico, los tranvías tienen siempre preferencia de paso sobre el resto de vehículos en las intersecciones y en cualquier punto de la vía."
+    ]
+  },
+  {
+    "id": 722,
+    "q": "¿Está permitido que los vehículos prioritarios en servicio de urgencia utilicen únicamente la señal luminosa?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, cuando no suponga un peligro para los demás usuarios.",
+      "No, tienen que utilizar simultáneamente la señal luminosa y acústica.",
+      "Sí, cuando circulen por vía urbana."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Con carácter excepcional, los vehículos prioritarios en servicio urgente pueden utilizar únicamente la señal luminosa cuando la omisión de las señales acústicas especiales no suponga un peligro para los demás usuarios de la vía. En todo caso, si circulan en servicio urgente, los demás deben facilitar su paso.",
+      "Incorrecto. Existe la excepción de poder usar solo la señal luminosa cuando no suponga peligro.",
+      "Incorrecto. La excepción no está limitada a las vías urbanas."
+    ]
+  },
+  {
+    "id": 723,
+    "q": "¿Qué debe hacer el conductor de un vehículo que por motivos de emergencia queda inmovilizado en un paso inferior?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Inmovilizar el vehículo lo más cerca posible del borde de la calzada.",
+      "Solicitar auxilio a través del poste de socorro más próximo si existiese.",
+      "Permanecer en el interior del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Aunque inmovilizar cerca del borde es correcto, la prioridad es solicitar socorro.",
+      "Si el vehículo queda inmovilizado en un paso inferior, el conductor debe solicitar auxilio a través del poste de socorro más próximo si existe, activar las luces de emergencia, apagar el motor y evacuar a los ocupantes.",
+      "Incorrecto. Permanecer en el interior del vehículo en un paso inferior puede ser peligroso."
+    ]
+  },
+  {
+    "id": 724,
+    "q": "¿Qué deberá realizar un conductor si su vehículo queda detenido en un puente móvil?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No moverse del vehículo hasta que la grúa de emergencias llegue",
+      "Salir del vehículo pero no moverlo del lugar dónde ha quedado inmovilizado",
+      "Desalojar rápidamente a los ocupantes y dejar el paso libre"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Esperar dentro del vehículo en un puente móvil es extremadamente peligroso.",
+      "Incorrecto. No mover el vehículo puede impedir el funcionamiento del puente y poner en peligro a los ocupantes.",
+      "Si el vehículo queda detenido en un puente móvil, el conductor debe desalojar rápidamente a todos los ocupantes y dejar el paso libre para no obstaculizar el movimiento del puente ni la circulación."
+    ]
+  },
+  {
+    "id": 725,
+    "q": "Si por necesidades de la circulación, un vehículo queda inmovilizado en el interior de un paso inferior, el conductor, entre otras medidas, deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "apagar todos los sistemas eléctricos del vehículo.",
+      "abandonar el vehículo y dirigirse al refugio más próximo.",
+      "mantener encendidas las luces de posición y apagar el motor."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Apagar todos los sistemas eléctricos dejaría el vehículo invisible para otros conductores.",
+      "Incorrecto. Aunque la evacuación puede ser necesaria, no se indica el abandono del vehículo sin señalizarlo.",
+      "Si el vehículo queda inmovilizado en un paso inferior, el conductor debe mantener encendidas las luces de posición para que el vehículo sea visible y apagar el motor para reducir las emisiones de gases en el espacio confinado."
+    ]
+  },
+  {
+    "id": 726,
+    "q": "¿Cuál de los siguientes elementos puede hacer que una curva tenga poca visibilidad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los paneles de información",
+      "Las señales verticales",
+      "Los árboles"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Los paneles de información no obstruyen la visibilidad de la curva.",
+      "Incorrecto. Las señales verticales no reducen significativamente la visibilidad en las curvas.",
+      "Los árboles situados en el interior de la curva o cerca de ella pueden obstruir la visibilidad del conductor, especialmente en curvas cerradas donde la vegetación impide ver el tramo de vía que viene a continuación."
+    ]
+  },
+  {
+    "id": 727,
+    "q": "¿Qué ruedas del vehículo son aquellas que dibujan el trazado de una curva?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ruedas motrices",
+      "Ruedas directrices",
+      "Rueda de repuesto"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Las ruedas motrices transmiten la fuerza del motor pero no necesariamente marcan el trazado de la curva.",
+      "Las ruedas directrices son las que dibujan el trazado de una curva, ya que son las que giran con el volante (habitualmente el eje delantero) y cuyo ángulo determina la trayectoria que seguirá el vehículo.",
+      "Incorrecto. La rueda de repuesto no interviene en la circulación del vehículo."
+    ]
+  },
+  {
+    "id": 728,
+    "q": "En esta situación, ¿Qué marcas viales debe seguir?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A las de color blanco.",
+      "Las de color amarillo, ya que se trata de una zona de obras.",
+      "Ninguna de ellas, ya que el trazado viene marcado por las señales de balizamiento, y las marcas no son obligatorias."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. En zonas de obras las marcas amarillas prevalecen sobre las blancas.",
+      "En zonas de obras, las marcas viales amarillas prevalecen sobre las blancas permanentes. Los conductores deben seguir las marcas amarillas porque informan de la situación actual de la calzada y ordenan la circulación en la zona afectada por los trabajos.",
+      "Incorrecto. Las marcas viales son siempre de obligado cumplimiento; en obras, las amarillas prevalecen."
+    ]
+  },
+  {
+    "id": 729,
+    "q": "¿Qué debe hacer si se ve obligado a detener su vehículo en el interior de un túnel por motivos de la circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detenerse lo más cerca posible del vehículo de delante.",
+      "Encender la señal de emergencia y las luces de carretera.",
+      "Detenerse lo más lejos posible del vehículo de delante."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. Detenerse muy cerca del vehículo de delante reduce el margen de reacción ante una emergencia.",
+      "Incorrecto. Las luces de carretera no son las adecuadas; deben usarse las luces de posición y la señal de emergencia.",
+      "Si se ve obligado a detener el vehículo en un túnel por motivos de circulación, debe hacerlo lo más lejos posible del vehículo de delante para mantener una distancia de seguridad suficiente, encender la señal de emergencia y las luces de posición."
+    ]
+  },
+  {
+    "id": 730,
+    "q": "En caso de incendio en el interior de un túnel o paso inferior, el conductor de un vehículo...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "dejará el motor encendido y las puertas abiertas.",
+      "dejará el motor apagado y las puertas cerradas.",
+      "dejará las puertas abiertas y la llave puesta."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. El motor debe apagarse para no alimentar el incendio.",
+      "Incorrecto. Las puertas deben quedar abiertas para facilitar el acceso de los servicios de emergencia.",
+      "En caso de incendio en un túnel, el conductor debe apagar el motor, dejar las puertas abiertas sin seguro y la llave puesta, para facilitar el acceso de los servicios de emergencia al vehículo si fuera necesario moverlo."
+    ]
+  },
+  {
+    "id": 731,
+    "q": "En esta vía se ha habilitado un carril adicional, ¿a qué velocidad como máximo circulará el vehículo naranja?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A 60 kilómetros por hora.",
+      "A la genérica de la vía.",
+      "A 80 kilómetros por hora."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La velocidad máxima en el carril adicional habilitado no es de 60 km/h.",
+      "Incorrecto. En el carril adicional habilitado se aplica una limitación específica de velocidad.",
+      "En los carriles adicionales habilitados, la velocidad máxima permitida es de 80 km/h, independientemente de la velocidad genérica de la vía, salvo que se indique expresamente otra velocidad mediante señalización."
+    ]
+  },
+  {
+    "id": 732,
+    "q": "¿Físicamente, como debemos entrar en una curva hacia la izquierda?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Lo más ceñido posible al borde derecho de la calzada",
+      "En el eje central de la calzada a ser posible",
+      "Lo más ceñido posible al borde izquierdo de la calzada"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Para entrar en una curva hacia la izquierda, debemos ceñirnos lo más posible al borde derecho de la calzada. Esto amplía la zona de seguridad respecto al sentido contrario y reduce el riesgo de invasión del carril opuesto durante el trazado de la curva.",
+      "Incorrecto. Circular por el eje central en una curva a la izquierda supone invadir parcialmente el carril contrario.",
+      "Incorrecto. El borde izquierdo corresponde al carril del sentido contrario."
+    ]
+  },
+  {
+    "id": 733,
+    "q": "¿Pueden los vehículos no prioritarios circular en servicio de urgencia?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, en circunstancias especialmente graves",
+      "Solo podrán hacerlo en vías urbanas",
+      "No, solo podrán hacerlo los vehículos prioritarios"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Sí, en circunstancias especialmente graves, los vehículos no prioritarios pueden circular en servicio de urgencia, advirtiendo su presencia con señales acústicas y luminosas disponibles. En ese caso, los demás conductores deben facilitar su paso del mismo modo que con vehículos prioritarios.",
+      "Incorrecto. No existe ninguna restricción al tipo de vía para los vehículos no prioritarios en servicio urgente.",
+      "Incorrecto. El Reglamento General de Circulación contempla la posibilidad de que vehículos no prioritarios realicen servicios de urgencia en circunstancias graves."
+    ]
+  },
+  {
+    "id": 734,
+    "q": "¿Qué vehículos pueden circular por un carril de sentido contrario al habitual, como norma general?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Turismos y motocicletas.",
+      "Turismos, con o sin remolque, y motocicletas.",
+      "Cualquier vehículo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Como norma general, por los carriles habilitados en sentido contrario al habitual solo pueden circular turismos sin remolque y motocicletas. Cuando el carril se habilita por obras, puede permitirse el acceso a otros vehículos según lo establezca la señalización.",
+      "Incorrecto. Los turismos con remolque no pueden circular por estos carriles como norma general.",
+      "Incorrecto. No todos los vehículos pueden circular por estos carriles."
+    ]
+  },
+  {
+    "id": 735,
+    "q": "¿Por qué será necesario entrar ceñido a la derecha en las curvas hacia la izquierda?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La pregunta no es correcta ya que deberá entrar ceñido a la izquierda.",
+      "Para ampliar la zona de seguridad.",
+      "Para permitir que los coches que nos preceden puedan adelantar."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. La afirmación es correcta; en curvas a la izquierda se debe entrar ceñido a la derecha.",
+      "Entrar ceñido a la derecha en una curva hacia la izquierda amplía la zona de seguridad respecto al sentido contrario, reduciendo el riesgo de colisión con vehículos que vienen en dirección opuesta y que no pueden verse con anticipación.",
+      "Incorrecto. Facilitar adelantamientos no es la razón técnica de esta norma."
+    ]
+  },
+  {
+    "id": 736,
+    "q": "¿Por qué lugar debemos circular en un túnel de doble sentido de circulación?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por el eje central de nuestro carril",
+      "Lo más próximo a la derecha posible",
+      "Lo más próximo a la línea longitudinal de separación de carriles"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto. Circular por el eje central no maximiza la separación con los vehículos del sentido contrario.",
+      "En un túnel de doble sentido, debemos circular lo más próximo a la derecha posible, para maximizar la separación con los vehículos del sentido contrario y minimizar el riesgo de colisión en un espacio confinado donde las consecuencias de un accidente son especialmente graves.",
+      "Incorrecto. Circular próximo a la línea de separación de carriles reduce la distancia de seguridad con los vehículos del sentido contrario."
+    ]
+  },
+  {
+    "id": 737,
+    "q": "En ésta curva de visibilidad reducida, usted, ¿podrá adelantar a un vehículo que circule delante suyo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque no hay una línea continua.",
+      "Sí, porque no hay ninguna señal vertical de prohibido adelantar.",
+      "No, porqué para adelantarlo necesito ocupar el carril del sentido contrario."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto. La ausencia de línea continua no autoriza el adelantamiento cuando la visibilidad es reducida y hay que invadir el carril contrario.",
+      "Incorrecto. La ausencia de señal vertical no autoriza el adelantamiento en estas condiciones.",
+      "En una curva de visibilidad reducida está prohibido adelantar cuando para hacerlo sea necesario invadir el carril del sentido contrario, independientemente de la señalización. La imposibilidad de ver con anticipación hace que el riesgo de colisión frontal sea inaceptable."
+    ]
+  },
+  {
+    "id": 738,
+    "q": "¿Qué debe hacer en este paso a nivel sin barreras, en el que el semáforo está apagado y existe una señal de STOP?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Detenerse y asegurarse de que no viene ningún tren antes de pasar.",
+      "Reducir la velocidad, sin llegar a detenerme, para comprobar que no viene ningún tren.",
+      "Pasar sin reducir la velocidad, ya que el semáforo apagado lo permite."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un paso a nivel sin barreras donde el semáforo está apagado y hay una señal de STOP, el conductor debe detenerse completamente, asegurarse de que no viene ningún tren y solo entonces cruzar. La señal de STOP es siempre de obligado cumplimiento independientemente del estado del semáforo.",
+      "Incorrecto. La señal de STOP exige detención completa, no solo reducción de velocidad.",
+      "Incorrecto. El semáforo apagado no autoriza a pasar; la señal de STOP es siempre obligatoria."
+    ]
+  },
+  {
+    "id": 739,
+    "q": "¿En caso de duda quién tendrá preferencia en un paso estrecho con vehículos en sentido contrario?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El que tenga más dificultad de maniobrar",
+      "El que lo conduzca un conductor más experimentado",
+      "El que pueda salir de manera más sencilla"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En caso de duda en un paso estrecho con vehículos en sentido contrario, tiene preferencia el vehículo que tenga más dificultad para maniobrar, que generalmente es el de mayor tamaño o el que circula en sentido ascendente. El otro conductor debe buscar un lugar donde sea posible el cruce.",
+      "Incorrecto. La experiencia del conductor no determina la preferencia en la normativa de tráfico.",
+      "Incorrecto. El criterio es la dificultad de maniobra, no la facilidad de salida."
     ]
   }
 ]
