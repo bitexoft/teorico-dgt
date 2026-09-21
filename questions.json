@@ -28856,5 +28856,3345 @@
       "Ante la situación mostrada en la imagen, es fundamental circular a una velocidad moderada, siendo especialmente precavidos .",
       "Incorrecto."
     ]
+  },
+  {
+    "id": 1445,
+    "q": "¿Está permitido depositar la mercancía en la vía mientras se realizan operaciones de carga o descarga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, está prohibido depositar la mercancía en la calzada, arcén o aceras.",
+      "Sí, se puede depositar la mercancía en la calzada o en el arcén, pero no en la acera.",
+      "Solo cuando la carga o descarga se realice fuera de poblado."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "No está permitido depositar la mercancía en la vía mientras se realizan operaciones de carga o descarga.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1446,
+    "q": "El conductor, ¿está obligado a hacer que los pasajeros mantengan la posición adecuada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, sólo está obligado a cuidar la colocación de los objetos.",
+      "No.",
+      "Sí."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El conductor está obligado a cuidar que los pasajeros mantengan la posición adecuada en el vehículo. Esta obligación incluye velar por que los ocupantes no adopten posturas que puedan entorpecer la conducción o comprometer la seguridad, como asomarse por las ventanas o interferir con los mandos del vehículo."
+    ]
+  },
+  {
+    "id": 1447,
+    "q": "Una carga sobresale por la parte trasera de un vehículo, ¿debe ir señalizada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque no es un vehículo destinado exclusivamente al transporte de mercancías",
+      "Sí, pero solo de noche o cuando existan condiciones meteorológicas que disminuyan la visibilidad",
+      "Sí, tanto de día como de noche"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga que sobresalga por la parte trasera de cualquier vehículo debe ir siempre señalizada, tanto de día como de noche. Durante el día es obligatorio el panel V-20 de franjas diagonales rojas y blancas; de noche, además del panel, se exige una luz roja en el extremo posterior de la carga."
+    ]
+  },
+  {
+    "id": 1448,
+    "q": "¿De qué manera se debe acondicionar siempre la carga transportada en la baca de un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Ocultando parcialmente los dispositivos de señalización luminosa.",
+      "De tal forma que no comprometa la estabilidad del vehículo.",
+      "Cubriéndola totalmente con una lona o u plástico."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga transportada en la baca de un turismo debe acondicionarse de forma que no comprometa la estabilidad del vehículo. Debe distribuirse y sujetarse correctamente para que su peso no altere el centro de gravedad ni afecte al control del vehículo durante la circulación.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1449,
+    "q": "Si la carga que transporta cae a la vía y supone un obstáculo o peligro para la circulación, ¿qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No detenerse hasta encontrar un lugar adecuado para estacionar.",
+      "Señalizarla y retirarla de la vía lo antes posible.",
+      "Únicamente señalizarla y esperar a que llegue un vehículo policial para retirarla."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si la carga cae a la vía y supone un obstáculo o peligro para la circulación, el conductor debe actuar con rapidez para evitar accidentes.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1450,
+    "q": "¿Hay que señalizar de alguna manera una carga que ha caído sobre la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, utilizando el dispositivo reglamentario de señalización de emergencia.",
+      "No, únicamente debe señalizarse el vehículo si queda inmovilizado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si una carga cae sobre la vía , debe señalizarse inmediatamente para advertir del peligro al resto de conductores y evitar accidentes. La DGT obliga a proteger y señalizar cualquier obstáculo que pueda afectar a la circulación.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1451,
+    "q": "¿Puede un ciclo que no puede ser conducido por más de una persona transportar a otros ocupantes?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, a un menor de hasta siete años",
+      "No, está totalmente prohibido llevar más ocupantes",
+      "Sí, a un menor de hasta doce años"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un ciclo que no puede ser conducido por más de una persona puede transportar a un menor de hasta siete años. Para ello debe utilizarse un asiento adicional homologado adaptado a su talla, y el menor debe llevar el casco reglamentario.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1452,
+    "q": "Para un vehículo con carga, ¿Cuál es la altura máxima permitida?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "4 metros, como norma general.",
+      "2,5 metros.",
+      "3 metros."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Según nos indica el Reglamento General de Circulación, como norma general, la altura máxima autorizada para que los vehículos puedan circular por las vías públicas, incluida su carga, es de 4 metros.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1453,
+    "q": "En un vehículo es obligatorio colocar y sujetar la carga de forma que no pueda...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "caer o desplazarse de manera peligrosa, únicamente.",
+      "arrastrar, caer o desplazarse de manera peligrosa.",
+      "desplazarse de manera peligrosa, únicamente."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga que transporte un vehículo, así como los accesorios que se utilicen para su acondicionamiento o protección, deberán siempre estar dispuestos y, s ujetos de forma que no puedan arrastrar, caer total o parcialmente o desplazarse de forma peligrosa . La carga tampoco deberá comprometer la estabilidad del vehículo ni producir ruido u otras molestias.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1454,
+    "q": "Si en su motocicleta lleva como pasajero a un menor de edad, este debe...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "ir sentado a horcajadas entre el conductor y el manillar.",
+      "utilizar un sistema de retención infantil homologado.",
+      "ir con los pies apoyados en los reposapiés laterales."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando llevamos a un menor como pasajero en la motocicleta, es esencial que ambos cumplamos con ciertas condiciones de seguridad para garantizar un viaje seguro."
+    ]
+  },
+  {
+    "id": 1455,
+    "q": "Se encuentra bajando las mercancías que transporta en su vehículo. ¿Puede depositarlas sobre la acera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, siempre que no pase ningún peatón.",
+      "No, excepto si señalizo el lugar de manera que no haya peligro para los peatones."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "No está permitido depositar las mercancías sobre la acera durante las operaciones de carga o descarga. La normativa prohíbe depositar la carga en la calzada, el arcén o las zonas peatonales, para no obstaculizar la circulación ni poner en peligro a los peatones.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1456,
+    "q": "¿Cuál de las siguientes es una norma en las operaciones de carga y descarga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Prohibición de depositar mercancías en la vía pública.",
+      "Está permitido depositar mercancías en la calzada y en la acera.",
+      "Las mercancías se pueden colocar en la acera, pero no en la calzada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Durante la carga y descarga, es esencial seguir una serie de normas para garantizar la seguridad y la fluidez del tráfico:",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1457,
+    "q": "Las materias que produzcan polvo o puedan caer, es obligatorio transportarlas...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "en contenedores de pequeño tamaño.",
+      "cubriéndolas total y eficazmente.",
+      "en vehículos totalmente cerrados."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las materias que produzcan polvo o puedan caer deben transportarse cubriéndolas total y eficazmente. Esta obligación tiene por objeto evitar que la carga contamine el ambiente, reduzca la visibilidad de otros conductores o provoque molestias y peligros para el resto de usuarios de la vía.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1458,
+    "q": "¿Puede la carga ocultar los dispositivos de alumbrado del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que se tenga autorización previa de la DGT",
+      "Únicamente se podrá ocultar la matrícula pero no los dispositivos de alumbrado",
+      "No, está prohibido"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga no puede ocultar los dispositivos de alumbrado del vehículo; está prohibido transportar carga que tape los faros, pilotos, intermitentes u otros elementos de iluminación y señalización. En caso necesario, deben instalarse dispositivos de señalización adicionales en el extremo de la carga."
+    ]
+  },
+  {
+    "id": 1459,
+    "q": "Si circula entre la puesta y la salida del sol, ¿cómo debe señalizar una carga indivisible que sobresale por la parte delantera y la trasera de su vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz roja en ambos extremos de la carga.",
+      "Con una luz blanca en la parte trasera de la carga y una luz roja en la delantera.",
+      "Con una luz roja en la parte trasera de la carga y una luz blanca en la delantera."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Al transportar una carga indivisible que sobresale por la parte delantera y la trasera del vehículo durante la noche o bajo condiciones que disminuyan la visibilidad, se debe señalizar adecuadamente para garantizar la seguridad y la visibilidad ."
+    ]
+  },
+  {
+    "id": 1460,
+    "q": "¿En cuál de las siguientes situaciones aumenta el consumo de combustible?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando los neumáticos estén correctamente inflados.",
+      "Al circular con las ventanas cerradas.",
+      "En caso de que el vehículo vaya muy cargado."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "El consumo de combustible aumenta cuando el vehículo va muy cargado. El exceso de peso obliga al motor a realizar un mayor esfuerzo para mover el vehículo, lo que incrementa el consumo de combustible y las emisiones contaminantes."
+    ]
+  },
+  {
+    "id": 1461,
+    "q": "¿Qué longitud deben tener los vehículos que lleven en su parte trasera una placa rectangular de color amarillo y borde rojo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Más de 10 metros de longitud",
+      "Más de 12 metros de longitud",
+      "Más de 8 metros de longitud"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Los vehículos que llevan en su parte trasera una placa rectangular de color amarillo con borde rojo son aquellos con más de 12 metros de longitud. Esta señalización es obligatoria para advertir a los demás conductores de las grandes dimensiones del vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1462,
+    "q": "¿Cómo debe estar colocada la carga que transporta un vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Estibada y bien distribuida.",
+      "Sin atar y distribuida.",
+      "Estibada y concentrada en el centro de gravedad."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La carga que transporta un vehículo debe estar estibada y bien distribuida. Una correcta estiba garantiza que la carga no se desplace durante la marcha y que el peso esté repartido de manera equilibrada, lo que contribuye a mantener la estabilidad y el control del vehículo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1463,
+    "q": "¿Puede el conductor de una bicicleta transportar un pasajero?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, sentado entre el conductor y el manillar.",
+      "No, está prohibido.",
+      "Sí, a un menor de hasta siete años siempre que lo haga en un asiento adicional homologado."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La regulación para transportar pasajeros en bicicletas es diferente de la de motocicletas y ciclomotores ."
+    ]
+  },
+  {
+    "id": 1464,
+    "q": "¿Puede afectar la carga excesiva del vehículo al correcto funcionamiento de los neumáticos?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, cuando se excede de los límites de carga permitidos.",
+      "No, si el vehículo lleva amortiguadores nuevos.",
+      "No, en ningún caso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La carga excesiva del vehículo puede afectar al correcto funcionamiento de los neumáticos, especialmente cuando se excede de los límites de carga permitidos .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1465,
+    "q": "En un vehículo de más de 5 metros, destinado al transporte de mercancías, una carga de longitud indivisible puede sobresalir...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "2 metros por la parte delantera y 3 por la trasera.",
+      "3 metros por la parte delantera y 2 por la trasera.",
+      "el 15% de la longitud del vehículo por delante y por detrás."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En los vehículos de transporte de mercancías que midan más de 5 metros la carga puede sobresalir 2 metros por delante y 3 por detrás. Si el vehículo mide 5 metros o menos , la carga puede sobresalir un tercio de la longitud del vehículo, por delante y por detrás.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1466,
+    "q": "¿Es necesario señalizar la carga que sobresalga por la parte trasera de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente cuando la carga sobresalga más de 0,50 centímetros",
+      "En las motocicletas la carga no se debe señalizar",
+      "Sí, con una placa rectangular de color amarillo y borde rojo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las motocicletas, la carga no se debe señalizar con la placa rectangular amarilla de borde rojo reservada para los vehículos de transporte de mercancías. La señalización de la carga en motocicletas se rige por normas específicas distintas a las de los vehículos de carga convencionales.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1467,
+    "q": "Cargar un vehículo con más carga de la autorizada...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "solo afecta a los neumáticos, por lo que se deberá incrementar su presión.",
+      "influye, especialmente, en la aceleración, frenado y estabilidad del vehículo.",
+      "no influye para nada en la seguridad vial."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cargar un vehículo con más carga de la autorizada influye especialmente en la aceleración, el frenado y la estabilidad del vehículo. El exceso de peso aumenta la distancia de frenado, dificulta las maniobras de esquiva y puede provocar la pérdida de adherencia o el vuelco del vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1468,
+    "q": "El conductor, ¿está obligado a cuidar que el resto de pasajeros mantengan una posición adecuada en el vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo si el vehículo es de transporte colectivo de personas.",
+      "No.",
+      "Sí."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Como conductores, estamos obligados a cuidar que el resto de los pasajeros mantengan una posición adecuada en el vehículo."
+    ]
+  },
+  {
+    "id": 1469,
+    "q": "¿De qué manera señalizaremos en horas diurnas la carga que sobresalga por la parte trasera de un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con un panel de franjas diagonales blancas y rojas.",
+      "No será necesario señalizarla en horas diurnas.",
+      "Con una luz blanca."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Durante el día, la carga que sobresalga por la parte trasera de un turismo se señalizará con un panel de franjas diagonales blancas y rojas (panel V-20). Este panel debe colocarse en el extremo posterior de la carga, de forma visible para los conductores que circulen detrás.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1470,
+    "q": "¿Quién está obligado a cuidar de que los pasajeros de un vehículo mantengan la posición adecuada para garantizar la seguridad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Los pasajeros mayores de edad.",
+      "El conductor.",
+      "El pasajero que ocupe el asiento delantero."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El conductor es quien tiene la responsabilidad de garantizar que los pasajeros de un vehículo mantengan la posición adecuada para asegurar la seguridad.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1471,
+    "q": "¿Es correcto dejar objetos en la vía durante la carga y descarga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, porque lo hacen por el lado más cercano al borde de la calzada.",
+      "Sí, siempre que no cause molestias.",
+      "No, porque no se pueden dejar mercancías en la vía."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En vías urbanas e interurbanas la carga y descarga de vehículos se deberá realizar fuera de la vía y con el motor apagado, evitando siempre depositar objetos y mercancías en la carretera ya que esto puede convertirse en un obstáculo para el resto de usuarios que circulen por la vía poniendo en peligro su seguridad."
+    ]
+  },
+  {
+    "id": 1472,
+    "q": "¿Puede la carga de un vehículo sobresalir de la proyección en planta del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que sobresalga menos de 50 cm",
+      "Únicamente se podrán llevar bicicletas",
+      "No, como norma general"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Como norma general, la carga de un vehículo no puede sobresalir de la proyección en planta del vehículo. Solo se permiten excepciones reglamentadas, como cargas indivisibles que sobresalgan por delante o por detrás dentro de los límites establecidos, nunca por los laterales en vehículos de más de un metro de anchura."
+    ]
+  },
+  {
+    "id": 1473,
+    "q": "¿Cuánto podrá sobresalir por la parte delantera una viga indivisible en un vehículo de carga con longitud superior a 5 metros?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "2 metros",
+      "3 metros",
+      "4 metros"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un vehículo de carga con longitud superior a 5 metros, una viga indivisible puede sobresalir hasta 2 metros por la parte delantera. Por la parte trasera, ese mismo vehículo permite hasta 3 metros de saliente.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1474,
+    "q": "La carga de su turismo sobresale por detrás. ¿Qué debe hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No es obligatorio señalizarla.",
+      "Señalizarla con paneles de franjas rojas y blancas.",
+      "Señalizarla con tela de color."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando la carga de tu vehículo sobresale por detrás , es esencial tomar medidas para garantizar la seguridad tanto de tu vehículo como de los demás conductores en la carretera.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1475,
+    "q": "En un turismo de nueve plazas, incluida la del conductor, ¿pueden viajar nueve menores de edad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque se supera el número de plazas autorizado.",
+      "Solo si los niños son menores de de 12 años.",
+      "Sí, siempre que el conductor sea su padre, madre o tutor."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La capacidad máxima de un vehículo está determinada por el número de plazas o asientos que tiene. En este caso, el turismo tiene nueve plazas, incluyendo la del conductor .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1476,
+    "q": "Una motocicleta, ¿puede arrastrar un remolque o semirremolque?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, si no supera el 50% de la masa en vacío del vehículo tractor.",
+      "Sí, y además puede llevar personas en el mismo.",
+      "No, está prohibido."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una motocicleta puede arrastrar un remolque o semirremolque, siempre y cuando el peso de este no supere el 50% de la masa en vacío de la motocicleta , que actúa como vehículo tractor.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1477,
+    "q": "¿Puede estar una baca instalada en un vehículo sin que se le de uso?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, puede estar instalada aunque no se utilice.",
+      "No está permitido instalar una baca en un vehículo en ninguna situación.",
+      "No, es obligatorio desmontarla cuando no se utilice."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una baca puede permanecer instalada en el vehículo aunque no se esté utilizando, siempre que cumpla las condiciones de seguridad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1478,
+    "q": "En los vehículos de anchura inferior a un metro la carga no debe sobresalir lateralmente más de...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "0,20 metros a cada lado del eje longitudinal del vehículo.",
+      "0,50 metros a cada lado del eje longitudinal del vehículo.",
+      "0,40 metros a cada lado del eje longitudinal del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En los vehículos de anchura inferior a un metro, como motocicletas y ciclomotores , existen normas específicas sobre cómo puede sobresalir la carga para garantizar la seguridad en la vía:",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1479,
+    "q": "¿Cuál es la altura máxima autorizada para que un vehículo pueda circular incluida la carga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "4,5 metros",
+      "4 metros",
+      "3 metros"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La altura máxima autorizada para que un vehículo pueda circular por las vías públicas, incluida su carga, es de 4 metros como norma general. Esta limitación está establecida en el Reglamento General de Circulación y es aplicable a todo tipo de vehículos.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1480,
+    "q": "¿Cuál es la edad mínima para viajar como ocupante en el sidecar de un ciclomotor sin ser su conductor tutor del mismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No existe edad mínima.",
+      "Doce años.",
+      "Siete años."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En los ciclomotores y en las motocicletas, además del conductor y, en su caso, del ocupante del sidecar de éstas, puede viajar, siempre que así conste en su licencia o permiso de circulación, un pasajero con tal de que sea mayor de 12 años.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1481,
+    "q": "De noche, ¿cómo se debe señalizar la carga que sobresale por delante y por detrás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo con el panel de franjas oblicuas rojas y blancas.",
+      "Con una luz blanca por delante, una luz roja por detrás y el panel de franjas oblicuas rojas y blancas.",
+      "Con un catadióptrico blanco por la parte delantera y otro rojo en la trasera."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, la carga que sobresale por delante y por detrás debe señalizarse con una luz blanca por delante, una luz roja por detrás y el panel de franjas oblicuas rojas y blancas. Esta señalización combinada garantiza la visibilidad de la carga en ambos extremos durante las horas nocturnas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1482,
+    "q": "¿Qué debe tener en cuenta para transportar una carga en su vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Que la carga no debe arrastrar, ni desplazarse de manera peligrosa.",
+      "Que se debe utilizar un dispositivo adecuado como un remolque.",
+      "Que no se pueden transportar cargas que sobresalgan."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Siempre que transportemos carga en nuestro vehículo, y ésta no se encuentre situada en el lugar específico para ello (maletero), deberemos tener en cuenta que la carga debe estar bien estibada y sujeta, colocada de manera que no se desplace de su lugar y que no exista la posibilidad de que caiga a la calzada, arrastre o sobresalga de forma peligrosa más de lo legalmente permitido.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1483,
+    "q": "El equipaje en la baca de un turismo, ¿puede sobresalir por los lados?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, pero el ancho total tiene que ser menor de 2,5 metros.",
+      "Sí, cuando el equipaje es ancho y no se puede dividir."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El equipaje transportado en la baca de un turismo no puede sobresalir por los lados. La carga en baca debe mantenerse dentro de la proyección en planta del vehículo, sin superar su anchura en ningún caso.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1484,
+    "q": "¿Qué tanto por ciento puede sobresalir una carga indivisible por la parte posterior en un vehículo no destinado exclusivamente a la carga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Un 20 %",
+      "Un 10 %",
+      "Un 15 %"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Una carga indivisible puede sobresalir hasta un 15% de la longitud del vehículo por la parte posterior en vehículos no destinados exclusivamente a la carga. Este porcentaje es el límite máximo permitido, y la carga debe señalizarse correctamente con el panel V-20."
+    ]
+  },
+  {
+    "id": 1485,
+    "q": "Cuando la carga sobresale de un vehículo, ¿es obligatorio señalizarla con el panel de la imagen?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, excepto para los vehículos destinados al transporte de mercancías.",
+      "Solo es obligatorio si la carga sobresale por la parte trasera.",
+      "Sí, para todo tipo de vehículos, pero solo cuando la carga sea indivisible."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Es obligatorio señalizar la carga que sobresale de un vehículo con el panel de la imagen, pero solo si la carga sobresale por la parte trasera .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1486,
+    "q": "Durante las operaciones de carga y descarga, ¿está permitido depositar las mercancías en la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En la calzada no, pero en los arcenes y en las zonas peatonales sí.",
+      "Sí.",
+      "No, como norma general."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Durante las operaciones de carga y descarga no está permitido depositar las mercancías en la calzada. Como norma general, la carga y descarga debe realizarse fuera de la vía, con el motor apagado y sin depositar mercancías en la calzada, el arcén ni las zonas peatonales."
+    ]
+  },
+  {
+    "id": 1487,
+    "q": "La carga, ¿puede sobresalir por los lados de la motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, 50 centímetros como máximo por cada lado, desde el eje longitudinal de la motocicleta.",
+      "Sí, como máximo 40 centímetros por cada lado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Está permitido que la carga puede sobresalir por los lados de una motocicleta, pero existe un límite máximo de 50 centímetros por cada lado, medido desde el eje longitudinal de la motocicleta .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1488,
+    "q": "Un turismo transporta una carga indivisible, ¿puede sobresalir por la parte trasera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, en los turismos la carga no puede sobresalir por la parte trasera.",
+      "Sí, hasta un máximo del 10% de la longitud total del vehículo.",
+      "Sí, hasta un 15% de la longitud total del vehículo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Un turismo puede transportar una carga indivisible que sobresalga por la parte trasera, pero esta no debe exceder el 15% de la longitud total del vehículo ."
+    ]
+  },
+  {
+    "id": 1489,
+    "q": "El conductor de una motocicleta, que lleva una persona en el asiento trasero...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "debe utilizar el casco protector y aconsejar al acompañante que lo utilice.",
+      "debe utilizar el casco protector y será responsable de que lo utilice el acompañante, pero sólo en vías interurbanas.",
+      "debe utilizar el casco protector y será responsable de que lo utilice el acompañante."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Como conductores de motocicletas, debemos usar obligatoriamente el casco protector homologado y correctamente abrochado ."
+    ]
+  },
+  {
+    "id": 1490,
+    "q": "En los vehículos no destinados exclusivamente al transporte de mercancías, ¿podrá sobresalir la carga por la parte delantera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, hasta un 10% de la longitud del vehículo.",
+      "Sí, hasta un 15% de la longitud del vehículo si la carga es indivisible."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En España, la normativa de tráfico establece reglas claras para el transporte de carga en vehículos que no están diseñados exclusivamente para el transporte de mercancías , como turismos, autocaravanas o vehículos mixtos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1491,
+    "q": "El conductor de la furgoneta, ¿puede hacer una parada en doble fila para descargar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo si la parada tiene una duración igual o inferior a 1 minuto.",
+      "Sí, excepcionalmente y respetando las normas sobre paradas.",
+      "No, está prohibido."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Según las normativa de tráfico actual en España, la parada y el estacionamiento en doble fila están generalmente prohibidos porque pueden obstruir la circulación y representar un riesgo para otros usuarios de la vía.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1492,
+    "q": "Si lleva a un pasajero en la motocicleta, tiene que tener en cuenta que...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "la distancia de frenado disminuye.",
+      "la distancia de frenado aumenta.",
+      "la conducción debe ser más rápida."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Al llevar un pasajero en una motocicleta, es importante tener en cuenta que la distancia de frenado aumenta .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1493,
+    "q": "¿En cuál de los siguientes elementos del vehículo incide más la carga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Adherencia a la vía",
+      "Aceleración",
+      "El mantenimiento del vehículo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga incide más en la aceleración del vehículo. El exceso de peso obliga al motor a un mayor esfuerzo para acelerar, lo que alarga los tiempos de aceleración, aumenta el consumo de combustible y puede afectar también al frenado y a la estabilidad del conjunto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1494,
+    "q": "De noche, la carga que sobresale por detrás debe señalizarse con un panel reflectante y…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Dos luces de color amarillo auto.",
+      "Una luz roja.",
+      "Una luz amarilla o blanca."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, la carga que sobresale por detrás debe señalizarse con un panel reflectante y una luz roja. Esta señalización garantiza que los conductores que circulen detrás puedan detectar a tiempo el saliente de la carga y evitar una colisión.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1495,
+    "q": "¿Es contrario a la seguridad vial cargar el vehículo con más carga de la que el fabricante indica?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente los camiones podrán llevar más carga que la establecida en su tarjeta I.T.V.",
+      "No, cada conductor puede llevar la carga que le convenga.",
+      "Sí, es ilegal."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Es contrario a la seguridad vial y es ilegal cargar el vehículo con más carga de la que el fabricante indica. Superar la Masa Máxima Autorizada (MMA) afecta negativamente al frenado, la estabilidad y la maniobrabilidad del vehículo, y está expresamente prohibido por el Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 1496,
+    "q": "Un niño de doce años que mide más de 150 centímetros de altura, ¿qué asientos puede ocupar en un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Tanto el delantero como los traseros.",
+      "Solamente los traseros.",
+      "El delantero, con preferencia sobre los asientos traseros."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Como norma general los niños menor de doce años estarán obligados a ocupar los asientos traseros de un vehículo, excepto en el caso de que dicho menor mida más de 135 centímetros de altura, circunstancia en la que podrá también ocupar el asiento del copiloto utilizando el cinturón de seguridad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1497,
+    "q": "La distribución de la carga en un vehículo, ¿afecta al consumo de combustible?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, por ello es muy importante colocar la carga de manera adecuada.",
+      "No, en el consumo solo afecta la velocidad.",
+      "No, en el consumo solo afecta el tipo de vehículo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La distribución de la carga en un vehículo sí afecta al consumo de combustible, por ello es muy importante colocarla de manera adecuada. Una carga mal distribuida aumenta la resistencia aerodinámica o desequilibra el vehículo, lo que obliga al motor a trabajar más y eleva el consumo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1498,
+    "q": "La carga transportada en un vehículo debe instalarse de tal manera que...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "no oculte los dispositivos de iluminación o señalización luminosa.",
+      "ocupe el mínimo espacio posible.",
+      "no oculte los dispositivos de encendido, aunque pueda ocultar las señales luminosas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La carga transportada en un vehículo debe instalarse de manera que no oculte los dispositivos de iluminación o señalización luminosa del vehículo .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1499,
+    "q": "En caso de caída de la carga en la calzada, el conductor deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "retirarla lo antes posible y adoptar entre tanto las medidas necesarias para avisar al resto de usuarios y para que no se dificulte la circulación.",
+      "cortar la circulación en todo caso.",
+      "proseguir la marcha y avisar del accidente a las autoridades pertinentes."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En caso de caída de la carga en la calzada, el conductor debe retirarla lo antes posible y adoptar entre tanto las medidas necesarias para avisar al resto de usuarios y para que no se dificulte la circulación. Debe señalizar la zona con los dispositivos de emergencia y retirar la carga de la calzada en el menor tiempo posible.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1500,
+    "q": "En caso de condiciones meteorológicas que disminuyan sensiblemente la visibilidad, ¿cómo debe señalizar la carga que sobresalga por la parte delantera del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz roja.",
+      "Con una luz blanca.",
+      "Con una luz blanca y un dispositivo reflectante también blanco."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En condiciones meteorológicas que disminuyan sensiblemente la visibilidad, como niebla densa, lluvia intensa o de noche, la carga que sobresalga por la parte delantera del vehículo debe señalizarse con una luz blanca .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1501,
+    "q": "¿Dónde deberá realizarse la carga y descarga de un vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Siempre en el arcén",
+      "Como norma general fuera de la vía",
+      "Por el lado del vehículo que resulte más comodo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Como norma general, la carga y descarga de un vehículo debe realizarse fuera de la vía. Esta norma busca evitar que las operaciones de carga y descarga obstaculicen la circulación e impone además que se realicen con el motor apagado.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1502,
+    "q": "¿Dónde debe colocarse el equipaje que transporta una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Las motocicletas no pueden llevar equipaje.",
+      "En el transportí.",
+      "En los pies del conductor."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El equipaje que transporta una motocicleta debe colocarse en el transportín. Este dispositivo, situado en la parte trasera de la motocicleta, está diseñado para sujetar la carga de forma segura y equilibrada, sin comprometer la estabilidad del vehículo ni la seguridad del conductor.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1503,
+    "q": "En un turismo con cinco plazas autorizadas, incluida la del conductor, ¿está permitido transportar a seis personas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que no supere la masa máxima autorizada del vehículo.",
+      "Solo cuando al menos uno de los ocupantes sea menor de edad.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un turismo con cinco plazas autorizadas, incluida la del conductor, no podemos transportar a seis personas, ya que supera el máximo permitido ."
+    ]
+  },
+  {
+    "id": 1504,
+    "q": "¿Puede una bicicleta arrastrar un remolque en horas nocturnas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, solo podrá hacerlo en horario diurno",
+      "No, no podrá arrastrarlo a ninguna hora del día",
+      "Sí, siempre que lleve la correspondiente indicación"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una bicicleta no puede arrastrar un remolque en horas nocturnas; solo podrá hacerlo en horario diurno. El Reglamento General de Circulación permite a los ciclos arrastrar un remolque o semirremolque únicamente durante el día y en condiciones que no limiten la visibilidad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1505,
+    "q": "Todo conductor que abandone su puesto para descargar mercancía del vehículo, deberá dejar siempre...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "el motor parado y el vehículo debidamente calzado.",
+      "el motor arrancado y las luces de emergencia encendidas.",
+      "el motor parado y el sistema de arranque desconectado."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Todo conductor que abandone su puesto para descargar mercancía del vehículo debe tomar precauciones para garantizar la seguridad y evitar accidentes."
+    ]
+  },
+  {
+    "id": 1506,
+    "q": "¿Debe señalizar la carga que transporta y que sobresale por la parte trasera de su turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con un panel de franjas rojas y blancas.",
+      "Solo si es indivisible y sobresale más de 40 centímetros.",
+      "No, en un turismo no es obligatorio señalizarla."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "De acuerdo con las normativa de tráfico, cuando la carga que transporta un vehículo sobresale por la parte trasera, especialmente durante el día y con buen tiempo, es necesario señalizarla con uno o dos paneles de franjas rojas y blancas (V-20) .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1507,
+    "q": "¿Está permitido dejar el motor en marcha durante las operaciones de carga y descarga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, en ningún caso.",
+      "Sí, siempre que el conductor no se aleje.",
+      "Sí, siempre que el freno de mano esté activado."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "No está permitido dejar el motor en marcha durante las operaciones de carga y descarga en ningún tipo de vía o situación.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1508,
+    "q": "Una carga sobresale por la parte trasera de un turismo. ¿Debe ir señalizada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, pero sólo de noche o cuando existan condiciones meteorológicas que disminuyan sensiblemente la visibilidad.",
+      "No, porque no es un vehículo destinado exclusivamente al transporte de mercancías.",
+      "Sí, tanto de día como de noche."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga que sobresalga por la parte trasera de un vehículo deberá ir siempre señalizada tanto de día como de noche, mediante un panel de franjas diagonales blancas y rojas que colocaremos en el extremo posterior de la carga además de una luz roja. En horas diurnas solamente se deberá utilizar el panel de franjas diagonales mientras que la luz roja solamente será obligatoria en horas nocturnas."
+    ]
+  },
+  {
+    "id": 1509,
+    "q": "Las operaciones de carga y descarga se deben realizar...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "depositando la mercancía en la calzada para agilizar el trabajo.",
+      "únicamente por el lado derecho de la calzada.",
+      "respetando siempre las normas de parada y estacionamiento."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Las operaciones de carga y descarga deben realizarse respetando siempre las normas de parada y estacionamiento ."
+    ]
+  },
+  {
+    "id": 1510,
+    "q": "¿Dónde debemos situar un vehículo que está realizando faenas de descarga en vía urbana de un único sentido?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A la derecha indistintamente del lugar donde se encuentre el inmueble",
+      "A la izquierda si el inmueble se encuentra situado en ese lado",
+      "En el lugar que el conductor prefiera sin hacer caso a ninguna norma más"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En una vía urbana de un único sentido, si el inmueble de destino está situado en el lado izquierdo, el vehículo que realiza faenas de descarga deberá situarse a la izquierda. En vías de sentido único se permite realizar la carga y descarga por el lado izquierdo cuando el inmueble se encuentra en ese lado.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1511,
+    "q": "¿Puede ser superior el número de personas transportadas en un vehículo al de plazas autorizadas para el mismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que sea por un motivo justificado",
+      "No, está prohibido",
+      "Únicamente podrán llevar más pasajeros los vehículos con remolque"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En un vehículo nunca puede viajar más gente de la que indican sus plazas autorizadas .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1512,
+    "q": "¿Podrá sobresalir por los laterales la carga que se transporta sobre la baca de un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, hasta un 10% de su anchura.",
+      "No.",
+      "Solo si la carga no se puede dividir."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga que se transporta sobre la baca de un turismo no puede sobresalir por los laterales en ningún caso , ya sea divisible o indivisible.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1513,
+    "q": "¿Cuanto puede sobresalir longitudinalmente la carga transportada en una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Nada, ya que en las motocicletas la carga no puede sobresalir",
+      "Nada por delante y hasta 0,25 metros por detrás",
+      "0,25 metros por delante y 0,25 metros por detrás"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En una motocicleta, la carga puede sobresalir nada por delante y hasta 0,25 metros por detrás. La normativa prohíbe cualquier saliente por la parte delantera en estos vehículos, dado que comprometería la dirección y la seguridad activa.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1514,
+    "q": "La carga indivisible de un turismo, ¿cuánto puede sobresalir por detrás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El 20% de la largura del vehículo.",
+      "1/3 de la largura del vehículo.",
+      "El 15% de la largura del vehículo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga indivisible de un turismo puede sobresalir hasta el 15% de la longitud del vehículo por detrás. Este porcentaje es el límite máximo establecido en el Reglamento General de Circulación para vehículos no destinados exclusivamente al transporte de mercancías."
+    ]
+  },
+  {
+    "id": 1515,
+    "q": "¿Dónde está prohibido depositar la mercancía durante las operaciones de carga y descarga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En la calzada, en el arcén y en las zonas peatonales.",
+      "En las zonas peatonales, pero si esta permitido depositarla en la calzada y en el arcén.",
+      "En la calzada, pero esta permitido depositarla en el arcén y en las zonas peatonales."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Está prohibido depositar la mercancía durante las operaciones de carga y descarga en la calzada, en el arcén y en las zonas peatonales. La normativa prohíbe depositar la carga en cualquier parte de la vía pública para no crear obstáculos ni peligros para los demás usuarios.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1516,
+    "q": "¿Cuánto podrá sobresalir por la parte posterior una viga indivisible en un vehículo de carga con longitud inferior a 5 metros?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Un tercio de la longitud del vehículo",
+      "Un cuarto de la longitud del vehículo",
+      "La mitad de la longitud del vehículo"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un vehículo de carga con longitud inferior a 5 metros, una viga indivisible puede sobresalir hasta un tercio de la longitud del vehículo por la parte posterior. Esta misma proporción se aplica también a la parte delantera cuando la longitud del vehículo no supera los 5 metros.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1517,
+    "q": "Un turismo no tiene un sistema de sujeción apropiado para un niño de ocho años que tiene una estatura superior a 135 centímetros. ¿Dónde debe ir sentado normalmente?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En el asiento posterior, con el cinturón de seguridad abrochado.",
+      "En el asiento delantero, con el cinturón de seguridad abrochado.",
+      "Es indiferente porqué tiene más de dos años."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un niño de ocho años con estatura superior a 135 centímetros, en un turismo sin sistema de sujeción apropiado, debe ir normalmente sentado en el asiento posterior con el cinturón de seguridad abrochado. Los menores de 12 años deben ocupar los asientos traseros salvo que midan más de 135 cm, en cuyo caso pueden usar el asiento delantero con cinturón.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1518,
+    "q": "La carga de este camión sobresale por su parte trasera, ¿cómo debe transportarse?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Señalizada con una luz roja y un dispositivo reflectante rojo.",
+      "Protegida y señalizada con una luz blanca o amarilla auto.",
+      "Señalizada y protegida en la parte que sobresale."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando una carga sobresale por la parte trasera de un camión, es imprescindible que esté correctamente señalizada y protegida para garantizar la seguridad vial."
+    ]
+  },
+  {
+    "id": 1519,
+    "q": "¿Qué retrovisor debemos llevar de manera obligatoria si colocamos objetos en la bandeja posterior que disminuyen el campo de visión?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Espejo retrovisor interior",
+      "Espejo retrovisor exterior izquierdo únicamente",
+      "Espejo retrovisor exterior izquierdo y derecho"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Si se colocan objetos en la bandeja posterior que disminuyen el campo de visión, es obligatorio llevar espejo retrovisor exterior izquierdo y derecho. Cuando la visión trasera interior queda bloqueada por la carga, los retrovisores exteriores de ambos lados son imprescindibles para mantener la visibilidad necesaria."
+    ]
+  },
+  {
+    "id": 1520,
+    "q": "Este panel se deberá colocar...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En la parte posterior de la carga que sobresalga de cualquier vehículo hasta un 10% de su largura.",
+      "En la parte posterior de los vehículos destinados exclusivamente al transporte de mercancías.",
+      "En la parte delantera y posterior en los vehículos destinados exclusivamente al transporte de mercancías."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El panel V-20 de franjas rojas y blancas se colocará en la parte posterior de la carga que sobresalga de cualquier vehículo hasta un 10% de su longitud. Este panel es obligatorio para señalizar que la carga rebasa la carrocería por detrás y advertir al tráfico que circula detrás.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1521,
+    "q": "¿Están obligados los conductores de bicicleta a llevar casco en rampas prolongadas ascendentes de vía interurbana?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo estarán obligados a llevarlo los menores de siete años.",
+      "Sí, como norma general.",
+      "No, no estarán obligados."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Los conductores de bicicleta deben llevar casco en vías interurbanas como norma general , pero existen excepciones ."
+    ]
+  },
+  {
+    "id": 1522,
+    "q": "¿Cuándo necesita un vehículo que circula en llano más distancia para frenar?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Cuando el vehículo lleva mucho peso",
+      "Cuando el vehículo lleva poco peso",
+      "El peso del vehículo no influye en la distancia de frenada"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un vehículo que circula en llano necesita más distancia para frenar cuando lleva mucho peso. El aumento de la masa total del vehículo eleva la energía cinética que los frenos deben disipar, lo que alarga la distancia de frenado especialmente a velocidades elevadas.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1523,
+    "q": "Un vehículo lleva más carga que la Masa Máxima Autorizada (MMA). ¿Está permitido circular así?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, cuando es un vehículo de transporte de mercancías.",
+      "No, porque es peligroso.",
+      "Sí, pero solamente cuando transporta equipaje y personas dentro de poblado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Circular con un vehículo que lleva más carga que la Masa Máxima Autorizada (MMA) no está permitido, y esto se debe a razones de seguridad.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1524,
+    "q": "¿Puede una motocicleta arrastrar un remolque que transporte a personas en horas diurnas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, no podrá arrastrar remolques que transporten personas.",
+      "Sí, siempre que los ocupantes sean menores de doce años.",
+      "Sí, siempre que no supere al peso de la motocicleta."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una motocicleta no puede arrastrar un remolque que transporte personas. El Reglamento General de Circulación prohíbe expresamente el transporte de personas en remolques o semirremolques arrastrados por motocicletas, independientemente de la hora del día o del peso del remolque.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1525,
+    "q": "La carga que transporta en un vehículo...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "puede colocarse como mejor convenga al conductor.",
+      "puede ocultar los dispositivos de señalización luminosa.",
+      "debe estar colocada y sujeta de forma que no comprometa la estabilidad del vehículo."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Al transportar carga en un vehículo, es fundamental que esta esté colocada y asegurada de tal forma que no afecte la estabilidad del vehículo."
+    ]
+  },
+  {
+    "id": 1526,
+    "q": "Un niño menor de 12 años y con una estatura de 125 cm, ¿puede viajar en el asiento delantero de un turismo sin un dispositivo de retención homologado?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que lleve el cinturón abrochado.",
+      "No, ya que no puede utilizar el cinturón de seguridad.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Un niño menor de 12 años con estatura de 125 cm no puede viajar en el asiento delantero de un turismo sin dispositivo de retención homologado. Los menores de 12 años y menos de 135 cm de estatura tienen prohibido viajar en el asiento delantero y están obligados a usar un sistema de retención infantil homologado."
+    ]
+  },
+  {
+    "id": 1527,
+    "q": "La distancia de frenado de un vehículo cargado es...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "menor que cuando circula sin carga.",
+      "mayor que cuando circula sin carga.",
+      "igual que cuando circula sin carga."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La distancia de frenado de un vehículo cargado es mayor que cuando circula sin carga. El aumento de peso eleva la inercia del vehículo y la energía cinética que los frenos deben disipar, lo que alarga la distancia necesaria para detener el vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1528,
+    "q": "¿Por qué normas se regirán los ciclistas y conductores de bicicleta profesionales que participen en una competición?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por las normas publicadas en la Constitución",
+      "Por sus propias normas",
+      "Por las mismas normas que los conductores de bicicleta ocasionales"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Los ciclistas y conductores de bicicleta profesionales que participen en una competición se regirán por sus propias normas. Las competiciones ciclistas en vía pública se rigen por la normativa específica de las federaciones deportivas y por la autorización de la autoridad competente, que puede establecer condiciones distintas a las del tráfico ordinario.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1529,
+    "q": "¿Cómo deberemos llevar las ventanillas del vehículo cuando transportamos animales domésticos?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Abiertas totalmente para que puedan respirar.",
+      "Cerradas para que no saquen la cabeza.",
+      "No está permitido transportar animales domésticos en un vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando se transportan animales domésticos en un vehículo, las ventanillas deben llevarse cerradas para que no saquen la cabeza. Los animales no deben poder asomarse al exterior del vehículo, ya que podrían caer o interferir con la conducción; además deben ir sujetos con arnés, en transportín o separados mediante rejilla.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1530,
+    "q": "¿Qué significan los números que encontramos en el panel naranja que llevan los vehículos que transportan mercancías peligrosas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Informa de la MMA del vehículo",
+      "Identifican el peligro de la mercancía",
+      "Informan de la velocidad máxima que puede alcanzar el vehículo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Los números del panel naranja que llevan los vehículos que transportan mercancías peligrosas identifican el peligro de la mercancía. El número superior indica el código de peligro (naturaleza del riesgo) y el número inferior identifica la materia transportada según el código ONU, permitiendo a los servicios de emergencia conocer el producto y actuar correctamente.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1531,
+    "q": "Una persona mayor de edad, ¿puede circular con una motocicleta llevando como pasajero a un niño de 10 años, si no es su padre, ni su madre, ni su tutor legal?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo si está autorizado por alguno de ellos.",
+      "Sí, siempre que el menor lleve casco homologado.",
+      "No."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Una persona mayor de edad puede llevar como pasajero en una motocicleta a un niño de 10 años únicamente si está autorizado por el padre, madre o tutor legal del niño.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1532,
+    "q": "¿De qué manera señalizaremos la caída de la carga que transporta un vehículo sobre la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con la luz de emergencia del vehículo y la baliza de preseñalización V-16.",
+      "No será necesario señalizar ésta caída",
+      "Agitando una bandera amarilla"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La caída de carga sobre la calzada crea un obstáculo y un riesgo inmediato para el resto de usuarios, por lo que debe señalizarse de forma clara y rápida.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1533,
+    "q": "En un vehículo de 5 plazas, el conductor incluido, ¿cuántos niños pueden viajar en él?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "4 niños, si dispone de los dispositivos de seguridad adaptados.",
+      "6 niños, como máximo.",
+      "5 niños, como máximo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un vehículo de 5 plazas (conductor incluido), pueden viajar 4 niños siempre que dispongan de los dispositivos de seguridad adaptados. El conductor ocupa una plaza, y los 4 asientos restantes pueden ser ocupados por menores, cada uno con su sistema de retención homologado correspondiente a su talla y peso.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1534,
+    "q": "La carga de un turismo sobresale por su parte trasera, ¿qué debemos hacer?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Informarlo con un panel blanco luminoso.",
+      "Indicarlo con paneles de franjas rojas y blancas.",
+      "No es necesario señalizar la carga que sobresalga."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga que sobresalga por la parte trasera de un turismo deberá ser señalizada con un panel V-20 de señalización de dimensiones reglamentarias, con franjas diagonales rojas y blancas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1535,
+    "q": "En un camión de longitud inferior a 5 metros, una carga indivisible no podrá sobresalir más de...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Un tercio de la longitud del vehículo tanto por delante como por detrás",
+      "3 metros por delante y 2 metros por detrás",
+      "2 metros por delante y 3 metros por detrás"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un camión de longitud inferior a 5 metros, una carga indivisible no puede sobresalir más de un tercio de la longitud del vehículo, tanto por delante como por detrás. Para vehículos de transporte de mercancías de 5 metros o menos, esta proporción se aplica por igual a ambos extremos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1536,
+    "q": "¿De qué color es el panel rectangular que están obligados a llevar los vehículos que transportan mercancías peligrosas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Naranja",
+      "Amarillo",
+      "Rojo"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "El panel rectangular que están obligados a llevar los vehículos que transportan mercancías peligrosas es de color naranja. Este panel reflectante, colocado en la parte delantera y trasera del vehículo, identifica que se transportan sustancias peligrosas e incluye los códigos de identificación del riesgo y de la materia.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1537,
+    "q": "¿Podrán los ciclomotores arrastrar un remolque o semirremolque?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí",
+      "Únicamente podrán arrastrar remolques pero no semirremolques",
+      "No"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los ciclomotores pueden arrastrar un remolque o semirremolque. El Reglamento General de Circulación permite a los ciclomotores arrastrar un remolque, siempre que este no supere el 50% de la masa en vacío del vehículo tractor y que se circule de día en condiciones de buena visibilidad.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1538,
+    "q": "¿Qué velocidad máxima podrá alcanzar en vía urbana una motocicleta que arrastre un remolque de 1000 kg?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "60 km por hora",
+      "55 km por hora",
+      "50 km por hora"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Una motocicleta que arrastra un remolque de 1.000 kg no puede superar en vía urbana los 50 km/h. Los vehículos que arrastran remolques quedan sujetos a las limitaciones de velocidad generales, que en vía urbana son de 50 km/h como máximo."
+    ]
+  },
+  {
+    "id": 1539,
+    "q": "Para evitar un accidente en caso de frenada brusca, ¿debe adaptar la velocidad y la distancia de seguridad con el vehículo de delante si circula con una furgoneta cargada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, el peso de la carga hace que disminuya la distancia de frenado.",
+      "Sí, el peso de la carga hace que aumente la distancia de frenado.",
+      "No, el peso de la carga no influye en la distancia de frenado."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La distancia de frenado es la que recorre el vehículo desde que el conductor pisa el freno hasta que se detiene totalmente. Esta distancia viene determinada por: La velocidad .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1540,
+    "q": "De noche, es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "con una luz roja y un dispositivo reflectante rojo por detrás, solamente.",
+      "con una luz blanca y un dispositivo reflectante de color blanco por delante y con una luz roja y un dispositivo reflectante de color rojo por detrás.",
+      "con un panel reflectante por detrás solamente."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, una carga que sobresale lateralmente más de 0,40 metros debe señalizarse con una luz blanca y un dispositivo reflectante de color blanco por delante, y con una luz roja y un dispositivo reflectante de color rojo por detrás. Esta señalización completa en ambas extremidades laterales permite que los demás conductores detecten el saliente de la carga.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1541,
+    "q": "¿De qué color es la placa que deben llevar los vehículos cuya longitud supere los 12 metros?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Rojo",
+      "Amarillo reflectante",
+      "Azul"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La placa que deben llevar los vehículos cuya longitud supere los 12 metros es de color amarillo reflectante. Esta placa rectangular se coloca en la parte trasera del vehículo para advertir al tráfico que circula detrás de las grandes dimensiones longitudinales del vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1542,
+    "q": "¿Está permitido depositar la carga en los arcenes de la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, estará permitido depositarla en cualquier parte de la vía",
+      "No, ni en los arcenes ni en la calzada",
+      "Únicamente estará permitido depositarla en la calzada"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "No está permitido depositar la carga en los arcenes de la vía, ni en la calzada. La normativa prohíbe depositar mercancías en cualquier parte de la vía pública durante las operaciones de carga y descarga, incluyendo arcenes, calzada y zonas peatonales.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1543,
+    "q": "¿De qué manera señalizaremos en horas diurnas la carga que sobresalga por la parte delantera de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz blanca",
+      "Con una luz amarilla",
+      "La carga no puede sobresalir nada por la parte delantera en una motocicleta"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En una motocicleta, la carga no puede sobresalir nada por la parte delantera. Cualquier saliente frontal en estos vehículos pondría en peligro la estabilidad y la dirección, por lo que el Reglamento de Circulación lo prohíbe expresamente."
+    ]
+  },
+  {
+    "id": 1544,
+    "q": "¿Por qué deberá ir resguardada la extremidad saliente de la carga de un vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Para que el resto de usuario no visualicen el contenido de la misma.",
+      "Para que no se dañe sobretodo cuando son materiales químicos.",
+      "Para minimizar los efectos en caso de choque."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La extremidad saliente de la carga de un vehículo debe ir resguardada para minimizar los efectos en caso de choque. Esta protección busca reducir el riesgo de daños graves a otros vehículos o peatones que pudieran golpear el extremo de la carga."
+    ]
+  },
+  {
+    "id": 1545,
+    "q": "Si conduce una motocicleta con un pasajero, ¿qué debe tener en cuenta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Que será más difícil que, al frenar, la rueda trasera se quede bloqueada.",
+      "Que aumentará el tiempo de reacción.",
+      "Que la distancia de frenado será menor."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si se conduce una motocicleta con un pasajero, es más difícil que, al frenar, la rueda trasera se quede bloqueada. El peso adicional del pasajero aumenta la carga sobre la rueda trasera, lo que mejora su adherencia y reduce el riesgo de bloqueo de esa rueda durante una frenada fuerte.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1546,
+    "q": "¿Dónde deberemos situar a un animal doméstico cuando lo transportamos en un vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "En los asientos traseros, con arnés, rejilla o transportín",
+      "En el asiento del copiloto",
+      "No se pueden transportar animales domésticos en los vehículos no adaptados"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los animales domésticos deben situarse en los asientos traseros con arnés, rejilla o transportín cuando se transportan en un vehículo. Esta obligación garantiza que el animal no interfiera con la conducción ni salga disparado en caso de frenazo o accidente.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1547,
+    "q": "¿Dónde debemos situar un vehículo que está realizando trabajos de descarga en una vía urbana de doble sentido?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "A la derecha de la calzada.",
+      "Justo en el centro de la calzada.",
+      "A la izquierda de la calzada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En vías urbanas la carga y descarga de vehículos se realizará fuera de la vía y con el motor apagado.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1548,
+    "q": "¿Cuál es la altura máxima permitida para un vehículo con carga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "3 metros",
+      "4 metros como norma general",
+      "2,5 metros"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La altura máxima permitida para un vehículo con carga es de 4 metros como norma general. Esta limitación, establecida en el Reglamento General de Circulación, incluye la altura del vehículo más la de su carga, y es aplicable a todos los vehículos que circulen por vías públicas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1549,
+    "q": "La carga que sobresalga de la proyección en planta del vehículo, ¿debe ir protegida?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, no es necesario si va debidamente señalizada.",
+      "Sí, en la parte saliente para reducir los efectos de un roce o choque posibles.",
+      "Únicamente cuando se circule entre la puesta y la salida del sol."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando la carga de un vehículo sobresalga de la proyección en planta del mismo, siempre dentro de los límites establecidos por el Reglamento de circulación en cuanto a masas y dimensiones, se deberán adoptar todas las precauciones necesarias para evitar daños o peligros a los demás usuarios de la vía pública, y la carga deberá siempre ir resguardada y protegida en la extremidad saliente para reducir los efectos de un posible roce o choque.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1550,
+    "q": "¿De qué manera señalizaremos en horas nocturnas la carga que sobresalga por la parte delantera de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz amarilla.",
+      "De ninguna manera.",
+      "Con una luz roja."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, la carga que sobresalga por la parte delantera de una motocicleta no debe señalizarse de ninguna manera, porque esa carga no puede existir: la normativa prohíbe que la carga de una motocicleta sobresalga por la parte delantera. Por tanto, si no puede sobresalir, tampoco hay nada que señalizar.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1551,
+    "q": "¿Cuál es la anchura máxima permitida para las superestructuras de vehículos acondicionados?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "2,90 metros",
+      "2,60 metros",
+      "3,60 metros"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La anchura máxima permitida para las superestructuras de vehículos acondicionados (como frigoríficos o isotermos) es de 2,60 metros. Esta limitación está establecida en el Reglamento General de Vehículos y garantiza que estos vehículos puedan circular con seguridad por las vías públicas.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1552,
+    "q": "¿Se puede utilizar la baca para transportar el equipaje en un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente se podrá utilizar si el turismo transporta 3 ó más pasajeros.",
+      "No, no se puede utilizar como portaequipajes.",
+      "Sí, siempre que se acondicione adecuadamente."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Por lo que se refiere a los turismos, la carga siempre debe colocarse en el maletero o en la baca del vehículo, acondicionándola siempre de manera adecuada."
+    ]
+  },
+  {
+    "id": 1553,
+    "q": "Cuando no se utiliza la baca del vehículo ¿es aconsejable retirarla?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porqué la baca aumenta la estabilidad del vehículo.",
+      "Sí, porqué sin la baca ahorro carburante.",
+      "Es igual, porqué la baca no influye en el consumo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Cuando no se utiliza la baca del vehículo es aconsejable retirarla porque sin la baca se ahorra carburante. La baca vacía aumenta la resistencia aerodinámica del vehículo, lo que obliga al motor a consumir más combustible; retirarla cuando no se usa mejora la eficiencia energética.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1554,
+    "q": "¿Cómo debe ir señalizada la carga que sobresale por la parte delantera de un vehículo en horas nocturnas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz blanca y un panel rectangular rojo",
+      "Con una luz roja y una panel blanco y rojo",
+      "Con una luz blanca y un reflectante blanco"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Cuando una carga sobresale por la parte delantera del vehículo y se circula de noche o con visibilidad reducida , debe señalizarse para advertir correctamente su presencia al resto de usuarios de la vía."
+    ]
+  },
+  {
+    "id": 1555,
+    "q": "¿Qué forma tiene la señal que advierte de que las materias transportadas son de temperatura muy elevada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Circular.",
+      "Triangular.",
+      "Rectangular."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La señal que advierte de que las materias transportadas son de temperatura muy elevada tiene forma triangular. Las señales de advertencia de peligro en el transporte de mercancías peligrosas siguen las convenciones del ADR (Acuerdo Europeo sobre Transporte Internacional de Mercancías Peligrosas por Carretera).",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1556,
+    "q": "¿Cuál es la edad mínima para viajar como acompañante en una motocicleta conducida por alguien distinto de los padres o el tutor del menor, o por una persona mayor de edad autorizada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "14 años.",
+      "12 años.",
+      "7 años."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Como norma general el acompañante en una motocicleta deberá ser mayor de 12 años.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1557,
+    "q": "Los paneles de las esquinas del camión, ¿qué indican?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Que la carga sobresale por los lados.",
+      "Que la carga sobresale por delante.",
+      "Que la carga sobresale por detrás."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Los paneles V-20, que se colocan en las esquinas del camión, sirven para indicar que la carga sobresale por detrás del vehículo ."
+    ]
+  },
+  {
+    "id": 1558,
+    "q": "¿Quedarán exentos de utilizar casco de protección los viajeros de un cuadriciclo cuanto éste tenga estructura de autoprotección y cinturón de seguridad?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí",
+      "Únicamente los menores de doce años",
+      "No"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los viajeros de un cuadriciclo quedan exentos de utilizar casco de protección cuando el vehículo tiene estructura de autoprotección y cinturón de seguridad. En esas condiciones, la estructura del vehículo proporciona una protección equivalente a la del casco, por lo que su uso no es obligatorio.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1559,
+    "q": "En un turismo para cinco plazas, incluido el conductor, ¿está permitido que viajen 6 personas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, porque no se puede sobrepasar el número de plazas autorizado.",
+      "Sí, cuando no se supera la MMA del vehículo.",
+      "Sí, cuando el vehículo circula en vías urbanas."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "No está permitido que viajen 6 personas en un turismo para cinco plazas , incluido el conductor.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1560,
+    "q": "En una motocicleta, ¿cuánto puede sobresalir longitudinalmente la carga transportada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Nada por delante y hasta 0,25 metros por detrás.",
+      "Nada, en las motocicletas la carga no puede sobresalir.",
+      "Hasta 0,25 metros, tanto por delante como por detrás."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En una motocicleta, la carga puede sobresalir nada por delante y hasta 0,25 metros por detrás. La normativa prohíbe cualquier saliente por la parte delantera y permite un máximo de 25 centímetros por la parte trasera.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1561,
+    "q": "La carga sobresale del vehículo. ¿Es obligatorio señalizarla con este panel?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, para aquellos vehículos que lleven carga que sobresalga por delante.",
+      "Sí, para aquellos vehículos que lleven carga que sobresalga por detrás.",
+      "No es obligatorio para los camiones."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El panel V-20 de franjas rojas y blancas es obligatorio para aquellos vehículos que lleven carga que sobresalga por detrás. Este panel debe colocarse en el extremo posterior de la carga para que sea visible a los conductores que circulen detrás.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1562,
+    "q": "En los vehículos que tienen una anchura de menos de un metro, la carga lateral no puede...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sobresalir 0,20 metros en ambos lados del vehículo.",
+      "Sobresalir 0,5 metros en ambos lados del eje longitudinal del vehículo.",
+      "Sobresalir 0,4 metros en ambos lados del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En aquellos vehículos con anchura inferior a un metro, como los ciclomotores o motocicletas, la carga transportada podrá sobresalir como máximo 0,50 metros lateralmente por cada lado del eje longitudinal del vehículo, 0,25 por su parte trasera y no podrá sobresalir nada por la parte delantera ya que ello pondrá en peligro la seguridad y estabilidad del vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1563,
+    "q": "¿Está permitido dejar abiertos las puertas o el maletero para aumentar la capacidad de carga?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, excepto en los vehículos que están destinados al transporte de mercancías.",
+      "Las puertas no, pero el maletero sí, si se mantiene tan cerrado que la carga no pueda caer fuera.",
+      "No."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "No está permitido dejar abiertas las puertas o el maletero para aumentar la capacidad de carga. El Reglamento General de Circulación prohíbe circular con las puertas o el maletero abiertos, ya que supone un peligro para otros usuarios de la vía y puede provocar la caída de la carga."
+    ]
+  },
+  {
+    "id": 1564,
+    "q": "En los vehículos de anchura inferior a un metro, la carga no debe sobresalir por la parte posterior más de...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "0,50 metros.",
+      "0,40 metros.",
+      "0,25 metros."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En el caso de vehículos más pequeños y estrechos, como motos y ciclomotores, que tienen una anchura total inferior a un metro , las normas de tráfico en España son diferentes en cuanto a cómo puede sobresalir la carga."
+    ]
+  },
+  {
+    "id": 1565,
+    "q": "Durante el día, un turismo transporta una carga que sobresale por detrás, ¿está obligado a señalizarla?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, sólo es obligatorio para los camiones.",
+      "Sí, con un panel reglamentario.",
+      "Sí, con un trapo rojo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Durante el día, un turismo que transporta una carga que sobresale por detrás sí está obligado a señalizarla con un panel reglamentario. El panel V-20 de franjas rojas y blancas es obligatorio tanto de día como de noche siempre que la carga sobresalga por la parte trasera.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1566,
+    "q": "En una vía urbana es obligatorio realizar la carga y descarga…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Siempre por el lado más cercano al borde de la calzada.",
+      "Respetando las disposiciones que han dictado las autoridades municipales.",
+      "Respetando solo las disposiciones sobre paradas y estacionamientos."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En una vía urbana, la carga y descarga es obligatorio realizarla respetando las disposiciones que han dictado las autoridades municipales. Los ayuntamientos pueden establecer normas específicas sobre horarios, zonas y procedimientos de carga y descarga en su ámbito territorial.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1567,
+    "q": "Transportar un niño situado entre el manillar y el conductor en una motocicleta, ¿está permitido?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, pero sólo cuando el conductor sea el padre, la madre o una persona autorizada.",
+      "Sí, con el correspondiente casco adecuado a su talla."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Transportar un niño situado entre el manillar y el conductor en una motocicleta está prohibido. Esta posición es extremadamente peligrosa, interfiere con la conducción y está expresamente vedada por la normativa de tráfico, independientemente de la edad del niño o de quién conduzca.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1568,
+    "q": "En una motocicleta de anchura inferior a un metro, ¿cuánto puede sobresalir la carga por la parte delantera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "0,50 metros.",
+      "0,25 metros.",
+      "Nada."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En una motocicleta de anchura inferior a un metro, la carga no puede sobresalir nada por la parte delantera. Cualquier saliente frontal en una motocicleta comprometería la estabilidad y el control de la dirección, por lo que el Reglamento de Circulación lo prohíbe."
+    ]
+  },
+  {
+    "id": 1569,
+    "q": "En caso de caída de la carga en la calzada, el conductor, en la medida de lo posible, deberá...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "dejar el vehículo atravesado en mitad de la calzada para cortar el tránsito.",
+      "proseguir la marcha para avisar del incidente a la policía de tráfico.",
+      "retirarla de la calzada en el menor tiempo posible."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En caso de caída de la carga en la calzada, el conductor, en la medida que pueda, deberá retirarla de la calzada en el menor tiempo posible ."
+    ]
+  },
+  {
+    "id": 1570,
+    "q": "¿Cuántos metros podrá sobresalir lateralmente la carga que transporte una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "1,5 metros a cada lado del eje",
+      "0,50 metros a cada lado del eje",
+      "1 metro a cada lado del eje"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga que transporte una motocicleta puede sobresalir lateralmente hasta 0,50 metros a cada lado del eje longitudinal del vehículo. Este límite, establecido para vehículos de anchura inferior a un metro, garantiza que la carga no comprometa la estabilidad ni suponga un peligro para otros usuarios.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1571,
+    "q": "En un vehículo de anchura inferior a un metro, ¿puede sobresalir la carga por delante o por detrás?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, en ningún caso.",
+      "Sí, hasta 25 centímetros, por delante y por detrás.",
+      "Sólo por detrás hasta 25 centímetros."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En los vehículos de anchura inferior a un metro, como por ejemplo las motocicletas, la carga que transporten no podrá sobresalir lateralmente más de 0,50 metros por cada lado de su eje longitudinal. Dicha carga además no podrá sobresalir por la parte delantera, y únicamente 25 centímetros por su parte posterior."
+    ]
+  },
+  {
+    "id": 1572,
+    "q": "¿Cuántos metros puede sobresalir por la parte trasera la carga que transporta un ciclomotor?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No puede sobresalir nada por la parte trasera",
+      "0,50 metros",
+      "0,25 metros"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga que transporta un ciclomotor puede sobresalir hasta 0,25 metros por la parte trasera. Este límite es el mismo que para las motocicletas y otros vehículos de anchura inferior a un metro, y no se permite ningún saliente por la parte delantera."
+    ]
+  },
+  {
+    "id": 1573,
+    "q": "¿Podrán viajar personas en la zona destinada a la carga de los vehículos de transporte de mercancías?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que tengan autorización.",
+      "No, está prohibido.",
+      "Únicamente si son niños menores de 12 años y sin protección."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "No está permitido que viajen personas en la zona de carga de los vehículos de transporte de mercancías.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1574,
+    "q": "¿Está permitido que la carga de un turismo sobresalga por los laterales?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Sí, siempre que vaya debidamente señalizada.",
+      "Solo si no compromete la estabilidad del vehículo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En España, la normativa de tráfico establece reglas claras para el transporte de carga en vehículos que no están diseñados exclusivamente para ese fin , como turismos, autocaravanas o vehículos mixtos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1575,
+    "q": "¿Puede un menor de 12 años viajar como pasajero en una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No, debe tener más de 12 años.",
+      "Sí, siempre que sea mayor de 7 años y la conduzca su padre, madre o tutor.",
+      "No, debe tener 7 años y medir 150 cm como mínimo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Un menor de 12 años puede viajar como pasajero en una motocicleta siempre que sea mayor de 7 años y la conduzca su padre, madre o tutor. Los menores de entre 7 y 12 años solo pueden ir como pasajeros cuando el conductor es su progenitor o tutor legal.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1576,
+    "q": "¿Qué se debe tener en cuenta en las motocicletas que transportan equipaje?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Que no sobresalga por los lados.",
+      "Que no sobresalga por detrás.",
+      "Que se debe colocar y sujetar de forma que no se vea afectada la estabilidad de la motocicleta."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Al transportar equipaje en una motocicleta, es crucial colocarlo y sujetarlo de manera que no se afecte la estabilidad del vehículo ."
+    ]
+  },
+  {
+    "id": 1577,
+    "q": "En un vehículo de 9 plazas, incluido el conductor, ¿Se podrá transportar a 9 niños?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No. porque se excede la cantidad de asientos permitida.",
+      "Sí, cuando los niños se encuentren a cargo de un adulto.",
+      "Sí, siempre que los niños sean de entre 2 y 12 años de edad."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "A la hora de contar las plazas disponibles de un vehículo tendremos en cuenta que cada menor de entre 2 y 12 años ocupara un asiento que se contabilizará como una plaza .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1578,
+    "q": "En un vehículo de 5 plazas incluido el conductor, ¿cuántos menores de edad de estatura igual o inferior a 135 centímetros pueden viajar como máximo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "4 siempre que todos utilicen un sistema de retención infantil.",
+      "3 ya que en ningún caso pueden ocupar el asiento delantero.",
+      "6 aunque alguno de ellos no utilice un sistema de retención infantil."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Según el Reglamento de circulación, en un vehículo, cada asiento está diseñado para llevar a una sola persona , ya sea un niño o un adulto.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1579,
+    "q": "¿Puede la carga de un vehículo arrastrar sobre la calzada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente cuando sean camiones los que la carguen",
+      "Sí, siempre que no supere los tres metros fuera del vehículo",
+      "No, está totalmente prohibido"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga de un vehículo no puede arrastrar sobre la calzada; está totalmente prohibido. El arrastre de carga sobre la calzada genera peligro para los demás usuarios de la vía, puede dañar el firme y constituye una infracción del Reglamento General de Circulación."
+    ]
+  },
+  {
+    "id": 1580,
+    "q": "¿Cómo se deben hacer las faenas de carga y descarga en vías interurbana?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con el motor apagado y dentro de la vía.",
+      "Con el motor apagado y fuera de la vía.",
+      "Con el motor encendido y fuera de la vía."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En vías urbanas e interurbanas la carga y descarga de vehículos se realizará fuera de la vía y con el motor apagado .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1581,
+    "q": "De noche, ¿es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros respecto al borde exterior de las luces de posición del vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, en cada una de sus extremidades laterales.",
+      "Solo si la carga sobresale también por la parte delantera o trasera del vehículo.",
+      "No."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "De noche es obligatorio señalizar una carga que sobresale lateralmente más de 0,40 metros respecto al borde exterior de las luces de posición del vehículo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1582,
+    "q": "En un camión de longitud inferior a 5 metros, una carga indivisible no puede sobresalir más…",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "de 2 metros por delante y 3 metros por detrás.",
+      "de 3 metros por delante y 2 metros por detrás.",
+      "de un tercio de la longitud del vehículo, tanto por delante como por detrás."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "En un camión de longitud inferior a 5 metros, una carga indivisible no puede sobresalir más de un tercio de la longitud del vehículo, tanto por delante como por detrás. Esta regla se aplica a los vehículos de transporte de mercancías de 5 metros o menos."
+    ]
+  },
+  {
+    "id": 1583,
+    "q": "¿Qué significa la señal de este vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "La velocidad límite para ese vehículo.",
+      "La carga sobresale por la parte trasera.",
+      "Que está transportando mercancías peligrosas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Si la carga de un vehículo sobresale por la parte posterior del mismo siempre se deberá señalizar con la placa V-20 que aparece en la imagen, y que consiste en un panel de 50x50 centímetros, pintado con franjas oblicuas alternas de color rojo y blanco.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1584,
+    "q": "¿Puede un niño de siete años ser transportado como ocupante de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Está prohibido que los menores de siete años sean ocupantes de una motocicleta",
+      "Sí, siempre que lleve casco homologado",
+      "Sí, si la conduce su padre/madre o tutor"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Un niño de siete años puede ser transportado como ocupante de una motocicleta si la conduce su padre, madre o tutor. La normativa permite excepcionalmente que los menores de 12 años viajen en motocicleta cuando el conductor sea su progenitor o tutor legal y el menor sea mayor de 7 años."
+    ]
+  },
+  {
+    "id": 1585,
+    "q": "¿Le está permitido circular con una carga si esta sobresale por las ventanillas laterales de su vehículo, como una escalera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No.",
+      "Solo si la carga no sobresale mas de 40 cm.",
+      "Sí, señalizando debidamente la carga."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En España, las reglas son muy específicas sobre cómo puedes transportar cargas en vehículos que no son de uso exclusivo para transportar mercancías , como turismos, autocaravanas, o vehículos mixtos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1586,
+    "q": "¿Cómo debe sentarse un pasajero en una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "De cualquier forma, siempre que vaya cómodo",
+      "A horcajadas y con los pies apoyados en los reposapiés laterales, tanto dentro como fuera de poblado",
+      "A horcajadas y con los pies apoyados en los reposapiés laterales únicamente en vías fuera de poblado"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "El pasajero de una motocicleta debe sentarse a horcajadas y con los pies apoyados en los reposapiés laterales, tanto dentro como fuera de poblado. Esta posición garantiza la estabilidad del conjunto y es obligatoria en todo tipo de vías.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1587,
+    "q": "Un menor de 12 años, ¿puede ir como pasajero de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que tenga más de 7 años y el conductor sea su padre, madre, tutor o una persona autorizada.",
+      "No, los menores de 12 años no pueden ir como pasajeros de una motocicleta.",
+      "Sí, en todo caso."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Los menores de 12 años podrán viajar como pasajeros en una motocicleta o ciclomotor siempre que el conductor sea su padre, madre o tutor, o una persona autorizada por ellos.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1588,
+    "q": "¿Cuánto podrá sobresalir por la parte posterior de un turismo una carga indivisible, como un tubo o un poste?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "El 15% de la longitud del vehículo.",
+      "Un tercio de la longitud del vehículo.",
+      "El 10% de la longitud del vehículo."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "De acuerdo con el Reglamento de Circulación, la carga solo puede sobresalir por la parte trasera de un turismo hasta un 10% de la longitud total del vehículo.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1589,
+    "q": "¿Cómo debe colocarse la carga que se transporta en un vehículo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Suelta, de modo que se desplace por el interior del vehículo.",
+      "De forma que no comprometa la estabilidad del vehículo.",
+      "Ocultando los dispositivos de alumbrado del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga que se transporta en un vehículo debe colocarse de forma que no comprometa la estabilidad del vehículo. Además de sujetarse correctamente para que no se desplace, caiga o arrastre, la distribución del peso debe ser equilibrada para no afectar al comportamiento dinámico del vehículo.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1590,
+    "q": "Transporta en su turismo una carga que sobresale por la parte trasera, ¿debe señalizarla?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, únicamente de noche o en condiciones meteorológicas adversas.",
+      "No, en los turismos no es necesario.",
+      "Sí, con un panel colocado en el extremo de la carga."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Sí, una carga que sobresale por la parte trasera de un turismo debe señalizarse con un panel colocado en el extremo de la carga. El panel V-20 de franjas rojas y blancas es obligatorio siempre que la carga supere la carrocería por detrás, independientemente de la hora del día."
+    ]
+  },
+  {
+    "id": 1591,
+    "q": "¿Cuántos paneles reflectantes deberán llevar los vehículos que transportan mercancías peligrosas?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Uno, en la parte delantera",
+      "Uno, en la parte trasera",
+      "Dos, uno en la parte delantera y otro en la trasera"
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "Los vehículos que transportan mercancías peligrosas deben llevar dos paneles reflectantes naranjas, uno en la parte delantera y otro en la trasera. Esta doble señalización permite identificar el vehículo de mercancías peligrosas tanto para los conductores que circulan delante como para los que vienen detrás."
+    ]
+  },
+  {
+    "id": 1592,
+    "q": "Si la carga que transporta en su vehículo cae sobre la calzada, ¿debe señalizar su situación hasta que la retire de la vía?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, con el dispositivo de preseñalización de peligro.",
+      "Solo si cae sobre algún carril, pero no si cae sobre el arcén.",
+      "No."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Si la carga que transportamos en nuestro vehículo cae sobre la calzada, debemos señalizar la situación hasta que la retiremos de la vía utilizando el dispositivo de preseñalización de peligro (baliza V-16) .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1593,
+    "q": "Al descargar mercancías de un vehículo, ¿está permitido depositarlas en la acera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, siempre que no pasen peatones.",
+      "No.",
+      "No, salvo que se señalice el lugar para evitar el peligro para los peatones."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Está terminantemente prohibido arrojar, depositar o abandonar sobre la vía la carga o mercancías de nuestro vehículo, por ejemplo, cuando realicemos operaciones de carga y descarga, que puedan entorpecer la libre circulación, parada o estacionamiento del resto de usuarios de la vía o hacerlos peligrosos.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1594,
+    "q": "La carga que sobresale por delante de un vehículo ¿cómo debe estar señalizada?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz blanca, tanto de día como de noche.",
+      "Con una luz blanca y un reflector blanco, de noche o en condiciones que disminuyan sensiblemente la visibilidad.",
+      "Con una luz blanca, de noche o en condiciones que disminuyan sensiblemente la visibilidad."
+    ],
+    "a": [
+      2
+    ],
+    "e": [
+      "Incorrecto.",
+      "Incorrecto.",
+      "La carga que sobresale por la parte delantera del vehículo no debe señalizarse durante el día si hay buena visibilidad."
+    ]
+  },
+  {
+    "id": 1595,
+    "q": "¿Cómo debe señalizar la carga que sobresale de una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con un panel reglamentario en el extremo de la carga.",
+      "En las motocicletas, no es necesario señalizar la carga.",
+      "De noche con una luz roja por la parte trasera."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las motocicletas, no es necesario señalizar la carga con un panel reglamentario. Las motocicletas tienen normas específicas de transporte de carga distintas a las de los vehículos de cuatro ruedas; la carga en motocicleta se rige por límites de saliente pero no requiere el panel V-20.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1596,
+    "q": "¿Está permitido que la carga de un turismo sobresalga por los lados?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, señalizada con un panel de franjas rojas y blancas.",
+      "No.",
+      "Sí, cuando no comprometa la estabilidad del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "No está permitido que la carga de un turismo sobresalga por los lados. En los vehículos no destinados exclusivamente al transporte de mercancías, la carga solo puede sobresalir por la parte trasera (hasta un 15% de la longitud si es indivisible) y nunca por los laterales.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1597,
+    "q": "La carga transportada en una motocicleta de anchura inferior a 1 metro, ¿puede sobresalir por la parte delantera o trasera?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por la parte delantera, no, por la trasera sí, hasta 0,25 metros.",
+      "Sí, pero solo por la parte trasera hasta 0,50 metros.",
+      "Sí, hasta 0,50 metros tanto por la parte delantera como por la trasera."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En el caso de motocicletas y ciclomotores, que son vehículos con una anchura inferior a 1 metro , la normativa de tráfico en España establece reglas específicas sobre cómo puede sobresalir la carga.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1598,
+    "q": "¿Están obligados a utilizar casco de protección los conductores de bicicleta en vía urbana?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente será obligatorio si el conductor es menor de 16 años",
+      "No, únicamente será obligatorio en vía interurbana",
+      "Sí, será obligatorio para todos los conductores"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En vía urbana , los conductores de bicicleta solo están obligados a utilizar casco de protección cuando son menores de 16 años .",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1599,
+    "q": "De noche, cuando la carga sobresalga por delante, debe señalizarla con una luz...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "amarilla o blanca cuando sobresalga más de un 10%.",
+      "blanca.",
+      "amarilla o blanca y un dispositivo reflectante del mismo color."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, cuando la carga sobresalga por delante, debe señalizarse con una luz blanca. Esta luz blanca en el extremo delantero de la carga advierte a los conductores que circulan en sentido contrario de la presencia del saliente.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1600,
+    "q": "¿De qué manera señalizaremos en horas nocturnas la carga que sobresalga por la parte trasera de un turismo?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Con una luz roja y otra amarilla.",
+      "Con un panel de franjas diagonales blancas y rojas y una luz roja.",
+      "Con un panel de franjas diagonales amarillas y rojas."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "De noche, la carga que sobresalga por la parte trasera de un turismo debe señalizarse con un panel de franjas diagonales blancas y rojas y una luz roja. Durante el día solo es obligatorio el panel; de noche se añade la luz roja en el extremo posterior de la carga.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1601,
+    "q": "¿Cuál es la anchura máxima autorizada como regla general para que los vehículos puedan circular?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "2,85 metros",
+      "2,55 metros",
+      "2,65 metros"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La anchura máxima autorizada como regla general para que los vehículos puedan circular es de 2,55 metros. Esta limitación, establecida en el Reglamento General de Vehículos, se aplica a la anchura total del vehículo incluyendo sus elementos salientes permanentes.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1602,
+    "q": "Las operaciones de carga y descarga se llevarán a cabo...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "procurando evitar ruidos y molestias innecesarias.",
+      "dentro de la vía.",
+      "por el lado del vehículo más próximo al centro de la calzada."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Las operaciones de carga y descarga se llevarán a cabo procurando evitar ruidos y molestias innecesarias. Además de realizarse fuera de la vía con el motor apagado, deben ejecutarse con el mínimo impacto sobre el entorno y los demás usuarios de la vía.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1603,
+    "q": "¿Por qué lado del vehículo se deberá realizar por norma general la entrada y salida de los ocupantes?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Por el lado izquierdo",
+      "Por el lado más próximo al borde de la vía",
+      "Por el lado derecho"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Como norma general, los ocupantes deben entrar y salir por el lado más próximo al borde de la vía .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1604,
+    "q": "¿Pueden las motocicletas, los ciclomotores o vehículos con tres ruedas llevar un remolque o semirremolque?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sí, y además pueden transportar personas en el remolque.",
+      "Sí, mientras que, entre otras condiciones, sea de día y bajo condiciones que no limiten la visibilidad.",
+      "No."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Las motocicletas, los vehículos de tres ruedas, los ciclomotores y los ciclos y bicicletas podrán arrastrar un remolque o semirremolque, que no supere el 50 por ciento de la masa en vacío del vehículo tractor y siempre que la circulación sea de día y en condiciones que no limiten la visibilidad.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1605,
+    "q": "¿Pueden los menores de 12 años ocupar el asiento del copiloto sin sistema de retención infantilen los vehículos con ocho plazas además del asiento del conductor?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Únicamente en los vehículos agrícolas",
+      "No, excepto cuando midan más de 135 centímetros que podrán utilizar el cinturón",
+      "Sí, siempre sin excepción"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Los menores de 12 años no pueden ocupar el asiento del copiloto sin sistema de retención infantil, excepto cuando midan más de 135 centímetros, que podrán utilizar el cinturón de seguridad. A partir de esa estatura pueden sentarse en el asiento delantero usando el cinturón convencional.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1606,
+    "q": "¿Cuántos metros puede sobresalir por la parte delantera la carga que transporta un ciclomotor?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "No puede sobresalir nada.",
+      "0,50 metros.",
+      "0,25 metros."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "La carga que transporta un ciclomotor no puede sobresalir nada por la parte delantera. Al igual que en las motocicletas, cualquier saliente frontal en un ciclomotor comprometería la dirección y la seguridad del vehículo, por lo que está expresamente prohibido.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1607,
+    "q": "En las motocicletas, el equipaje transportado debe colocarse de forma que...",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "no sobresalga por la parte trasera.",
+      "no comprometa la estabilidad del vehículo.",
+      "no sobresalga por los laterales del vehículo."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "En las motocicletas, el equipaje transportado debe colocarse de forma que no comprometa la estabilidad del vehículo. El equipaje debe sujetarse correctamente en el transportín o las alforjas, garantizando que su peso y distribución no alteren el comportamiento dinámico de la motocicleta.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1608,
+    "q": "¿Cuánto podrá sobresalir por la parte trasera una viga indivisible en un vehículo de carga con longitud superior a 5 metros?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "3 metros",
+      "2 metros",
+      "1 metro"
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "En un vehículo de carga con longitud superior a 5 metros, una viga indivisible puede sobresalir hasta 3 metros por la parte trasera. En estos vehículos, el saliente delantero máximo permitido es de 2 metros, mientras que por detrás se permite hasta 3 metros.",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1609,
+    "q": "Un vehículo de tres ruedas, ¿puede arrastrar un remolque?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Sólo remolques cuya masa máxima autorizada no supere los 50 kilos.",
+      "Sí, cumpliendo determinadas condiciones.",
+      "No, nunca."
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "Un vehículo de tres ruedas puede arrastrar un remolque, siempre y cuando se cumplan determinadas condiciones .",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1610,
+    "q": "Un menor de edad, ¿puede viajar de pasajero en una motocicleta?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Solo si es mayor de 12 años o, excepcionalmente, de 7 años.",
+      "No, está prohibido.",
+      "Sí, siempre que el conductor sea mayor de edad."
+    ],
+    "a": [
+      0
+    ],
+    "e": [
+      "Un menor de edad puede viajar de pasajero en una motocicleta bajo ciertas condiciones específicas:",
+      "Incorrecto.",
+      "Incorrecto."
+    ]
+  },
+  {
+    "id": 1611,
+    "q": "¿Cuánto puede sobresalir la carga en un turismo en su parte posterior?",
+    "sd": "1",
+    "ai": false,
+    "type": "single_choice",
+    "o": [
+      "Hasta un 5 por 100 de su longitud",
+      "Hasta un 10 por 100 de su longitud y, si la carga fuera indivisible hasta un 15 por 100",
+      "No está permitido que sobresalga la carga del vehículo"
+    ],
+    "a": [
+      1
+    ],
+    "e": [
+      "Incorrecto.",
+      "La carga en un turismo puede sobresalir en su parte posterior hasta un 10% de su longitud y, si la carga fuera indivisible, hasta un 15%. El límite general es del 10%, ampliable al 15% solo cuando la naturaleza indivisible de la carga lo justifique y siempre señalizando correctamente.",
+      "Incorrecto."
+    ]
   }
 ]
