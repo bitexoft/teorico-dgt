@@ -19,6 +19,9 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 #btn-exit { background: none; border: 1px solid #2e3350; color: #7b80a0; border-radius: 8px; padding: 7px 11px; font-size: 13px; font-weight: 500; display: none; }
 #btn-map-open { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 7px 10px; font-size: 15px; display: none; }
 #btn-info-btn { background: #22263a; border: 1px solid #2e3350; border-radius: 8px; padding: 7px 10px; font-size: 15px; color: #7b80a0; }
+#btn-theory-head { background: #0c1a3a; border: 1px solid #1e3a8a; color: #93c5fd; border-radius: 8px; padding: 7px 10px; font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
+#btn-theory-head:hover { background: #10234f; }
+@media (max-width: 420px) { #btn-theory-head { padding: 7px 8px; } #btn-theory-head .theory-label { display: none; } }
 
 #pbar-wrap { background: #1a1d27; border-bottom: 1px solid #2e3350; padding: 7px 14px; display: none; align-items: center; gap: 10px; }
 #pbar { flex: 1; height: 4px; background: #2e3350; border-radius: 4px; overflow: hidden; }
@@ -123,6 +126,16 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 
 /* TEORÍA: pantallas */
 #teoria { display: none; padding: 14px 16px 110px; max-width: 640px; margin: 0 auto; }
+/* Jerarquía de estudio en la home */
+.study-section { margin-bottom: 26px; text-align: left; }
+.study-eyebrow { color: #7b80a0; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 8px; }
+.study-card.primary { position: relative; padding: 17px 15px; border-color: #1e3a8a; background: linear-gradient(180deg,#111d3a,#1a1d27); box-shadow: 0 8px 24px rgba(0,0,0,.16); }
+.study-card.primary .study-ico { width: 46px; height: 46px; min-width: 46px; font-size: 22px; }
+.study-card.primary .study-name { font-size: 15px; }
+.study-card.primary .study-info { font-size: 12px; line-height: 1.45; }
+.study-card.primary .study-go { font-size: 27px; color: #93c5fd; }
+.practice-heading { display:flex; align-items:center; gap:10px; margin: 4px 0 12px; color:#7b80a0; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.8px; }
+.practice-heading::after { content:''; flex:1; height:1px; background:#2e3350; }
 body.in-teoria #load-error { display: none !important; }
 #teoria button:focus-visible, .study-card:focus-visible, #t-nav button:focus-visible, #t-zoom button:focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
 .t-back { background: none; color: #7b80a0; font-size: 13px; font-weight: 500; padding: 8px 12px 8px 0; margin-bottom: 4px; text-align: left; }
@@ -187,6 +200,7 @@ body.in-teoria #load-error { display: none !important; }
 <div id="header">
   <div id="hleft">🚗 Carnet B</div>
   <div id="hright">
+    <button id="btn-theory-head" aria-label="Abrir teoría"><span>📖</span><span class="theory-label">Teoría</span></button>
     <div id="fails-box">❌ <span id="fails-n">0</span>/3</div>
     <div id="timer-box"><span id="timer-n">30:00</span></div>
     <button id="btn-exit" style="display:none">✕ Salir</button>
@@ -206,18 +220,22 @@ body.in-teoria #load-error { display: none !important; }
   <div style="font-size:48px;margin-bottom:14px">🛣️</div>
   <h1>Test Teórico DGT</h1>
   <p>Practica con las <strong><span id="home-count">…</span> preguntas</strong> del examen de conducir tipo B.</p>
+  <div class="study-section">
+    <div class="study-eyebrow">Estudiar</div>
+    <button id="btn-teoria" class="study-card primary" aria-label="Abrir teoría por módulos">
+      <div class="study-ico">📖</div>
+      <div class="study-txt"><div class="study-name">Estudiar teoría por módulos</div><div class="study-info" id="study-info">Infografías para repasar · Ve a tu ritmo</div></div>
+      <div class="study-go">›</div>
+    </button>
+  </div>
+
+  <div class="practice-heading">Practicar</div>
   <div class="modes">
     <button class="mode active" data-m="exam30"><div class="mode-icon">📋</div><div class="mode-name">Examen oficial</div><div class="mode-info">30 preguntas · 30 min · Sin corrección hasta el final</div></button>
     <button class="mode" data-m="all"><div class="mode-icon">📚</div><div class="mode-name">Todas las preguntas</div><div class="mode-info"><span id="home-count-all">…</span> preguntas · Corrección inmediata · Sin límite de tiempo</div></button>
     <button class="mode" data-m="failed"><div class="mode-icon">🔁</div><div class="mode-name">Mis errores</div><div class="mode-info">Solo preguntas falladas · Corrección inmediata</div></button>
   </div>
   <button id="btn-go">Comenzar →</button>
-  <div class="home-sep">Estudiar</div>
-  <button id="btn-teoria" class="study-card">
-    <div class="study-ico">📖</div>
-    <div class="study-txt"><div class="study-name">Teoría por módulos</div><div class="study-info" id="study-info">Infografías para repasar</div></div>
-    <div class="study-go">›</div>
-  </button>
 </div>
 
 <div id="exam">
@@ -328,9 +346,9 @@ try { failed=JSON.parse(localStorage.getItem('dgt_f')||'[]'); } catch(e){}
 function lsSave(){ try{ localStorage.setItem('dgt_f',JSON.stringify(failed)); }catch(e){} }
 function el(id){ return document.getElementById(id); }
 
-function goHome(){ el('home').style.display='block'; el('exam').style.display='none'; el('results').style.display='none'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
-function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; el('btn-exit').style.display=(!isExamMode()||rev)?'block':'none'; window.scrollTo(0,0); }
-function goResults(){ el('home').style.display='none'; el('exam').style.display='none'; el('results').style.display='block'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
+function goHome(){ el('home').style.display='block'; el('exam').style.display='none'; el('results').style.display='none'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; el('btn-theory-head').style.display='inline-flex'; window.scrollTo(0,0); }
+function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; el('btn-exit').style.display=(!isExamMode()||rev)?'block':'none'; el('btn-theory-head').style.display='none'; window.scrollTo(0,0); }
+function goResults(){ el('home').style.display='none'; el('exam').style.display='none'; el('results').style.display='block'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; el('btn-theory-head').style.display='inline-flex'; window.scrollTo(0,0); }
 
 function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t; } return a; }
 
@@ -525,6 +543,7 @@ el('btn-review').addEventListener('touchend',doReview); el('btn-review').addEven
 function openInfo(e){ e.preventDefault(); el('info-panel').style.display='block'; }
 function closeInfo(e){ e.preventDefault(); el('info-panel').style.display='none'; }
 el('btn-info-btn').addEventListener('touchend',openInfo); el('btn-info-btn').addEventListener('click',openInfo);
+el('btn-theory-head').addEventListener('click',function(e){ e.preventDefault(); goHome(); if(window.location.hash!=='#teoria') history.pushState({t:1},'','#teoria'); window.dispatchEvent(new PopStateEvent('popstate')); });
 el('btn-info-close').addEventListener('touchend',closeInfo); el('btn-info-close').addEventListener('click',closeInfo);
 el('info-panel').addEventListener('touchend',function(e){ if(e.target===this) closeInfo(e); });
 el('info-panel').addEventListener('click',function(e){ if(e.target===this) closeInfo(e); });
