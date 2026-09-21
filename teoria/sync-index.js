@@ -8,8 +8,9 @@
  * - Cada imagen .webp (recomendado) o .png dentro es una infografía. El orden
  *   lo da el nombre del archivo (01-..., 02-..., 10-...), por eso conviene el
  *   prefijo numérico.
- * - Si existen x.png y x.webp, se usa el .webp y se ignora el .png. Si una
- *   entrada del JSON apuntaba a x.png y ya existe x.webp, se actualiza sola.
+ * - Si existe el .webp de un .png (mismo nombre una vez normalizado: sin acentos y
+ *   con guiones), se usa el .webp y se ignora el .png. Si una entrada del JSON
+ *   apuntaba a ese .png, se actualiza sola al .webp.
  * - Añade al índice lo que falte (módulos e imágenes nuevas) con datos provisionales.
  * - NUNCA borra ni sobrescribe título, objetivo ni puntos clave ya escritos.
  * - Avisa de entradas cuyo archivo ya no existe y de nombres con acentos/espacios.
@@ -55,19 +56,20 @@ for (const folder of folders) {
   mod.infographics = mod.infographics || [];
 
   const all = fs.readdirSync(path.join(dir, folder)).filter((f) => IMG.test(f)).sort(natural);
-  const webpByStem = new Map(all.filter((f) => /\.webp$/i.test(f)).map((f) => [stemOf(f), f]));
+  const webpBySlug = new Map(all.filter((f) => /\.webp$/i.test(f)).map((f) => [slug(stemOf(f)), f]));
 
-  // Entradas que apuntaban a un .png y ya tienen su .webp: se actualizan (conservan todo lo demás)
+  // Entradas que apuntaban a un .png y ya tienen su .webp (aunque el nombre se haya
+  // normalizado: sin acentos, con guiones): se actualizan y conservan todo lo demás
   for (const g of mod.infographics) {
-    const w = /\.png$/i.test(g.file) && webpByStem.get(stemOf(g.file));
+    const w = /\.png$/i.test(g.file) && webpBySlug.get(slug(stemOf(g.file)));
     if (w) {
       notes.push(`~ ${folder}/${g.file} → ${w}  (entrada actualizada a WebP)`);
       g.file = w;
     }
   }
 
-  // Si existen x.png y x.webp, se ignora el .png
-  const images = all.filter((f) => !(/\.png$/i.test(f) && webpByStem.has(stemOf(f))));
+  // Si existe el .webp de un .png (mismo nombre una vez normalizado), se ignora el .png
+  const images = all.filter((f) => !(/\.png$/i.test(f) && webpBySlug.has(slug(stemOf(f)))));
 
   for (const file of images) {
     if (/[^\x21-\x7e]/.test(file)) {

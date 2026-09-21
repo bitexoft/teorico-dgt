@@ -70,6 +70,223 @@
             "prioridad de paso",
             "autobuses de línea"
           ]
+        },
+        {
+          "id": "02-guia-adelantamiento-examen-dgt-b",
+          "file": "02-guia-adelantamiento-examen-dgt-b.webp",
+          "title": "El Adelantamiento: Normas, Excepciones y Prohibiciones",
+          "objective": "Clarificar las fases del adelantamiento, las excepciones de adelantamiento por la derecha y los lugares donde está prohibido.",
+          "keyPoints": [
+            {
+              "title": "Norma general y excepciones por la derecha",
+              "items": [
+                {
+                  "label": "Regla general",
+                  "text": "se adelanta siempre por la izquierda."
+                },
+                {
+                  "label": "Excepciones por la derecha",
+                  "text": "vehículo que indica claramente su intención de girar a la izquierda o parar en ese lado; tranvías en zona central; y, en poblado, calzadas con al menos dos carriles delimitados para el mismo sentido."
+                }
+              ]
+            },
+            {
+              "title": "Maniobras que NO son adelantamiento",
+              "items": [
+                "Vías saturadas (tráfico en caravana).",
+                "Carriles de aceleración/deceleración o especiales.",
+                "Avance entre ciclistas en grupo.",
+                "Rebasamiento a un vehículo inmovilizado."
+              ]
+            },
+            {
+              "title": "Fases y distancias",
+              "items": [
+                {
+                  "label": "Separación lateral de seguridad",
+                  "text": "al menos 1,5 metros fuera de poblado (a peatones, animales, 2 ruedas y vehículos de tracción animal)."
+                },
+                "Distancia previa de seguridad.",
+                "Retorno gradual al ver el frontal del vehículo en el retrovisor interior."
+              ]
+            },
+            {
+              "title": "Prohibiciones trampa",
+              "items": [
+                "Curvas y cambios de rasante sin visibilidad.",
+                "Pasos para peatones y ciclistas.",
+                "Pasos a nivel.",
+                "Túneles (salvo que dispongan de más de un carril para el mismo sentido).",
+                "Intersecciones (con sus excepciones)."
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Prohibiciones trampa",
+              "text": "Túneles: solo se puede adelantar si hay más de un carril para el mismo sentido. Intersecciones: prohibido, con sus excepciones."
+            }
+          ],
+          "tags": [
+            "adelantamiento",
+            "adelantar por la derecha",
+            "prohibiciones",
+            "separación lateral",
+            "1,5 metros",
+            "tranvías",
+            "retrovisor interior",
+            "túneles",
+            "intersecciones"
+          ]
+        },
+        {
+          "id": "03-manual-de-maniobras-de-conduccion",
+          "file": "03-manual-de-maniobras-de-conduccion.webp",
+          "title": "Cambios de Dirección, Cambio de Sentido y Marcha Atrás",
+          "objective": "Visualizar el posicionamiento correcto para giros, las diferencias con el cambio de sentido y los límites legales de la marcha atrás.",
+          "keyPoints": [
+            {
+              "title": "Cambio de dirección (giro)",
+              "items": [
+                "Colocación previa con suficiente antelación.",
+                {
+                  "label": "Giro a la derecha",
+                  "text": "borde derecho."
+                },
+                {
+                  "label": "Giro a la izquierda",
+                  "text": "junto al eje o marca media en doble sentido; borde izquierdo en sentido único."
+                },
+                "Uso obligatorio de raquetas si existen."
+              ]
+            },
+            {
+              "title": "Cambio de sentido (giro de 180°)",
+              "items": [
+                "Se realiza en un solo giro continuo.",
+                "Sin invadir el sentido contrario al esperar.",
+                "Sin usar la marcha atrás.",
+                "Sin usar los arcenes, salvo necesidad de salir al arcén derecho para esperar el momento oportuno."
+              ]
+            },
+            {
+              "title": "Marcha atrás (límites y excepciones)",
+              "items": [
+                {
+                  "label": "Prohibición absoluta",
+                  "text": "en autopistas y autovías."
+                },
+                {
+                  "label": "Como maniobra complementaria",
+                  "text": "en parada, estacionamiento o incorporación, máximo 15 metros y sin invadir un cruce de vías."
+                },
+                {
+                  "label": "Excepción absoluta",
+                  "text": "en calles sin salida donde no sea posible marchar hacia delante ni cambiar de dirección o sentido; se permite recorrer lo mínimo indispensable e invadir la intersección si fuera necesario."
+                }
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Marcha atrás: prohibición absoluta en autopistas y autovías",
+              "text": "Como maniobra complementaria (parada, estacionamiento o incorporación): máximo 15 metros y sin invadir un cruce de vías."
+            }
+          ],
+          "tags": [
+            "giros",
+            "cambio de dirección",
+            "cambio de sentido",
+            "marcha atrás",
+            "raquetas",
+            "arcén",
+            "autopistas y autovías",
+            "15 metros",
+            "calles sin salida"
+          ]
+        },
+        {
+          "id": "04-guia-sobre-inmovilizaciones-de-vehiculos",
+          "file": "04-guia-sobre-inmovilizaciones-de-vehiculos.webp",
+          "title": "Inmovilizaciones: Detención, Parada y Estacionamiento",
+          "objective": "Diferenciar los tres tipos de inmovilización, las reglas de colocación del vehículo y el catálogo de lugares prohibidos.",
+          "keyPoints": [
+            {
+              "title": "Diferenciación de conceptos",
+              "items": [
+                {
+                  "label": "Detención",
+                  "text": "involuntaria (emergencia, necesidades del tráfico o cumplimiento de señales). No es una maniobra."
+                },
+                {
+                  "label": "Parada",
+                  "text": "voluntaria, tiempo inferior a 2 minutos y sin que el conductor abandone el vehículo."
+                },
+                {
+                  "label": "Estacionamiento",
+                  "text": "voluntaria, tiempo de 2 o más minutos, o bien cuando el conductor abandona el puesto."
+                }
+              ]
+            },
+            {
+              "title": "Ubicación y colocación",
+              "items": [
+                {
+                  "label": "Vías interurbanas",
+                  "text": "siempre fuera de la calzada y del arcén, en el lado derecho."
+                },
+                {
+                  "label": "Vías urbanas",
+                  "text": "lado derecho en vías de doble sentido; ambos lados en vías de sentido único. Paralelo al bordillo (salvo otra señalización)."
+                }
+              ]
+            },
+            {
+              "title": "Medidas de seguridad en pendientes",
+              "items": [
+                {
+                  "label": "Pendiente ascendente",
+                  "text": "1ª velocidad + ruedas orientadas hacia el centro de la calzada."
+                },
+                {
+                  "label": "Pendiente descendente",
+                  "text": "marcha atrás + ruedas orientadas hacia el exterior de la calzada (hacia el bordillo)."
+                },
+                "Calzos obligatorios en vehículos de más de 3.500 kg, autobuses y conjuntos de vehículos."
+              ]
+            },
+            {
+              "title": "Lugares prohibidos y caso doble fila",
+              "items": [
+                {
+                  "label": "Parada en doble fila",
+                  "text": "permitida si no hay sitio cercano y no se obstaculiza."
+                },
+                {
+                  "label": "Estacionamiento en doble fila",
+                  "text": "siempre prohibido."
+                }
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Doble fila: parada con condiciones, estacionamiento nunca",
+              "text": "La parada se permite si no hay sitio cercano y no se obstaculiza; el estacionamiento en doble fila siempre está prohibido."
+            }
+          ],
+          "tags": [
+            "detención",
+            "parada",
+            "estacionamiento",
+            "doble fila",
+            "pendientes",
+            "calzos",
+            "3.500 kg",
+            "vías interurbanas",
+            "vías urbanas",
+            "2 minutos"
+          ]
         }
       ]
     }

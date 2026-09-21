@@ -97,3 +97,64 @@ Cuantizar a 256 colores lo deja en 1,8 MB. Se puede hacer con `pngquant` o con P
 ## Resolución
 
 No conviene reducirla. Pasar de 1536 a 1280 px ahorra solo unos 60 KB más y se pierde legibilidad al ampliar.
+
+---
+
+
+# Convertir las infografías a WebP
+
+El script `teoria/convertir-a-webp.py` convierte a WebP todos los PNG de `teoria/<modulo>/` (calidad 80, sin canal alfa). Equivale a:
+
+```bash
+cwebp -q 80 -m 6 -noalpha x.png -o x.webp
+```
+
+Con la infografía de ejemplo, el peso baja de 4,7 MB a 314 KB.
+
+## Cómo ejecutarlo
+
+### 1. Instalar Pillow (una sola vez)
+
+```bash
+pip install pillow
+```
+
+En Windows, si `pip` no se reconoce:
+
+```bash
+py -m pip install pillow
+```
+
+### 2. Ejecutar el script
+
+Desde la raíz del proyecto (también funciona desde cualquier otra carpeta):
+
+```bash
+python3 teoria/convertir-a-webp.py
+```
+
+En Windows:
+
+```bash
+py teoria\convertir-a-webp.py
+```
+
+### 3. Actualizar el índice
+
+Para que `teoria.json` apunte a los `.webp`:
+
+```bash
+node teoria/sync-index.js
+```
+
+## Opciones
+
+| Comando | Qué hace |
+|---|---|
+| `python3 teoria/convertir-a-webp.py` | Convierte solo los PNG que aún no tienen `.webp` |
+| `python3 teoria/convertir-a-webp.py --force` | Reconvierte todos, aunque ya exista el `.webp` |
+
+## Diferencias con el bucle de bash
+
+- **Omite los PNG que ya tienen `.webp`.** Así puedes volver a ejecutarlo cuando añadas infografías nuevas sin reconvertir las anteriores. Con `--force` reconvierte todos, como hacía el bucle.
+- **No borra los PNG originales.** Antes de publicar, sácalos de `teoria/` (o no los subas), porque si no seguirán ocupando espacio en el servidor. `sync-index.js` ya ignora un PNG cuando existe su `.webp`.
