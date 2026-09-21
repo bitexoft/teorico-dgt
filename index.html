@@ -683,7 +683,7 @@ el('info-panel').addEventListener('click',function(e){ if(e.target===this) close
     if(key===lastView) return false;
     lastView=key; $('t-root').innerHTML=html; window.scrollTo(0,0); return true;
   }
-  function enter(){ $('home').style.display='none'; $('teoria').style.display='block'; document.body.classList.add('in-teoria'); }
+  function enter(){ $('home').style.display='none'; $('exam').style.display='none'; $('results').style.display='none'; $('teoria').style.display='block'; document.body.classList.add('in-teoria'); }
   function leave(){
     closeZoom(); $('t-nav').style.display='none'; $('teoria').style.display='none';
     document.body.classList.remove('in-teoria'); lastView=''; $('home').style.display='block'; window.scrollTo(0,0);
