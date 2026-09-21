@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "id": "12-maniobras",
+      "title": "Maniobras",
+      "description": "Reglas de seguridad y prioridad al realizar cualquier maniobra.",
+      "infographics": [
+        {
+          "id": "01-guia-seguridad-vial-rsm",
+          "file": "01-guia-seguridad-vial-rsm.webp",
+          "title": "Regla General RSM e Incorporación a la Circulación / Desplazamiento Lateral",
+          "objective": "Dominar el protocolo básico de seguridad antes de cualquier maniobra y las reglas para iniciar la marcha o cambiar de carril.",
+          "keyPoints": [
+            {
+              "title": "Regla de Seguridad RSM (obligatoria antes de cualquier maniobra)",
+              "ordered": true,
+              "items": [
+                {
+                  "label": "Retrovisor",
+                  "text": "Observación directa e indirecta antes de señalizar."
+                },
+                {
+                  "label": "Señal",
+                  "text": "Advertencia previa con intermitentes o brazo."
+                },
+                {
+                  "label": "Maniobra",
+                  "text": "Ejecución segura (la señalización advierte la intención pero no otorga prioridad)."
+                }
+              ]
+            },
+            {
+              "title": "Incorporación a la circulación",
+              "items": [
+                "Inicio de marcha desde parada/estacionamiento, propiedades colindantes, caminos privados o carriles de aceleración.",
+                "Obligación de ceder el paso a los vehículos que ya circulan.",
+                "Obligación de los demás de facilitar la maniobra, especialmente a autobuses de línea en poblado."
+              ]
+            },
+            {
+              "title": "Desplazamiento lateral",
+              "items": [
+                {
+                  "label": "Concepto",
+                  "text": "cambio sensible de posición o invasión del carril contiguo."
+                },
+                "No es desplazamiento lateral una simple corrección de trayectoria dentro del carril.",
+                "Respeto estricto a la prioridad del vehículo que ya ocupa el carril."
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Trampa DGT: señalizar no otorga prioridad",
+              "text": "La señal solo advierte tu intención: nunca te da derecho de paso sobre otros."
+            },
+            {
+              "title": "El brazo anula la señal luminosa",
+              "text": "Si usas el brazo, prevalece sobre los intermitentes."
+            }
+          ],
+          "tags": [
+            "RSM",
+            "retrovisor",
+            "señalización",
+            "incorporación",
+            "carril de aceleración",
+            "desplazamiento lateral",
+            "prioridad de paso",
+            "autobuses de línea"
+          ]
+        }
+      ]
+    }
+  ]
+}

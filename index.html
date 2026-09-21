@@ -110,6 +110,76 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
 .info-val { font-size: 13px; line-height: 1.5; color: #e8eaf0; }
 .info-val b { color: #60a5fa; }
 #btn-info-close { width: 100%; margin-top: 18px; padding: 13px; background: #22263a; border: 1px solid #2e3350; color: #e8eaf0; border-radius: 10px; font-size: 14px; font-weight: 500; touch-action: manipulation; }
+
+/* TEORÍA: acceso desde la home */
+.home-sep { display: flex; align-items: center; gap: 10px; margin: 24px 0 14px; color: #7b80a0; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .8px; }
+.home-sep::before, .home-sep::after { content: ''; flex: 1; height: 1px; background: #2e3350; }
+.study-card { display: flex; align-items: center; gap: 14px; width: 100%; background: #1a1d27; border: 1px solid #2e3350; border-radius: 12px; padding: 14px; text-align: left; color: #e8eaf0; touch-action: manipulation; }
+.study-ico { width: 42px; height: 42px; min-width: 42px; border-radius: 10px; background: #0c1a3a; border: 1px solid #1e3a8a; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+.study-txt { flex: 1; min-width: 0; }
+.study-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+.study-info { font-size: 11px; color: #7b80a0; line-height: 1.4; }
+.study-go { color: #4a5080; font-size: 22px; line-height: 1; }
+
+/* TEORÍA: pantallas */
+#teoria { display: none; padding: 14px 16px 110px; max-width: 640px; margin: 0 auto; }
+body.in-teoria #load-error { display: none !important; }
+#teoria button:focus-visible, .study-card:focus-visible, #t-nav button:focus-visible, #t-zoom button:focus-visible { outline: 2px solid #60a5fa; outline-offset: 2px; }
+.t-back { background: none; color: #7b80a0; font-size: 13px; font-weight: 500; padding: 8px 12px 8px 0; margin-bottom: 4px; text-align: left; }
+.t-kicker { font-size: 11px; font-weight: 700; color: #60a5fa; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.t-h1 { font-size: 22px; font-weight: 700; line-height: 1.25; margin-bottom: 6px; }
+.t-h1.s { font-size: 18px; line-height: 1.35; margin-bottom: 12px; }
+.t-sub { font-size: 13px; color: #7b80a0; line-height: 1.55; margin-bottom: 18px; }
+.t-empty { font-size: 13px; color: #7b80a0; text-align: center; padding: 30px 10px; }
+.t-error { background: #2a0a0a; border: 1px solid #ef4444; border-radius: 10px; padding: 14px; font-size: 13px; line-height: 1.6; color: #fca5a5; margin-top: 14px; }
+.t-error code, .t-imgerr code { font-size: 12px; word-break: break-all; }
+.t-card { display: flex; align-items: center; gap: 14px; width: 100%; background: #1a1d27; border: 1px solid #2e3350; border-radius: 12px; padding: 14px; margin-bottom: 10px; text-align: left; color: #e8eaf0; touch-action: manipulation; }
+.t-card:active { background: #22263a; }
+.t-card[disabled] { opacity: .45; }
+.t-num { min-width: 40px; height: 40px; border-radius: 10px; background: #0c1a3a; border: 1px solid #2563eb; color: #60a5fa; font-weight: 700; font-size: 15px; display: flex; align-items: center; justify-content: center; }
+.t-card-body { flex: 1; min-width: 0; }
+.t-card-title { font-size: 14px; font-weight: 600; line-height: 1.35; margin-bottom: 3px; }
+.t-card-desc { font-size: 12px; color: #7b80a0; line-height: 1.45; }
+.t-clamp { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.t-card-meta { font-size: 11px; color: #7b80a0; margin-top: 6px; }
+.t-seen { color: #10b981; font-weight: 600; }
+.t-chev { color: #4a5080; font-size: 22px; line-height: 1; }
+
+/* TEORÍA: visor de infografía */
+.t-obj { background: #0c1a3a; border: 1px solid #1e3a8a; border-radius: 10px; padding: 11px 13px; font-size: 13px; line-height: 1.55; color: #bfdbfe; margin-bottom: 14px; }
+.t-obj b { display: block; font-size: 11px; color: #60a5fa; text-transform: uppercase; letter-spacing: .6px; margin-bottom: 3px; }
+.t-imgwrap { position: relative; border-radius: 12px; overflow: hidden; border: 1px solid #2e3350; background: #1a1d27; margin-bottom: 14px; cursor: zoom-in; }
+.t-imgwrap.loading { min-height: 260px; }
+.t-imgwrap.err { cursor: default; }
+.t-img { display: block; width: 100%; height: auto; }
+.t-imgload { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #7b80a0; }
+.t-imgerr { padding: 26px 16px; text-align: center; font-size: 13px; line-height: 1.7; color: #fca5a5; }
+.t-zoomhint { position: absolute; right: 10px; bottom: 10px; background: rgba(15,17,23,.85); border: 1px solid #2e3350; color: #e8eaf0; font-size: 12px; font-weight: 500; padding: 6px 11px; border-radius: 20px; pointer-events: none; }
+.t-tip { background: #2a1d05; border: 1px solid #92400e; border-radius: 10px; padding: 11px 13px; font-size: 13px; line-height: 1.55; color: #fcd34d; margin-bottom: 10px; }
+.t-tip b { display: block; color: #fbbf24; margin-bottom: 2px; }
+.t-sec { background: #1a1d27; border: 1px solid #2e3350; border-radius: 12px; margin-bottom: 12px; }
+.t-sec summary { list-style: none; padding: 13px 14px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+.t-sec summary::-webkit-details-marker { display: none; }
+.t-sec summary::after { content: '▾'; color: #7b80a0; transition: transform .2s; }
+.t-sec[open] summary::after { transform: rotate(180deg); }
+.t-sec-body { padding: 0 14px 14px; }
+.t-grp { margin-top: 14px; }
+.t-grp-title { font-size: 12px; font-weight: 700; color: #60a5fa; letter-spacing: .3px; margin-bottom: 6px; }
+.t-grp ul, .t-grp ol { padding-left: 20px; }
+.t-grp li { font-size: 13px; line-height: 1.55; margin-bottom: 4px; }
+.t-grp li b { color: #e8eaf0; }
+
+#t-nav { position: fixed; bottom: 0; left: 0; right: 0; background: #1a1d27; border-top: 1px solid #2e3350; padding: 10px 14px; padding-bottom: max(10px, env(safe-area-inset-bottom)); display: none; gap: 8px; z-index: 5; }
+#t-prev { flex: 1; padding: 13px; background: #22263a; border: 1px solid #2e3350; color: #e8eaf0; border-radius: 8px; font-size: 14px; font-weight: 500; touch-action: manipulation; }
+#t-prev:disabled { opacity: .35; }
+#t-next { flex: 2; padding: 13px; background: #2563eb; color: #fff; border-radius: 8px; font-size: 14px; font-weight: 600; touch-action: manipulation; }
+
+/* TEORÍA: ampliar */
+#t-zoom { display: none; position: fixed; inset: 0; z-index: 40; background: #0a0c12; }
+#t-zoom-scroll { position: absolute; inset: 0; overflow: auto; -webkit-overflow-scrolling: touch; }
+#t-zoom-img { display: block; margin: 0 auto; height: auto; max-width: none; }
+#t-zoom-bar { position: absolute; top: max(10px, env(safe-area-inset-top)); right: 10px; display: flex; gap: 8px; z-index: 1; }
+#t-zoom-bar button { background: rgba(26,29,39,.92); border: 1px solid #2e3350; color: #e8eaf0; border-radius: 20px; padding: 9px 14px; font-size: 13px; font-weight: 600; touch-action: manipulation; }
 </style>
 </head>
 <body>
@@ -142,6 +212,12 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
     <button class="mode" data-m="failed"><div class="mode-icon">🔁</div><div class="mode-name">Mis errores</div><div class="mode-info">Solo preguntas falladas · Corrección inmediata</div></button>
   </div>
   <button id="btn-go">Comenzar →</button>
+  <div class="home-sep">Estudiar</div>
+  <button id="btn-teoria" class="study-card">
+    <div class="study-ico">📖</div>
+    <div class="study-txt"><div class="study-name">Teoría por módulos</div><div class="study-info" id="study-info">Infografías para repasar</div></div>
+    <div class="study-go">›</div>
+  </button>
 </div>
 
 <div id="exam">
@@ -204,6 +280,21 @@ button { cursor: pointer; -webkit-appearance: none; appearance: none; font-famil
   </div>
 </div>
 
+<div id="teoria"><div id="t-root"></div></div>
+
+<div id="t-nav">
+  <button id="t-prev">← Ant.</button>
+  <button id="t-next">Siguiente →</button>
+</div>
+
+<div id="t-zoom">
+  <div id="t-zoom-bar">
+    <button id="t-zoom-lvl">🔍 100%</button>
+    <button id="t-zoom-close" aria-label="Cerrar">✕</button>
+  </div>
+  <div id="t-zoom-scroll"><img id="t-zoom-img" alt=""></div>
+</div>
+
 <script>
 var Q = [];
 
@@ -238,7 +329,7 @@ function lsSave(){ try{ localStorage.setItem('dgt_f',JSON.stringify(failed)); }c
 function el(id){ return document.getElementById(id); }
 
 function goHome(){ el('home').style.display='block'; el('exam').style.display='none'; el('results').style.display='none'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
-function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; el('btn-exit').style.display=isExamMode()?'none':'block'; window.scrollTo(0,0); }
+function goExam(){ el('home').style.display='none'; el('exam').style.display='block'; el('results').style.display='none'; el('nav-bar').style.display='flex'; el('pbar-wrap').style.display='flex'; el('btn-map-open').style.display='block'; el('btn-exit').style.display=(!isExamMode()||rev)?'block':'none'; window.scrollTo(0,0); }
 function goResults(){ el('home').style.display='none'; el('exam').style.display='none'; el('results').style.display='block'; el('nav-bar').style.display='none'; el('pbar-wrap').style.display='none'; el('btn-map-open').style.display='none'; el('btn-exit').style.display='none'; window.scrollTo(0,0); }
 
 function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t; } return a; }
@@ -390,10 +481,10 @@ el('btn-validate').addEventListener('touchend',doValidate); el('btn-validate').a
 function doEnd(e){ e.preventDefault(); finish(); }
 el('btn-end').addEventListener('touchend',doEnd); el('btn-end').addEventListener('click',doEnd);
 
-// SALIR: en modo test muestra el resumen; en modo revisión vuelve al inicio
+// SALIR: en modo test muestra el resumen; en modo revisión vuelve a los resultados
 function doExit(e){
   e.preventDefault();
-  if(rev){ rev=false; goHome(); }
+  if(rev){ rev=false; goResults(); }
   else finish();
 }
 el('btn-exit').addEventListener('touchend',doExit); el('btn-exit').addEventListener('click',doExit);
@@ -438,6 +529,236 @@ el('btn-info-close').addEventListener('touchend',closeInfo); el('btn-info-close'
 el('info-panel').addEventListener('touchend',function(e){ if(e.target===this) closeInfo(e); });
 el('info-panel').addEventListener('click',function(e){ if(e.target===this) closeInfo(e); });
 }
+</script>
+
+<script>
+/* ============ TEORÍA POR MÓDULOS ============
+   Índice: teoria/teoria.json · Imágenes: teoria/<modulo>/<archivo>.png
+   Rutas (hash): #teoria · #teoria/<modulo> · #teoria/<modulo>/<infografia> · .../zoom
+   El orden de módulos e infografías lo da el nombre (orden natural: 01, 02, 10). */
+(function(){
+  var BASE='teoria/', T=null, failed=false, lastView='', zi=0, seen={};
+  try{ seen=JSON.parse(localStorage.getItem('dgt_t_seen')||'{}')||{}; }catch(e){}
+  function saveSeen(){ try{ localStorage.setItem('dgt_t_seen',JSON.stringify(seen)); }catch(e){} }
+  function $(id){ return document.getElementById(id); }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function plural(n,a,b){ return n+' '+(n===1?a:b); }
+  function natural(a,b){ return String(a).localeCompare(String(b),'es',{numeric:true,sensitivity:'base'}); }
+
+  /* ---- Datos ---- */
+  function prepare(d){
+    d.modules=(d.modules||[]).slice().sort(function(a,b){ return natural(a.id,b.id); });
+    d.modules.forEach(function(m){
+      m.infographics=(m.infographics||[]).slice().sort(function(a,b){ return natural(a.file,b.file); });
+      m.infographics.forEach(function(g){
+        g.id=g.id||g.file.replace(/\.png$/i,'');
+        g.src=BASE+encodeURIComponent(m.id)+'/'+encodeURIComponent(g.file);
+      });
+    });
+  }
+  function modNum(m){ var x=/^(\d+)/.exec(m.id); return x?String(parseInt(x[1],10)):'•'; }
+  function isSeen(m,g){ return !!seen[m.id+'/'+g.id]; }
+  function seenCount(m){ var n=0; m.infographics.forEach(function(g){ if(isSeen(m,g)) n++; }); return n; }
+  function idxById(list,id){ for(var i=0;i<list.length;i++) if(list[i].id===id) return i; return -1; }
+
+  function homeCard(){
+    var i=$('study-info'); if(!i) return;
+    if(failed){ i.textContent='No se pudo cargar el índice de teoría'; return; }
+    if(!T) return;
+    var mods=0,igs=0;
+    T.modules.forEach(function(m){ if(m.infographics.length){ mods++; igs+=m.infographics.length; } });
+    i.textContent=mods?'Infografías para repasar · '+plural(mods,'módulo','módulos')+' · '+plural(igs,'infografía','infografías'):'Próximamente';
+  }
+
+  /* ---- Navegación (hash + history) ---- */
+  function parts(){
+    var h=(location.hash||'').replace(/^#/,'');
+    return h.split('/').filter(Boolean).map(function(s){ try{ return decodeURIComponent(s); }catch(e){ return s; } });
+  }
+  function parentHash(p){ return p.length>1?p.slice(0,-1).join('/'):''; }
+  function depth(){ return (history.state&&history.state.t)||0; }
+  function push(h){
+    try{ history.pushState({t:depth()+1},'','#'+h); }catch(e){ location.hash=h; return; }
+    render();
+  }
+  function replace(h){
+    try{ history.replaceState(history.state||{t:0},'','#'+h); }catch(e){ location.replace('#'+h); return; }
+    render();
+  }
+  function up(parent){
+    if(depth()>0){ history.back(); return; }
+    try{ history.replaceState({t:0},'',parent?('#'+parent):(location.pathname+location.search)); }catch(e){ location.hash=parent; return; }
+    render();
+  }
+
+  /* ---- Vistas ---- */
+  function back(label){ return '<button class="t-back" data-up>‹ '+esc(label)+'</button>'; }
+
+  function vModules(){
+    var h=back('Inicio')+'<h1 class="t-h1">📖 Teoría por módulos</h1><p class="t-sub">Repasa cada tema con infografías antes de practicar con los tests.</p>';
+    if(!T.modules.length) h+='<p class="t-empty">Todavía no hay módulos.</p>';
+    T.modules.forEach(function(m){
+      var n=m.infographics.length, s=seenCount(m);
+      h+='<button class="t-card"'+(n?' data-go="teoria/'+esc(m.id)+'"':' disabled')+'>'
+        +'<div class="t-num">'+esc(modNum(m))+'</div>'
+        +'<div class="t-card-body"><div class="t-card-title">'+esc(m.title)+'</div>'
+        +(m.description?'<div class="t-card-desc">'+esc(m.description)+'</div>':'')
+        +'<div class="t-card-meta">'+(n?plural(n,'infografía','infografías')+(s?' · <span class="t-seen">✓ '+s+'/'+n+' vistas</span>':''):'Próximamente')+'</div></div>'
+        +(n?'<div class="t-chev">›</div>':'')+'</button>';
+    });
+    return h;
+  }
+
+  function vModule(m){
+    var h=back('Teoría')+'<div class="t-kicker">Módulo '+esc(modNum(m))+'</div><h1 class="t-h1">'+esc(m.title)+'</h1>'
+      +(m.description?'<p class="t-sub">'+esc(m.description)+'</p>':'');
+    if(!m.infographics.length) h+='<p class="t-empty">Próximamente</p>';
+    m.infographics.forEach(function(g,i){
+      h+='<button class="t-card" data-go="teoria/'+esc(m.id)+'/'+esc(g.id)+'">'
+        +'<div class="t-num">'+(i+1)+'</div>'
+        +'<div class="t-card-body"><div class="t-card-title">'+esc(g.title)+'</div>'
+        +(g.objective?'<div class="t-card-desc t-clamp">'+esc(g.objective)+'</div>':'')
+        +(isSeen(m,g)?'<div class="t-card-meta"><span class="t-seen">✓ Vista</span></div>':'')+'</div>'
+        +'<div class="t-chev">›</div></button>';
+    });
+    return h;
+  }
+
+  function vViewer(m,i){
+    var g=m.infographics[i];
+    var h=back('Módulo '+modNum(m)+' · '+m.title)
+      +'<div class="t-kicker">Infografía '+(i+1)+' de '+m.infographics.length+'</div><h1 class="t-h1 s">'+esc(g.title)+'</h1>';
+    if(g.objective) h+='<div class="t-obj"><b>🎯 Objetivo</b>'+esc(g.objective)+'</div>';
+    h+='<div class="t-imgwrap loading" data-zoom><div class="t-imgload">Cargando infografía…</div>'
+      +'<img class="t-img" decoding="async" src="'+esc(g.src)+'" alt="'+esc(g.title)+'"><span class="t-zoomhint">🔍 Ampliar</span></div>';
+    (g.examTips||[]).forEach(function(t){ h+='<div class="t-tip"><b>⚠️ '+esc(t.title)+'</b>'+esc(t.text)+'</div>'; });
+    var kp=g.keyPoints||[];
+    if(kp.length){
+      h+='<details class="t-sec"><summary>📝 Resumen en texto</summary><div class="t-sec-body">';
+      kp.forEach(function(k){
+        var tag=k.ordered?'ol':'ul';
+        h+='<div class="t-grp"><div class="t-grp-title">'+esc(k.title)+'</div><'+tag+'>';
+        (k.items||[]).forEach(function(it){
+          h+='<li>'+(typeof it==='string'?esc(it):'<b>'+esc(it.label)+':</b> '+esc(it.text))+'</li>';
+        });
+        h+='</'+tag+'></div>';
+      });
+      h+='</div></details>';
+    }
+    return h;
+  }
+
+  function wireImage(){
+    var w=$('t-root').querySelector('.t-imgwrap'); if(!w) return;
+    var im=w.querySelector('img'), src=im.getAttribute('src');
+    im.onload=function(){ w.classList.remove('loading'); var l=w.querySelector('.t-imgload'); if(l) l.parentNode.removeChild(l); };
+    im.onerror=function(){ w.classList.remove('loading'); w.classList.add('err'); w.removeAttribute('data-zoom'); w.innerHTML='<div class="t-imgerr">No se pudo cargar la infografía<br><code>'+esc(src)+'</code></div>'; };
+  }
+
+  /* ---- Render ---- */
+  function show(key,html){
+    if(key===lastView) return false;
+    lastView=key; $('t-root').innerHTML=html; window.scrollTo(0,0); return true;
+  }
+  function enter(){ $('home').style.display='none'; $('teoria').style.display='block'; document.body.classList.add('in-teoria'); }
+  function leave(){
+    closeZoom(); $('t-nav').style.display='none'; $('teoria').style.display='none';
+    document.body.classList.remove('in-teoria'); lastView=''; $('home').style.display='block'; window.scrollTo(0,0);
+  }
+  function fix(h){ try{ history.replaceState(history.state,'','#'+h); }catch(e){} render(); }
+
+  function render(){
+    var p=parts(), open=$('teoria').style.display==='block';
+    if(p[0]!=='teoria'){ if(open) leave(); return; }
+    if(!open) enter();
+
+    if(!T){
+      $('t-nav').style.display='none'; closeZoom();
+      show(failed?'err':'load', back('Inicio')+(failed
+        ?'<div class="t-error">❌ No se pudo cargar <code>teoria/teoria.json</code>.<br>Comprueba que la carpeta <code>teoria/</code> está junto al HTML y que lo abres desde un servidor (no con doble clic).</div>'
+        :'<p class="t-empty">Cargando…</p>'));
+      return;
+    }
+    var m=null, gi=-1;
+    if(p[1]){ m=T.modules[idxById(T.modules,p[1])]; if(!m) return fix('teoria'); }
+    if(m&&p[2]){ gi=idxById(m.infographics,p[2]); if(gi<0) return fix('teoria/'+m.id); }
+
+    if(!m){ $('t-nav').style.display='none'; closeZoom(); show('teoria',vModules()); return; }
+    if(gi<0){ $('t-nav').style.display='none'; closeZoom(); show('teoria/'+m.id,vModule(m)); return; }
+
+    var g=m.infographics[gi];
+    if(show(p.slice(0,3).join('/'),vViewer(m,gi))){ seen[m.id+'/'+g.id]=1; saveSeen(); wireImage(); }
+    $('t-nav').style.display='flex';
+    $('t-prev').disabled=(gi===0);
+    $('t-next').textContent=(gi===m.infographics.length-1)?'Hecho ✓':'Siguiente →';
+    if(p[3]==='zoom') openZoom(g); else closeZoom();
+  }
+
+  function step(d){
+    var p=parts(); if(!T||p[0]!=='teoria') return;
+    var m=T.modules[idxById(T.modules,p[1])]; if(!m) return;
+    var i=idxById(m.infographics,p[2])+d;
+    if(i<0) return;
+    if(i>=m.infographics.length){ up(parentHash(p.slice(0,3))); return; }
+    replace('teoria/'+m.id+'/'+m.infographics[i].id);
+  }
+
+  /* ---- Ampliar (lightbox con 2-3 niveles) ---- */
+  function zoomOpen(){ return $('t-zoom').style.display==='block'; }
+  function levels(){
+    var base=Math.min(window.innerWidth,900), nat=$('t-zoom-img').naturalWidth||1600, out=[base];
+    [1.75,2.5].forEach(function(k){ var w=Math.min(Math.round(base*k),nat); if(w>out[out.length-1]+20) out.push(w); });
+    return out;
+  }
+  function applyZoom(keep){
+    var sc=$('t-zoom-scroll'), im=$('t-zoom-img'), lv=levels(), fx=.5, fy=0;
+    if(zi>=lv.length) zi=lv.length-1;
+    if(keep&&sc.scrollHeight&&sc.scrollWidth){ fy=(sc.scrollTop+sc.clientHeight/2)/sc.scrollHeight; fx=(sc.scrollLeft+sc.clientWidth/2)/sc.scrollWidth; }
+    im.style.width=lv[zi]+'px';
+    $('t-zoom-lvl').textContent='🔍 '+Math.round(lv[zi]/lv[0]*100)+'%';
+    sc.scrollLeft=fx*sc.scrollWidth-sc.clientWidth/2;
+    sc.scrollTop=keep?fy*sc.scrollHeight-sc.clientHeight/2:0;
+  }
+  function openZoom(g){
+    if(zoomOpen()) return;
+    var im=$('t-zoom-img');
+    if(im.getAttribute('data-src')!==g.src){ im.setAttribute('data-src',g.src); im.alt=g.title; im.src=g.src; }
+    zi=window.innerWidth<700?1:0;
+    $('t-zoom').style.display='block'; document.body.style.overflow='hidden';
+    applyZoom(false);
+  }
+  function closeZoom(){ if(!zoomOpen()) return; $('t-zoom').style.display='none'; document.body.style.overflow=''; }
+
+  /* ---- Eventos ---- */
+  $('btn-teoria').addEventListener('click',function(){ push('teoria'); });
+  $('teoria').addEventListener('click',function(e){
+    if(!e.target.closest) return;
+    var b;
+    if((b=e.target.closest('[data-up]'))){ up(parentHash(parts())); return; }
+    if((b=e.target.closest('[data-go]'))){ push(b.getAttribute('data-go')); return; }
+    if((b=e.target.closest('[data-zoom]'))){ push(parts().slice(0,3).join('/')+'/zoom'); return; }
+  });
+  $('t-prev').addEventListener('click',function(){ step(-1); });
+  $('t-next').addEventListener('click',function(){ step(1); });
+  $('t-zoom-close').addEventListener('click',function(){ up(parentHash(parts())); });
+  $('t-zoom-lvl').addEventListener('click',function(){ zi=(zi+1)%levels().length; applyZoom(true); });
+  $('t-zoom-img').onload=function(){ if(zoomOpen()&&$('t-zoom-scroll').scrollTop===0) applyZoom(false); };
+  window.addEventListener('resize',function(){ if(zoomOpen()) applyZoom(true); });
+  window.addEventListener('popstate',render);
+  document.addEventListener('keydown',function(e){
+    var p=parts(); if(p[0]!=='teoria') return;
+    if(e.key==='Escape'&&p[3]==='zoom') up(parentHash(p));
+    else if(p.length===3&&e.key==='ArrowLeft') step(-1);
+    else if(p.length===3&&e.key==='ArrowRight') step(1);
+  });
+
+  /* ---- Carga del índice ---- */
+  render();
+  fetch(BASE+'teoria.json')
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(function(d){ prepare(d); T=d; lastView=''; homeCard(); render(); })
+    .catch(function(err){ failed=true; lastView=''; console.error('Error cargando teoria/teoria.json:',err); homeCard(); render(); });
+})();
 </script>
 </body>
 </html>
