@@ -396,9 +396,17 @@ function renderQ(){
   el('q-text').textContent=q.q;
   var qimg=el('q-img');
   qimg.style.display='block';
-  qimg.src='images/'+q.id+'.png';
-  qimg.onerror=function(){ this.style.display='none'; };
-  qimg.onload=function(){ this.style.display='block'; };
+  qimg.src = 'images/' + q.id + '.webp';
+  qimg.onerror = function() {
+    this.onerror = null;           // evita bucle infinito
+    this.src = 'images/' + q.id + '.png';
+    this.onerror = function() {    // si tampoco existe el PNG
+      this.style.display = 'none';
+    };
+  };
+  qimg.onload = function() {
+    this.style.display = 'block';
+  };
 
   var opts=el('opts'); opts.innerHTML='';
   for(var i=0;i<q.o.length;i++){

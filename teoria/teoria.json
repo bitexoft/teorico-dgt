@@ -289,6 +289,317 @@
           ]
         }
       ]
+    },
+    {
+      "id": "11-velocidad-distancias",
+      "title": "Velocidad y distancias",
+      "description": "Límites de velocidad genéricos y excepciones, distancias de detención, velocidades mínimas y sanciones.",
+      "infographics": [
+        {
+          "id": "01-guia-de-velocidades-permiso-b",
+          "file": "01-guia-de-velocidades-permiso-b.webp",
+          "title": "La Matriz de Velocidades Genéricas (Interurbanas + Urbanas)",
+          "objective": "Tener la estructura base de los límites genéricos de velocidad en vías interurbanas y urbanas, sobre la que se asienta el resto de la normativa.",
+          "keyPoints": [
+            {
+              "title": "Vías interurbanas (límite genérico)",
+              "items": [
+                {
+                  "label": "Autopistas y autovías",
+                  "text": "120 / 100 / 90 km/h según el tipo de vehículo: turismos y motocicletas / autobuses y derivados de turismo / camiones, furgonetas, vehículos articulados y automóviles con remolque."
+                },
+                {
+                  "label": "Carreteras convencionales",
+                  "text": "90 / 90 / 80 km/h para esos mismos tres grupos y en el mismo orden."
+                }
+              ]
+            },
+            {
+              "title": "Vías urbanas (límite genérico)",
+              "items": [
+                {
+                  "label": "20 km/h",
+                  "text": "vías con plataforma única de calzada y acera."
+                },
+                {
+                  "label": "30 km/h",
+                  "text": "vías de un único carril por sentido de circulación."
+                },
+                {
+                  "label": "50 km/h",
+                  "text": "vías de dos o más carriles por sentido de circulación."
+                }
+              ]
+            }
+          ],
+          "examTips": [],
+          "tags": [
+            "velocidad máxima",
+            "límite genérico",
+            "autopistas y autovías",
+            "carreteras convencionales",
+            "vías urbanas",
+            "120 km/h",
+            "90 km/h",
+            "50 km/h",
+            "30 km/h",
+            "20 km/h",
+            "plataforma única"
+          ]
+        },
+        {
+          "id": "02-velocidades-excepciones-vehiculos-especiales",
+          "file": "02-velocidades-excepciones-vehiculos-especiales.webp",
+          "title": "El Cuadro de Excepciones y Vehículos Especiales",
+          "objective": "Reunir en una sola lámina las excepciones y los vehículos especiales para no confundirlos con la norma general.",
+          "keyPoints": [
+            {
+              "title": "Vehículos lentos y especiales",
+              "items": [
+                {
+                  "label": "Ciclomotores",
+                  "text": "45 km/h."
+                },
+                {
+                  "label": "Vías no pavimentadas",
+                  "text": "30 km/h."
+                },
+                {
+                  "label": "Tractores y maquinaria agrícola",
+                  "text": "25 / 40 km/h."
+                }
+              ]
+            },
+            {
+              "title": "Modificadores y deducciones",
+              "items": [
+                {
+                  "label": "Regla de -10 km/h",
+                  "text": "se resta 10 km/h al límite en el transporte de mercancías peligrosas y en el transporte escolar y de menores."
+                },
+                {
+                  "label": "Autobuses",
+                  "text": "80 km/h si no tienen cinturones de seguridad o llevan pasajeros de pie."
+                }
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "La DGT suele preguntar por las excepciones",
+              "text": "No las confundas con la norma general: la regla de -10 km/h (mercancías peligrosas y transporte escolar o de menores) y los 80 km/h de los autobuses sin cinturón o con pasajeros de pie."
+            }
+          ],
+          "tags": [
+            "excepciones",
+            "vehículos especiales",
+            "ciclomotores",
+            "45 km/h",
+            "vías no pavimentadas",
+            "30 km/h",
+            "tractores",
+            "maquinaria agrícola",
+            "cuadriciclos",
+            "remolques",
+            "mercancías peligrosas",
+            "transporte escolar",
+            "autobuses",
+            "-10 km/h"
+          ]
+        },
+        {
+          "id": "03-distancias-percepcion",
+          "file": "03-distancias-percepcion.webp",
+          "title": "Física de la Conducción y Percepción",
+          "objective": "Entender por qué existen los límites de velocidad, relacionando la velocidad con la física del vehículo (distancias) y con la visión del conductor.",
+          "keyPoints": [
+            {
+              "title": "Distancia de detención",
+              "items": [
+                "Distancia de detención total = distancia de reacción + distancia de frenado.",
+                {
+                  "label": "Distancia de reacción",
+                  "text": "la que se recorre durante el tiempo de reacción, de 0,75 s."
+                },
+                {
+                  "label": "Distancia de frenado",
+                  "text": "varía con el cuadrado de la velocidad: al duplicar la velocidad, se cuadruplica."
+                }
+              ]
+            },
+            {
+              "title": "Campo visual (efecto túnel)",
+              "items": [
+                "Cuanto mayor es la velocidad, más se reduce el campo visual (efecto túnel).",
+                {
+                  "label": "Parado",
+                  "text": "180°."
+                },
+                {
+                  "label": "A 130 km/h",
+                  "text": "30°."
+                }
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Duplicas la velocidad, cuadruplicas la distancia de frenado",
+              "text": "La distancia de frenado varía con el cuadrado de la velocidad. A ella se suma la distancia de reacción (0,75 s) para obtener la distancia de detención total."
+            }
+          ],
+          "tags": [
+            "distancia de detención",
+            "distancia de reacción",
+            "distancia de frenado",
+            "0,75 s",
+            "campo visual",
+            "efecto túnel",
+            "velocidad",
+            "física de la conducción"
+          ]
+        },
+        {
+          "id": "04-velocidades-minimas-sanciones",
+          "file": "04-velocidades-minimas-sanciones.webp",
+          "title": "Velocidades Mínimas, Moderación y Consecuencias",
+          "objective": "Crear un mapa de seguridad y riesgo que relacione las velocidades mínimas, los casos en que hay que moderar la velocidad y sus consecuencias legales.",
+          "keyPoints": [
+            {
+              "title": "Límites por abajo",
+              "items": [
+                {
+                  "label": "Autopista",
+                  "text": "velocidad mínima de 60 km/h."
+                },
+                {
+                  "label": "Carreteras convencionales",
+                  "text": "la mitad de la velocidad máxima."
+                },
+                "No se debe circular a velocidad anormalmente reducida."
+              ]
+            },
+            {
+              "title": "Puntos de riesgo: cuándo es obligatorio moderar la velocidad",
+              "items": [
+                "Peatones.",
+                "Niños.",
+                "Niebla.",
+                "Intersecciones sin visibilidad."
+              ]
+            },
+            {
+              "title": "Sanciones",
+              "items": [
+                {
+                  "label": "Pérdida de puntos",
+                  "text": "escala de 2 a 6 puntos."
+                },
+                {
+                  "label": "Delito penal",
+                  "text": "superar el límite en 60 km/h en vía urbana o en 80 km/h en vía interurbana."
+                }
+              ]
+            }
+          ],
+          "examTips": [
+            {
+              "title": "Delito penal: +60 km/h en urbana, +80 km/h en interurbana",
+              "text": "Superar el límite permitido en esa cantidad ya no es una infracción administrativa, sino un delito."
+            }
+          ],
+          "tags": [
+            "velocidad mínima",
+            "autopista 60 km/h",
+            "velocidad anormalmente reducida",
+            "moderar la velocidad",
+            "peatones",
+            "niños",
+            "niebla",
+            "intersecciones sin visibilidad",
+            "pérdida de puntos",
+            "delito penal",
+            "sanciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "title": "Others",
+      "description": "",
+      "infographics": [
+        {
+          "id": "01",
+          "file": "01.webp",
+          "title": "",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        },
+        {
+          "id": "1420",
+          "file": "1420.webp",
+          "title": "",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        },
+        {
+          "id": "1689",
+          "file": "1689.webp",
+          "title": "",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "07-alumbrado-vehiculo",
+      "title": "Alumbrado vehiculo",
+      "description": "",
+      "infographics": [
+        {
+          "id": "00-uso-obligatorio-alumbrado-2",
+          "file": "00-uso-obligatorio-alumbrado-2.webp",
+          "title": "Uso obligatorio alumbrado 2",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        },
+        {
+          "id": "01-uso-obligatorio-alumbrado",
+          "file": "01-uso-obligatorio-alumbrado.webp",
+          "title": "Uso obligatorio alumbrado",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        },
+        {
+          "id": "02-luces-antiniebla-galibo-inmovilizaciones",
+          "file": "02-luces-antiniebla-galibo-inmovilizaciones.webp",
+          "title": "Luces antiniebla galibo inmovilizaciones",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        },
+        {
+          "id": "03-senalizacion-de-maniobras-y-emergencias",
+          "file": "03-senalizacion-de-maniobras-y-emergencias.webp",
+          "title": "Senalizacion de maniobras y emergencias",
+          "objective": "",
+          "keyPoints": [],
+          "examTips": [],
+          "tags": []
+        }
+      ]
     }
   ]
 }
