@@ -363,6 +363,10 @@ for(var mi=0;mi<mbs.length;mi++){
 
 // INICIO
 function startExam(e){ if(e) e.preventDefault();
+  // Al iniciar un test, salir explícitamente del estado/ruta de teoría para que #teoria
+  // no vuelva a renderizarse después de pulsar "Comenzar".
+  try{ if(window.location.hash==='#teoria' || window.location.hash.indexOf('#teoria/')===0) history.replaceState(null,'',window.location.pathname+window.location.search); }catch(err){}
+  if(el('teoria')){ el('teoria').style.display='none'; document.body.classList.remove('in-teoria'); }
   rev=false; ans={}; idx=0; wrongs=0; pending=-1; startT=Date.now();
   if(mode==='exam30'){ eq=shuffle(Q).slice(0,30); secs=1800; totalSecs=1800; timerStart(); }
   else if(mode==='all'){ eq=Q.slice(); timerHide(); }
